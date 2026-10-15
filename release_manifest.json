@@ -2,10 +2,10 @@
   "state": "ready_for_author_review",
   "files": {
     ".gitignore": "23eb84d4da4e0392aae17a0f22834f45a0e206e9c66815eb6935d91a8c72f4ab",
-    "CITATION.cff": "26464cf16d142522d65a8a3cbcbe1df60cfdcb2c60be2b16d6b6fa4a7140f8e3",
+    "CITATION.cff": "e9b034ba49f4fdb0836137fd44667968323371b9e11c880a1b0dd5a65d770a27",
     "LICENSE": "93b5cf3e8efb15aded531238698a781b02b58ced368a814438397411d4b23623",
-    "README.md": "1bae49b30a09c79ccd7905bda4ccbfef7189431513320070492a6f5d6c323fea",
-    "THIRD_PARTY_NOTICES.md": "91563db323b93871c646f3f4b35a9ad995cd51c6e6a7a5c3b0736411210b7816",
+    "README.md": "ccac74744751aa94edc6a36aac93ae133c45523971797b589af01c11a69023df",
+    "THIRD_PARTY_NOTICES.md": "d768e401d1f64de15e4504c9bc829214b700e29d4ca38e38da20af814fd421e5",
     "configs/render.yaml": "d3ba2d70a9ef8ce0229ac20767eaa24c95b00fda29a2b3417b14217c0832dbbe",
     "configs/texture_hktex_knn.yaml": "828ee3bfba21024481356630c32e72464a55e2a9063234bc557676da79f54ff0",
     "data/confirmation_objects.json": "5ab62e9bcfb7b8a91f3a0b34f045254ffba416b26812d7adebcdc03963b60d77",

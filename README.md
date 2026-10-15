@@ -5,6 +5,7 @@ Tsinghua Shenzhen International Graduate School, Tsinghua University
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](docs/reproduction.md)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23401836.svg)](https://doi.org/10.5281/zenodo.23401836)
 [![Technical report](https://img.shields.io/badge/report-49%20pages%20PDF-brightgreen.svg)](paper/main.pdf)
 
 Can a compact heat-kernel texture render better because it is *compact*, or
@@ -16,12 +17,17 @@ This repository publishes the code, the scalar evidence records and the
 compiled report. It is a controlled study with scoped improvements — not a new
 texture representation, and not a universally better optimizer.
 
-> **Status.** Released 15 October 2026. Source and evidence records are
-> published on GitHub; the report PDF is also available on
-> [ResearchGate](https://www.researchgate.net/publication/415911132_Fitting_Compact_Heat_Kernel_Textures).
-> The report has a 49-page PDF: an eight-page main paper, two reference pages
-> (32 entries) and a 39-page supplement (Appendices A–H). No arXiv preprint or
-> conference acceptance is claimed.
+> **Status.** Released 15 October 2026. Versioned software archives are
+> preserved on Zenodo — this release is
+> [DOI 10.5281/zenodo.23401836](https://doi.org/10.5281/zenodo.23401836)
+> (v2026.10.16), and the concept DOI
+> [10.5281/zenodo.23401835](https://doi.org/10.5281/zenodo.23401835) always
+> resolves to the latest version. The 49-page report PDF carries its own DOI
+> [10.13140/RG.2.2.25593.43366](https://doi.org/10.13140/RG.2.2.25593.43366)
+> and is distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+> The PDF has an eight-page main paper, two reference pages (32 entries) and a
+> 39-page supplement (Appendices A–H). No arXiv preprint or conference
+> acceptance is claimed.
 
 ---
 
@@ -200,25 +206,47 @@ separate a useful fit-state interpretation from an unvalidated shape classifier.
 
 ## Citation
 
-If you use this code or report:
+Cite the archived software release (this is what the Zenodo DOI identifies):
 
 ```bibtex
-@techreport{du2026fitting,
-  title       = {Fitting Compact Heat Kernel Textures},
+@software{du2026fitting,
+  author    = {Du, Zhicheng and Ma, Lan},
+  title     = {Fitting Compact Heat Kernel Textures},
+  month     = {10},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {v2026.10.16},
+  doi       = {10.5281/zenodo.23401836},
+  url       = {https://github.com/dodoxxb/fitting-compact-heat-kernel-textures},
+  note      = {Accompanying 49-page technical report: \url{https://www.researchgate.net/publication/415911132_Fitting_Compact_Heat_Kernel_Textures}}
+}
+```
+
+If you are citing the written report rather than the code, use its own DOI:
+
+```bibtex
+@techreport{du2026fittingreport,
   author      = {Du, Zhicheng and Ma, Lan},
-  year        = {2026},
+  title       = {Fitting Compact Heat Kernel Textures},
   month       = {10},
+  year        = {2026},
   institution = {Tsinghua Shenzhen International Graduate School, Tsinghua University},
-  note        = {Technical report, 49 pages},
+  note        = {Technical report, 49 pages. CC BY 4.0},
+  doi         = {10.13140/RG.2.2.25593.43366},
   url         = {https://www.researchgate.net/publication/415911132_Fitting_Compact_Heat_Kernel_Textures}
 }
 ```
+
+**Which DOI to use:** `10.5281/zenodo.23401836` pins this software version and
+`10.5281/zenodo.23401835` (concept DOI) always points at the latest one;
+`10.13140/RG.2.2.25593.43366` identifies the report document itself.
 
 Please **also cite the original HKTex work** when using its representation or
 code:
 
 > *Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat*.
-> Simone Foti, Caner Korkmaz, Stefanos Zafeiriou, Tolga Birdal. ECCV 2026.
+> Simone Foti, Caner Korkmaz, Stefanos Zafeiriou, Tolga Birdal.
+> In *ECCV 2026*, pp. 306–323.
 > DOI [10.1007/978-3-032-37595-7_17](https://doi.org/10.1007/978-3-032-37595-7_17) ·
 > [arXiv:2609.07557](https://arxiv.org/abs/2609.07557)
 
@@ -232,6 +260,14 @@ code:
 * **Native component**: `native/geodesic_boundary_diag.cu` derives from DiGeo
   under [BSD-3-Clause](native/LICENSE). DiGeo must be built against your local
   Torch/CUDA ABI, not copied as a binary.
-* **Report and figures**: separate rights, not covered by the software licence.
-* **Datasets and templates**: dataset, template and manuscript rights are each
-  distinct. See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+* **Report PDF** (`paper/main.pdf`):
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), DOI
+  [10.13140/RG.2.2.25593.43366](https://doi.org/10.13140/RG.2.2.25593.43366).
+  The report licence is deliberately stated separately from the code licence.
+  Note that recoloured reconstruction examples shown in the report render assets
+  obtained under their own third-party terms; those upstream terms are not
+  altered by this declaration — see
+  [`docs/data.md`](docs/data.md) and
+  [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+* **Datasets and templates**: each retains its own terms. See
+  [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).

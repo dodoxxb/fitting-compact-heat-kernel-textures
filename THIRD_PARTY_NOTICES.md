@@ -63,7 +63,13 @@ The report was typeset with the official
 `291758547e923160eb4d37079b7b9f0dfce82355`; its upstream notices are retained.
 Only the compiled `paper/main.pdf` is distributed — LaTeX sources, style files
 and intermediate figure assets are not part of this repository. The template
-does not imply conference acceptance. Manuscript and figure rights are
-separate from the code licence: the method overview figure is a conceptual
-illustration, while every other figure derives from recorded data or recorded
-reconstruction views. Reference HKTex PDF pages are not distributed.
+does not imply conference acceptance.
+
+The report PDF (`paper/main.pdf`) is distributed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), DOI
+[10.13140/RG.2.2.25593.43366](https://doi.org/10.13140/RG.2.2.25593.43366).
+This differs by design from the code licence (MIT). The method overview figure
+is a conceptual illustration; every other figure derives from recorded data or
+from reconstruction views rendered over separately acquired assets, whose
+upstream licences are listed in `docs/data.md` and are **not** altered by the
+report's CC BY 4.0 declaration. Reference HKTex PDF pages are not distributed.

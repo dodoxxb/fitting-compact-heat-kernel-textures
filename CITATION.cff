@@ -19,21 +19,14 @@ keywords:
   - reproducibility
 license: MIT
 repository-code: "https://github.com/dodoxxb/fitting-compact-heat-kernel-textures"
-url: "https://www.researchgate.net/publication/415911132_Fitting_Compact_Heat_Kernel_Textures"
-version: "2026.10.16"
-date-released: 2026-10-16
-preferred-citation:
-  type: report
-  title: "Fitting Compact Heat Kernel Textures"
-  authors:
-    - family-names: Du
-      given-names: Zhicheng
-      affiliation: "Tsinghua Shenzhen International Graduate School, Tsinghua University"
-    - family-names: Ma
-      given-names: Lan
-      affiliation: "Tsinghua Shenzhen International Graduate School, Tsinghua University"
-  year: 2026
-  month: 10
-  institution:
-    name: "Tsinghua Shenzhen International Graduate School, Tsinghua University"
-  url: "https://www.researchgate.net/publication/415911132_Fitting_Compact_Heat_Kernel_Textures"
+url: "https://github.com/dodoxxb/fitting-compact-heat-kernel-textures"
+doi: 10.5281/zenodo.23401836
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23401835"
+    description: "Concept DOI; resolves to the latest version of this software archive."
+  - type: doi
+    value: "10.13140/RG.2.2.25593.43366"
+    description: "DOI of the accompanying 49-page technical report, distributed under CC BY 4.0."
+version: v2026.10.16
+date-released: 2026-10-15
