@@ -1,0 +1,37 @@
+{
+  "state": "passed",
+  "counts": {
+    "render_fields": 60,
+    "rendered_field_views": 300,
+    "reference_views": 60,
+    "sampling_fits": 36,
+    "weighted_fits": 24,
+    "gap_stopped_fits": 36,
+    "offgrid_operator_points": 18
+  },
+  "same_weighted_samples": [
+    {
+      "name": "SmallLimo",
+      "probability_max_abs": 2.6630715861675203e-18,
+      "all_sample_indices_identical": true
+    },
+    {
+      "name": "PinkOmbreHair",
+      "probability_max_abs": 3.6591823321385775e-19,
+      "all_sample_indices_identical": true
+    },
+    {
+      "name": "PoisonDartFrog",
+      "probability_max_abs": 3.3203691532368573e-19,
+      "all_sample_indices_identical": true
+    },
+    {
+      "name": "Orange",
+      "probability_max_abs": 3.3881317890172014e-19,
+      "all_sample_indices_identical": true
+    }
+  ],
+  "source_objects": 4,
+  "operator_meshes": 2,
+  "new_independent_objects": 0
+}

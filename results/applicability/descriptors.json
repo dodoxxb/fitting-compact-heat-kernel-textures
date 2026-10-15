@@ -1,0 +1,450 @@
+{
+  "scope": "CPU-only exploratory descriptors; outcome files are never read here.",
+  "geometry_loader_sha256": "d70489a6b8ba647df723cfbca9ba7fe7ab7b28cc8b932633ff8d2c369c49ca59",
+  "objects": [
+    {
+      "uid": "08bb376104e91e8504abd855ed0eda60",
+      "name": "Razer_Naga_MMO_Gaming_Mouse",
+      "dataset": "GSO",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 9686,
+      "faces": 19384,
+      "features": {
+        "log10_vertices": 3.9861444647105206,
+        "log10_area_cv_plus_one": 0.3958981832313963,
+        "pca_flatness": 0.14869232326464343,
+        "pca_elongation": 0.2555351436831264,
+        "mean_triangle_quality": 0.7882229484038226,
+        "training_colour_variance": 0.0057470353948679805,
+        "training_local_colour_difference": 0.0017821584532194143
+      },
+      "source_sha256": "d681435c757f52f686248ccaa985fe9e742ea4103c9fa70db86e5080530a03d8"
+    },
+    {
+      "uid": "0a92d46fdf31d7f0c795a772aa516347",
+      "name": "Cascadia_8_Color_AquariusHibscsBearingSeaBlk_Size_50",
+      "dataset": "GSO",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 21116,
+      "faces": 42288,
+      "features": {
+        "log10_vertices": 4.324611653328921,
+        "log10_area_cv_plus_one": 0.35144154038652015,
+        "pca_flatness": 0.37443401487515365,
+        "pca_elongation": 0.43009080995028925,
+        "mean_triangle_quality": 0.7271040986165398,
+        "training_colour_variance": 0.04221143613881218,
+        "training_local_colour_difference": 0.007937573065207622
+      },
+      "source_sha256": "509f6d659d5a454c911a7d7b9ad2c208be8c95d0ac5f226b180ed09f9bea7eac"
+    },
+    {
+      "uid": "228b7a8abfae4e6a8dca781c0feb0a7f",
+      "name": "Borsalino",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 33842,
+      "faces": 67680,
+      "features": {
+        "log10_vertices": 4.52945602113109,
+        "log10_area_cv_plus_one": 0.27110858194874676,
+        "pca_flatness": 0.675831185694535,
+        "pca_elongation": 0.9329200616983724,
+        "mean_triangle_quality": 0.8871207100081404,
+        "training_colour_variance": 0.004460121602318927,
+        "training_local_colour_difference": 0.0013358053917479427
+      },
+      "source_sha256": "c26366b351b7d46ee79a60b4c2b4ec2ebe6283f86bb8dfec57f2568404e038de"
+    },
+    {
+      "uid": "242d37a17a334d3cb1ab4fb978ae0ad9",
+      "name": "Wrench",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "vertices": 2090,
+      "faces": 4176,
+      "features": {
+        "log10_vertices": 3.3201462861110542,
+        "log10_area_cv_plus_one": 0.395795119776147,
+        "pca_flatness": 0.0431054367729732,
+        "pca_elongation": 0.13386605319961514,
+        "mean_triangle_quality": 0.3412200336073191
+      },
+      "source_sha256": "2a78565216af25b1622a46409c8e8b798b61b1e1975e1ff539be2c3408888e93"
+    },
+    {
+      "uid": "2ed069355ea24bf0a995a978d56c5622",
+      "name": "Shell",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 10002,
+      "faces": 20000,
+      "features": {
+        "log10_vertices": 4.000086850211649,
+        "log10_area_cv_plus_one": 0.2332944387948602,
+        "pca_flatness": 0.6161397745224254,
+        "pca_elongation": 0.7852294848581366,
+        "mean_triangle_quality": 0.7330392376039163,
+        "training_colour_variance": 0.019585218611084764,
+        "training_local_colour_difference": 0.001863065245895558
+      },
+      "source_sha256": "f204bd9eb3f8cae52bae2d3bcfb5ccdda0209f1c828652cc205ffade777bd1a3"
+    },
+    {
+      "uid": "54a13e432b9a488ab35d1c6644d9bc0c",
+      "name": "Lp Banana Uvw",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 420,
+      "faces": 836,
+      "features": {
+        "log10_vertices": 2.6232492903979003,
+        "log10_area_cv_plus_one": 0.2572071682307889,
+        "pca_flatness": 0.21678489187156208,
+        "pca_elongation": 0.45913445935085684,
+        "mean_triangle_quality": 0.8180969813974924,
+        "training_colour_variance": 0.015851337206099995,
+        "training_local_colour_difference": 0.00025224228021250165
+      },
+      "source_sha256": "5fa2fabc8d285cad47aa57792c52f510c60686b698503b00c9b185825bd4137f"
+    },
+    {
+      "uid": "65707f83605e404c9d54581ed79cb0ee",
+      "name": "Seahorse for 3d seascene",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 966,
+      "faces": 1928,
+      "features": {
+        "log10_vertices": 2.9849771264154934,
+        "log10_area_cv_plus_one": 0.2782591358581393,
+        "pca_flatness": 0.4169507577631005,
+        "pca_elongation": 0.44887183465750896,
+        "mean_triangle_quality": 0.790022081931915,
+        "training_colour_variance": 0.032089891519924287,
+        "training_local_colour_difference": 0.0012381820531801747
+      },
+      "source_sha256": "d737760497115153b9b4ca6bef16682646cfa1ad284a006012acce6ef62a7df1"
+    },
+    {
+      "uid": "6e509bb275c44dc994d1e6bc694242f5",
+      "name": "Barricade",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "vertices": 800,
+      "faces": 1567,
+      "features": {
+        "log10_vertices": 2.9030899869919438,
+        "log10_area_cv_plus_one": 0.20792586264317442,
+        "pca_flatness": 0.43173423931469374,
+        "pca_elongation": 0.434534255001612,
+        "mean_triangle_quality": 0.7478893991412149
+      },
+      "source_sha256": "3e69bb576de3562cf0200a41d26e0661801feb93d5f85f658089943145833565"
+    },
+    {
+      "uid": "7167fa1d1e4442a9b7b334a7b3d5177e",
+      "name": "Dore 1 Low",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "vertices": 16,
+      "faces": 26,
+      "features": {
+        "log10_vertices": 1.2041199826559248,
+        "log10_area_cv_plus_one": 0.5259015533601993,
+        "pca_flatness": 0.012006833665183908,
+        "pca_elongation": 0.36049603987704787,
+        "mean_triangle_quality": 0.3595770787704462
+      },
+      "source_sha256": "710d3035df970539fb66a7b918f82fb1997dc545550a0d002fe3cb884e1446c5"
+    },
+    {
+      "uid": "7917f3c8825943f9b8f6072cff5007c1",
+      "name": "Football",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 5464,
+      "faces": 10924,
+      "features": {
+        "log10_vertices": 3.737510690673476,
+        "log10_area_cv_plus_one": 0.26065793073342475,
+        "pca_flatness": 0.999947337234356,
+        "pca_elongation": 0.9999788538928986,
+        "mean_triangle_quality": 0.8356019270936846,
+        "training_colour_variance": 0.09709447531917838,
+        "training_local_colour_difference": 0.009466932742530156
+      },
+      "source_sha256": "58799c69c1eb955e873e9a7a34428f41d66f9b0996a485d3b44d61221424c52d"
+    },
+    {
+      "uid": "7a769a1681eb43d39a003f36522802e4",
+      "name": "MRAC Golden Freddy's Hat",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 242,
+      "faces": 480,
+      "features": {
+        "log10_vertices": 2.383815365980431,
+        "log10_area_cv_plus_one": 0.3032312742539373,
+        "pca_flatness": 0.8680021849129866,
+        "pca_elongation": 0.9554442513015232,
+        "mean_triangle_quality": 0.6265763169166326,
+        "training_colour_variance": 0.050680894107404874,
+        "training_local_colour_difference": 0.00036757623266167215
+      },
+      "source_sha256": "958bc122ebdeaf86bc0685c8ec6ecc585d4c5946fccb5d56925dc82da680376a"
+    },
+    {
+      "uid": "8a6cb4f7b0004f53830e270dc6e1ff1d",
+      "name": "wrench",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 145,
+      "faces": 286,
+      "features": {
+        "log10_vertices": 2.161368002234975,
+        "log10_area_cv_plus_one": 0.48582561411535463,
+        "pca_flatness": 0.03226920928301982,
+        "pca_elongation": 0.19849983497464474,
+        "mean_triangle_quality": 0.5871542386443804,
+        "training_colour_variance": 0.0006727283610853401,
+        "training_local_colour_difference": 0.00027595366606540515
+      },
+      "source_sha256": "9ac2a594045306a46808f97a107b19d7d3b44abf6edcbc4e086ced646187feb0"
+    },
+    {
+      "uid": "8b51b9bcf512af8a19b2fa528d013a54",
+      "name": "DPC_tropical_Trends_Hat",
+      "dataset": "GSO",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 27229,
+      "faces": 55206,
+      "features": {
+        "log10_vertices": 4.435031691929144,
+        "log10_area_cv_plus_one": 0.4643463725535416,
+        "pca_flatness": 0.4959387827377144,
+        "pca_elongation": 0.9107140113923258,
+        "mean_triangle_quality": 0.6863876365284899,
+        "training_colour_variance": 0.023949077652652195,
+        "training_local_colour_difference": 0.017660961626552073
+      },
+      "source_sha256": "6fe6b28f2522b47aa1edbf53e1b87bbca7a29ddeaf25f278fca66f692cbd5223"
+    },
+    {
+      "uid": "92a50d5a9a76e6c69e0ac2f7ca692fbf",
+      "name": "Twinlab_100_Whey_Protein_Fuel_Cookies_and_Cream",
+      "dataset": "GSO",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 6002,
+      "faces": 12000,
+      "features": {
+        "log10_vertices": 3.7782959910888336,
+        "log10_area_cv_plus_one": 0.420179432909002,
+        "pca_flatness": 0.5930878316419018,
+        "pca_elongation": 0.5939258924646241,
+        "mean_triangle_quality": 0.7413702079165927,
+        "training_colour_variance": 0.08751921814907931,
+        "training_local_colour_difference": 0.02084681725965253
+      },
+      "source_sha256": "dc1ebc63cae5ba99c640f50631a36c399ca2fac58291f9511ca540905a71baa4"
+    },
+    {
+      "uid": "a30cdc77fc894caba2aa578698b248b8",
+      "name": "CC0 - Doormate",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 100,
+      "faces": 196,
+      "features": {
+        "log10_vertices": 2.0,
+        "log10_area_cv_plus_one": 0.8634431506072269,
+        "pca_flatness": 0.010395811133176567,
+        "pca_elongation": 0.6674171131115049,
+        "mean_triangle_quality": 0.7252290654406067,
+        "training_colour_variance": 0.06403572817796306,
+        "training_local_colour_difference": 0.027476188634390542
+      },
+      "source_sha256": "e54b684a99a8a1b14a8625a744637839bcf6921501a08e92dcc25ffbc4747d06"
+    },
+    {
+      "uid": "ade2b59ff37c44059433414f39c94abe",
+      "name": "Banana",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 66,
+      "faces": 128,
+      "features": {
+        "log10_vertices": 1.8195439355418688,
+        "log10_area_cv_plus_one": 0.28799644353532866,
+        "pca_flatness": 0.21221698341346665,
+        "pca_elongation": 0.2679162851610393,
+        "mean_triangle_quality": 0.6739728548750401,
+        "training_colour_variance": 0.011040442208274735,
+        "training_local_colour_difference": 0.00010612201640990505
+      },
+      "source_sha256": "d3eeac15fe794f751f771759aafe918bb07f6b1a0768ace9ebd39df7f9d6a21b"
+    },
+    {
+      "uid": "bc4b85625dd045608b498c41f8b5c1a7",
+      "name": "Seashell Fossil",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 8499,
+      "faces": 16998,
+      "features": {
+        "log10_vertices": 3.9293678292400998,
+        "log10_area_cv_plus_one": 0.24091087277995604,
+        "pca_flatness": 0.5756911153958973,
+        "pca_elongation": 0.6830955606129128,
+        "mean_triangle_quality": 0.8592726257513517,
+        "training_colour_variance": 0.024220694117546866,
+        "training_local_colour_difference": 0.004724832231658015
+      },
+      "source_sha256": "12eafb6c10e0742195ddb49c744535dcefb37434de2af5a4adfb34d09d94473e"
+    },
+    {
+      "uid": "c2ee2dfed3ad4a34bd535de881badecf",
+      "name": "علبة منتج",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "vertices": 8,
+      "faces": 12,
+      "features": {
+        "log10_vertices": 0.9030899869919435,
+        "log10_area_cv_plus_one": 0.25947225569823656,
+        "pca_flatness": 0.18422167338760692,
+        "pca_elongation": 0.5155693688012701,
+        "mean_triangle_quality": 0.5628693881324884
+      },
+      "source_sha256": "e7756154163dfb4ef5b8ff2c53c9da306576324a9bd9efdfd5ac1dcdb94fd113"
+    },
+    {
+      "uid": "c41d046061f59de7a309313adcd790ef",
+      "name": "Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color",
+      "dataset": "GSO",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 3751,
+      "faces": 7498,
+      "features": {
+        "log10_vertices": 3.574147064150723,
+        "log10_area_cv_plus_one": 0.46170857931036124,
+        "pca_flatness": 0.1901818687603543,
+        "pca_elongation": 0.8723191507712557,
+        "mean_triangle_quality": 0.7480091053327212,
+        "training_colour_variance": 0.011373996222355055,
+        "training_local_colour_difference": 0.0021708857385471154
+      },
+      "source_sha256": "37b7e660647027b6f996795e29998579b79526b16197fc7c61c25d025c77ab4c"
+    },
+    {
+      "uid": "d4f0d10c9c884dd084890eb895a84f9a",
+      "name": "#SelfieTennis Ball Design Kit",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 648,
+      "faces": 1292,
+      "features": {
+        "log10_vertices": 2.8115750058705933,
+        "log10_area_cv_plus_one": 0.259516391646543,
+        "pca_flatness": 0.9987001101359169,
+        "pca_elongation": 0.9987221735440655,
+        "mean_triangle_quality": 0.8044203061895636,
+        "training_colour_variance": 0.1252349733555674,
+        "training_local_colour_difference": 0.024566589558444384
+      },
+      "source_sha256": "49bc91b07e194dae62eeceac6eb538010e44b55c655844707d102a5adaca6fe8"
+    },
+    {
+      "uid": "db712cb12d095998c363edae84aaafb7",
+      "name": "Olive_Kids_Butterfly_Garden_Pencil_Case",
+      "dataset": "GSO",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 5511,
+      "faces": 11022,
+      "features": {
+        "log10_vertices": 3.741230411025471,
+        "log10_area_cv_plus_one": 0.33989347790894425,
+        "pca_flatness": 0.4058485402053236,
+        "pca_elongation": 0.4375456285052517,
+        "mean_triangle_quality": 0.7307345832375568,
+        "training_colour_variance": 0.013963256658515317,
+        "training_local_colour_difference": 0.0026403748346458416
+      },
+      "source_sha256": "69fb2f4ae79b19d25345845fa69d2bca98fb00d76edcc56f2dccb6b995257ffe"
+    },
+    {
+      "uid": "de0a6c0939f73eae832c3302d1ed1ec8",
+      "name": "Razer_Kraken_71_Chroma_headset_Full_size_Black",
+      "dataset": "GSO",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 4103,
+      "faces": 8206,
+      "features": {
+        "log10_vertices": 3.6131015169669127,
+        "log10_area_cv_plus_one": 0.5525139042242164,
+        "pca_flatness": 0.5548601133509876,
+        "pca_elongation": 0.9226438273029621,
+        "mean_triangle_quality": 0.7431745644218835,
+        "training_colour_variance": 0.020118480510392472,
+        "training_local_colour_difference": 0.02288374606228107
+      },
+      "source_sha256": "673d19df704238250c9a9e66ffe06dfc3e1bb7d086db0fa692b85233d7dbfe0a"
+    },
+    {
+      "uid": "df0583c8a0c342e7ac0348e2301784d4",
+      "name": "Mann holder kvinne i fanget",
+      "dataset": "Objaverse",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 19938,
+      "faces": 39872,
+      "features": {
+        "log10_vertices": 4.299681591662354,
+        "log10_area_cv_plus_one": 0.2000676506333222,
+        "pca_flatness": 0.9021929522703296,
+        "pca_elongation": 0.9603829940138744,
+        "mean_triangle_quality": 0.7695308712737526,
+        "training_colour_variance": 0.012310892084834305,
+        "training_local_colour_difference": 0.0018402063322563464
+      },
+      "source_sha256": "c9c2ff51916532d4765a1515e257bab6354075e9c9e77ab0b00dcd0854b4154e"
+    },
+    {
+      "uid": "fbb897a13d3b2ae03bb3da04aa371f7f",
+      "name": "Mad_Gab_Refresh_Card_Game",
+      "dataset": "GSO",
+      "status": "complete",
+      "training_descriptor_points": 16384,
+      "vertices": 2305,
+      "faces": 4622,
+      "features": {
+        "log10_vertices": 3.362670929725667,
+        "log10_area_cv_plus_one": 0.5573032841165777,
+        "pca_flatness": 0.9948808563297237,
+        "pca_elongation": 0.9979349928024532,
+        "mean_triangle_quality": 0.7299867569188805,
+        "training_colour_variance": 0.07428484364263788,
+        "training_local_colour_difference": 0.03948575328105694
+      },
+      "source_sha256": "704c53eb4f62a334d9afc65df5979b1df79bedf1b8ec501325f132cb7356d361"
+    }
+  ]
+}

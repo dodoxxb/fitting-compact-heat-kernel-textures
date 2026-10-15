@@ -1,0 +1,11 @@
+{
+  "state": "passed",
+  "payload_fields_equal": {
+    "iso_eigen": true,
+    "all_eigen": true,
+    "sampling_coords": true,
+    "mass": true,
+    "local_direction": true
+  },
+  "scope": "Fresh public CPU builder versus paired experiment heat-feature cache; one Barricade mesh; all stored tensor fields."
+}

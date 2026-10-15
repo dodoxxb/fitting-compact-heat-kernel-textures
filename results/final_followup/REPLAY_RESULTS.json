@@ -1,0 +1,816 @@
+{
+  "state": "complete",
+  "pairs": [
+    {
+      "pair": {
+        "gpu": 0,
+        "uid": "6e509bb275c44dc994d1e6bc694242f5",
+        "seed": 0,
+        "order": [
+          "fp64_diagonal",
+          "heat_features"
+        ]
+      },
+      "state": "complete",
+      "errors": [],
+      "variants": {
+        "fp64_diagonal": {
+          "endpoint": {
+            "native_psnr": 29.647724683700606,
+            "pbr_psnr": 45.133731079101565,
+            "pbr_psnr_cpu_check": 45.1337333228676,
+            "ssim": 0.9938188433647156,
+            "lpips": 0.006989954877644778,
+            "native_mse": 0.0010844949439744037,
+            "pbr_mse": 3.090212385761086e-05,
+            "pbr_pooled_psnr": 45.100116711271674,
+            "exact_native": false,
+            "exact_render_views": 0,
+            "job_sha256": "e9c38aaeb3e9bc2234dab497fe2ab815e2fd959f27134797f6f427ca08c0ecda",
+            "evaluation_sha256": "b832e759bfa77a398ee78e9712d47cd0d375bf49daa0a1876243c4bff2a76c26",
+            "training_process_seconds": 297.0577232837677,
+            "evaluation_seconds": 99.24709510803223,
+            "timing_qualified": false,
+            "cache_process_seconds": 44.49654245376587,
+            "shared_data_process_seconds": 12.289499282836914,
+            "accounted_full_seconds": 462.2048282623291,
+            "accounted_fit_endpoint_seconds": 360.9124810695648
+          },
+          "curve": [
+            {
+              "updates": 1000,
+              "accounted_seconds": 125.68718814849854,
+              "pbr_psnr": 43.24119110107422,
+              "native_psnr": 28.89096053102672
+            },
+            {
+              "updates": 2000,
+              "accounted_seconds": 182.3303780555725,
+              "pbr_psnr": 44.2755729675293,
+              "native_psnr": 29.324545521172993
+            },
+            {
+              "updates": 3000,
+              "accounted_seconds": 238.7597451210022,
+              "pbr_psnr": 44.73721466064453,
+              "native_psnr": 29.511888228299334
+            },
+            {
+              "updates": 4000,
+              "accounted_seconds": 294.67461824417114,
+              "pbr_psnr": 45.03961944580078,
+              "native_psnr": 29.60477386617976
+            },
+            {
+              "updates": 4100,
+              "accounted_seconds": 300.45387983322144,
+              "pbr_psnr": 45.06116638183594,
+              "native_psnr": 29.640306383147674
+            },
+            {
+              "updates": 4250,
+              "accounted_seconds": 308.75376558303833,
+              "pbr_psnr": 45.09810028076172,
+              "native_psnr": 29.635085558374858
+            },
+            {
+              "updates": 4500,
+              "accounted_seconds": 322.66540455818176,
+              "pbr_psnr": 45.123223876953126,
+              "native_psnr": 29.635113102472644
+            },
+            {
+              "updates": 4750,
+              "accounted_seconds": 336.62293791770935,
+              "pbr_psnr": 45.122205352783205,
+              "native_psnr": 29.658194043646404
+            },
+            {
+              "updates": 5000,
+              "accounted_seconds": 350.56088495254517,
+              "pbr_psnr": 45.133731079101565,
+              "native_psnr": 29.647724683700606
+            }
+          ]
+        },
+        "heat_features": {
+          "endpoint": {
+            "native_psnr": 29.91695255875733,
+            "pbr_psnr": 45.51089096069336,
+            "pbr_psnr_cpu_check": 45.51089326976414,
+            "ssim": 0.9942269682884216,
+            "lpips": 0.0060922735370695594,
+            "native_mse": 0.0010193063837220355,
+            "pbr_mse": 2.8234927421744837e-05,
+            "pbr_pooled_psnr": 45.49213324285389,
+            "exact_native": false,
+            "exact_render_views": 0,
+            "job_sha256": "64d7ee2e21695fe843a8c1d622d06f2395815d1d4c9bb8513891d4e92643d9f4",
+            "evaluation_sha256": "f419587beff0b76fe9833189631789c3ae0ff54d91f84c7bb682fd6446629e3b",
+            "training_process_seconds": 297.8744156360626,
+            "evaluation_seconds": 97.89780354499817,
+            "timing_qualified": false,
+            "cache_process_seconds": 45.913766622543335,
+            "shared_data_process_seconds": 12.289499282836914,
+            "accounted_full_seconds": 462.91138076782227,
+            "accounted_fit_endpoint_seconds": 363.1439530849457
+          },
+          "curve": [
+            {
+              "updates": 1000,
+              "accounted_seconds": 127.10870695114136,
+              "pbr_psnr": 43.689089965820315,
+              "native_psnr": 29.09336489229347
+            },
+            {
+              "updates": 2000,
+              "accounted_seconds": 183.31959891319275,
+              "pbr_psnr": 44.77438583374023,
+              "native_psnr": 29.58625218044714
+            },
+            {
+              "updates": 3000,
+              "accounted_seconds": 240.07809042930603,
+              "pbr_psnr": 45.220271301269534,
+              "native_psnr": 29.777595307393877
+            },
+            {
+              "updates": 4000,
+              "accounted_seconds": 296.3838324546814,
+              "pbr_psnr": 45.43107299804687,
+              "native_psnr": 29.875171583622027
+            },
+            {
+              "updates": 4100,
+              "accounted_seconds": 302.21562147140503,
+              "pbr_psnr": 45.45648345947266,
+              "native_psnr": 29.908957501460385
+            },
+            {
+              "updates": 4250,
+              "accounted_seconds": 310.6197817325592,
+              "pbr_psnr": 45.47690277099609,
+              "native_psnr": 29.914238876547138
+            },
+            {
+              "updates": 4500,
+              "accounted_seconds": 324.7327558994293,
+              "pbr_psnr": 45.50593032836914,
+              "native_psnr": 29.913804505742505
+            },
+            {
+              "updates": 4750,
+              "accounted_seconds": 338.78265166282654,
+              "pbr_psnr": 45.47818222045898,
+              "native_psnr": 29.923453826674454
+            },
+            {
+              "updates": 5000,
+              "accounted_seconds": 352.73013138771057,
+              "pbr_psnr": 45.51089096069336,
+              "native_psnr": 29.91695255875733
+            }
+          ]
+        }
+      },
+      "gpu_timing_qualified": true,
+      "delta": {
+        "pbr_psnr": 0.37715988159179403,
+        "native_psnr": 0.26922787505672474,
+        "ssim": 0.0004081249237060103,
+        "lpips": -0.0008976813405752182
+      },
+      "accounted_full_cost_ratio": 0.998473676528926,
+      "fit_process_ratio": 0.9972582662040612,
+      "common_budget": {
+        "seconds": 350.56088495254517,
+        "selected": {
+          "fp64_diagonal": {
+            "updates": 5000,
+            "accounted_seconds": 350.56088495254517,
+            "pbr_psnr": 45.133731079101565,
+            "native_psnr": 29.647724683700606
+          },
+          "heat_features": {
+            "updates": 4750,
+            "accounted_seconds": 338.78265166282654,
+            "pbr_psnr": 45.47818222045898,
+            "native_psnr": 29.923453826674454
+          }
+        },
+        "pbr_delta": 0.3444511413574176,
+        "scope": "Accounted cache+shared-data+training cost through recorded snapshots, including audit overhead; evaluation excluded. Discrete snapshot selection only."
+      },
+      "qualified": true
+    },
+    {
+      "pair": {
+        "gpu": 1,
+        "uid": "6e509bb275c44dc994d1e6bc694242f5",
+        "seed": 1,
+        "order": [
+          "heat_features",
+          "fp64_diagonal"
+        ]
+      },
+      "state": "complete",
+      "errors": [],
+      "variants": {
+        "fp64_diagonal": {
+          "endpoint": {
+            "native_psnr": 29.649751024343626,
+            "pbr_psnr": 45.024366760253905,
+            "pbr_psnr_cpu_check": 45.024368574724164,
+            "ssim": 0.9936281561851501,
+            "lpips": 0.007031403575092554,
+            "native_mse": 0.0010839890559921404,
+            "pbr_mse": 3.158689403815039e-05,
+            "pbr_pooled_psnr": 45.00493076481979,
+            "exact_native": false,
+            "exact_render_views": 0,
+            "job_sha256": "1dc947a15fc1beff8380aaf58939b0df4e06dbbf13a6702fdf657bf03227cdc2",
+            "evaluation_sha256": "2d6416e4b6a4b907a7da407acc475aeb200ae49a621d1e4841484392870220cf",
+            "training_process_seconds": 293.60600423812866,
+            "evaluation_seconds": 99.20536088943481,
+            "timing_qualified": false,
+            "cache_process_seconds": 44.45849370956421,
+            "shared_data_process_seconds": 12.138258695602417,
+            "accounted_full_seconds": 458.35388469696045,
+            "accounted_fit_endpoint_seconds": 357.14148807525635
+          },
+          "curve": [
+            {
+              "updates": 1000,
+              "accounted_seconds": 124.35174798965454,
+              "pbr_psnr": 43.13155670166016,
+              "native_psnr": 28.877131026617736
+            },
+            {
+              "updates": 2000,
+              "accounted_seconds": 179.9625358581543,
+              "pbr_psnr": 44.208726501464845,
+              "native_psnr": 29.287323844483556
+            },
+            {
+              "updates": 3000,
+              "accounted_seconds": 235.49388241767883,
+              "pbr_psnr": 44.746575927734376,
+              "native_psnr": 29.51747864189614
+            },
+            {
+              "updates": 4000,
+              "accounted_seconds": 291.10922384262085,
+              "pbr_psnr": 44.90270233154297,
+              "native_psnr": 29.594070860891666
+            },
+            {
+              "updates": 4100,
+              "accounted_seconds": 296.89098072052,
+              "pbr_psnr": 45.01355667114258,
+              "native_psnr": 29.6289782786827
+            },
+            {
+              "updates": 4250,
+              "accounted_seconds": 305.23920726776123,
+              "pbr_psnr": 45.05522994995117,
+              "native_psnr": 29.640996555321976
+            },
+            {
+              "updates": 4500,
+              "accounted_seconds": 319.1222460269928,
+              "pbr_psnr": 45.07228546142578,
+              "native_psnr": 29.64040230844244
+            },
+            {
+              "updates": 4750,
+              "accounted_seconds": 332.9751079082489,
+              "pbr_psnr": 45.05204772949219,
+              "native_psnr": 29.653490623047162
+            },
+            {
+              "updates": 5000,
+              "accounted_seconds": 346.85433077812195,
+              "pbr_psnr": 45.024366760253905,
+              "native_psnr": 29.649751024343626
+            }
+          ]
+        },
+        "heat_features": {
+          "endpoint": {
+            "native_psnr": 29.963998871256095,
+            "pbr_psnr": 45.696309661865236,
+            "pbr_psnr_cpu_check": 45.696313475631634,
+            "ssim": 0.9944808125495911,
+            "lpips": 0.006093446724116802,
+            "native_mse": 0.0010083240198278424,
+            "pbr_mse": 2.700784153530693e-05,
+            "pbr_pooled_psnr": 45.68510123208455,
+            "exact_native": false,
+            "exact_render_views": 0,
+            "job_sha256": "c1c9f041bd0296022c86b320c52fa58d6a1b747ea05138bd8fb5afa6f5c4ed01",
+            "evaluation_sha256": "c109381822f51d23213faba163a0ec0ca029b575ebdb47bfb30f6684d31cb68c",
+            "training_process_seconds": 294.8135595321655,
+            "evaluation_seconds": 100.95161557197571,
+            "timing_qualified": false,
+            "cache_process_seconds": 45.69876551628113,
+            "shared_data_process_seconds": 12.138258695602417,
+            "accounted_full_seconds": 462.6339671611786,
+            "accounted_fit_endpoint_seconds": 359.62928533554077
+          },
+          "curve": [
+            {
+              "updates": 1000,
+              "accounted_seconds": 126.13980865478516,
+              "pbr_psnr": 43.914306640625,
+              "native_psnr": 29.16610141379134
+            },
+            {
+              "updates": 2000,
+              "accounted_seconds": 181.9249243736267,
+              "pbr_psnr": 44.885134887695315,
+              "native_psnr": 29.584718756867318
+            },
+            {
+              "updates": 3000,
+              "accounted_seconds": 238.05614924430847,
+              "pbr_psnr": 45.45129165649414,
+              "native_psnr": 29.845573147420474
+            },
+            {
+              "updates": 4000,
+              "accounted_seconds": 293.71412110328674,
+              "pbr_psnr": 45.579280090332034,
+              "native_psnr": 29.92150421336798
+            },
+            {
+              "updates": 4100,
+              "accounted_seconds": 299.4314217567444,
+              "pbr_psnr": 45.69069976806641,
+              "native_psnr": 29.935436554551025
+            },
+            {
+              "updates": 4250,
+              "accounted_seconds": 307.73358964920044,
+              "pbr_psnr": 45.708692169189455,
+              "native_psnr": 29.950402605476818
+            },
+            {
+              "updates": 4500,
+              "accounted_seconds": 321.56712913513184,
+              "pbr_psnr": 45.71438980102539,
+              "native_psnr": 29.956057733468818
+            },
+            {
+              "updates": 4750,
+              "accounted_seconds": 335.4434850215912,
+              "pbr_psnr": 45.72198715209961,
+              "native_psnr": 29.96210698835114
+            },
+            {
+              "updates": 5000,
+              "accounted_seconds": 349.2959361076355,
+              "pbr_psnr": 45.696309661865236,
+              "native_psnr": 29.963998871256095
+            }
+          ]
+        }
+      },
+      "gpu_timing_qualified": true,
+      "delta": {
+        "pbr_psnr": 0.671942901611331,
+        "native_psnr": 0.314247846912469,
+        "ssim": 0.0008526563644409846,
+        "lpips": -0.0009379568509757519
+      },
+      "accounted_full_cost_ratio": 0.9907484474378705,
+      "fit_process_ratio": 0.99590400354735,
+      "common_budget": {
+        "seconds": 346.85433077812195,
+        "selected": {
+          "fp64_diagonal": {
+            "updates": 5000,
+            "accounted_seconds": 346.85433077812195,
+            "pbr_psnr": 45.024366760253905,
+            "native_psnr": 29.649751024343626
+          },
+          "heat_features": {
+            "updates": 4750,
+            "accounted_seconds": 335.4434850215912,
+            "pbr_psnr": 45.72198715209961,
+            "native_psnr": 29.96210698835114
+          }
+        },
+        "pbr_delta": 0.6976203918457031,
+        "scope": "Accounted cache+shared-data+training cost through recorded snapshots, including audit overhead; evaluation excluded. Discrete snapshot selection only."
+      },
+      "qualified": true
+    },
+    {
+      "pair": {
+        "gpu": 2,
+        "uid": "242d37a17a334d3cb1ab4fb978ae0ad9",
+        "seed": 0,
+        "order": [
+          "fp64_diagonal",
+          "heat_features"
+        ]
+      },
+      "state": "complete",
+      "errors": [],
+      "variants": {
+        "fp64_diagonal": {
+          "endpoint": {
+            "native_psnr": 23.334963333726634,
+            "pbr_psnr": 52.69781265258789,
+            "pbr_psnr_cpu_check": 52.697814737883974,
+            "ssim": 0.9994601964950561,
+            "lpips": 0.0017958151001948863,
+            "native_mse": 0.00463984707259228,
+            "pbr_mse": 5.700885401648404e-06,
+            "pbr_pooled_psnr": 52.44057689031293,
+            "exact_native": false,
+            "exact_render_views": 0,
+            "job_sha256": "97cb35b0b750ec09a53f37c4134f4680e30c08d04275499fbcb07ac6e817e252",
+            "evaluation_sha256": "562709588e4159106748a1eea57332be2c3cbf1453736e34f63581fdd90b84e6",
+            "training_process_seconds": 295.0756962299347,
+            "evaluation_seconds": 57.27226257324219,
+            "timing_qualified": false,
+            "cache_process_seconds": 64.47963428497314,
+            "shared_data_process_seconds": 13.894302368164062,
+            "accounted_full_seconds": 439.7966067790985,
+            "accounted_fit_endpoint_seconds": 380.39398980140686
+          },
+          "curve": [
+            {
+              "updates": 1000,
+              "accounted_seconds": 146.33956503868103,
+              "pbr_psnr": 51.68144912719727,
+              "native_psnr": 22.626327808511956
+            },
+            {
+              "updates": 2000,
+              "accounted_seconds": 202.7607865333557,
+              "pbr_psnr": 52.18062973022461,
+              "native_psnr": 22.988002945204073
+            },
+            {
+              "updates": 3000,
+              "accounted_seconds": 258.67138838768005,
+              "pbr_psnr": 52.474676513671874,
+              "native_psnr": 23.190290457529628
+            },
+            {
+              "updates": 4000,
+              "accounted_seconds": 314.27874994277954,
+              "pbr_psnr": 52.64887924194336,
+              "native_psnr": 23.282622282645292
+            },
+            {
+              "updates": 4100,
+              "accounted_seconds": 319.9936902523041,
+              "pbr_psnr": 52.66011047363281,
+              "native_psnr": 23.300637943686713
+            },
+            {
+              "updates": 4250,
+              "accounted_seconds": 328.2942600250244,
+              "pbr_psnr": 52.67217330932617,
+              "native_psnr": 23.311503457816137
+            },
+            {
+              "updates": 4500,
+              "accounted_seconds": 342.20900678634644,
+              "pbr_psnr": 52.684713745117186,
+              "native_psnr": 23.319353556256797
+            },
+            {
+              "updates": 4750,
+              "accounted_seconds": 356.12296772003174,
+              "pbr_psnr": 52.66499710083008,
+              "native_psnr": 23.32031472220804
+            },
+            {
+              "updates": 5000,
+              "accounted_seconds": 370.0519118309021,
+              "pbr_psnr": 52.69781265258789,
+              "native_psnr": 23.334963333726634
+            }
+          ]
+        },
+        "heat_features": {
+          "endpoint": {
+            "native_psnr": 23.790726556038454,
+            "pbr_psnr": 53.70707626342774,
+            "pbr_psnr_cpu_check": 53.70707710783155,
+            "ssim": 0.9995564699172974,
+            "lpips": 0.0015846141730435192,
+            "native_mse": 0.004177604712653953,
+            "pbr_mse": 4.34896021061611e-06,
+            "pbr_pooled_psnr": 53.61614565751292,
+            "exact_native": false,
+            "exact_render_views": 0,
+            "job_sha256": "344277277a56ecb4a266b939c5be73c86b7276213b511041fd87e9bbb500af4c",
+            "evaluation_sha256": "28a4d3ed543e9a9ebbab14a19d51310d3bb80eb7d4de276d7f5dac9c1b9de7e8",
+            "training_process_seconds": 297.15779733657837,
+            "evaluation_seconds": 54.72702598571777,
+            "timing_qualified": false,
+            "cache_process_seconds": 67.70970726013184,
+            "shared_data_process_seconds": 13.894302368164062,
+            "accounted_full_seconds": 443.21722197532654,
+            "accounted_fit_endpoint_seconds": 386.1236684322357
+          },
+          "curve": [
+            {
+              "updates": 1000,
+              "accounted_seconds": 149.99605298042297,
+              "pbr_psnr": 52.9299919128418,
+              "native_psnr": 23.09226645229646
+            },
+            {
+              "updates": 2000,
+              "accounted_seconds": 206.20122528076172,
+              "pbr_psnr": 53.41907730102539,
+              "native_psnr": 23.46964821804562
+            },
+            {
+              "updates": 3000,
+              "accounted_seconds": 262.7537784576416,
+              "pbr_psnr": 53.57583236694336,
+              "native_psnr": 23.668987197024
+            },
+            {
+              "updates": 4000,
+              "accounted_seconds": 318.7892153263092,
+              "pbr_psnr": 53.643612670898435,
+              "native_psnr": 23.754295919313755
+            },
+            {
+              "updates": 4100,
+              "accounted_seconds": 324.6288332939148,
+              "pbr_psnr": 53.67774658203125,
+              "native_psnr": 23.768379339225277
+            },
+            {
+              "updates": 4250,
+              "accounted_seconds": 333.018616437912,
+              "pbr_psnr": 53.67154083251953,
+              "native_psnr": 23.77267970030514
+            },
+            {
+              "updates": 4500,
+              "accounted_seconds": 347.05228424072266,
+              "pbr_psnr": 53.65410614013672,
+              "native_psnr": 23.775555661018316
+            },
+            {
+              "updates": 4750,
+              "accounted_seconds": 361.12066173553467,
+              "pbr_psnr": 53.67192077636719,
+              "native_psnr": 23.78149130202976
+            },
+            {
+              "updates": 5000,
+              "accounted_seconds": 375.0353841781616,
+              "pbr_psnr": 53.70707626342774,
+              "native_psnr": 23.790726556038454
+            }
+          ]
+        }
+      },
+      "gpu_timing_qualified": true,
+      "delta": {
+        "pbr_psnr": 1.0092636108398452,
+        "native_psnr": 0.45576322231181976,
+        "ssim": 9.627342224127755e-05,
+        "lpips": -0.0002112009271513671
+      },
+      "accounted_full_cost_ratio": 0.9922823053197638,
+      "fit_process_ratio": 0.9929932812623276,
+      "common_budget": {
+        "seconds": 370.0519118309021,
+        "selected": {
+          "fp64_diagonal": {
+            "updates": 5000,
+            "accounted_seconds": 370.0519118309021,
+            "pbr_psnr": 52.69781265258789,
+            "native_psnr": 23.334963333726634
+          },
+          "heat_features": {
+            "updates": 4750,
+            "accounted_seconds": 361.12066173553467,
+            "pbr_psnr": 53.67192077636719,
+            "native_psnr": 23.78149130202976
+          }
+        },
+        "pbr_delta": 0.9741081237792955,
+        "scope": "Accounted cache+shared-data+training cost through recorded snapshots, including audit overhead; evaluation excluded. Discrete snapshot selection only."
+      },
+      "qualified": true
+    },
+    {
+      "pair": {
+        "gpu": 3,
+        "uid": "242d37a17a334d3cb1ab4fb978ae0ad9",
+        "seed": 1,
+        "order": [
+          "heat_features",
+          "fp64_diagonal"
+        ]
+      },
+      "state": "complete",
+      "errors": [],
+      "variants": {
+        "fp64_diagonal": {
+          "endpoint": {
+            "native_psnr": 23.321116266039546,
+            "pbr_psnr": 52.66585159301758,
+            "pbr_psnr_cpu_check": 52.665854016230924,
+            "ssim": 0.9994558453559875,
+            "lpips": 0.0018120611435733735,
+            "native_mse": 0.004654664394217506,
+            "pbr_mse": 5.765542149253493e-06,
+            "pbr_pooled_psnr": 52.39159848584598,
+            "exact_native": false,
+            "exact_render_views": 0,
+            "job_sha256": "218867640c5f6ef28f0da00664aba5254e53b00a6a4a08728c4aea8349cdbd4c",
+            "evaluation_sha256": "07f69e50da5b88cea16a4218317a6ffe095d4c77b2f6115f122f8e6b0598c38e",
+            "training_process_seconds": 295.16158270835876,
+            "evaluation_seconds": 55.076088428497314,
+            "timing_qualified": false,
+            "cache_process_seconds": 63.40043902397156,
+            "shared_data_process_seconds": 13.240599870681763,
+            "accounted_full_seconds": 436.7688465118408,
+            "accounted_fit_endpoint_seconds": 379.14135932922363
+          },
+          "curve": [
+            {
+              "updates": 1000,
+              "accounted_seconds": 144.95607328414917,
+              "pbr_psnr": 51.65398254394531,
+              "native_psnr": 22.64890506249266
+            },
+            {
+              "updates": 2000,
+              "accounted_seconds": 200.773282289505,
+              "pbr_psnr": 52.09363708496094,
+              "native_psnr": 22.978217686512025
+            },
+            {
+              "updates": 3000,
+              "accounted_seconds": 256.61998772621155,
+              "pbr_psnr": 52.43005447387695,
+              "native_psnr": 23.165576117092776
+            },
+            {
+              "updates": 4000,
+              "accounted_seconds": 312.4486105442047,
+              "pbr_psnr": 52.57483444213867,
+              "native_psnr": 23.271953321012433
+            },
+            {
+              "updates": 4100,
+              "accounted_seconds": 318.2621076107025,
+              "pbr_psnr": 52.62139129638672,
+              "native_psnr": 23.288957620705816
+            },
+            {
+              "updates": 4250,
+              "accounted_seconds": 326.6512517929077,
+              "pbr_psnr": 52.590250396728514,
+              "native_psnr": 23.292968289767984
+            },
+            {
+              "updates": 4500,
+              "accounted_seconds": 340.5290732383728,
+              "pbr_psnr": 52.56624069213867,
+              "native_psnr": 23.30074396716842
+            },
+            {
+              "updates": 4750,
+              "accounted_seconds": 354.4159162044525,
+              "pbr_psnr": 52.64389419555664,
+              "native_psnr": 23.30959319130171
+            },
+            {
+              "updates": 5000,
+              "accounted_seconds": 368.33728551864624,
+              "pbr_psnr": 52.66585159301758,
+              "native_psnr": 23.321116266039546
+            }
+          ]
+        },
+        "heat_features": {
+          "endpoint": {
+            "native_psnr": 23.701795823065872,
+            "pbr_psnr": 53.48584899902344,
+            "pbr_psnr_cpu_check": 53.485850526397755,
+            "ssim": 0.9995318174362182,
+            "lpips": 0.0016547939681913703,
+            "native_mse": 0.004264031631239367,
+            "pbr_mse": 4.666424372036397e-06,
+            "pbr_pooled_psnr": 53.31015768317009,
+            "exact_native": false,
+            "exact_render_views": 0,
+            "job_sha256": "459de3fb08f5fd0c86d3ee941283c26152cb84e6803acced39ad32f8ab582bda",
+            "evaluation_sha256": "f2376358e881043ba91de87085a6af7bf366343dc1885d067f10598df0830bdd",
+            "training_process_seconds": 304.1229338645935,
+            "evaluation_seconds": 54.666189670562744,
+            "timing_qualified": false,
+            "cache_process_seconds": 63.53587555885315,
+            "shared_data_process_seconds": 13.240599870681763,
+            "accounted_full_seconds": 445.05736780166626,
+            "accounted_fit_endpoint_seconds": 388.0340712070465
+          },
+          "curve": [
+            {
+              "updates": 1000,
+              "accounted_seconds": 154.93009901046753,
+              "pbr_psnr": 52.79856414794922,
+              "native_psnr": 23.008629906386275
+            },
+            {
+              "updates": 2000,
+              "accounted_seconds": 210.72478008270264,
+              "pbr_psnr": 53.24278182983399,
+              "native_psnr": 23.352053194769645
+            },
+            {
+              "updates": 3000,
+              "accounted_seconds": 266.34927129745483,
+              "pbr_psnr": 53.354437255859374,
+              "native_psnr": 23.574548594908165
+            },
+            {
+              "updates": 4000,
+              "accounted_seconds": 321.7665066719055,
+              "pbr_psnr": 53.42282257080078,
+              "native_psnr": 23.6633529617308
+            },
+            {
+              "updates": 4100,
+              "accounted_seconds": 327.4748933315277,
+              "pbr_psnr": 53.4882080078125,
+              "native_psnr": 23.684742917490617
+            },
+            {
+              "updates": 4250,
+              "accounted_seconds": 335.8106017112732,
+              "pbr_psnr": 53.53168258666992,
+              "native_psnr": 23.687455161763715
+            },
+            {
+              "updates": 4500,
+              "accounted_seconds": 349.6960275173187,
+              "pbr_psnr": 53.50552978515625,
+              "native_psnr": 23.69940020758972
+            },
+            {
+              "updates": 4750,
+              "accounted_seconds": 363.5852291584015,
+              "pbr_psnr": 53.477072143554686,
+              "native_psnr": 23.69475757779242
+            },
+            {
+              "updates": 5000,
+              "accounted_seconds": 377.42398500442505,
+              "pbr_psnr": 53.48584899902344,
+              "native_psnr": 23.701795823065872
+            }
+          ]
+        }
+      },
+      "gpu_timing_qualified": true,
+      "delta": {
+        "pbr_psnr": 0.8199974060058608,
+        "native_psnr": 0.38067955702632617,
+        "ssim": 7.597208023069069e-05,
+        "lpips": -0.0001572671753820032
+      },
+      "accounted_full_cost_ratio": 0.9813765103344629,
+      "fit_process_ratio": 0.9705337869710784,
+      "common_budget": {
+        "seconds": 368.33728551864624,
+        "selected": {
+          "fp64_diagonal": {
+            "updates": 5000,
+            "accounted_seconds": 368.33728551864624,
+            "pbr_psnr": 52.66585159301758,
+            "native_psnr": 23.321116266039546
+          },
+          "heat_features": {
+            "updates": 4750,
+            "accounted_seconds": 363.5852291584015,
+            "pbr_psnr": 53.477072143554686,
+            "native_psnr": 23.69475757779242
+          }
+        },
+        "pbr_delta": 0.811220550537108,
+        "scope": "Accounted cache+shared-data+training cost through recorded snapshots, including audit overhead; evaluation excluded. Discrete snapshot selection only."
+      },
+      "qualified": true
+    }
+  ],
+  "scope": "Two previously diagnosed objects, seeds0/1, same-card AB/BA pairs. Additional validation of the same candidate, not a newly sampled object cohort.",
+  "cost_scope": "Fresh separate CPU cache per variant. Shared native targets measured once per pair and charged equally. Fitting/export/checkpoint evaluation measured per arm. The accounted sum is not a single uninterrupted mesh-to-image wall clock; filesystem and CPU cache state are not cold. GPU occupancy qualifies separately.",
+  "statistical_unit": "Two development objects; seeds/repeated seed0 replay are not additional independent objects."
+}

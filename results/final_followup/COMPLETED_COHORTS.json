@@ -1,0 +1,426 @@
+{
+  "state": "complete_with_retained_preparation_failures",
+  "declared_objects": 24,
+  "qualified_objects": 19,
+  "declared_cells": 216,
+  "completed_training_cells": 171,
+  "failed_cache_slots": 27,
+  "unsupported_slots": 18,
+  "preparation_counts": {
+    "data_and_cache_prepared_no_training": 19,
+    "failed_cache": 3,
+    "unsupported_fixed_knn_configuration": 2
+  },
+  "source_sha256": {
+    "confirmation_training/RESULTS_NONFINITE.json": "7d625844a490e690df4987295931aa4c18e9d09375cb72f92f4c436f0919d719",
+    "confirmation_training/DATASET_RESULTS.json": "3cad918f67060ff2bb93ecf6519cc4b1af5d98e3f95b91c17970a6e8237ea3f8",
+    "local_surface_guard/RESULTS.json": "8e483c345fd9b7ab069f74be25e24a45ca6a7413321e2a77780bf4ac0dd9d4c9",
+    "heat_feature_training/RESULTS.json": "3fd9607515f8c96a3e7560d384f8949979302e9a419c1e9d63b58b1dd85d2086"
+  },
+  "note": "The historical analyzer uses a fixed 22-object completion condition and still says partial. This coverage-aware completion record accounts for all 24 reserved objects without changing that analyzer or filtering failures.",
+  "primary": {
+    "pbr_psnr": {
+      "objects": 19,
+      "mean": 0.019298499927185953,
+      "nonfinite_contrasts": 0,
+      "object_bootstrap_95": [
+        0.0061714801453707805,
+        0.037099984152275056
+      ],
+      "wins": 15
+    },
+    "native_psnr": {
+      "objects": 19,
+      "mean": 0.011700961200778948,
+      "nonfinite_contrasts": 0,
+      "object_bootstrap_95": [
+        0.005092750021839525,
+        0.019340337499160046
+      ],
+      "wins": 16
+    },
+    "ssim": {
+      "objects": 19,
+      "mean": 2.3269444181207634e-05,
+      "nonfinite_contrasts": 0,
+      "object_bootstrap_95": [
+        1.015277808173186e-05,
+        4.1279839841947745e-05
+      ],
+      "wins": 15
+    },
+    "lpips": {
+      "objects": 19,
+      "mean": -2.871650422253475e-05,
+      "nonfinite_contrasts": 0,
+      "object_bootstrap_95": [
+        -5.5261661840823274e-05,
+        -2.8320785669063912e-06
+      ],
+      "wins": 11
+    },
+    "pbr_mse": {
+      "objects": 19,
+      "mean": -6.553182485692193e-07,
+      "nonfinite_contrasts": 0,
+      "object_bootstrap_95": [
+        -1.7821492343681177e-06,
+        -6.630985427403799e-08
+      ],
+      "wins": 15
+    },
+    "pbr_pooled_psnr": {
+      "objects": 19,
+      "mean": 0.019883394528037623,
+      "nonfinite_contrasts": 0,
+      "object_bootstrap_95": [
+        0.0071006205828513715,
+        0.0366509206673955
+      ],
+      "wins": 15
+    },
+    "native_mse": {
+      "objects": 19,
+      "mean": -2.3513697782121245e-06,
+      "nonfinite_contrasts": 0,
+      "object_bootstrap_95": [
+        -3.6606386529522283e-06,
+        -1.2263244050452929e-06
+      ],
+      "wins": 16
+    }
+  },
+  "pbr_median": 0.003952789306640152,
+  "pbr_range": [
+    -0.004719034830728219,
+    0.14272766113281202
+  ],
+  "correction_work": [
+    {
+      "uid": "2ed069355ea24bf0a995a978d56c5622",
+      "name": "Shell",
+      "pbr_delta": 0.00376129150390625,
+      "attempted_fits": 12,
+      "accepted_fits": 6,
+      "applied_alphas": {
+        "0.125": 6,
+        "0.0": 6
+      },
+      "mean_recorded_fit_seconds": 12.493409467240175,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "ade2b59ff37c44059433414f39c94abe",
+      "name": "Banana",
+      "pbr_delta": 0.003952789306640152,
+      "attempted_fits": 12,
+      "accepted_fits": 12,
+      "applied_alphas": {
+        "0.25": 8,
+        "0.125": 4
+      },
+      "mean_recorded_fit_seconds": 10.477830857038498,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "c41d046061f59de7a309313adcd790ef",
+      "name": "Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color",
+      "pbr_delta": 0.03499476114908854,
+      "attempted_fits": 12,
+      "accepted_fits": 7,
+      "applied_alphas": {
+        "0.125": 3,
+        "0.0": 5,
+        "0.25": 4
+      },
+      "mean_recorded_fit_seconds": 12.470612386862436,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "df0583c8a0c342e7ac0348e2301784d4",
+      "name": "Mann holder kvinne i fanget",
+      "pbr_delta": 0.00048116048176893855,
+      "attempted_fits": 12,
+      "accepted_fits": 9,
+      "applied_alphas": {
+        "0.125": 9,
+        "0.0": 3
+      },
+      "mean_recorded_fit_seconds": 12.281627977887789,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "db712cb12d095998c363edae84aaafb7",
+      "name": "Olive_Kids_Butterfly_Garden_Pencil_Case",
+      "pbr_delta": 0.01428146362304735,
+      "attempted_fits": 12,
+      "accepted_fits": 10,
+      "applied_alphas": {
+        "0.25": 8,
+        "0.0": 2,
+        "0.125": 2
+      },
+      "mean_recorded_fit_seconds": 13.169176121552786,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "d4f0d10c9c884dd084890eb895a84f9a",
+      "name": "#SelfieTennis Ball Design Kit",
+      "pbr_delta": -5.8492024739583336e-05,
+      "attempted_fits": 12,
+      "accepted_fits": 0,
+      "applied_alphas": {
+        "0.0": 12
+      },
+      "mean_recorded_fit_seconds": 12.153406838575998,
+      "no_correction_endpoint_checks": [
+        {
+          "seed": 0,
+          "all_arrays_equal": true
+        },
+        {
+          "seed": 1,
+          "all_arrays_equal": true
+        },
+        {
+          "seed": 2,
+          "all_arrays_equal": true
+        }
+      ],
+      "timing_qualified": false
+    },
+    {
+      "uid": "7917f3c8825943f9b8f6072cff5007c1",
+      "name": "Football",
+      "pbr_delta": 0.14272766113281202,
+      "attempted_fits": 12,
+      "accepted_fits": 4,
+      "applied_alphas": {
+        "0.125": 4,
+        "0.0": 8
+      },
+      "mean_recorded_fit_seconds": 12.518695714573065,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "0a92d46fdf31d7f0c795a772aa516347",
+      "name": "Cascadia_8_Color_AquariusHibscsBearingSeaBlk_Size_50",
+      "pbr_delta": 0.006406656901039772,
+      "attempted_fits": 12,
+      "accepted_fits": 6,
+      "applied_alphas": {
+        "0.25": 2,
+        "0.0": 6,
+        "0.125": 4
+      },
+      "mean_recorded_fit_seconds": 12.43238078057766,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "8a6cb4f7b0004f53830e270dc6e1ff1d",
+      "name": "wrench",
+      "pbr_delta": -0.004719034830728219,
+      "attempted_fits": 12,
+      "accepted_fits": 6,
+      "applied_alphas": {
+        "0.125": 6,
+        "0.0": 6
+      },
+      "mean_recorded_fit_seconds": 10.873874706526598,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "54a13e432b9a488ab35d1c6644d9bc0c",
+      "name": "Lp Banana Uvw",
+      "pbr_delta": 0.022456105550129262,
+      "attempted_fits": 12,
+      "accepted_fits": 11,
+      "applied_alphas": {
+        "0.5": 5,
+        "0.0": 1,
+        "0.125": 1,
+        "0.25": 5
+      },
+      "mean_recorded_fit_seconds": 11.879554651677608,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "08bb376104e91e8504abd855ed0eda60",
+      "name": "Razer_Naga_MMO_Gaming_Mouse",
+      "pbr_delta": 0.045593007405599906,
+      "attempted_fits": 12,
+      "accepted_fits": 12,
+      "applied_alphas": {
+        "0.25": 8,
+        "0.125": 4
+      },
+      "mean_recorded_fit_seconds": 12.980980006357035,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "228b7a8abfae4e6a8dca781c0feb0a7f",
+      "name": "Borsalino",
+      "pbr_delta": -0.004270680745444603,
+      "attempted_fits": 12,
+      "accepted_fits": 4,
+      "applied_alphas": {
+        "0.0": 8,
+        "0.5": 2,
+        "1.0": 1,
+        "0.25": 1
+      },
+      "mean_recorded_fit_seconds": 13.67546975860993,
+      "no_correction_endpoint_checks": [
+        {
+          "seed": 2,
+          "all_arrays_equal": true
+        }
+      ],
+      "timing_qualified": false
+    },
+    {
+      "uid": "fbb897a13d3b2ae03bb3da04aa371f7f",
+      "name": "Mad_Gab_Refresh_Card_Game",
+      "pbr_delta": 0.00040156046549573904,
+      "attempted_fits": 12,
+      "accepted_fits": 1,
+      "applied_alphas": {
+        "0.0": 11,
+        "0.125": 1
+      },
+      "mean_recorded_fit_seconds": 11.449366827805838,
+      "no_correction_endpoint_checks": [
+        {
+          "seed": 1,
+          "all_arrays_equal": true
+        },
+        {
+          "seed": 2,
+          "all_arrays_equal": true
+        }
+      ],
+      "timing_qualified": false
+    },
+    {
+      "uid": "7a769a1681eb43d39a003f36522802e4",
+      "name": "MRAC Golden Freddy's Hat",
+      "pbr_delta": 0.0,
+      "attempted_fits": 12,
+      "accepted_fits": 0,
+      "applied_alphas": {
+        "0.0": 12
+      },
+      "mean_recorded_fit_seconds": 12.77996517966191,
+      "no_correction_endpoint_checks": [
+        {
+          "seed": 0,
+          "all_arrays_equal": true
+        },
+        {
+          "seed": 1,
+          "all_arrays_equal": true
+        },
+        {
+          "seed": 2,
+          "all_arrays_equal": true
+        }
+      ],
+      "timing_qualified": false
+    },
+    {
+      "uid": "65707f83605e404c9d54581ed79cb0ee",
+      "name": "Seahorse for 3d seascene",
+      "pbr_delta": 0.007403055826820548,
+      "attempted_fits": 12,
+      "accepted_fits": 7,
+      "applied_alphas": {
+        "0.125": 6,
+        "0.0": 5,
+        "0.25": 1
+      },
+      "mean_recorded_fit_seconds": 11.910559813181559,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "92a50d5a9a76e6c69e0ac2f7ca692fbf",
+      "name": "Twinlab_100_Whey_Protein_Fuel_Cookies_and_Cream",
+      "pbr_delta": 0.0021171569824242433,
+      "attempted_fits": 12,
+      "accepted_fits": 4,
+      "applied_alphas": {
+        "0.0": 8,
+        "0.125": 4
+      },
+      "mean_recorded_fit_seconds": 12.688159838318825,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "bc4b85625dd045608b498c41f8b5c1a7",
+      "name": "Seashell Fossil",
+      "pbr_delta": 0.016972859700520832,
+      "attempted_fits": 12,
+      "accepted_fits": 11,
+      "applied_alphas": {
+        "0.125": 8,
+        "0.25": 3,
+        "0.0": 1
+      },
+      "mean_recorded_fit_seconds": 12.11530971278747,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "a30cdc77fc894caba2aa578698b248b8",
+      "name": "CC0 - Doormate",
+      "pbr_delta": 0.07180023193359612,
+      "attempted_fits": 12,
+      "accepted_fits": 9,
+      "applied_alphas": {
+        "0.125": 5,
+        "0.5": 1,
+        "0.25": 3,
+        "0.0": 3
+      },
+      "mean_recorded_fit_seconds": 12.676343157887459,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    },
+    {
+      "uid": "8b51b9bcf512af8a19b2fa528d013a54",
+      "name": "DPC_tropical_Trends_Hat",
+      "pbr_delta": 0.0023699442545558704,
+      "attempted_fits": 12,
+      "accepted_fits": 4,
+      "applied_alphas": {
+        "0.125": 4,
+        "0.0": 8
+      },
+      "mean_recorded_fit_seconds": 11.910530691345533,
+      "no_correction_endpoint_checks": [],
+      "timing_qualified": false
+    }
+  ],
+  "attempted_fits": 228,
+  "accepted_fits": 123,
+  "local_primary": {
+    "pbr_psnr": 0.0056390762329095664,
+    "native_psnr": 0.10965379069017858,
+    "ssim": 0.0002703924973805801,
+    "lpips": -0.00019371618012276818
+  },
+  "local_positive_objects": 2,
+  "policy_conclusion": "No validated prospective execution selector is established. Warm compressed-field recovery, cold direct fitting and partial-local fitting have different outcomes. Treat conditional fitting as an optional diagnosed correction; an accepted training-pool validation step does not guarantee later render benefit. Record rejected-work cost.",
+  "timing_scope": "Historical colocated costs are work ledgers, not an isolated speed comparison. No timing claim is inferred from the confirmation cohort."
+}

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Build artifacts
+*.so
+*.o
+outputs/
+
+# Acquired datasets and binaries are never committed (see docs/data.md)
+datasets/
+*.glb
+*.obj
+*.ply
+*.pt
+*.npz
+
+# Figures and PDFs are excluded except the shipped report
+*.png
+*.pdf
+!paper/main.pdf
+
+# Large raw result dumps are distributed via GitHub Releases, not Git history
+results/final_followup/training_records.json
+results/deployment_followup.json
+results/codec_controls.json
+results/final_policies.json
+results/evidence.preview.json
+
+# Local scratch
+tests/theory_contract_checks.json
+research/local_baselines/torch_cache/

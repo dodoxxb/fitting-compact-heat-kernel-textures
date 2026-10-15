@@ -1,0 +1,51 @@
+{
+  "state": "verified",
+  "upstream_url": "https://github.com/circle-group/hktex",
+  "commit": "9e942972c5411a364f12563eb6864520f9effe70",
+  "commit_metadata": "2026-09-10T16:29:23+02:00\nFix hktex citation",
+  "files": [
+    {
+      "path": "hktex/utils/lbo.py",
+      "local_sha256": "62a5bde329299e66c5cb2fdb34e29d35674cf9432c81ace4616b036e109121bf",
+      "upstream_sha256": "62a5bde329299e66c5cb2fdb34e29d35674cf9432c81ace4616b036e109121bf",
+      "byte_identical": true,
+      "url": "https://github.com/circle-group/hktex/blob/9e942972c5411a364f12563eb6864520f9effe70/hktex/utils/lbo.py"
+    },
+    {
+      "path": "hktex/modules/eigen_albo.py",
+      "local_sha256": "2a55b4d6d18c6d4b740f081e8f29c0e20c6242755158e54ef62a76c1e3a6493d",
+      "upstream_sha256": "2a55b4d6d18c6d4b740f081e8f29c0e20c6242755158e54ef62a76c1e3a6493d",
+      "byte_identical": true,
+      "url": "https://github.com/circle-group/hktex/blob/9e942972c5411a364f12563eb6864520f9effe70/hktex/modules/eigen_albo.py"
+    },
+    {
+      "path": "hktex/modules/eigen_albo_knn.py",
+      "local_sha256": "7ef44c2b01ffee7c30f22dfeb1bd114071235ca36849c9cf36fad223e47058a5",
+      "upstream_sha256": "7ef44c2b01ffee7c30f22dfeb1bd114071235ca36849c9cf36fad223e47058a5",
+      "byte_identical": true,
+      "url": "https://github.com/circle-group/hktex/blob/9e942972c5411a364f12563eb6864520f9effe70/hktex/modules/eigen_albo_knn.py"
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/_ops/heat.py",
+      "local_sha256": "38a8d420491e5666de76146f818db859222d7a2f6bba61aa5285b2010109d196",
+      "upstream_sha256": "38a8d420491e5666de76146f818db859222d7a2f6bba61aa5285b2010109d196",
+      "byte_identical": true,
+      "url": "https://github.com/circle-group/hktex/blob/9e942972c5411a364f12563eb6864520f9effe70/hktex/knn_heat/knn_heat/_ops/heat.py"
+    },
+    {
+      "path": "configs/texture_hktex_knn.yaml",
+      "local_sha256": "828ee3bfba21024481356630c32e72464a55e2a9063234bc557676da79f54ff0",
+      "upstream_sha256": "828ee3bfba21024481356630c32e72464a55e2a9063234bc557676da79f54ff0",
+      "byte_identical": true,
+      "url": "https://github.com/circle-group/hktex/blob/9e942972c5411a364f12563eb6864520f9effe70/configs/texture_hktex_knn.yaml"
+    }
+  ],
+  "synthetic": {
+    "upstream_function_extracted_verbatim_ast": true,
+    "relative_kernel_change": 0.42239261880010887,
+    "heat_feature_identity_error": 5.635688186418395e-17,
+    "scope": "Exact-arithmetic coordinate convention counterexample; no learned-model claim."
+  },
+  "interpretation": "This pinned public implementation applies unrestricted Procrustes alignment while retaining permuted diagonal eigenvalue weights. That operation generally changes the represented heat kernel. It may be interpreted as a chosen spectral interpolant; no claim that the original heat-kernel theory is false. The captured FP32 SVD failure concerns the local SciPy/environment and is not established on the authors environment.",
+  "environment_scope": "Current local Torch2.8/CUDA12.9 and dependency versions differ from the current upstream installation recommendation. No full author-environment reproduction or author validation is claimed."
+}

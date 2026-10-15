@@ -1,0 +1,935 @@
+{
+  "schema_version": 1,
+  "state": "terminal_audited",
+  "records": [
+    {
+      "uid": "c58368b5f05849ed935ab5819b87b187",
+      "name": "FC- Fire Hydrant",
+      "cohort": "new_confirmation",
+      "seed": 0,
+      "kernels": 3000,
+      "continuation_updates": 5000,
+      "routes": {
+        "warmup": {
+          "render": {
+            "psnr": 45.29123153686523,
+            "ssim": 0.9961564421653748,
+            "ms_ssim": 0.9984999775886536,
+            "lpips": 0.001814178191125393,
+            "mse": 2.9936794817331247e-05
+          },
+          "surface_psnr": 34.294623776191095,
+          "input_model_sha256": "c5a71a1539a5bfad05e763c7dd2109f31d11f97dcb4d4d0cfe2f12d2bb84b95d",
+          "model_sha256": "ccc3afec8b9dd7f2ad30734d9c846a20ca1dc908103b816e546fc00e972547ff",
+          "stored_npz_bytes": 61914,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 99,
+            "first_shrunk": 1,
+            "last_shrunk": 99,
+            "minimum": 0.1,
+            "median": 1.0
+          }
+        },
+        "default": {
+          "render": {
+            "psnr": 45.30876083374024,
+            "ssim": 0.9961644768714905,
+            "ms_ssim": 0.9984985947608948,
+            "lpips": 0.0017425607657060027,
+            "mse": 2.9817477843607777e-05
+          },
+          "surface_psnr": 34.3285739991519,
+          "input_model_sha256": "c5a71a1539a5bfad05e763c7dd2109f31d11f97dcb4d4d0cfe2f12d2bb84b95d",
+          "model_sha256": "6866c8c48b6d64af1cde24eb802a249888f846130dbb3f1b83d737596f0a594b",
+          "stored_npz_bytes": 61940,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 0,
+            "first_shrunk": null,
+            "last_shrunk": null,
+            "minimum": 1.0,
+            "median": 1.0
+          }
+        },
+        "adaptive": {
+          "render": {
+            "psnr": 45.30204086303711,
+            "ssim": 0.9961638212203979,
+            "ms_ssim": 0.9984997987747193,
+            "lpips": 0.0017659730045124888,
+            "mse": 2.986362742376514e-05
+          },
+          "surface_psnr": 34.28330875261584,
+          "input_model_sha256": "c5a71a1539a5bfad05e763c7dd2109f31d11f97dcb4d4d0cfe2f12d2bb84b95d",
+          "model_sha256": "96e88ab461458ea6b0bebccb9ffcfb5bcaf6bcfc8f0800727d8398551bc34e65",
+          "stored_npz_bytes": 61881,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 92,
+            "first_shrunk": 1,
+            "last_shrunk": 999,
+            "minimum": 0.5672340816302992,
+            "median": 1.0
+          }
+        },
+        "tenth": {
+          "render": {
+            "psnr": 44.07534942626953,
+            "ssim": 0.9953637242317199,
+            "ms_ssim": 0.9981751084327698,
+            "lpips": 0.001953392336145043,
+            "mse": 3.9624076816835443e-05
+          },
+          "surface_psnr": 32.611735515403716,
+          "input_model_sha256": "c5a71a1539a5bfad05e763c7dd2109f31d11f97dcb4d4d0cfe2f12d2bb84b95d",
+          "model_sha256": "3eb862bf837f1469cb0d6fb6128c884c276ec578777a3c2153fbe6557dde14c0",
+          "stored_npz_bytes": 60859,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 5000,
+            "first_shrunk": 1,
+            "last_shrunk": 5000,
+            "minimum": 0.1,
+            "median": 0.1
+          }
+        }
+      },
+      "initial_parameters_sha256": "c95c5d948c425b4ee27b890d98a06321e770f6420738c6f43f434027c2464676",
+      "initial_rng_sha256": "bf3496a36ca5c01ec5d0a9a12c172d5dc76573a83c89f42d5425d766a2bee8f1",
+      "first_batch_loss": 0.0039910320192575455,
+      "checks": {
+        "same_physical_gpu": true,
+        "exact_initial_parameters": true,
+        "exact_initial_rng": true,
+        "exact_first_batch_loss": true,
+        "same_fixed_uniform_pool": true,
+        "finite_endpoints": true
+      }
+    },
+    {
+      "uid": "f94f035015f137aef6532a491f0eeb50",
+      "name": "Reebok_SH_PRIME_COURT_MID",
+      "cohort": "gso_external",
+      "seed": 0,
+      "kernels": 3000,
+      "continuation_updates": 5000,
+      "routes": {
+        "warmup": {
+          "render": {
+            "psnr": 44.044996643066405,
+            "ssim": 0.9914510011672973,
+            "ms_ssim": 0.9957686066627502,
+            "lpips": 0.005487518105655909,
+            "mse": 4.565002418530639e-05
+          },
+          "surface_psnr": 31.80754358714937,
+          "input_model_sha256": "a3cf1be35df4cc82b2b5ca024530dee977d3b19908fcf80a576442b8ad4ba7aa",
+          "model_sha256": "05bad09fc7b0c713d4ec1c08aee4486a7295e06e82b235abd00ef3897e2900a5",
+          "stored_npz_bytes": 66428,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 99,
+            "first_shrunk": 1,
+            "last_shrunk": 99,
+            "minimum": 0.1,
+            "median": 1.0
+          }
+        },
+        "default": {
+          "render": {
+            "psnr": 44.03007125854492,
+            "ssim": 0.9914303183555603,
+            "ms_ssim": 0.9957522511482239,
+            "lpips": 0.005436701513826847,
+            "mse": 4.5841883184039035e-05
+          },
+          "surface_psnr": 31.788465703661842,
+          "input_model_sha256": "a3cf1be35df4cc82b2b5ca024530dee977d3b19908fcf80a576442b8ad4ba7aa",
+          "model_sha256": "60f59c4f3f56a0c50bf1b255dd4bb4bbc179ff7bb88a94af4be466f5652b9876",
+          "stored_npz_bytes": 66405,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 0,
+            "first_shrunk": null,
+            "last_shrunk": null,
+            "minimum": 1.0,
+            "median": 1.0
+          }
+        },
+        "adaptive": {
+          "render": {
+            "psnr": 44.037548828125,
+            "ssim": 0.9913966536521912,
+            "ms_ssim": 0.9957513332366943,
+            "lpips": 0.005404152348637581,
+            "mse": 4.5899544056737794e-05
+          },
+          "surface_psnr": 31.801249397667103,
+          "input_model_sha256": "a3cf1be35df4cc82b2b5ca024530dee977d3b19908fcf80a576442b8ad4ba7aa",
+          "model_sha256": "44195b8a0e29d0eb82d041dbfef403bf9b373ed61beedfbc2451b23708a20a32",
+          "stored_npz_bytes": 66410,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 35,
+            "first_shrunk": 1,
+            "last_shrunk": 967,
+            "minimum": 0.5073202846684426,
+            "median": 1.0
+          }
+        },
+        "tenth": {
+          "render": {
+            "psnr": 43.95929641723633,
+            "ssim": 0.9912875652313232,
+            "ms_ssim": 0.9956525206565857,
+            "lpips": 0.005820537731051445,
+            "mse": 4.644173750421032e-05
+          },
+          "surface_psnr": 30.92863526776459,
+          "input_model_sha256": "a3cf1be35df4cc82b2b5ca024530dee977d3b19908fcf80a576442b8ad4ba7aa",
+          "model_sha256": "39229522d118e9360e217052fb173a75140aa209070f6e7a09be76d4c522fc05",
+          "stored_npz_bytes": 66136,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 5000,
+            "first_shrunk": 1,
+            "last_shrunk": 5000,
+            "minimum": 0.1,
+            "median": 0.1
+          }
+        }
+      },
+      "initial_parameters_sha256": "e8362cd444ddb45548eb06e4c9e5588094ddb3d42ba4f413f3864e08d8b6db97",
+      "initial_rng_sha256": "eb24341c34cb3737feeb0a6f32f8f5ff18352fd67fb2db94c03f1d40e7aff962",
+      "first_batch_loss": 0.012059642933309078,
+      "checks": {
+        "same_physical_gpu": true,
+        "exact_initial_parameters": true,
+        "exact_initial_rng": true,
+        "exact_first_batch_loss": true,
+        "same_fixed_uniform_pool": true,
+        "finite_endpoints": true
+      }
+    },
+    {
+      "uid": "08cc55fc36994e04ad24bf36b9aef6e5",
+      "name": "Cartoon Fish",
+      "cohort": "new_confirmation",
+      "seed": 0,
+      "kernels": 3000,
+      "continuation_updates": 5000,
+      "routes": {
+        "warmup": {
+          "render": {
+            "psnr": 40.382433319091795,
+            "ssim": 0.9890472888946533,
+            "ms_ssim": 0.9951037168502808,
+            "lpips": 0.007806361932307482,
+            "mse": 0.00011226943315705285
+          },
+          "surface_psnr": 22.810346077464175,
+          "input_model_sha256": "b15dd5e7482a15e2a5cfa9c9b41f2cb64bd2e8f438f42b1d1b8d3ebd79a7397a",
+          "model_sha256": "bc14ea2223ea009203cfc823203ba9da3ff01cfad80093735a3abeef36de7578",
+          "stored_npz_bytes": 62142,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 99,
+            "first_shrunk": 1,
+            "last_shrunk": 99,
+            "minimum": 0.1,
+            "median": 1.0
+          }
+        },
+        "default": {
+          "render": {
+            "psnr": 40.398336029052736,
+            "ssim": 0.9891298294067383,
+            "ms_ssim": 0.9951353192329406,
+            "lpips": 0.007858549617230893,
+            "mse": 0.00011153969971928745
+          },
+          "surface_psnr": 22.817840070757597,
+          "input_model_sha256": "b15dd5e7482a15e2a5cfa9c9b41f2cb64bd2e8f438f42b1d1b8d3ebd79a7397a",
+          "model_sha256": "5c3c37954e45acb0bbc796cdf5a342e2fb3912161965e26462e5f7ff29d82cc0",
+          "stored_npz_bytes": 62095,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 0,
+            "first_shrunk": null,
+            "last_shrunk": null,
+            "minimum": 1.0,
+            "median": 1.0
+          }
+        },
+        "adaptive": {
+          "render": {
+            "psnr": 40.443748474121094,
+            "ssim": 0.9891299247741699,
+            "ms_ssim": 0.9952223300933838,
+            "lpips": 0.007910190615803003,
+            "mse": 0.00011010827547579538
+          },
+          "surface_psnr": 22.84633479121428,
+          "input_model_sha256": "b15dd5e7482a15e2a5cfa9c9b41f2cb64bd2e8f438f42b1d1b8d3ebd79a7397a",
+          "model_sha256": "fb1300991a5fdd14039d743f1e25e60563cb479372c57fd9259df0d4658a0e17",
+          "stored_npz_bytes": 62144,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 298,
+            "first_shrunk": 1,
+            "last_shrunk": 995,
+            "minimum": 0.3291747883482142,
+            "median": 1.0
+          }
+        },
+        "tenth": {
+          "render": {
+            "psnr": 39.856956481933594,
+            "ssim": 0.9875820398330688,
+            "ms_ssim": 0.9944557785987854,
+            "lpips": 0.00896880468353629,
+            "mse": 0.00012803815261577255
+          },
+          "surface_psnr": 22.204106525121553,
+          "input_model_sha256": "b15dd5e7482a15e2a5cfa9c9b41f2cb64bd2e8f438f42b1d1b8d3ebd79a7397a",
+          "model_sha256": "b240d0d3597e583ef6e1f6002390004cf2560c95050c9ba6b17141046a99f18a",
+          "stored_npz_bytes": 62439,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 5000,
+            "first_shrunk": 1,
+            "last_shrunk": 5000,
+            "minimum": 0.1,
+            "median": 0.1
+          }
+        }
+      },
+      "initial_parameters_sha256": "85ab9990b6ec413fc824b3251e4fc548c14c9e1f861e05c14a89c0a49635569f",
+      "initial_rng_sha256": "9e5233b459b07a8072487c2fded3622751434ef851b29c10ac2ae86135e41d45",
+      "first_batch_loss": 0.022380700334906578,
+      "checks": {
+        "same_physical_gpu": true,
+        "exact_initial_parameters": true,
+        "exact_initial_rng": true,
+        "exact_first_batch_loss": true,
+        "same_fixed_uniform_pool": true,
+        "finite_endpoints": true
+      }
+    },
+    {
+      "uid": "8067381eb4e060f7b91817edf6c5e17b",
+      "name": "GARDEN_SWING",
+      "cohort": "gso_external",
+      "seed": 0,
+      "kernels": 3000,
+      "continuation_updates": 5000,
+      "routes": {
+        "warmup": {
+          "render": {
+            "psnr": 42.128300476074216,
+            "ssim": 0.989717710018158,
+            "ms_ssim": 0.9947465300559998,
+            "lpips": 0.009470672719180584,
+            "mse": 6.538507295772433e-05
+          },
+          "surface_psnr": 26.133360344464997,
+          "input_model_sha256": "e7c5c5463bbaa9d0534fb7c43ddc92948601cfade354869f7b0f6deba91617fb",
+          "model_sha256": "b934dac4ea33a59863fa8d0ff939d72ffc18d6d628d9204e67af207a4514e848",
+          "stored_npz_bytes": 65660,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 99,
+            "first_shrunk": 1,
+            "last_shrunk": 99,
+            "minimum": 0.1,
+            "median": 1.0
+          }
+        },
+        "default": {
+          "render": {
+            "psnr": 42.111114501953125,
+            "ssim": 0.9896624445915222,
+            "ms_ssim": 0.9946659445762634,
+            "lpips": 0.00956828724592924,
+            "mse": 6.570572950295172e-05
+          },
+          "surface_psnr": 26.13308160947838,
+          "input_model_sha256": "e7c5c5463bbaa9d0534fb7c43ddc92948601cfade354869f7b0f6deba91617fb",
+          "model_sha256": "c9098360f62b07a228caacb9c697b1784eabc10ba466205632caec73ea22fceb",
+          "stored_npz_bytes": 65663,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 0,
+            "first_shrunk": null,
+            "last_shrunk": null,
+            "minimum": 1.0,
+            "median": 1.0
+          }
+        },
+        "adaptive": {
+          "render": {
+            "psnr": 42.12841110229492,
+            "ssim": 0.9897725343704223,
+            "ms_ssim": 0.9947442531585693,
+            "lpips": 0.009465724788606166,
+            "mse": 6.551839105668477e-05
+          },
+          "surface_psnr": 26.138496245054444,
+          "input_model_sha256": "e7c5c5463bbaa9d0534fb7c43ddc92948601cfade354869f7b0f6deba91617fb",
+          "model_sha256": "e0a1142bd1d5a0b4f956f322fcb1b5ed7caf5d8250a2fd95c899e41374864ddd",
+          "stored_npz_bytes": 65619,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 3,
+            "first_shrunk": 1,
+            "last_shrunk": 3,
+            "minimum": 0.47224556994612027,
+            "median": 1.0
+          }
+        },
+        "tenth": {
+          "render": {
+            "psnr": 41.31092071533203,
+            "ssim": 0.9885518074035644,
+            "ms_ssim": 0.9929336786270142,
+            "lpips": 0.014516180194914342,
+            "mse": 7.650351763004437e-05
+          },
+          "surface_psnr": 25.819777728204606,
+          "input_model_sha256": "e7c5c5463bbaa9d0534fb7c43ddc92948601cfade354869f7b0f6deba91617fb",
+          "model_sha256": "4bf66c1483c006490fdce8bb71b751d15b3abc65f656182dc878659a58117a5e",
+          "stored_npz_bytes": 65271,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 5000,
+            "first_shrunk": 1,
+            "last_shrunk": 5000,
+            "minimum": 0.1,
+            "median": 0.1
+          }
+        }
+      },
+      "initial_parameters_sha256": "bad4fefd9d7b0876e7770f704007dca1a81be702773195424f84b41da5289882",
+      "initial_rng_sha256": "f2f3c6c38b4fee9d11cbacd0bca63125fcd9acff9ff2b897e0a167b3bcc03c9e",
+      "first_batch_loss": 0.009141729213297367,
+      "checks": {
+        "same_physical_gpu": true,
+        "exact_initial_parameters": true,
+        "exact_initial_rng": true,
+        "exact_first_batch_loss": true,
+        "same_fixed_uniform_pool": true,
+        "finite_endpoints": true
+      }
+    },
+    {
+      "uid": "4f383fccf4a24b41a795deed8cc0d117",
+      "name": "Sunset Sarsaparilla (old)",
+      "cohort": "new_confirmation",
+      "seed": 0,
+      "kernels": 3000,
+      "continuation_updates": 5000,
+      "routes": {
+        "warmup": {
+          "render": {
+            "psnr": 48.51526031494141,
+            "ssim": 0.9978505373001099,
+            "ms_ssim": 0.9992772936820984,
+            "lpips": 0.002054915763437748,
+            "mse": 1.4972065036999993e-05
+          },
+          "surface_psnr": 28.745795007981407,
+          "input_model_sha256": "bd6f98a259fb37c9a845dff516019c3b09a88cc84c89c5933650e6e14ab8d98c",
+          "model_sha256": "9bb90bb5749046eaeab6b3caeedf7271b146119749a0e4cb02a97fdf07199526",
+          "stored_npz_bytes": 62616,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 99,
+            "first_shrunk": 1,
+            "last_shrunk": 99,
+            "minimum": 0.1,
+            "median": 1.0
+          }
+        },
+        "default": {
+          "render": {
+            "psnr": 48.42442016601562,
+            "ssim": 0.9978065967559815,
+            "ms_ssim": 0.9992626190185547,
+            "lpips": 0.0023421952151693403,
+            "mse": 1.528965567558771e-05
+          },
+          "surface_psnr": 28.72114244476482,
+          "input_model_sha256": "bd6f98a259fb37c9a845dff516019c3b09a88cc84c89c5933650e6e14ab8d98c",
+          "model_sha256": "cbb7c55fb0d3189da93d0286c9f4fda198b5ecb7d4ac5a7222daf52ae4649e34",
+          "stored_npz_bytes": 62659,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 0,
+            "first_shrunk": null,
+            "last_shrunk": null,
+            "minimum": 1.0,
+            "median": 1.0
+          }
+        },
+        "adaptive": {
+          "render": {
+            "psnr": 48.458256530761716,
+            "ssim": 0.9978291153907776,
+            "ms_ssim": 0.9992669224739075,
+            "lpips": 0.002050689177121967,
+            "mse": 1.5215017629088835e-05
+          },
+          "surface_psnr": 28.728921077751338,
+          "input_model_sha256": "bd6f98a259fb37c9a845dff516019c3b09a88cc84c89c5933650e6e14ab8d98c",
+          "model_sha256": "30360c9bb4b7d57e0e2244e5e60a0f9eff28426a95effa2ce09426bfed26ce73",
+          "stored_npz_bytes": 62642,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 109,
+            "first_shrunk": 1,
+            "last_shrunk": 990,
+            "minimum": 0.38018860335379306,
+            "median": 1.0
+          }
+        },
+        "tenth": {
+          "render": {
+            "psnr": 48.36040115356445,
+            "ssim": 0.9977080583572387,
+            "ms_ssim": 0.9992617487907409,
+            "lpips": 0.002135488169733435,
+            "mse": 1.5339778838097117e-05
+          },
+          "surface_psnr": 28.367801905657764,
+          "input_model_sha256": "bd6f98a259fb37c9a845dff516019c3b09a88cc84c89c5933650e6e14ab8d98c",
+          "model_sha256": "266dd39313b5996efb51ec38a733267e9c7f9265148c2da6f9971002c88def0b",
+          "stored_npz_bytes": 62349,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 5000,
+            "first_shrunk": 1,
+            "last_shrunk": 5000,
+            "minimum": 0.1,
+            "median": 0.1
+          }
+        }
+      },
+      "initial_parameters_sha256": "0ea168f1348abf8e693f772f32b7e83d0b3fd6e0c7c96d2c4b90583f1a59bfa1",
+      "initial_rng_sha256": "cebd6d793be32c62db653bc3fdd228babf6df77025092c8e52aa665f2e7edbbf",
+      "first_batch_loss": 0.011296810582280159,
+      "checks": {
+        "same_physical_gpu": true,
+        "exact_initial_parameters": true,
+        "exact_initial_rng": true,
+        "exact_first_batch_loss": true,
+        "same_fixed_uniform_pool": true,
+        "finite_endpoints": true
+      }
+    },
+    {
+      "uid": "a299d9a7fd1d163b294cabf92bc6862c",
+      "name": "Razer_Taipan_Black_Ambidextrous_Gaming_Mouse",
+      "cohort": "gso_external",
+      "seed": 0,
+      "kernels": 3000,
+      "continuation_updates": 5000,
+      "routes": {
+        "warmup": {
+          "render": {
+            "psnr": 44.06259384155273,
+            "ssim": 0.995078194141388,
+            "ms_ssim": 0.9987244725227356,
+            "lpips": 0.0040808211546391245,
+            "mse": 4.063435262651183e-05
+          },
+          "surface_psnr": 29.121143509598525,
+          "input_model_sha256": "f586a65230d3e473019dc66cf943738f3fcbadc4a09378d40aee9c236432b39c",
+          "model_sha256": "44a4c5a691a7283bef66076b3647c10dc7386154669f35ec7e9ab0ec01dd9f28",
+          "stored_npz_bytes": 64737,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 99,
+            "first_shrunk": 1,
+            "last_shrunk": 99,
+            "minimum": 0.1,
+            "median": 1.0
+          }
+        },
+        "default": {
+          "render": {
+            "psnr": 44.039181518554685,
+            "ssim": 0.9950425624847412,
+            "ms_ssim": 0.9987218022346497,
+            "lpips": 0.004133720975369215,
+            "mse": 4.0848079515853895e-05
+          },
+          "surface_psnr": 29.117626505743637,
+          "input_model_sha256": "f586a65230d3e473019dc66cf943738f3fcbadc4a09378d40aee9c236432b39c",
+          "model_sha256": "937c00e73ebcdf4ae28bf583dfaaaf0a346a25c908054350d19fbf5390087be1",
+          "stored_npz_bytes": 64749,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 0,
+            "first_shrunk": null,
+            "last_shrunk": null,
+            "minimum": 1.0,
+            "median": 1.0
+          }
+        },
+        "adaptive": {
+          "render": {
+            "psnr": 44.032928466796875,
+            "ssim": 0.9950540900230408,
+            "ms_ssim": 0.9987263083457947,
+            "lpips": 0.004150852188467979,
+            "mse": 4.085391483386047e-05
+          },
+          "surface_psnr": 29.11075869149112,
+          "input_model_sha256": "f586a65230d3e473019dc66cf943738f3fcbadc4a09378d40aee9c236432b39c",
+          "model_sha256": "a6b342dafa9dae18296b14278a08787e67201ba5536b2a5a12b24dc8408201d6",
+          "stored_npz_bytes": 64729,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 250,
+            "first_shrunk": 1,
+            "last_shrunk": 996,
+            "minimum": 0.21293443944286145,
+            "median": 1.0
+          }
+        },
+        "tenth": {
+          "render": {
+            "psnr": 43.5538215637207,
+            "ssim": 0.9945323944091797,
+            "ms_ssim": 0.9985894322395324,
+            "lpips": 0.005298946518450975,
+            "mse": 4.5707443496212365e-05
+          },
+          "surface_psnr": 28.563367701212208,
+          "input_model_sha256": "f586a65230d3e473019dc66cf943738f3fcbadc4a09378d40aee9c236432b39c",
+          "model_sha256": "f64e7804bc4fdb757830b44379d30dd83aea440055a684c1182fe80b044079e3",
+          "stored_npz_bytes": 64091,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 5000,
+            "first_shrunk": 1,
+            "last_shrunk": 5000,
+            "minimum": 0.1,
+            "median": 0.1
+          }
+        }
+      },
+      "initial_parameters_sha256": "1a8527336e18a0b7f3d709fd3b8e1c8d71768e565a64a2fc269687e8026ffd64",
+      "initial_rng_sha256": "0954fb793e9286395f448cd8d7190d5d63251d7ae05cb27d44d7679d1f1a5fdf",
+      "first_batch_loss": 0.006267043296247721,
+      "checks": {
+        "same_physical_gpu": true,
+        "exact_initial_parameters": true,
+        "exact_initial_rng": true,
+        "exact_first_batch_loss": true,
+        "same_fixed_uniform_pool": true,
+        "finite_endpoints": true
+      }
+    },
+    {
+      "uid": "1ed263bfe1d14978bb083fd268cf8024",
+      "name": "Pipe_01",
+      "cohort": "new_confirmation",
+      "seed": 0,
+      "kernels": 3000,
+      "continuation_updates": 5000,
+      "routes": {
+        "warmup": {
+          "render": {
+            "psnr": 49.83542022705078,
+            "ssim": 0.9976490497589111,
+            "ms_ssim": 0.9993212223052979,
+            "lpips": 0.002584956539794803,
+            "mse": 1.0472454232512973e-05
+          },
+          "surface_psnr": 33.59416212010974,
+          "input_model_sha256": "9ad592b2bd9b645a991f8ce2b5767061c87603a671459d28c0a759368b318287",
+          "model_sha256": "05bcfcea52ab90a262ad61d0ff0f1f68eb2a7e3f5a11d0721223834cacb2a3fc",
+          "stored_npz_bytes": 62572,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 99,
+            "first_shrunk": 1,
+            "last_shrunk": 99,
+            "minimum": 0.1,
+            "median": 1.0
+          }
+        },
+        "default": {
+          "render": {
+            "psnr": 49.832708740234374,
+            "ssim": 0.997633695602417,
+            "ms_ssim": 0.9993183970451355,
+            "lpips": 0.002506415033712983,
+            "mse": 1.0482700963621027e-05
+          },
+          "surface_psnr": 33.59304494754086,
+          "input_model_sha256": "9ad592b2bd9b645a991f8ce2b5767061c87603a671459d28c0a759368b318287",
+          "model_sha256": "7ac4fbc06bb7fee293400af79a14eba0c372dad1d58f5a3cfeebfc61780be934",
+          "stored_npz_bytes": 62616,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 0,
+            "first_shrunk": null,
+            "last_shrunk": null,
+            "minimum": 1.0,
+            "median": 1.0
+          }
+        },
+        "adaptive": {
+          "render": {
+            "psnr": 49.84678192138672,
+            "ssim": 0.9976503252983093,
+            "ms_ssim": 0.9993251442909241,
+            "lpips": 0.0026661490672267975,
+            "mse": 1.044299697241513e-05
+          },
+          "surface_psnr": 33.59503288078497,
+          "input_model_sha256": "9ad592b2bd9b645a991f8ce2b5767061c87603a671459d28c0a759368b318287",
+          "model_sha256": "302b9eb80f4ece969856cfab9435883f9fcb92da2e5328956ca39b01d586cc58",
+          "stored_npz_bytes": 62615,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 6,
+            "first_shrunk": 1,
+            "last_shrunk": 6,
+            "minimum": 0.2850326765537693,
+            "median": 1.0
+          }
+        },
+        "tenth": {
+          "render": {
+            "psnr": 49.82171478271484,
+            "ssim": 0.9976141452789307,
+            "ms_ssim": 0.9993166565895081,
+            "lpips": 0.0024364751297980547,
+            "mse": 1.0512205517443362e-05
+          },
+          "surface_psnr": 33.46770868429778,
+          "input_model_sha256": "9ad592b2bd9b645a991f8ce2b5767061c87603a671459d28c0a759368b318287",
+          "model_sha256": "3b6ca03f94364aedd1d3127d2bfac8aeb08bf98ad28e66db9e7f1f1046ac0ad7",
+          "stored_npz_bytes": 62272,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 5000,
+            "first_shrunk": 1,
+            "last_shrunk": 5000,
+            "minimum": 0.1,
+            "median": 0.1
+          }
+        }
+      },
+      "initial_parameters_sha256": "da3241d2f1d45cabcebd77b5820313a88166937d2051fbf86ccd423cd683489d",
+      "initial_rng_sha256": "9bbf85f40477ceeff5259873442690101e2d5bfa8d877dcd44533c628a2e3e13",
+      "first_batch_loss": 0.0016765231266617775,
+      "checks": {
+        "same_physical_gpu": true,
+        "exact_initial_parameters": true,
+        "exact_initial_rng": true,
+        "exact_first_batch_loss": true,
+        "same_fixed_uniform_pool": true,
+        "finite_endpoints": true
+      }
+    },
+    {
+      "uid": "641d8dc41981f9679d29af734522ae49",
+      "name": "SpiderMan_Titan_Hero_12Inch_Action_Figure_5Hnn4mtkFsP",
+      "cohort": "gso_external",
+      "seed": 0,
+      "kernels": 3000,
+      "continuation_updates": 5000,
+      "routes": {
+        "warmup": {
+          "render": {
+            "psnr": 45.89044723510742,
+            "ssim": 0.9964976668357849,
+            "ms_ssim": 0.9989270567893982,
+            "lpips": 0.0024968351935967803,
+            "mse": 2.6685716511565262e-05
+          },
+          "surface_psnr": 24.48393587189473,
+          "input_model_sha256": "dd772aeba96241e3af8243c554c32d37cec5b69bbdbd722c9fbbbc8cbb4360f7",
+          "model_sha256": "6976aa2fd65091a805aea86254664c958ceef7b07d2b276f749505006e504189",
+          "stored_npz_bytes": 64866,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 99,
+            "first_shrunk": 1,
+            "last_shrunk": 99,
+            "minimum": 0.1,
+            "median": 1.0
+          }
+        },
+        "default": {
+          "render": {
+            "psnr": 45.911912536621095,
+            "ssim": 0.9965221881866455,
+            "ms_ssim": 0.9989414215087891,
+            "lpips": 0.002671424043364823,
+            "mse": 2.6641975455277134e-05
+          },
+          "surface_psnr": 24.480841802644534,
+          "input_model_sha256": "dd772aeba96241e3af8243c554c32d37cec5b69bbdbd722c9fbbbc8cbb4360f7",
+          "model_sha256": "1d317d5a617c8b42d64a2b7be42c720ab9d228d33582989639d609c66a593a6a",
+          "stored_npz_bytes": 64843,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 0,
+            "first_shrunk": null,
+            "last_shrunk": null,
+            "minimum": 1.0,
+            "median": 1.0
+          }
+        },
+        "adaptive": {
+          "render": {
+            "psnr": 45.91427154541016,
+            "ssim": 0.9965204000473022,
+            "ms_ssim": 0.998940110206604,
+            "lpips": 0.002460857410915196,
+            "mse": 2.6570029876893387e-05
+          },
+          "surface_psnr": 24.47745680604752,
+          "input_model_sha256": "dd772aeba96241e3af8243c554c32d37cec5b69bbdbd722c9fbbbc8cbb4360f7",
+          "model_sha256": "2515631688872be61ccae762728f81101914881ef2700ffbf4cdd3bbef5ec0c9",
+          "stored_npz_bytes": 64830,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 17,
+            "first_shrunk": 1,
+            "last_shrunk": 783,
+            "minimum": 0.25323311816559824,
+            "median": 1.0
+          }
+        },
+        "tenth": {
+          "render": {
+            "psnr": 45.71182708740234,
+            "ssim": 0.9963316202163697,
+            "ms_ssim": 0.9988890051841736,
+            "lpips": 0.0025819653645157816,
+            "mse": 2.7576393767958508e-05
+          },
+          "surface_psnr": 24.137780300466446,
+          "input_model_sha256": "dd772aeba96241e3af8243c554c32d37cec5b69bbdbd722c9fbbbc8cbb4360f7",
+          "model_sha256": "649a408f0b18664ca592aff989528e99cb9e99a25c0bb338bc27931999b66d80",
+          "stored_npz_bytes": 64571,
+          "scale": {
+            "steps": 5000,
+            "shrunk_steps": 5000,
+            "first_shrunk": 1,
+            "last_shrunk": 5000,
+            "minimum": 0.1,
+            "median": 0.1
+          }
+        }
+      },
+      "initial_parameters_sha256": "23d40ed7aa9156a9cce6746be83b069a0fcff6312aed94cbdca4b0ab96f556f1",
+      "initial_rng_sha256": "6594318ffdf46df092356507c6013d5f8ed8807c1e7ef3ee69e4bdee2bf9a232",
+      "first_batch_loss": 0.016486477106809616,
+      "checks": {
+        "same_physical_gpu": true,
+        "exact_initial_parameters": true,
+        "exact_initial_rng": true,
+        "exact_first_batch_loss": true,
+        "same_fixed_uniform_pool": true,
+        "finite_endpoints": true
+      }
+    }
+  ],
+  "scope": "Post-hoc follow-up on the same eight Round31 objects; one seed; fixed uniform-pool objective; same physical GPU and initializer per object; only the learning-rate multiplier differs. No parameter selection from new quality.",
+  "warmup": {
+    "updates": 100,
+    "first_multiplier": 0.1,
+    "update_100_multiplier": 1.0,
+    "later_multiplier": 1.0,
+    "all_optimizer_groups": true,
+    "restore_before_scheduler": true,
+    "moments_unchanged": true
+  },
+  "setup_attempt_1": {
+    "state": "failed_before_training",
+    "affected_launches": 8,
+    "optimizer_updates": 0,
+    "model_endpoints": 0,
+    "reason": "Candidate-hook location failed the training-entry path contract.",
+    "repair": "Use the permitted hook directory; scientific protocol unchanged.",
+    "original_worker_sha256": {
+      "worker0.json": "9881e0e9006a9a927f86aa3148454032a149b7b6ed527a1c5f1adca6efb47448",
+      "worker1.json": "0e1fbdb20da785077ef02a6fae73526174b196f0ec4f38525e98b39cb5b75c17",
+      "worker2.json": "1e5fa31889159c8b0ed2f785b7fd55c53514353d9b1b92159bc7e51fdb8a0bf3",
+      "worker3.json": "3e5130003df0a26bb01ef5df1b093e9a98a12ec8b323569b72050e96e73db0ad"
+    }
+  },
+  "protocol_sha256": "072f8bfa37984953d21568fc4d09c13349141e5ebef40bfa85e916ba45f77704",
+  "controller_sha256": "26f550b6ba7671066417eac778877e5aed86d31522b855f1712264467a097483",
+  "private_audit_sha256": "f742731375dd697bd7a5b35ba359b004f1a68b7503d44f06b5c4330abbfc3322",
+  "summary": [
+    {
+      "cohort": "new_confirmation",
+      "reference": "default",
+      "n": 4,
+      "mean": 0.0150299072265625,
+      "median": -0.006595611572265625,
+      "positive": 2,
+      "minimum": -0.017529296875004263,
+      "maximum": 0.09084014892578551
+    },
+    {
+      "cohort": "new_confirmation",
+      "reference": "adaptive",
+      "n": 4,
+      "mean": -0.006620597839354758,
+      "median": -0.01108551025390625,
+      "positive": 1,
+      "minimum": -0.061315155029298296,
+      "maximum": 0.05700378417969176
+    },
+    {
+      "cohort": "new_confirmation",
+      "reference": "tenth",
+      "n": 4,
+      "mean": 0.4774808883666992,
+      "median": 0.3401679992675781,
+      "positive": 4,
+      "minimum": 0.013705444335940342,
+      "maximum": 1.2158821105957003
+    },
+    {
+      "cohort": "gso_external",
+      "reference": "default",
+      "n": 4,
+      "mean": 0.00851459503173757,
+      "median": 0.01605567932128693,
+      "positive": 3,
+      "minimum": -0.021465301513671875,
+      "maximum": 0.023412322998048296
+    },
+    {
+      "cohort": "gso_external",
+      "reference": "adaptive",
+      "n": 4,
+      "mean": 0.003294563293456676,
+      "median": 0.003668594360352273,
+      "positive": 2,
+      "minimum": -0.023824310302735796,
+      "maximum": 0.029665374755857954
+    },
+    {
+      "cohort": "gso_external",
+      "reference": "tenth",
+      "n": 4,
+      "mean": 0.3976181030273427,
+      "median": 0.3436962127685561,
+      "positive": 4,
+      "minimum": 0.08570022583007386,
+      "maximum": 0.8173797607421847
+    }
+  ]
+}

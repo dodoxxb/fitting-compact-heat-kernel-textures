@@ -1,0 +1,126 @@
+{
+  "state": "complete",
+  "objects": [
+    {
+      "uid": "6e509bb275c44dc994d1e6bc694242f5",
+      "name": "Barricade",
+      "variants": {
+        "fp64_diagonal": {
+          "state": "complete",
+          "endpoint": {
+            "native_psnr": 29.610250619821056,
+            "pbr_psnr": 44.92171783447266,
+            "pbr_psnr_cpu_check": 44.92171888379259,
+            "ssim": 0.9936086177825928,
+            "lpips": 0.008099447563290596,
+            "native_mse": 0.0010938932387746,
+            "pbr_mse": 3.240685986659778e-05,
+            "pbr_pooled_psnr": 44.89363048840616,
+            "exact_native": false,
+            "exact_render_views": 0,
+            "job_sha256": "235c47910bba00275062deedf522d1d769bd2e7911e67be40c9d6d00ed3a5fc1",
+            "evaluation_sha256": "86510873e4918faca5c809ee905bce8a4e0f06cdeacc743a0ab7210bf7e048c2",
+            "training_process_seconds": 291.66967487335205,
+            "evaluation_seconds": 97.79089331626892,
+            "timing_qualified": false
+          }
+        },
+        "heat_features": {
+          "state": "complete",
+          "endpoint": {
+            "native_psnr": 29.88661906052655,
+            "pbr_psnr": 45.560194396972655,
+            "pbr_psnr_cpu_check": 45.56019685568503,
+            "ssim": 0.9942995071411133,
+            "lpips": 0.006215232983231544,
+            "native_mse": 0.001026450696982003,
+            "pbr_mse": 2.790077108764257e-05,
+            "pbr_pooled_psnr": 45.54383794056843,
+            "exact_native": false,
+            "exact_render_views": 0,
+            "job_sha256": "585b2dae3725d7fa7b3919ae4b670bb74fca90bf591d9530db30d27f01047726",
+            "evaluation_sha256": "c268d50b583dc753f661d32754ceec1d2ce813ad953526e8b94115585270265d",
+            "training_process_seconds": 289.1858925819397,
+            "evaluation_seconds": 96.46940398216248,
+            "timing_qualified": false
+          }
+        }
+      },
+      "qualified": true,
+      "errors": [],
+      "initial_learned_parameters_bitwise_identical": true,
+      "initial_field_contract": "Same parameter arrays; different spectral features can change the initial colour field.",
+      "delta": {
+        "pbr_psnr": 0.6384765624999957,
+        "native_psnr": 0.27636844070549316,
+        "ssim": 0.0006908893585204634,
+        "lpips": -0.0018842145800590515,
+        "pbr_mse": -4.50608877895521e-06,
+        "pbr_pooled_psnr": 0.6502074521622703,
+        "native_mse": -6.744254179259692e-05
+      }
+    },
+    {
+      "uid": "242d37a17a334d3cb1ab4fb978ae0ad9",
+      "name": "Wrench",
+      "variants": {
+        "fp64_diagonal": {
+          "state": "complete",
+          "endpoint": {
+            "native_psnr": 23.272642618585127,
+            "pbr_psnr": 52.657921600341794,
+            "pbr_psnr_cpu_check": 52.65792251411578,
+            "ssim": 0.9994555711746216,
+            "lpips": 0.0018088050943333655,
+            "native_mse": 0.0047069083073560175,
+            "pbr_mse": 5.76662158684961e-06,
+            "pbr_pooled_psnr": 52.39078546618436,
+            "exact_native": false,
+            "exact_render_views": 0,
+            "job_sha256": "6b54db3e219c36c5c15470e39d0bc0c8f282641a51f2bf1039cfbeb35ccbb55d",
+            "evaluation_sha256": "0e7387f66c5ba22dafd7143161fe2cb2433f6a360be2a73b7f19b1843dd9ced2",
+            "training_process_seconds": 486.9454472064972,
+            "evaluation_seconds": 58.823890686035156,
+            "timing_qualified": false
+          }
+        },
+        "heat_features": {
+          "state": "complete",
+          "endpoint": {
+            "native_psnr": 23.72949542815331,
+            "pbr_psnr": 53.606713104248044,
+            "pbr_psnr_cpu_check": 53.60671390050459,
+            "ssim": 0.9995412468910218,
+            "lpips": 0.0016108581330627203,
+            "native_mse": 0.004236921885795375,
+            "pbr_mse": 4.48263838828015e-06,
+            "pbr_pooled_psnr": 53.48466293993623,
+            "exact_native": false,
+            "exact_render_views": 0,
+            "job_sha256": "c293b0b9c5a220d20cc46e1e878ad2838396950a2793b19c90f254ebd4078883",
+            "evaluation_sha256": "8239d83e32506bb1c5e881565135002c899dabc0ea2f9baabb5b34d85b85db24",
+            "training_process_seconds": 290.58721232414246,
+            "evaluation_seconds": 54.066176891326904,
+            "timing_qualified": false
+          }
+        }
+      },
+      "qualified": true,
+      "errors": [],
+      "initial_learned_parameters_bitwise_identical": true,
+      "initial_field_contract": "Same parameter arrays; different spectral features can change the initial colour field.",
+      "delta": {
+        "pbr_psnr": 0.94879150390625,
+        "native_psnr": 0.45685280956818275,
+        "ssim": 8.567571640016869e-05,
+        "lpips": -0.00019794696127064517,
+        "pbr_mse": -1.2839831985694596e-06,
+        "pbr_pooled_psnr": 1.093877473751867,
+        "native_mse": -0.00046998642156064266
+      }
+    }
+  ],
+  "expected_runs": 4,
+  "timing_qualified": false,
+  "scope": "Two development objects, one initialization/sampling seed, 5000 matched updates. Compare a verified FP64 diagonal reference with fixed-time heat features. Not independent confirmation, not a speed claim, no conditional-fit intervention."
+}

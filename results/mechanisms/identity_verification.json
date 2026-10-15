@@ -1,0 +1,17 @@
+{
+  "state": "passed",
+  "checks": {
+    "image_identity": 100,
+    "deletion_floor_regimes": [
+      "crossing",
+      "normalized",
+      "unnormalized"
+    ],
+    "variance_identity_and_psd": 50,
+    "same_nodes_different_interpolation": true,
+    "weighted_risk_expectation": true,
+    "finite_family_risk_bound": 1000,
+    "bounded_non_nesting_example": true
+  },
+  "scope": "Numerical checks of classical identities and counterexamples, not empirical generalization guarantees."
+}

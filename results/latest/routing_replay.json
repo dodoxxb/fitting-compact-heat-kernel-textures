@@ -1,0 +1,1180 @@
+{
+  "Orange": {
+    "original_views_UV_native": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 0.0,
+      "linear_rmse": 0.0,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "original_views_Original": {
+      "bitwise_uint8": false,
+      "changed_channels": 4032,
+      "total_channels": 983040,
+      "max_uint8_difference": 4,
+      "linear_max_abs": 0.18651622533798218,
+      "linear_rmse": 0.00022636225091999336,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 717,
+          "linear_channels_above_1e_4": 11,
+          "linear_channels_above_1e_2": 1,
+          "linear_max": 0.010368883609771729,
+          "linear_max_pixel_yx": [
+            129,
+            133
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 805,
+          "linear_channels_above_1e_4": 3,
+          "linear_channels_above_1e_2": 1,
+          "linear_max": 0.010295987129211426,
+          "linear_max_pixel_yx": [
+            100,
+            171
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 711,
+          "linear_channels_above_1e_4": 3,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.00043827295303344727,
+          "linear_max_pixel_yx": [
+            124,
+            174
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 860,
+          "linear_channels_above_1e_4": 8,
+          "linear_channels_above_1e_2": 1,
+          "linear_max": 0.12316775321960449,
+          "linear_max_pixel_yx": [
+            106,
+            120
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 939,
+          "linear_channels_above_1e_4": 4,
+          "linear_channels_above_1e_2": 1,
+          "linear_max": 0.18651622533798218,
+          "linear_max_pixel_yx": [
+            107,
+            128
+          ]
+        }
+      ]
+    },
+    "original_views_Full_stream": {
+      "bitwise_uint8": false,
+      "changed_channels": 4105,
+      "total_channels": 983040,
+      "max_uint8_difference": 7,
+      "linear_max_abs": 0.713349461555481,
+      "linear_rmse": 0.0007221943675373986,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 779,
+          "linear_channels_above_1e_4": 7,
+          "linear_channels_above_1e_2": 1,
+          "linear_max": 0.0103989839553833,
+          "linear_max_pixel_yx": [
+            129,
+            133
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 803,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 9.512901306152344e-05,
+          "linear_max_pixel_yx": [
+            102,
+            129
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 762,
+          "linear_channels_above_1e_4": 4,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0006110668182373047,
+          "linear_max_pixel_yx": [
+            107,
+            185
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 753,
+          "linear_channels_above_1e_4": 4,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.00421905517578125,
+          "linear_max_pixel_yx": [
+            139,
+            201
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 1008,
+          "linear_channels_above_1e_4": 8,
+          "linear_channels_above_1e_2": 3,
+          "linear_max": 0.713349461555481,
+          "linear_max_pixel_yx": [
+            128,
+            135
+          ]
+        }
+      ]
+    }
+  },
+  "SmallLimo": {
+    "original_views_UV_native": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 0.0,
+      "linear_rmse": 0.0,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "original_views_Original": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 7.301568984985352e-07,
+      "linear_rmse": 1.3082622314587806e-09,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 5.960464477539062e-07,
+          "linear_max_pixel_yx": [
+            94,
+            135
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 5.960464477539063e-08,
+          "linear_max_pixel_yx": [
+            63,
+            117
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 5.960464477539063e-08,
+          "linear_max_pixel_yx": [
+            95,
+            148
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 7.301568984985352e-07,
+          "linear_max_pixel_yx": [
+            88,
+            127
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.1920928955078125e-07,
+          "linear_max_pixel_yx": [
+            87,
+            144
+          ]
+        }
+      ]
+    },
+    "original_views_Full_stream": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 5.364418029785156e-07,
+      "linear_rmse": 1.0616716737821056e-09,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 5.364418029785156e-07,
+          "linear_max_pixel_yx": [
+            50,
+            129
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 5.960464477539063e-08,
+          "linear_max_pixel_yx": [
+            33,
+            120
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 2.9802322387695312e-08,
+          "linear_max_pixel_yx": [
+            86,
+            140
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.1920928955078125e-07,
+          "linear_max_pixel_yx": [
+            84,
+            144
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.1920928955078125e-07,
+          "linear_max_pixel_yx": [
+            87,
+            144
+          ]
+        }
+      ]
+    },
+    "shifted_views_UV_native": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 0.0,
+      "linear_rmse": 0.0,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "shifted_views_Original": {
+      "bitwise_uint8": false,
+      "changed_channels": 528,
+      "total_channels": 983040,
+      "max_uint8_difference": 1,
+      "linear_max_abs": 2.384185791015625e-07,
+      "linear_rmse": 8.036755477286378e-10,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 2.384185791015625e-07,
+          "linear_max_pixel_yx": [
+            87,
+            120
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 5.960464477539063e-08,
+          "linear_max_pixel_yx": [
+            86,
+            144
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 8.940696716308594e-08,
+          "linear_max_pixel_yx": [
+            90,
+            138
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 8.940696716308594e-08,
+          "linear_max_pixel_yx": [
+            91,
+            141
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 528,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 8.940696716308594e-08,
+          "linear_max_pixel_yx": [
+            44,
+            137
+          ]
+        }
+      ]
+    },
+    "shifted_views_Full_stream": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 2.384185791015625e-07,
+      "linear_rmse": 7.521759092862627e-10,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 2.384185791015625e-07,
+          "linear_max_pixel_yx": [
+            66,
+            124
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 5.960464477539063e-08,
+          "linear_max_pixel_yx": [
+            33,
+            118
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 5.960464477539063e-08,
+          "linear_max_pixel_yx": [
+            85,
+            143
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 8.940696716308594e-08,
+          "linear_max_pixel_yx": [
+            91,
+            141
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 8.940696716308594e-08,
+          "linear_max_pixel_yx": [
+            80,
+            134
+          ]
+        }
+      ]
+    }
+  },
+  "Hummingbird": {
+    "original_views_UV_native": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 0.0,
+      "linear_rmse": 0.0,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "original_views_Original": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 1.817941665649414e-06,
+      "linear_rmse": 4.495725939574468e-09,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 8.940696716308594e-07,
+          "linear_max_pixel_yx": [
+            116,
+            120
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.817941665649414e-06,
+          "linear_max_pixel_yx": [
+            119,
+            116
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 8.940696716308594e-08,
+          "linear_max_pixel_yx": [
+            198,
+            103
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.1920928955078125e-07,
+          "linear_max_pixel_yx": [
+            140,
+            142
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 9.238719940185547e-07,
+          "linear_max_pixel_yx": [
+            143,
+            133
+          ]
+        }
+      ]
+    },
+    "original_views_Full_stream": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 3.516674041748047e-06,
+      "linear_rmse": 8.084740581064801e-09,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.7881393432617188e-07,
+          "linear_max_pixel_yx": [
+            171,
+            142
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 3.516674041748047e-06,
+          "linear_max_pixel_yx": [
+            171,
+            116
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.0132789611816406e-06,
+          "linear_max_pixel_yx": [
+            168,
+            102
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.1920928955078125e-06,
+          "linear_max_pixel_yx": [
+            139,
+            97
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.4901161193847656e-07,
+          "linear_max_pixel_yx": [
+            221,
+            71
+          ]
+        }
+      ]
+    },
+    "shifted_views_UV_native": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 0.0,
+      "linear_rmse": 0.0,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "shifted_views_Original": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 6.288290023803711e-06,
+      "linear_rmse": 1.625296570613357e-08,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 6.288290023803711e-06,
+          "linear_max_pixel_yx": [
+            122,
+            97
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 2.682209014892578e-07,
+          "linear_max_pixel_yx": [
+            187,
+            126
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 5.960464477539063e-08,
+          "linear_max_pixel_yx": [
+            190,
+            249
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 7.152557373046875e-07,
+          "linear_max_pixel_yx": [
+            225,
+            128
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.2218952178955078e-06,
+          "linear_max_pixel_yx": [
+            146,
+            96
+          ]
+        }
+      ]
+    },
+    "shifted_views_Full_stream": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 1.6689300537109375e-06,
+      "linear_rmse": 3.825401172055028e-09,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.6689300537109375e-06,
+          "linear_max_pixel_yx": [
+            202,
+            71
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 7.748603820800781e-07,
+          "linear_max_pixel_yx": [
+            191,
+            60
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.1920928955078125e-07,
+          "linear_max_pixel_yx": [
+            95,
+            135
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.8998980522155762e-07,
+          "linear_max_pixel_yx": [
+            167,
+            93
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 4.023313522338867e-07,
+          "linear_max_pixel_yx": [
+            202,
+            89
+          ]
+        }
+      ]
+    }
+  },
+  "Piggybank": {
+    "original_views_UV_native": {
+      "bitwise_uint8": true,
+      "changed_channels": 0,
+      "total_channels": 983040,
+      "max_uint8_difference": 0,
+      "linear_max_abs": 0.0,
+      "linear_rmse": 0.0,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 0.0,
+          "linear_max_pixel_yx": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "original_views_Original": {
+      "bitwise_uint8": false,
+      "changed_channels": 744,
+      "total_channels": 983040,
+      "max_uint8_difference": 1,
+      "linear_max_abs": 1.1593103408813477e-05,
+      "linear_rmse": 2.7515021802209756e-08,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 7.033348083496094e-06,
+          "linear_max_pixel_yx": [
+            179,
+            68
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 744,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 3.814697265625e-06,
+          "linear_max_pixel_yx": [
+            111,
+            130
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 3.4570693969726562e-06,
+          "linear_max_pixel_yx": [
+            183,
+            125
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.1593103408813477e-05,
+          "linear_max_pixel_yx": [
+            134,
+            175
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 9.5367431640625e-07,
+          "linear_max_pixel_yx": [
+            187,
+            160
+          ]
+        }
+      ]
+    },
+    "original_views_Full_stream": {
+      "bitwise_uint8": false,
+      "changed_channels": 682,
+      "total_channels": 983040,
+      "max_uint8_difference": 1,
+      "linear_max_abs": 1.5497207641601562e-05,
+      "linear_rmse": 3.7492677767993626e-08,
+      "per_view": [
+        {
+          "view": 0,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.0728836059570312e-06,
+          "linear_max_pixel_yx": [
+            128,
+            143
+          ]
+        },
+        {
+          "view": 1,
+          "changed_uint8_channels": 682,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 3.814697265625e-06,
+          "linear_max_pixel_yx": [
+            111,
+            130
+          ]
+        },
+        {
+          "view": 2,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.1324882507324219e-06,
+          "linear_max_pixel_yx": [
+            87,
+            132
+          ]
+        },
+        {
+          "view": 3,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 1.5497207641601562e-05,
+          "linear_max_pixel_yx": [
+            121,
+            133
+          ]
+        },
+        {
+          "view": 4,
+          "changed_uint8_channels": 0,
+          "linear_channels_above_1e_4": 0,
+          "linear_channels_above_1e_2": 0,
+          "linear_max": 4.76837158203125e-07,
+          "linear_max_pixel_yx": [
+            57,
+            130
+          ]
+        }
+      ]
+    }
+  }
+}

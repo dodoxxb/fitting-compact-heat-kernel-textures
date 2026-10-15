@@ -1,0 +1,1081 @@
+{
+  "scope": "Source snapshots. No binaries, datasets, model files or environment copied.",
+  "sources": [
+    {
+      "path": "hktex/__init__.py",
+      "original_sha256": "2a368e6851c011c8a19914c806f93a72cb9861b02341370853428adaa69ed1d2",
+      "sha256": "2a368e6851c011c8a19914c806f93a72cb9861b02341370853428adaa69ed1d2",
+      "modified": false
+    },
+    {
+      "path": "hktex/data/__init__.py",
+      "original_sha256": "3688641c091e7437d36ef2e10cd3c5d94c2dadbcb7cc025e4767b16a4689b436",
+      "sha256": "3688641c091e7437d36ef2e10cd3c5d94c2dadbcb7cc025e4767b16a4689b436",
+      "modified": false
+    },
+    {
+      "path": "hktex/data/base.py",
+      "original_sha256": "0f54cc8775933edce9ce47ae9dfceab8ca4a2ce8caa51d527f2438e9615b9293",
+      "sha256": "0f54cc8775933edce9ce47ae9dfceab8ca4a2ce8caa51d527f2438e9615b9293",
+      "modified": false
+    },
+    {
+      "path": "hktex/data/camera_sampler.py",
+      "original_sha256": "71730066432249bbb01008626239e9c28f6e6d873ca3d2cf09a3d349d9a6a766",
+      "sha256": "71730066432249bbb01008626239e9c28f6e6d873ca3d2cf09a3d349d9a6a766",
+      "modified": false
+    },
+    {
+      "path": "hktex/data/importance_sampling_strategy.py",
+      "original_sha256": "62890132231b3124f09c3d97376145417773725a0e79fa53ac01d111ad0f0bf9",
+      "sha256": "62890132231b3124f09c3d97376145417773725a0e79fa53ac01d111ad0f0bf9",
+      "modified": false
+    },
+    {
+      "path": "hktex/data/known_heat_vertex_colours.py",
+      "original_sha256": "cc1e30a865e1005a3d0b7cce717584360a42373aa6516030ba57eec8a90c9523",
+      "sha256": "cc1e30a865e1005a3d0b7cce717584360a42373aa6516030ba57eec8a90c9523",
+      "modified": false
+    },
+    {
+      "path": "hktex/data/objaverse_downloader.py",
+      "original_sha256": "d85f1b0cec01b7fe56aeb378e541fd34a610bf063dbd309b5506b27081f892c4",
+      "sha256": "d85f1b0cec01b7fe56aeb378e541fd34a610bf063dbd309b5506b27081f892c4",
+      "modified": false
+    },
+    {
+      "path": "hktex/data/uv_texture_sampler.py",
+      "original_sha256": "7011ed9725835f5b274ec02fb61fbb574dcc6b9e98c37b72341d3463f5b4c5ac",
+      "sha256": "7011ed9725835f5b274ec02fb61fbb574dcc6b9e98c37b72341d3463f5b4c5ac",
+      "modified": false
+    },
+    {
+      "path": "hktex/data/vertex_colours.py",
+      "original_sha256": "888308156f7ad2a5f6717eb70c16bc4aa873495f0b68dd73405e8ec38f377ac9",
+      "sha256": "888308156f7ad2a5f6717eb70c16bc4aa873495f0b68dd73405e8ec38f377ac9",
+      "modified": false
+    },
+    {
+      "path": "hktex/density_controllers/__init__.py",
+      "original_sha256": "16a16037598c31490e8bf6098ebdc2ca8bfa62a85550ed92ec1c64d9255f5cfe",
+      "sha256": "16a16037598c31490e8bf6098ebdc2ca8bfa62a85550ed92ec1c64d9255f5cfe",
+      "modified": false
+    },
+    {
+      "path": "hktex/density_controllers/base.py",
+      "original_sha256": "40261a1a1136f6af74569967812eb2e1658fab004bfeb1dc247393122237154d",
+      "sha256": "40261a1a1136f6af74569967812eb2e1658fab004bfeb1dc247393122237154d",
+      "modified": false
+    },
+    {
+      "path": "hktex/density_controllers/error_densification.py",
+      "original_sha256": "dde95c2e8a67424a49b9f5f2b4a98eccdce92892c823e054bf33753e9236063c",
+      "sha256": "dde95c2e8a67424a49b9f5f2b4a98eccdce92892c823e054bf33753e9236063c",
+      "modified": false
+    },
+    {
+      "path": "hktex/density_controllers/importance_pruning.py",
+      "original_sha256": "dce603d58de17efddaddc6b12a80be2a17ac2e4cfc7c8b21df4d22a572becbb9",
+      "sha256": "dce603d58de17efddaddc6b12a80be2a17ac2e4cfc7c8b21df4d22a572becbb9",
+      "modified": false
+    },
+    {
+      "path": "hktex/density_controllers/utils.py",
+      "original_sha256": "5249ce3438447584b50a60352d120fcedee7feacb387fc61be9205874a8f0d41",
+      "sha256": "5249ce3438447584b50a60352d120fcedee7feacb387fc61be9205874a8f0d41",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/__init__.py",
+      "original_sha256": "5276fbb391f51e14e7d909f779bfdcee497ed955ab4a65b5975801ff9adeb075",
+      "sha256": "5276fbb391f51e14e7d909f779bfdcee497ed955ab4a65b5975801ff9adeb075",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/__init__.py",
+      "original_sha256": "56af31d0b502bcc5ac5e6faa7297d523be13b1bcbea8225b264544dd81c6fa57",
+      "sha256": "56af31d0b502bcc5ac5e6faa7297d523be13b1bcbea8225b264544dd81c6fa57",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/_ops/__init__.py",
+      "original_sha256": "b7978d1d80de8bb3a11fe3f27dc6b96164083c3b4cf4404caf1f7cc7a44e7e46",
+      "sha256": "b7978d1d80de8bb3a11fe3f27dc6b96164083c3b4cf4404caf1f7cc7a44e7e46",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/_ops/distance.py",
+      "original_sha256": "38c85b527111935fe57db8c83db66bbab5b6744c82cc237a19360afd7fde67bb",
+      "sha256": "38c85b527111935fe57db8c83db66bbab5b6744c82cc237a19360afd7fde67bb",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/_ops/gather.py",
+      "original_sha256": "d2608096ee6830a0b7c551804f6cd9c56dc542224e4257a5037632cd2d65a786",
+      "sha256": "d2608096ee6830a0b7c551804f6cd9c56dc542224e4257a5037632cd2d65a786",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/_ops/grid_select.py",
+      "original_sha256": "a082a57b9f38005b453599cac7904d165beb07b4a15b77b9c9ca6da594c39419",
+      "sha256": "a082a57b9f38005b453599cac7904d165beb07b4a15b77b9c9ca6da594c39419",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/_ops/heat.py",
+      "original_sha256": "38a8d420491e5666de76146f818db859222d7a2f6bba61aa5285b2010109d196",
+      "sha256": "38a8d420491e5666de76146f818db859222d7a2f6bba61aa5285b2010109d196",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/_ops/weights.py",
+      "original_sha256": "37d8a1773d2a04731e68a4b161b812ef95721a738154be3e8a924c55769b199b",
+      "sha256": "37d8a1773d2a04731e68a4b161b812ef95721a738154be3e8a924c55769b199b",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/config.py",
+      "original_sha256": "e6695c5a18bac096e40996fdbd909866b78999a52d9b946a2ebea35eb31cc128",
+      "sha256": "e6695c5a18bac096e40996fdbd909866b78999a52d9b946a2ebea35eb31cc128",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/faiss_knn.py",
+      "original_sha256": "34189b641effa18ae8548ded15a0b274c10102d8fda4cfbb32e72ded963b2070",
+      "sha256": "34189b641effa18ae8548ded15a0b274c10102d8fda4cfbb32e72ded963b2070",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/knn_gather.py",
+      "original_sha256": "4ed0211408f6480a211c4846ce742ddcd0615e77b7a3d2ac45d28d2f920245b7",
+      "sha256": "4ed0211408f6480a211c4846ce742ddcd0615e77b7a3d2ac45d28d2f920245b7",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/knn_heat.py",
+      "original_sha256": "260ede151ef387ab8a891f68a7de17994265ba841581c880ad8e6bb7eb0eb430",
+      "sha256": "260ede151ef387ab8a891f68a7de17994265ba841581c880ad8e6bb7eb0eb430",
+      "modified": false
+    },
+    {
+      "path": "hktex/knn_heat/knn_heat/post_weights.py",
+      "original_sha256": "9f256f63a42cff69e3fe45531a5695b8d37e9a0ad999c5c47730a85f9e153f3b",
+      "sha256": "9f256f63a42cff69e3fe45531a5695b8d37e9a0ad999c5c47730a85f9e153f3b",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/__init__.py",
+      "original_sha256": "82b7e523ed7ead1153726488126275186923482a1f06ad36fe249db3ba2a229b",
+      "sha256": "82b7e523ed7ead1153726488126275186923482a1f06ad36fe249db3ba2a229b",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/base.py",
+      "original_sha256": "8b47c85b7e82be4d9c1fef2716569997f066747de38dd2b3a37588e8cadf6970",
+      "sha256": "8b47c85b7e82be4d9c1fef2716569997f066747de38dd2b3a37588e8cadf6970",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/eigen_albo.py",
+      "original_sha256": "2a55b4d6d18c6d4b740f081e8f29c0e20c6242755158e54ef62a76c1e3a6493d",
+      "sha256": "2a55b4d6d18c6d4b740f081e8f29c0e20c6242755158e54ef62a76c1e3a6493d",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/eigen_albo_knn.py",
+      "original_sha256": "7ef44c2b01ffee7c30f22dfeb1bd114071235ca36849c9cf36fad223e47058a5",
+      "sha256": "7ef44c2b01ffee7c30f22dfeb1bd114071235ca36849c9cf36fad223e47058a5",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/geodesic_opt.py",
+      "original_sha256": "3343b3488238756ad1e087950ff3531fd9f5bf03371f9821269a5430348a7f30",
+      "sha256": "3343b3488238756ad1e087950ff3531fd9f5bf03371f9821269a5430348a7f30",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/heat_kernel_density_knn.py",
+      "original_sha256": "ca20e321618c32c3e36183114f200acd803afd775900e08f6fbf2771f21ccd1c",
+      "sha256": "ca20e321618c32c3e36183114f200acd803afd775900e08f6fbf2771f21ccd1c",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/heat_kernel_model.py",
+      "original_sha256": "403ee784fd5caa52c99b2439faa2f6f9573c56365cc2f42a293758494f900c4f",
+      "sha256": "403ee784fd5caa52c99b2439faa2f6f9573c56365cc2f42a293758494f900c4f",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/heat_kernel_model_knn.py",
+      "original_sha256": "04d998f0662fc23d6adecd7dafe984a46682f8dce34fbf0de953dba9628087a5",
+      "sha256": "04d998f0662fc23d6adecd7dafe984a46682f8dce34fbf0de953dba9628087a5",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/heat_kernel_texture.py",
+      "original_sha256": "edf8b87099d4e63e8b836773a14a4997e443a07c1ecdcc47cf7bf6356b7de8d7",
+      "sha256": "edf8b87099d4e63e8b836773a14a4997e443a07c1ecdcc47cf7bf6356b7de8d7",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/heat_kernel_texture_knn.py",
+      "original_sha256": "209e9ca95547622f33ef527a302eea85c8aa512645e86c164b8bcf04e7b34783",
+      "sha256": "209e9ca95547622f33ef527a302eea85c8aa512645e86c164b8bcf04e7b34783",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/mesh.py",
+      "original_sha256": "8b285c59342b71a816e802a5a389902a5aa80dbb6ffd9134ae86a49193af0145",
+      "sha256": "8b285c59342b71a816e802a5a389902a5aa80dbb6ffd9134ae86a49193af0145",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/mlp_net.py",
+      "original_sha256": "c5d9d7b408016a9d1b371658f833a36df1da428ef39b2733813abe6322a5a870",
+      "sha256": "c5d9d7b408016a9d1b371658f833a36df1da428ef39b2733813abe6322a5a870",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/pcl_model.py",
+      "original_sha256": "e56a62d6202fd994ada151187b6a7b0ff9bced970a833fc8fc83cb8fe7f9c068",
+      "sha256": "e56a62d6202fd994ada151187b6a7b0ff9bced970a833fc8fc83cb8fe7f9c068",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/pcl_texture.py",
+      "original_sha256": "7c0fd89e31427d72452b12abb0cd40ee3657d7745a9f879f5e716940ab46b27c",
+      "sha256": "7c0fd89e31427d72452b12abb0cd40ee3657d7745a9f879f5e716940ab46b27c",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/tracer.py",
+      "original_sha256": "a0f4ba42737501ae21aba66df352bc8b179dd2e531fad148785bf3cae01e1950",
+      "sha256": "a0f4ba42737501ae21aba66df352bc8b179dd2e531fad148785bf3cae01e1950",
+      "modified": false
+    },
+    {
+      "path": "hktex/modules/utils.py",
+      "original_sha256": "15b1e668da9bb97f9346790e72dee9ad2ebdff4df59bd17bebd50720da6e0ea4",
+      "sha256": "15b1e668da9bb97f9346790e72dee9ad2ebdff4df59bd17bebd50720da6e0ea4",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/__init__.py",
+      "original_sha256": "dae19e5cac79970d8fa8a7e0cd335b54c6cc4756d2aa35945edaf4ee5a9d1c99",
+      "sha256": "dae19e5cac79970d8fa8a7e0cd335b54c6cc4756d2aa35945edaf4ee5a9d1c99",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/base.py",
+      "original_sha256": "a4b400a5e5f2f36e58a80123cac2b2ad7926799b628318d43e989440ff417638",
+      "sha256": "a4b400a5e5f2f36e58a80123cac2b2ad7926799b628318d43e989440ff417638",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/diffhk_renderer.py",
+      "original_sha256": "0ee0442ead6199857cbe76889a9e6d90d059cbed14cd3df5e2c98bc1b00fc0f9",
+      "sha256": "0ee0442ead6199857cbe76889a9e6d90d059cbed14cd3df5e2c98bc1b00fc0f9",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/heat_kernels_density_renderer_knn.py",
+      "original_sha256": "afc831c0e04c08f6bfe17399e267b09ed7d2f9cc632660b4ec9a4cacb8883108",
+      "sha256": "afc831c0e04c08f6bfe17399e267b09ed7d2f9cc632660b4ec9a4cacb8883108",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/heat_kernels_renderer.py",
+      "original_sha256": "40f2f8da188c9c8e7f6c8331560cb6e4241302195bbda7c6aa35cf83d6e818d0",
+      "sha256": "40f2f8da188c9c8e7f6c8331560cb6e4241302195bbda7c6aa35cf83d6e818d0",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/heat_kernels_renderer_knn.py",
+      "original_sha256": "fb3313a61b260cdbe862985b97afd2e263a87b1c443daf4e7133cfb66c4a03ec",
+      "sha256": "fb3313a61b260cdbe862985b97afd2e263a87b1c443daf4e7133cfb66c4a03ec",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/ray_integrator.py",
+      "original_sha256": "d374466a71748b119330163462ec9910977601ddeee90c43057ce1779f420ec9",
+      "sha256": "d374466a71748b119330163462ec9910977601ddeee90c43057ce1779f420ec9",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/ray_renderer.py",
+      "original_sha256": "87523cdce74fefeb5652fabc31a6a47f99bdfe2ac3cd332979f1374dbbddef32",
+      "sha256": "87523cdce74fefeb5652fabc31a6a47f99bdfe2ac3cd332979f1374dbbddef32",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/torch_envmap.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/torch_texture_renderer.py",
+      "original_sha256": "04f5f99e5943c6526024debb44e24e195bb52b96273f4a7e8b38ad963006b364",
+      "sha256": "04f5f99e5943c6526024debb44e24e195bb52b96273f4a7e8b38ad963006b364",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/util.py",
+      "original_sha256": "8bd43768ee3fa1525c1fa2f914edc3eed3d3fe86471bc4b01e8863cb0f308492",
+      "sha256": "8bd43768ee3fa1525c1fa2f914edc3eed3d3fe86471bc4b01e8863cb0f308492",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/uv_texture_renderer.py",
+      "original_sha256": "6df9a51dd39495abb5bf5a95aade6db0d4a83836cc82977d27650b96806bd6bc",
+      "sha256": "6df9a51dd39495abb5bf5a95aade6db0d4a83836cc82977d27650b96806bd6bc",
+      "modified": false
+    },
+    {
+      "path": "hktex/rendering/vertex_colours_renderer.py",
+      "original_sha256": "e65273bca9417fb888fc452e57fce736cead4f09212554f5b367126abae5f37c",
+      "sha256": "e65273bca9417fb888fc452e57fce736cead4f09212554f5b367126abae5f37c",
+      "modified": false
+    },
+    {
+      "path": "hktex/trainers/__init__.py",
+      "original_sha256": "2a1bb3be3bf0101b0705b15c1107f8cf9b7369c5cc3e61cfe4f3fab7425cba9b",
+      "sha256": "2a1bb3be3bf0101b0705b15c1107f8cf9b7369c5cc3e61cfe4f3fab7425cba9b",
+      "modified": false
+    },
+    {
+      "path": "hktex/trainers/base.py",
+      "original_sha256": "56e1bcd2d73d2c0632e6d229f055edd483a6c566a05d3c24e808dcc8ceb85fcc",
+      "sha256": "56e1bcd2d73d2c0632e6d229f055edd483a6c566a05d3c24e808dcc8ceb85fcc",
+      "modified": false
+    },
+    {
+      "path": "hktex/trainers/mitsuba_ray_trainer.py",
+      "original_sha256": "dc57717e1382bc107af9968a0c5b0ee7d9cd65caa244b0efb26a8a23b1e664c7",
+      "sha256": "dc57717e1382bc107af9968a0c5b0ee7d9cd65caa244b0efb26a8a23b1e664c7",
+      "modified": false
+    },
+    {
+      "path": "hktex/trainers/mitsuba_trainer.py",
+      "original_sha256": "b16eeb4e5e7da3e240e8cf7c1441d55c91c2b26eb3839862c6529bc295e550ad",
+      "sha256": "b16eeb4e5e7da3e240e8cf7c1441d55c91c2b26eb3839862c6529bc295e550ad",
+      "modified": false
+    },
+    {
+      "path": "hktex/trainers/stat_heat_kernels.py",
+      "original_sha256": "71f8759f7abd3343c6d6ef2fd3cfd33a4f5a33c91603b9fb237f01d4ae90b021",
+      "sha256": "71f8759f7abd3343c6d6ef2fd3cfd33a4f5a33c91603b9fb237f01d4ae90b021",
+      "modified": false
+    },
+    {
+      "path": "hktex/trainers/utils.py",
+      "original_sha256": "892ba45e7a430f47ce95f7a2f6dd5e48bd56452ad19247a9bf9af61ac8d6f4a6",
+      "sha256": "892ba45e7a430f47ce95f7a2f6dd5e48bd56452ad19247a9bf9af61ac8d6f4a6",
+      "modified": false
+    },
+    {
+      "path": "hktex/trainers/uv_texture.py",
+      "original_sha256": "88824b17e6a79396dd604d50283a4e143e9dc15241b2ae5af1de7d1dcf2f0199",
+      "sha256": "88824b17e6a79396dd604d50283a4e143e9dc15241b2ae5af1de7d1dcf2f0199",
+      "modified": false
+    },
+    {
+      "path": "hktex/trainers/uv_texture_pcl.py",
+      "original_sha256": "3e9456525b8bf66a8520c9b06c72fce6ff3a19a428b5c83b5f914badd36cce6a",
+      "sha256": "3e9456525b8bf66a8520c9b06c72fce6ff3a19a428b5c83b5f914badd36cce6a",
+      "modified": false
+    },
+    {
+      "path": "hktex/trainers/vertex_colours.py",
+      "original_sha256": "33e0ae2aac485ebd1f9b8280844ab1e9b65be595ae26f62054e5e5ef55ca9f79",
+      "sha256": "33e0ae2aac485ebd1f9b8280844ab1e9b65be595ae26f62054e5e5ef55ca9f79",
+      "modified": false
+    },
+    {
+      "path": "hktex/trainers/vertex_ray_trainer.py",
+      "original_sha256": "53af21fc962429457274be74fee89cfbf13f2f2df4e596d6eb8afb43d71f3ed5",
+      "sha256": "53af21fc962429457274be74fee89cfbf13f2f2df4e596d6eb8afb43d71f3ed5",
+      "modified": false
+    },
+    {
+      "path": "hktex/triton/__init__.py",
+      "original_sha256": "15efccacf9051b19985120030bf86e51be2b8976cf9b79f9164320ca72c74e14",
+      "sha256": "15efccacf9051b19985120030bf86e51be2b8976cf9b79f9164320ca72c74e14",
+      "modified": false
+    },
+    {
+      "path": "hktex/triton/distances.py",
+      "original_sha256": "07c8a6f1de5b2a05fbf63eff0209d722d6c60c24026d11b34c32e203ff0dd996",
+      "sha256": "07c8a6f1de5b2a05fbf63eff0209d722d6c60c24026d11b34c32e203ff0dd996",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/__init__.py",
+      "original_sha256": "2c11bf452231769ca3a2074698e2ac5c2d39833ad2f2c5cd259dde0654bb3d88",
+      "sha256": "2c11bf452231769ca3a2074698e2ac5c2d39833ad2f2c5cd259dde0654bb3d88",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/base.py",
+      "original_sha256": "6f91723a844ec4643ca31aefa2569022c2510bca866f36a99dc18ef50ec6dd7f",
+      "sha256": "6f91723a844ec4643ca31aefa2569022c2510bca866f36a99dc18ef50ec6dd7f",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/callback.py",
+      "original_sha256": "da500e2e7aeeee76c93c1a434697ec02c9fe834d50d6090b40f4876349dffac4",
+      "sha256": "da500e2e7aeeee76c93c1a434697ec02c9fe834d50d6090b40f4876349dffac4",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/cart_bary.py",
+      "original_sha256": "2e300454c4b880e046928f2ba69710e7e35424c2881e1eb3f5c04b303dc8b69b",
+      "sha256": "2e300454c4b880e046928f2ba69710e7e35424c2881e1eb3f5c04b303dc8b69b",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/color.py",
+      "original_sha256": "538a86f0d3e075fe21aaba2acc1e965b7bcdfa0fff4a31507a02dd8ea6b0c767",
+      "sha256": "538a86f0d3e075fe21aaba2acc1e965b7bcdfa0fff4a31507a02dd8ea6b0c767",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/config.py",
+      "original_sha256": "940aa02c19c4741c9fa36c691d164a9fe1d99742e9ce544d1070b0f26828d6d1",
+      "sha256": "940aa02c19c4741c9fa36c691d164a9fe1d99742e9ce544d1070b0f26828d6d1",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/diffusion.py",
+      "original_sha256": "cb015f464ebcf63286973c5af1406787c133d6183c1922259e20ab8d81db298c",
+      "sha256": "cb015f464ebcf63286973c5af1406787c133d6183c1922259e20ab8d81db298c",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/distances.py",
+      "original_sha256": "97f025eda045db3b08d7328cf5e2b3a090358336c759f1b4f0752f5ada3079a2",
+      "sha256": "97f025eda045db3b08d7328cf5e2b3a090358336c759f1b4f0752f5ada3079a2",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/geodesics.py",
+      "original_sha256": "ff655cba8ee64e219de300d4f691ba8881a2fe1a3b36ebec26af79a95438d5a9",
+      "sha256": "cc6bc9b10c86b70cb98391d0452cb029d07d36d303017166dfefe792a07b073d",
+      "modified": true
+    },
+    {
+      "path": "hktex/utils/image.py",
+      "original_sha256": "760cd77f8e5d0eb958cb2aff671dcb191a38375a10930ebad00e9337cc28d7c3",
+      "sha256": "760cd77f8e5d0eb958cb2aff671dcb191a38375a10930ebad00e9337cc28d7c3",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/lbo.py",
+      "original_sha256": "62a5bde329299e66c5cb2fdb34e29d35674cf9432c81ace4616b036e109121bf",
+      "sha256": "62a5bde329299e66c5cb2fdb34e29d35674cf9432c81ace4616b036e109121bf",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/local_reference_frames.py",
+      "original_sha256": "00c62202373b227a557138bd3de9a82aba8484975ba6884c49249f2839397ed1",
+      "sha256": "00c62202373b227a557138bd3de9a82aba8484975ba6884c49249f2839397ed1",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/mesh.py",
+      "original_sha256": "d70489a6b8ba647df723cfbca9ba7fe7ab7b28cc8b932633ff8d2c369c49ca59",
+      "sha256": "d70489a6b8ba647df723cfbca9ba7fe7ab7b28cc8b932633ff8d2c369c49ca59",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/metrics.py",
+      "original_sha256": "016c0e4e9bc9de67a5d4f925e947f1d146adf8775fbb0a2721c2c38504efa919",
+      "sha256": "016c0e4e9bc9de67a5d4f925e947f1d146adf8775fbb0a2721c2c38504efa919",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/misc.py",
+      "original_sha256": "71a6a00aac83a89d97df61aba180afb6490be33a1acbd890c77665f4b18c1218",
+      "sha256": "71a6a00aac83a89d97df61aba180afb6490be33a1acbd890c77665f4b18c1218",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/mitsuba.py",
+      "original_sha256": "5263cd6063f3dd863510211fbf3e5e94e3cbe2813a4ccf65ed53aa41a6dab4b0",
+      "sha256": "5263cd6063f3dd863510211fbf3e5e94e3cbe2813a4ccf65ed53aa41a6dab4b0",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/pcl_losses.py",
+      "original_sha256": "b15dee1a1cb2f892732cc814189f2449d544ba9e512ea288483996e1a30bee33",
+      "sha256": "b15dee1a1cb2f892732cc814189f2449d544ba9e512ea288483996e1a30bee33",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/repr_patches.py",
+      "original_sha256": "70f9e21f2fce17a62ae6f84bc1c9c2d31995ea0b4a71dbc8ed799e53bce310c7",
+      "sha256": "70f9e21f2fce17a62ae6f84bc1c9c2d31995ea0b4a71dbc8ed799e53bce310c7",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/sampling.py",
+      "original_sha256": "e1858198860495bc3f6adbac4afe46cf361a561e8593d600f23fa05f98cf763c",
+      "sha256": "e1858198860495bc3f6adbac4afe46cf361a561e8593d600f23fa05f98cf763c",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/typing.py",
+      "original_sha256": "3fa4b9db140907632caf34ccec889a5c31da55e46f1a8b423cdf654570fd317c",
+      "sha256": "3fa4b9db140907632caf34ccec889a5c31da55e46f1a8b423cdf654570fd317c",
+      "modified": false
+    },
+    {
+      "path": "hktex/utils/video.py",
+      "original_sha256": "ff885057c29c6b35723c574936525a2f511116849829661d15ad3ab6389908b3",
+      "sha256": "ff885057c29c6b35723c574936525a2f511116849829661d15ad3ab6389908b3",
+      "modified": false
+    },
+    {
+      "path": "optimisation.py",
+      "original_sha256": "143d62e46b45159e197c28aef7038e3502c18f6eb60c300ec6d20135c31dd405",
+      "sha256": "143d62e46b45159e197c28aef7038e3502c18f6eb60c300ec6d20135c31dd405",
+      "modified": false
+    },
+    {
+      "path": "configs/texture_hktex_knn.yaml",
+      "original_sha256": "828ee3bfba21024481356630c32e72464a55e2a9063234bc557676da79f54ff0",
+      "sha256": "828ee3bfba21024481356630c32e72464a55e2a9063234bc557676da79f54ff0",
+      "modified": false
+    },
+    {
+      "path": "configs/render.yaml",
+      "original_sha256": "d3ba2d70a9ef8ce0229ac20767eaa24c95b00fda29a2b3417b14217c0832dbbe",
+      "sha256": "d3ba2d70a9ef8ce0229ac20767eaa24c95b00fda29a2b3417b14217c0832dbbe",
+      "modified": false
+    },
+    {
+      "path": "LICENSE",
+      "original_sha256": "c5520a1edf37b2c3240258612a505f060d53ea009572e156a0d191ec3c4c36c6",
+      "sha256": "93b5cf3e8efb15aded531238698a781b02b58ced368a814438397411d4b23623",
+      "modified": true
+    },
+    {
+      "path": "research/round8/train_teacher.py",
+      "original_sha256": "6134c0c3ac1d61d3bd2b1ca751620b0c08d8b8060795bea3fe65cdb919d48649",
+      "sha256": "6134c0c3ac1d61d3bd2b1ca751620b0c08d8b8060795bea3fe65cdb919d48649",
+      "modified": false
+    },
+    {
+      "path": "research/round17/training/train.py",
+      "original_sha256": "d37d5a2cee438d963834fad9b09268d4c313b179d621720747c63a3c7acef44e",
+      "sha256": "01dc91abe552623853261bc8a4ddf16a13f3e3d5925ee368e1df08c673bfb3f3",
+      "modified": true,
+      "note": "Removed unused legacy output-directory-name /capacity/ intervention; public output paths cannot change the training recipe. Standard expansion recipe unchanged."
+    },
+    {
+      "path": "research/round17/training/cache.py",
+      "original_sha256": "03b4a6efbdf36c672fb9a1d44547577eb283ce4d33872d9d249834ec8d3287f7",
+      "sha256": "03b4a6efbdf36c672fb9a1d44547577eb283ce4d33872d9d249834ec8d3287f7",
+      "modified": false
+    },
+    {
+      "path": "research/round22/train_nativefix.py",
+      "original_sha256": "0a2245e62ab56e146cb07d47cd65a2dc636077f397ad956f5840a83f7956a22b",
+      "sha256": "0a2245e62ab56e146cb07d47cd65a2dc636077f397ad956f5840a83f7956a22b",
+      "modified": false
+    },
+    {
+      "path": "research/round22/nativefix.py",
+      "original_sha256": "ade75a36f6109ed7dd32de5224e53595d71eff79f87d29e12cfa9fefc231d6e5",
+      "sha256": "ade75a36f6109ed7dd32de5224e53595d71eff79f87d29e12cfa9fefc231d6e5",
+      "modified": false
+    },
+    {
+      "path": "research/round22/gen_hooks.py",
+      "original_sha256": "d679670da84252370f56d546b3689d031dfb165f50b2a7984da2414bf98e6b3d",
+      "sha256": "5341776adf9af8814c7673914d64716b413c915fb1dab938ce106b15942d4333",
+      "modified": true
+    },
+    {
+      "path": "research/round22/calib_cache.py",
+      "original_sha256": "62cfcfdef15e198fa1151d554d1e8c3a4330f1e60a7caeef63de448f8d6bcf7e",
+      "sha256": "22238cc6a2962a6fc7bc6b02ee33e924d276a57e0de1756ad3dd007fec218970",
+      "modified": true
+    },
+    {
+      "path": "research/round22/coalesce.py",
+      "original_sha256": "ead4a1177ee56e6410746f9b9a72314163b589ca155a317694e948aefa28598b",
+      "sha256": "ead4a1177ee56e6410746f9b9a72314163b589ca155a317694e948aefa28598b",
+      "modified": false
+    },
+    {
+      "path": "research/round22/refit_rebuilt_support.py",
+      "original_sha256": "37ed470c7258fa91af49cce2d4a4422224989181befe6098ab5a5c58c7beb160",
+      "sha256": "37ed470c7258fa91af49cce2d4a4422224989181befe6098ab5a5c58c7beb160",
+      "modified": false
+    },
+    {
+      "path": "research/round22/evaluate_variants.py",
+      "original_sha256": "579b9eed3256af9b90fcd68715514bbb13ab2effca9987a109bab6a18ea9ae25",
+      "sha256": "579b9eed3256af9b90fcd68715514bbb13ab2effca9987a109bab6a18ea9ae25",
+      "modified": false
+    },
+    {
+      "path": "research/local_baselines/shared_evaluator.py",
+      "original_sha256": "9561919b9db134cc57293b8732e3764dab46c71081478c4284f7858c1cf26a70",
+      "sha256": "9561919b9db134cc57293b8732e3764dab46c71081478c4284f7858c1cf26a70",
+      "modified": false
+    },
+    {
+      "path": "research/local_baselines/score_images.py",
+      "original_sha256": "4e9380a4e69409f21c5c38bf162ec6f77e70ef31dab41a0110b4261c1915e828",
+      "sha256": "4e9380a4e69409f21c5c38bf162ec6f77e70ef31dab41a0110b4261c1915e828",
+      "modified": false
+    },
+    {
+      "path": "research/round28/prepare_queries.py",
+      "original_sha256": "49f9870236be049293043f5e0940031e9f5b60049b4c4aef71ddaca282a9d139",
+      "sha256": "49f9870236be049293043f5e0940031e9f5b60049b4c4aef71ddaca282a9d139",
+      "modified": false
+    },
+    {
+      "path": "research/round17/mini_codec.py",
+      "original_sha256": "1d355be0e1d83ae508125c6c229d09e1a4fba6a3acb209114c9973d20c0eb2b1",
+      "sha256": "1d355be0e1d83ae508125c6c229d09e1a4fba6a3acb209114c9973d20c0eb2b1",
+      "modified": false
+    },
+    {
+      "path": "research/round17/geometry_codec.py",
+      "original_sha256": "82410554f96fb857f1a61da9a76ec01390e3a52d548e205602899a1856061771",
+      "sha256": "82410554f96fb857f1a61da9a76ec01390e3a52d548e205602899a1856061771",
+      "modified": false
+    },
+    {
+      "path": "research/round21/joint_codec.py",
+      "original_sha256": "69221dc8347f93b8cd0e7d02a398d3b02d050f4c2241a7b7b050f6fcf84b0a00",
+      "sha256": "69221dc8347f93b8cd0e7d02a398d3b02d050f4c2241a7b7b050f6fcf84b0a00",
+      "modified": false
+    },
+    {
+      "path": "native/geodesic_boundary_diag.cu",
+      "original_source": "research/round15/geometry_diagnostic/boundary_check/patched.cu",
+      "sha256": "b7396c6cd68c6169181c3adcfe35444f648c8dced107a2aa9ee11bc36b1bdbf5",
+      "modified": false
+    },
+    {
+      "path": "native/LICENSE",
+      "original_source": "research/round15/geometry_diagnostic/boundary_check/Digeo_LICENSE",
+      "sha256": "2aeeb47d319700bd6a83d74e3755dcc405a79a8461c81a0a691e4932837cdf3f",
+      "modified": false
+    },
+    {
+      "path": "tests/theory_contracts.py",
+      "original_source": "research/round24/test_theory_contracts.py",
+      "sha256": "b354acc527343827886495139b5df8fed150895f6bbe996aaf65b73bd1a2e6c4",
+      "modified": true,
+      "original_sha256": "98a46c4f81d483329aeed44c69480f6cedceb82238cdbb8a473542e0b28e8c1b",
+      "note": "Docstring explicitly scopes projection identities to unconstrained least squares; numerical checks unchanged."
+    },
+    {
+      "path": "tools/convert_gso.py",
+      "original_source": "research/round28/gso/convert.py",
+      "sha256": "3bad9e70ff49d45cc9bf0958e536f8a85bc835126132cd7593ffb04eae1bcacf",
+      "modified": false
+    },
+    {
+      "path": "docs/confirmation_protocol.md",
+      "original_source": "research/round28/PROTOCOL.md",
+      "sha256": "5b8f54899794748fca89901e9fcc14aa4a2289a329d381abc8c09ab544dfdf39",
+      "modified": false
+    },
+    {
+      "path": "docs/control_protocol.md",
+      "original_source": "research/round28/SECONDARY_PROTOCOL.md",
+      "sha256": "46ef9baaf177840b27fb75a952cba885b19d816d401f8189a5459d5ed82d8791",
+      "modified": false
+    },
+    {
+      "path": "docs/external_data_protocol.md",
+      "original_source": "research/round28/gso/PROTOCOL.md",
+      "sha256": "0139df9353ac84ffdf31268aa88bb8bba5c1a5859c4ab083208a99bccdf23142",
+      "modified": false
+    },
+    {
+      "path": "docs/numerical_diagnostic_protocol.md",
+      "original_source": "research/round29/PROTOCOL.md",
+      "sha256": "101b3ea7db0e136910edb7ef727e76e06f7cd94e1c2d5e0cdccb7e813682af17",
+      "modified": false
+    },
+    {
+      "path": "docs/precision_contract.md",
+      "original_source": "research/round28/PREEXECUTION_NOTES.md",
+      "sha256": "4f8e4a9b80497da14aa18d2397d3678a155871e6dfe7c970a54efc0ce9461129",
+      "modified": false
+    },
+    {
+      "path": "research/round28/uv_support.py",
+      "sha256": "ebb47a1bbb7c6b113d662d8a10b27b4a36a58ea81ede043803c469e3d6a331c4",
+      "extracted_from": [
+        {
+          "path": "research/round23/common.py",
+          "sha256": "7ed25a577bfba323f167ce37f2725ba2be428601adcfd2073849ad0ad4e81b7c",
+          "functions": [
+            "setup",
+            "texture_image",
+            "uv_at",
+            "save",
+            "sha"
+          ]
+        },
+        {
+          "path": "research/round23/native_hybrid.py",
+          "sha256": "1a80db296678af4ca3512931a0c6c2e222cf54083ea45f4a3c6dbfda440d8402",
+          "functions": [
+            "native_bitmap",
+            "sample_native"
+          ]
+        }
+      ],
+      "modified": true
+    },
+    {
+      "path": "research/round28/uv_reference.py",
+      "original_sha256": "b77b4446063ed7d0e452714b4febd94311f980b16f7cfbb80f7658d33ab8ca6c",
+      "sha256": "c9fafbe8e7e3f43747894eb697eb914d7713543346114f7ce442173b51057477",
+      "modified": true,
+      "note": "Only helper imports relocated; helper bodies extracted verbatim."
+    },
+    {
+      "path": "tools/write_paper_results.py",
+      "original_source": "research/round30/write_paper_results.py",
+      "original_sha256": "0eedb751ece8b0639e08166fa106f900f247d7dfd6a0ad810c64e9a979f313d8",
+      "sha256": "1c0d32cfc1275d96a45b9c0f6921ba3750f45d3252f7d3cbeaeaa1c3fccc7531",
+      "modified": true,
+      "note": "Explicit evidence/diagnostic/output arguments; preview gate; outputs confined to selected output directory. Study-specific explanatory prose remains as in the manuscript writer."
+    },
+    {
+      "path": "research/round31/scale_control.py",
+      "original_sha256": "08b84e3546b233933c60dd5790d389ea72141d30501518c3dcbab0b35cdc26fc",
+      "sha256": "08b84e3546b233933c60dd5790d389ea72141d30501518c3dcbab0b35cdc26fc",
+      "modified": false
+    },
+    {
+      "path": "research/round35_warmup/warmup_control.py",
+      "original_sha256": "26f550b6ba7671066417eac778877e5aed86d31522b855f1712264467a097483",
+      "sha256": "26f550b6ba7671066417eac778877e5aed86d31522b855f1712264467a097483",
+      "modified": false
+    },
+    {
+      "path": "research/round35_warmup/check_warmup.py",
+      "original_sha256": "8c9091839c77ee879cfdbeda1aa1f57a4696d5b686bd6c5f98c984d84a356d49",
+      "sha256": "8c9091839c77ee879cfdbeda1aa1f57a4696d5b686bd6c5f98c984d84a356d49",
+      "modified": false
+    },
+    {
+      "path": "research/round35_warmup/recompute_public.py",
+      "original_sha256": "5f2a629ac302e8e81a36c79fd24dc63113314e751318561ee2e52ee77268092a",
+      "sha256": "5f2a629ac302e8e81a36c79fd24dc63113314e751318561ee2e52ee77268092a",
+      "modified": false
+    },
+    {
+      "path": "research/round35_warmup/PROTOCOL.md",
+      "original_sha256": "072f8bfa37984953d21568fc4d09c13349141e5ebef40bfa85e916ba45f77704",
+      "sha256": "072f8bfa37984953d21568fc4d09c13349141e5ebef40bfa85e916ba45f77704",
+      "modified": false
+    },
+    {
+      "path": "research/round35/analyze.py",
+      "original_source": "research/round35/analyze.py",
+      "original_sha256": "c1dbb8cab2dc0e9c868092d7da3041241d17aabd4ce9dedba688dbe937403f17",
+      "sha256": "c1dbb8cab2dc0e9c868092d7da3041241d17aabd4ce9dedba688dbe937403f17",
+      "modified": false
+    },
+    {
+      "path": "research/round35/write_paper.py",
+      "original_source": "research/round35/write_paper.py",
+      "original_sha256": "7fab950437bbd0d68bae1c0c9fe7318d5c1d2d699dfdd0de12854dfac041db61",
+      "sha256": "7fab950437bbd0d68bae1c0c9fe7318d5c1d2d699dfdd0de12854dfac041db61",
+      "modified": false
+    },
+    {
+      "path": "research/round35/PROTOCOL.md",
+      "original_source": "research/round35/PROTOCOL.md",
+      "original_sha256": "a192ff5128a34bd5b573cf190cc8dc065bf0f01e54433ead5217695efc5ddde4",
+      "sha256": "a192ff5128a34bd5b573cf190cc8dc065bf0f01e54433ead5217695efc5ddde4",
+      "modified": false
+    },
+    {
+      "path": "results/codec_controls.json",
+      "original_source": "research/round35/results.json",
+      "original_sha256": "c1354a724d2853799d6951ee843ebc51d1b8484058bf89a9c429dca7055970ee",
+      "sha256": "c1354a724d2853799d6951ee843ebc51d1b8484058bf89a9c429dca7055970ee",
+      "modified": false,
+      "note": "Full terminal evidence; only known repository path prefixes may be normalized. Numerical values and all records are unchanged."
+    },
+    {
+      "path": "research/round36/solvers.py",
+      "original_sha256": "83fa81ab7820f2eb4768f48d85760479d458e7a9258ca5f7104de9ca206c499d",
+      "sha256": "83fa81ab7820f2eb4768f48d85760479d458e7a9258ca5f7104de9ca206c499d",
+      "modified": false,
+      "scope": "Deployment pilot implementation; data-dependent GPU replay requires external prepared fields."
+    },
+    {
+      "path": "research/round36/fused_readout.py",
+      "original_sha256": "7f283aae5b2b63064fb8444dfea72f4c84b77144d42d9eda9437b28dfe18d0d6",
+      "sha256": "7f283aae5b2b63064fb8444dfea72f4c84b77144d42d9eda9437b28dfe18d0d6",
+      "modified": false,
+      "scope": "Deployment pilot implementation; data-dependent GPU replay requires external prepared fields."
+    },
+    {
+      "path": "research/round36/theory_checks.py",
+      "original_sha256": "5aa0fbe92ee4550fe9743687a4bdbaf82a6b82dc3da222016f7a7e9dc8841e27",
+      "sha256": "5aa0fbe92ee4550fe9743687a4bdbaf82a6b82dc3da222016f7a7e9dc8841e27",
+      "modified": false,
+      "scope": "Deployment pilot implementation; data-dependent GPU replay requires external prepared fields."
+    },
+    {
+      "path": "research/round37/streaming.py",
+      "original_sha256": "5424fbe36ec7c646e602cd65ee9f9e12f996eeb4a44ac65ef00951035bcf0da1",
+      "sha256": "5424fbe36ec7c646e602cd65ee9f9e12f996eeb4a44ac65ef00951035bcf0da1",
+      "modified": false,
+      "scope": "Deployment pilot implementation; data-dependent GPU replay requires external prepared fields."
+    },
+    {
+      "path": "research/round38/experiment.py",
+      "original_sha256": "ae817d65cac4c1b41149173d4a3d1d2b71227a1ba68ad59408ddbbb4286256c8",
+      "sha256": "ae817d65cac4c1b41149173d4a3d1d2b71227a1ba68ad59408ddbbb4286256c8",
+      "modified": false,
+      "scope": "Deployment pilot implementation; data-dependent GPU replay requires external prepared fields."
+    },
+    {
+      "path": "research/round42/check_support_bounds.py",
+      "original_sha256": "6c1def2cc6de67d783d9ed045ef52b3de0cd39683ccaf25df442819de45d721b",
+      "sha256": "6c1def2cc6de67d783d9ed045ef52b3de0cd39683ccaf25df442819de45d721b",
+      "modified": false,
+      "scope": "Deployment pilot implementation; data-dependent GPU replay requires external prepared fields."
+    },
+    {
+      "path": "results/deployment_followup.json",
+      "sha256": "59395199782850f488a957bec32d7547e9382b6b76af12d1c1faab73f9792fb5",
+      "modified": true,
+      "scope": "Raw result records joined by round; machine-local paths made relative or redacted. Numeric outcomes retained."
+    },
+    {
+      "path": "research/round44/selection.py",
+      "original_sha256": "ba0cddaef8681b74a61a276a135fe7f0f4d681e2b4a3c0c4554195656f83d08a",
+      "sha256": "ba0cddaef8681b74a61a276a135fe7f0f4d681e2b4a3c0c4554195656f83d08a",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "research/round44/policies.py",
+      "original_sha256": "619d6fab3dab8c0ed92d8e7a4702f113561dbc407691bcbea83b12ff7b8b71e8",
+      "sha256": "619d6fab3dab8c0ed92d8e7a4702f113561dbc407691bcbea83b12ff7b8b71e8",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "research/round44/experiment.py",
+      "original_sha256": "c6da8ead341ee13a128cd205448824cd058cae7140210c7c4a05acab26451d2e",
+      "sha256": "c6da8ead341ee13a128cd205448824cd058cae7140210c7c4a05acab26451d2e",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "research/round44/audit_failures.py",
+      "original_sha256": "a60088c22f021da65820e86c2c31e746f52851ef5b2cf6b262df94440879916a",
+      "sha256": "a60088c22f021da65820e86c2c31e746f52851ef5b2cf6b262df94440879916a",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "research/round44/PROTOCOL.md",
+      "original_sha256": "ef88fa64aa4dd1a08fad3ba02feb3ffd6e116a36a837d083f5f4f68208b85346",
+      "sha256": "ef88fa64aa4dd1a08fad3ba02feb3ffd6e116a36a837d083f5f4f68208b85346",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "research/round45/experiment.py",
+      "original_sha256": "89fe71c1863020db63aaed17d1d39d7f58acef104004f39730b6b0029c6a9122",
+      "sha256": "89fe71c1863020db63aaed17d1d39d7f58acef104004f39730b6b0029c6a9122",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "research/round45/effort_control.py",
+      "original_sha256": "c5fbb8b1bb52826951a9b8d586ea05c4636c7be82459f411a56517c7e10d8a5a",
+      "sha256": "c5fbb8b1bb52826951a9b8d586ea05c4636c7be82459f411a56517c7e10d8a5a",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "research/round45/PROTOCOL.md",
+      "original_sha256": "0b4353f43f9fbed664ba8ef7e3af8dd70f7dc4ae1d961d1d112add9aec40ea6c",
+      "sha256": "0b4353f43f9fbed664ba8ef7e3af8dd70f7dc4ae1d961d1d112add9aec40ea6c",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "research/round45/EFFORT_PROTOCOL.md",
+      "original_sha256": "c0da0513eac02ae9188f75d9821c8060ad255e1e7717fe8e5d9facbd00eeffec",
+      "sha256": "c0da0513eac02ae9188f75d9821c8060ad255e1e7717fe8e5d9facbd00eeffec",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "research/round34/refinement.py",
+      "original_sha256": "595ce1cefd272ab339b66d6e061474f5a46c16b08f8632ea6bab0d2e66270431",
+      "sha256": "595ce1cefd272ab339b66d6e061474f5a46c16b08f8632ea6bab0d2e66270431",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "research/round23/common.py",
+      "original_sha256": "7ed25a577bfba323f167ce37f2725ba2be428601adcfd2073849ad0ad4e81b7c",
+      "sha256": "7ed25a577bfba323f167ce37f2725ba2be428601adcfd2073849ad0ad4e81b7c",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "research/round23/native_hybrid.py",
+      "original_sha256": "1a80db296678af4ca3512931a0c6c2e222cf54083ea45f4a3c6dbfda440d8402",
+      "sha256": "1a80db296678af4ca3512931a0c6c2e222cf54083ea45f4a3c6dbfda440d8402",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "research/round23/hybrid_study.py",
+      "original_sha256": "2dae1b497edbeeea919bb8d870937adb6995be593597d8d92e53213fdfd32d9e",
+      "sha256": "2dae1b497edbeeea919bb8d870937adb6995be593597d8d92e53213fdfd32d9e",
+      "modified": false,
+      "scope": "Inspected deployment-policy/detail source snapshot; prepared fields and study inputs remain external. Complete historical orchestration is not bundled."
+    },
+    {
+      "path": "results/final_policies.json",
+      "sha256": "db6c221c936ad36d9b064edbb4739124d40dec069bf5ebb271ed38b344759eba",
+      "modified": true,
+      "scope": "Complete numeric records and post-outcome audit; local paths normalized."
+    },
+    {
+      "path": "results/final_followup/heat_features.json",
+      "original_sha256": "3fd9607515f8c96a3e7560d384f8949979302e9a419c1e9d63b58b1dd85d2086",
+      "sha256": "f6476776712879b57186765762fe880ffb4893a708cbcab65fc9b65fb66c13e6",
+      "modified": true
+    },
+    {
+      "path": "results/final_followup/confirmation.json",
+      "original_sha256": "7d625844a490e690df4987295931aa4c18e9d09375cb72f92f4c436f0919d719",
+      "sha256": "7d625844a490e690df4987295931aa4c18e9d09375cb72f92f4c436f0919d719",
+      "modified": false
+    },
+    {
+      "path": "results/final_followup/datasets.json",
+      "original_sha256": "3cad918f67060ff2bb93ecf6519cc4b1af5d98e3f95b91c17970a6e8237ea3f8",
+      "sha256": "3cad918f67060ff2bb93ecf6519cc4b1af5d98e3f95b91c17970a6e8237ea3f8",
+      "modified": false
+    },
+    {
+      "path": "results/final_followup/local.json",
+      "original_sha256": "8e483c345fd9b7ab069f74be25e24a45ca6a7413321e2a77780bf4ac0dd9d4c9",
+      "sha256": "8e483c345fd9b7ab069f74be25e24a45ca6a7413321e2a77780bf4ac0dd9d4c9",
+      "modified": false
+    },
+    {
+      "path": "results/final_followup/COMPLETED_COHORTS.json",
+      "original_sha256": "88f4f0edd4f57cd0e80290a1ee8c013135acd180c26030c93cdb0846a3660031",
+      "sha256": "2bc8e599fb09f5e2c462eefe742e7be47f6a5a3219e54b151d95057f1a92f6b1",
+      "modified": true
+    },
+    {
+      "path": "results/final_followup/REPLAY_RESULTS.json",
+      "original_sha256": "8bc84a98d3111108f60ca571ed13d72d7874fd4e77bb5c6cc2d7a197c328533e",
+      "sha256": "3d38108118fbc33bbe5850b41c93bcc03c23cf3fd2eae7a765f0669f32233121",
+      "modified": true
+    },
+    {
+      "path": "results/final_followup/UPSTREAM_AUDIT.json",
+      "original_sha256": "b0eac3f856e90ef0e1654c2defcfab42c31156b10dab75ac12b5514a506461e2",
+      "sha256": "cea0b5381b48dd49e338de063b9498310d42f649015cfd7b25c6940c393567f1",
+      "modified": true
+    },
+    {
+      "path": "results/final_followup/PORTABLE_CHECK.json",
+      "original_sha256": "e700ef8e7cdce0105550cff677c730c1b776962608e40ae4a588caeef75c5040",
+      "sha256": "2f50d4fba63e6033c838f521ebd20dc2a0fcfe4f0be56c20de7f3af312785db3",
+      "modified": true
+    },
+    {
+      "path": "results/final_followup/PORTABLE_CACHE_CHECK.json",
+      "original_sha256": "6b8a9f8301d1641cb47102b9468b0f1fe860c230700a0cd5f0a3c0f09da4b38e",
+      "sha256": "0ecb35169e4cf3be7ae16ea6e104b7c1aa46a8d3a45b1db88e598f84f08fb119",
+      "modified": true
+    },
+    {
+      "path": "results/final_followup/PLAN.json",
+      "original_sha256": "70f8d8b790993ced35bdfb44743e139e9fdaca9465df1fd2cda25cea9638004a",
+      "sha256": "613d8bae1979aaff51ba02baecda0821a8d60e104fb8e82ccc1668fa37f260a4",
+      "modified": true
+    },
+    {
+      "path": "results/final_followup/warm_attribution.json",
+      "original_sha256": "58ee323c234a6607c087216aed219427693e1ad1f1c77de378970d96136c8744",
+      "sha256": "3a83f5659ecdad0eddfc0c7217b581a9159d11f8350b496f093f86ebf44f4b0b",
+      "modified": true
+    },
+    {
+      "path": "results/final_followup/training_records.json",
+      "original_sha256": "c56e6a89a035bec924d1a952aa8b8ca03e52eb8bd897ab902a40ddbbe902f0d2",
+      "sha256": "c56e6a89a035bec924d1a952aa8b8ca03e52eb8bd897ab902a40ddbbe902f0d2",
+      "modified": false
+    },
+    {
+      "path": "results/final_followup/cost_records.json",
+      "original_sha256": "a15fbce278755441c863209773f35abe6c7797ab1478da6377a552e1a6ef85df",
+      "sha256": "a15fbce278755441c863209773f35abe6c7797ab1478da6377a552e1a6ef85df",
+      "modified": false
+    },
+    {
+      "path": "research/round49/fixed_time_features.py",
+      "original_sha256": "b62127b5d83bf870f02d7bd7582bf209f9cf1234474f2403efafed7237726392",
+      "sha256": "b62127b5d83bf870f02d7bd7582bf209f9cf1234474f2403efafed7237726392",
+      "modified": false
+    },
+    {
+      "path": "research/round49/recompute_public.py",
+      "original_sha256": "7167df340ac0227ede39d874f0b4f3b94b93ba1f22b287031febccf90db6604a",
+      "sha256": "7167df340ac0227ede39d874f0b4f3b94b93ba1f22b287031febccf90db6604a",
+      "modified": false
+    },
+    {
+      "path": "data/confirmation_objects.json",
+      "original_sha256": "5ab62e9bcfb7b8a91f3a0b34f045254ffba416b26812d7adebcdc03963b60d77",
+      "sha256": "5ab62e9bcfb7b8a91f3a0b34f045254ffba416b26812d7adebcdc03963b60d77",
+      "modified": false
+    },
+    {
+      "path": "results/final_followup/reservation.json",
+      "original_sha256": "41e6c2341b9989e0246a2422eebe7a3af56120b0fcffe7dfc6cdc38d9416f066",
+      "sha256": "41e6c2341b9989e0246a2422eebe7a3af56120b0fcffe7dfc6cdc38d9416f066",
+      "modified": false
+    },
+    {
+      "path": "results/final_followup/SOURCE_CHECK.json",
+      "original_sha256": "ce746814b1c45a902705116745db9a13fea19956216604002ff5fe6184ac6bee",
+      "sha256": "8a7734ee10b8efe5e011b4e32db02a3eaa0c34b381e3ed4cb4b9e9881ef18de6",
+      "modified": true
+    },
+    {
+      "path": "results/final_followup/local_run_records.json",
+      "original_sha256": "a4936d6340b1cbd3ec69b37d31f55c47a633cc58783f78a8a7db243d03e77873",
+      "sha256": "a4936d6340b1cbd3ec69b37d31f55c47a633cc58783f78a8a7db243d03e77873",
+      "modified": false
+    },
+    {
+      "path": "research/round49/plot_cost.py",
+      "original_sha256": "a70c6d7370b7678549897208d3b38c3c02f3522a8adc7415366a67f9056c923a",
+      "sha256": "4b1de51750a8728f22aecb86a6572f597d4bddcdea3d866d264a5a84f2f49587",
+      "modified": true
+    }
+  ]
+}

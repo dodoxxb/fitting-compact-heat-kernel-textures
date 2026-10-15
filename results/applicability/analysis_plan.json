@@ -1,0 +1,29 @@
+{
+  "status": "post_hoc_explanatory_analysis",
+  "new_training": false,
+  "cohorts": [
+    "19 two-seed feature-confirmation objects",
+    "19 three-seed conditional-correction objects"
+  ],
+  "unit": "object, average prescribed seeds before grouping",
+  "clustering": "Two clusters on standardized geometry descriptors only; fixed k=2 and seed; no quality-based choice of k or features",
+  "geometry_features": [
+    "log10_vertices",
+    "log10_area_cv_plus_one",
+    "pca_flatness",
+    "pca_elongation",
+    "mean_triangle_quality"
+  ],
+  "additional_descriptors": [
+    "training_colour_variance",
+    "training_local_colour_difference",
+    "control_surface_psnr"
+  ],
+  "inference": "Spearman permutation tests; BH adjustment across all listed cohort-feature associations; subgroup means and leave-largest-gain sensitivity; fixed ridge alpha=10 LOOCV versus leave-one-out mean",
+  "limits": [
+    "Not preregistered confirmation: aggregate effects were already known.",
+    "No semantic family inferred from object names.",
+    "Clusters and predictors describe this selected small cohort; no causal or deployable selection rule established."
+  ],
+  "seed": 20261014
+}

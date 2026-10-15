@@ -1,0 +1,7 @@
+-r requirements-analysis.txt
+scikit-learn==1.8.0
+# Optional descriptor re-extraction from separately acquired meshes:
+trimesh==4.11.2
+Pillow>=10
+# Optional measured-data figures:
+matplotlib>=3.9

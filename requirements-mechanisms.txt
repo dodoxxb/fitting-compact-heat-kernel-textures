@@ -1,0 +1,2 @@
+-r requirements-analysis.txt
+numba==0.63.1

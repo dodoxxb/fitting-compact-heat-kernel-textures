@@ -1,0 +1,415 @@
+{
+  "objects": [
+    {
+      "uid": "6e509bb275c44dc994d1e6bc694242f5",
+      "rank": 10,
+      "dataset": "Objaverse",
+      "name": "Barricade",
+      "mesh_path": "research/round28/intake/assets/glbs/000-147/6e509bb275c44dc994d1e6bc694242f5.glb",
+      "mesh_sha256": "3e69bb576de3562cf0200a41d26e0661801feb93d5f85f658089943145833565",
+      "vertices": 800,
+      "faces": 1567,
+      "normalized_vertices_sha256": "b57fcc479bee6fcdd982f0133466b2a0b7b8cf6dcf4e1c6a95569866427eba83",
+      "faces_sha256": "e20434f72d2abc84e931c0941ae29f7d79204456413017e63d698f94615ba2db",
+      "corner_uv_sha256": "16bd7394d501020f3a8de0f1f351d8a512f7fd539bcad7c879a9d0db0721aebc",
+      "texture_rgb_sha256": "8f0659069f9faad6b783ba9ab3e114cc986ae6b99dd88a38989b4fce6f33b697",
+      "rank_contract": {
+        "vertices": 800,
+        "requested_rank": 256,
+        "effective_rank": 256,
+        "knn_embedding_dim": 64,
+        "configured_knn_supported": true,
+        "reason": null,
+        "policy": "No embedding adaptation, remeshing, object replacement or seed replacement."
+      },
+      "risks": [
+        "Full anisotropic angle/anisotropy grid was not evaluated by the old isotropic screen; later spectral failure remains possible.",
+        "Open boundary: native geodesic boundary behavior needs declared rejection/failure handling."
+      ],
+      "reuse": null
+    },
+    {
+      "uid": "242d37a17a334d3cb1ab4fb978ae0ad9",
+      "rank": 5,
+      "dataset": "Objaverse",
+      "name": "Wrench",
+      "mesh_path": "research/round28/intake/assets/glbs/000-001/242d37a17a334d3cb1ab4fb978ae0ad9.glb",
+      "mesh_sha256": "2a78565216af25b1622a46409c8e8b798b61b1e1975e1ff539be2c3408888e93",
+      "vertices": 2090,
+      "faces": 4176,
+      "normalized_vertices_sha256": "9a60033911bfd3ec581d725ba0f67c0e727bc3e9df81172a56ebfe0c6be5afbb",
+      "faces_sha256": "ade0a84299c72fbceeaf67b014954fe048b3d446ddb73cf72a80bef0e8612f60",
+      "corner_uv_sha256": "7202f45dc2c54e17c6e955014cedd12bb7d1bf62f526bfe80da267a884a64567",
+      "texture_rgb_sha256": "1f541abc2f0d8982b8394c7fcc9949d8be5b7c71b5086ae45857eb7ceef78b4a",
+      "rank_contract": {
+        "vertices": 2090,
+        "requested_rank": 256,
+        "effective_rank": 256,
+        "knn_embedding_dim": 64,
+        "configured_knn_supported": true,
+        "reason": null,
+        "policy": "No embedding adaptation, remeshing, object replacement or seed replacement."
+      },
+      "risks": [
+        "Full anisotropic angle/anisotropy grid was not evaluated by the old isotropic screen; later spectral failure remains possible."
+      ],
+      "reuse": null
+    }
+  ],
+  "preparation": {
+    "state": "frozen_exploratory_two_mesh_shared_data",
+    "scope": "Exploratory fixed-time feature experiment; shared native sampling only, original failed primary preparation retained.",
+    "reservation_sha256": "7ba6b9d6ad1acfadcbcfef74a5b88d7c33f0721562b9dcf1daea1c34a3dd0061",
+    "training_seeds": [
+      0
+    ],
+    "loader_kwargs": {
+      "merge_tex": true,
+      "normalise_size": true
+    },
+    "eigen_config": {
+      "k_eig": 256,
+      "distance_weighting": "gaussian_0.05",
+      "mass_type": "one",
+      "local_frames": "principal_curvatures",
+      "precompute_anisotropies": [
+        1,
+        5,
+        15,
+        30,
+        60,
+        100,
+        200
+      ],
+      "precompute_angles_every_deg": 30,
+      "knn_embedding_dim": 64,
+      "faiss": {
+        "use_float16": false,
+        "distance_impl": "bmm",
+        "build_db_norm": true,
+        "compile_distances": true
+      },
+      "gather": {
+        "select_impl": "bilinear4",
+        "compile_select": true,
+        "gather_impl": "stream_vertices",
+        "compile_gather": true
+      },
+      "weighting": {
+        "kernel": "gaussian",
+        "gaussian_std": 0.05,
+        "normalize": false,
+        "compile_kernel": true
+      },
+      "heat": {
+        "compile_heat": true
+      },
+      "parse_weighting_from_str": true
+    },
+    "queries": {
+      "train_pool": {
+        "n": 1000000,
+        "seed_rule": "training_seed",
+        "batch_size": 4096
+      },
+      "independent_validation": {
+        "n": 8192,
+        "seed_rule": "471301 + training_seed",
+        "batch_size": 8192,
+        "algorithm_use": "reserved_unused; not the developed acceptance guard"
+      },
+      "test": {
+        "n": 65536,
+        "seed": 471101,
+        "batch_size": 65536,
+        "shared_across_training_seeds": true
+      },
+      "candidate_acceptance": {
+        "source": "same SGD pool",
+        "index_seed_rule": "470470 + update + 10000 * training_seed",
+        "relationship": "disjoint from current conditional fit only; seen by SGD",
+        "schedule_and_method_budgets": "not frozen or executed by data preparation"
+      }
+    },
+    "timeouts_seconds": {
+      "cache": 1800,
+      "data": 600
+    },
+    "objects": [
+      {
+        "uid": "6e509bb275c44dc994d1e6bc694242f5",
+        "rank": 10,
+        "dataset": "Objaverse",
+        "name": "Barricade",
+        "mesh_path": "research/round28/intake/assets/glbs/000-147/6e509bb275c44dc994d1e6bc694242f5.glb",
+        "mesh_sha256": "3e69bb576de3562cf0200a41d26e0661801feb93d5f85f658089943145833565",
+        "vertices": 800,
+        "faces": 1567,
+        "normalized_vertices_sha256": "b57fcc479bee6fcdd982f0133466b2a0b7b8cf6dcf4e1c6a95569866427eba83",
+        "faces_sha256": "e20434f72d2abc84e931c0941ae29f7d79204456413017e63d698f94615ba2db",
+        "corner_uv_sha256": "16bd7394d501020f3a8de0f1f351d8a512f7fd539bcad7c879a9d0db0721aebc",
+        "texture_rgb_sha256": "8f0659069f9faad6b783ba9ab3e114cc986ae6b99dd88a38989b4fce6f33b697",
+        "rank_contract": {
+          "vertices": 800,
+          "requested_rank": 256,
+          "effective_rank": 256,
+          "knn_embedding_dim": 64,
+          "configured_knn_supported": true,
+          "reason": null,
+          "policy": "No embedding adaptation, remeshing, object replacement or seed replacement."
+        },
+        "risks": [
+          "Full anisotropic angle/anisotropy grid was not evaluated by the old isotropic screen; later spectral failure remains possible.",
+          "Open boundary: native geodesic boundary behavior needs declared rejection/failure handling."
+        ],
+        "reuse": null
+      },
+      {
+        "uid": "242d37a17a334d3cb1ab4fb978ae0ad9",
+        "rank": 5,
+        "dataset": "Objaverse",
+        "name": "Wrench",
+        "mesh_path": "research/round28/intake/assets/glbs/000-001/242d37a17a334d3cb1ab4fb978ae0ad9.glb",
+        "mesh_sha256": "2a78565216af25b1622a46409c8e8b798b61b1e1975e1ff539be2c3408888e93",
+        "vertices": 2090,
+        "faces": 4176,
+        "normalized_vertices_sha256": "9a60033911bfd3ec581d725ba0f67c0e727bc3e9df81172a56ebfe0c6be5afbb",
+        "faces_sha256": "ade0a84299c72fbceeaf67b014954fe048b3d446ddb73cf72a80bef0e8612f60",
+        "corner_uv_sha256": "7202f45dc2c54e17c6e955014cedd12bb7d1bf62f526bfe80da267a884a64567",
+        "texture_rgb_sha256": "1f541abc2f0d8982b8394c7fcc9949d8be5b7c71b5086ae45857eb7ceef78b4a",
+        "rank_contract": {
+          "vertices": 2090,
+          "requested_rank": 256,
+          "effective_rank": 256,
+          "knn_embedding_dim": 64,
+          "configured_knn_supported": true,
+          "reason": null,
+          "policy": "No embedding adaptation, remeshing, object replacement or seed replacement."
+        },
+        "risks": [
+          "Full anisotropic angle/anisotropy grid was not evaluated by the old isotropic screen; later spectral failure remains possible."
+        ],
+        "reuse": null
+      }
+    ],
+    "source_sha256": {
+      "research/round47/confirmation/preparation_common.py": "29fb4991708bbe0080bcf73686e9c45bc76694a6e92df8feb5f4545a524584a3",
+      "research/round47/confirmation/prepare_plan.py": "fe781c1a14fc3bab612d588a357ec45b4769955b16bf57e45575f548fda6e5da",
+      "research/round47/confirmation/prepare_one.py": "580d5a3c39dd2a2d432e8bc2185f30817262fb2ad7d00c02884a6f4f74de83bf",
+      "research/round47/confirmation/prepare_stage.py": "0a465be90c21488860184e82a2305ab5ae003e28806abd054d16f6b14316c052",
+      "research/round47/confirmation/LOCKED_CANDIDATES.json": "7ba6b9d6ad1acfadcbcfef74a5b88d7c33f0721562b9dcf1daea1c34a3dd0061",
+      "research/round28/prepare_queries.py": "49f9870236be049293043f5e0940031e9f5b60049b4c4aef71ddaca282a9d139",
+      "research/round28/worker.py": "42b4eec406bf41bb1a5f8195e655beee32409b4f7badd8ebe6ba2475a6c69c97",
+      "research/round17/training/cache.py": "03b4a6efbdf36c672fb9a1d44547577eb283ce4d33872d9d249834ec8d3287f7",
+      "research/round8/cuda_bounded_launcher.py": "25a288a46f8f632c1ecf0355ef07ae416d4acfc22e385f810a29b0d3ffed4980",
+      "research/round8/cuda_first_launcher.py": "1e076c98aa88803d42e0d879dd044f7594e0eb69ac573c7082fda066b9e627a5",
+      "research/round46/gpu_occupancy.py": "575ad7169c259cd1c4e96ef48dd435a611aee10cbb5238aae086213fd6a2444b",
+      "research/round23/native_hybrid.py": "1a80db296678af4ca3512931a0c6c2e222cf54083ea45f4a3c6dbfda440d8402",
+      "research/round23/common.py": "7ed25a577bfba323f167ce37f2725ba2be428601adcfd2073849ad0ad4e81b7c",
+      "hktex/utils/mesh.py": "d70489a6b8ba647df723cfbca9ba7fe7ab7b28cc8b932633ff8d2c369c49ca59",
+      "hktex/utils/sampling.py": "e1858198860495bc3f6adbac4afe46cf361a561e8593d600f23fa05f98cf763c",
+      "hktex/utils/misc.py": "71a6a00aac83a89d97df61aba180afb6490be33a1acbd890c77665f4b18c1218",
+      "hktex/modules/eigen_albo.py": "2a55b4d6d18c6d4b740f081e8f29c0e20c6242755158e54ef62a76c1e3a6493d",
+      "hktex/modules/eigen_albo_knn.py": "7ef44c2b01ffee7c30f22dfeb1bd114071235ca36849c9cf36fad223e47058a5",
+      "configs/texture_hktex_knn.yaml": "828ee3bfba21024481356630c32e72464a55e2a9063234bc557676da79f54ff0"
+    },
+    "initialization": "Shared initialization recipe, seed0, 5000 fixed3000 updates; frozen in the parent exploration plan.",
+    "failures": "Both development meshes and both variants remain; no replacement or entered-stage retry.",
+    "cuda_executed": false,
+    "predictions_accessed": false
+  },
+  "sources": {
+    "configs/render.yaml": "d3ba2d70a9ef8ce0229ac20767eaa24c95b00fda29a2b3417b14217c0832dbbe",
+    "configs/texture_hktex_knn.yaml": "828ee3bfba21024481356630c32e72464a55e2a9063234bc557676da79f54ff0",
+    "hktex/__init__.py": "2a368e6851c011c8a19914c806f93a72cb9861b02341370853428adaa69ed1d2",
+    "hktex/data/__init__.py": "3688641c091e7437d36ef2e10cd3c5d94c2dadbcb7cc025e4767b16a4689b436",
+    "hktex/data/base.py": "0f54cc8775933edce9ce47ae9dfceab8ca4a2ce8caa51d527f2438e9615b9293",
+    "hktex/data/camera_sampler.py": "71730066432249bbb01008626239e9c28f6e6d873ca3d2cf09a3d349d9a6a766",
+    "hktex/data/importance_sampling_strategy.py": "62890132231b3124f09c3d97376145417773725a0e79fa53ac01d111ad0f0bf9",
+    "hktex/data/known_heat_vertex_colours.py": "cc1e30a865e1005a3d0b7cce717584360a42373aa6516030ba57eec8a90c9523",
+    "hktex/data/objaverse_downloader.py": "d85f1b0cec01b7fe56aeb378e541fd34a610bf063dbd309b5506b27081f892c4",
+    "hktex/data/uv_texture_sampler.py": "7011ed9725835f5b274ec02fb61fbb574dcc6b9e98c37b72341d3463f5b4c5ac",
+    "hktex/data/vertex_colours.py": "888308156f7ad2a5f6717eb70c16bc4aa873495f0b68dd73405e8ec38f377ac9",
+    "hktex/density_controllers/__init__.py": "16a16037598c31490e8bf6098ebdc2ca8bfa62a85550ed92ec1c64d9255f5cfe",
+    "hktex/density_controllers/base.py": "40261a1a1136f6af74569967812eb2e1658fab004bfeb1dc247393122237154d",
+    "hktex/density_controllers/error_densification.py": "dde95c2e8a67424a49b9f5f2b4a98eccdce92892c823e054bf33753e9236063c",
+    "hktex/density_controllers/importance_pruning.py": "dce603d58de17efddaddc6b12a80be2a17ac2e4cfc7c8b21df4d22a572becbb9",
+    "hktex/density_controllers/utils.py": "5249ce3438447584b50a60352d120fcedee7feacb387fc61be9205874a8f0d41",
+    "hktex/knn_heat/__init__.py": "5276fbb391f51e14e7d909f779bfdcee497ed955ab4a65b5975801ff9adeb075",
+    "hktex/knn_heat/knn_heat/__init__.py": "56af31d0b502bcc5ac5e6faa7297d523be13b1bcbea8225b264544dd81c6fa57",
+    "hktex/knn_heat/knn_heat/_ops/__init__.py": "b7978d1d80de8bb3a11fe3f27dc6b96164083c3b4cf4404caf1f7cc7a44e7e46",
+    "hktex/knn_heat/knn_heat/_ops/distance.py": "38c85b527111935fe57db8c83db66bbab5b6744c82cc237a19360afd7fde67bb",
+    "hktex/knn_heat/knn_heat/_ops/gather.py": "d2608096ee6830a0b7c551804f6cd9c56dc542224e4257a5037632cd2d65a786",
+    "hktex/knn_heat/knn_heat/_ops/grid_select.py": "a082a57b9f38005b453599cac7904d165beb07b4a15b77b9c9ca6da594c39419",
+    "hktex/knn_heat/knn_heat/_ops/heat.py": "38a8d420491e5666de76146f818db859222d7a2f6bba61aa5285b2010109d196",
+    "hktex/knn_heat/knn_heat/_ops/weights.py": "37d8a1773d2a04731e68a4b161b812ef95721a738154be3e8a924c55769b199b",
+    "hktex/knn_heat/knn_heat/config.py": "e6695c5a18bac096e40996fdbd909866b78999a52d9b946a2ebea35eb31cc128",
+    "hktex/knn_heat/knn_heat/faiss_knn.py": "34189b641effa18ae8548ded15a0b274c10102d8fda4cfbb32e72ded963b2070",
+    "hktex/knn_heat/knn_heat/knn_gather.py": "4ed0211408f6480a211c4846ce742ddcd0615e77b7a3d2ac45d28d2f920245b7",
+    "hktex/knn_heat/knn_heat/knn_heat.py": "260ede151ef387ab8a891f68a7de17994265ba841581c880ad8e6bb7eb0eb430",
+    "hktex/knn_heat/knn_heat/post_weights.py": "9f256f63a42cff69e3fe45531a5695b8d37e9a0ad999c5c47730a85f9e153f3b",
+    "hktex/modules/__init__.py": "82b7e523ed7ead1153726488126275186923482a1f06ad36fe249db3ba2a229b",
+    "hktex/modules/base.py": "8b47c85b7e82be4d9c1fef2716569997f066747de38dd2b3a37588e8cadf6970",
+    "hktex/modules/eigen_albo.py": "2a55b4d6d18c6d4b740f081e8f29c0e20c6242755158e54ef62a76c1e3a6493d",
+    "hktex/modules/eigen_albo_knn.py": "7ef44c2b01ffee7c30f22dfeb1bd114071235ca36849c9cf36fad223e47058a5",
+    "hktex/modules/geodesic_opt.py": "3343b3488238756ad1e087950ff3531fd9f5bf03371f9821269a5430348a7f30",
+    "hktex/modules/heat_kernel_density_knn.py": "ca20e321618c32c3e36183114f200acd803afd775900e08f6fbf2771f21ccd1c",
+    "hktex/modules/heat_kernel_model.py": "403ee784fd5caa52c99b2439faa2f6f9573c56365cc2f42a293758494f900c4f",
+    "hktex/modules/heat_kernel_model_knn.py": "04d998f0662fc23d6adecd7dafe984a46682f8dce34fbf0de953dba9628087a5",
+    "hktex/modules/heat_kernel_texture.py": "edf8b87099d4e63e8b836773a14a4997e443a07c1ecdcc47cf7bf6356b7de8d7",
+    "hktex/modules/heat_kernel_texture_knn.py": "209e9ca95547622f33ef527a302eea85c8aa512645e86c164b8bcf04e7b34783",
+    "hktex/modules/mesh.py": "8b285c59342b71a816e802a5a389902a5aa80dbb6ffd9134ae86a49193af0145",
+    "hktex/modules/mlp_net.py": "c5d9d7b408016a9d1b371658f833a36df1da428ef39b2733813abe6322a5a870",
+    "hktex/modules/pcl_model.py": "e56a62d6202fd994ada151187b6a7b0ff9bced970a833fc8fc83cb8fe7f9c068",
+    "hktex/modules/pcl_texture.py": "7c0fd89e31427d72452b12abb0cd40ee3657d7745a9f879f5e716940ab46b27c",
+    "hktex/modules/tracer.py": "a0f4ba42737501ae21aba66df352bc8b179dd2e531fad148785bf3cae01e1950",
+    "hktex/modules/utils.py": "15b1e668da9bb97f9346790e72dee9ad2ebdff4df59bd17bebd50720da6e0ea4",
+    "hktex/rendering/__init__.py": "dae19e5cac79970d8fa8a7e0cd335b54c6cc4756d2aa35945edaf4ee5a9d1c99",
+    "hktex/rendering/base.py": "a4b400a5e5f2f36e58a80123cac2b2ad7926799b628318d43e989440ff417638",
+    "hktex/rendering/diffhk_renderer.py": "0ee0442ead6199857cbe76889a9e6d90d059cbed14cd3df5e2c98bc1b00fc0f9",
+    "hktex/rendering/heat_kernels_density_renderer_knn.py": "afc831c0e04c08f6bfe17399e267b09ed7d2f9cc632660b4ec9a4cacb8883108",
+    "hktex/rendering/heat_kernels_renderer.py": "40f2f8da188c9c8e7f6c8331560cb6e4241302195bbda7c6aa35cf83d6e818d0",
+    "hktex/rendering/heat_kernels_renderer_knn.py": "fb3313a61b260cdbe862985b97afd2e263a87b1c443daf4e7133cfb66c4a03ec",
+    "hktex/rendering/ray_integrator.py": "d374466a71748b119330163462ec9910977601ddeee90c43057ce1779f420ec9",
+    "hktex/rendering/ray_renderer.py": "87523cdce74fefeb5652fabc31a6a47f99bdfe2ac3cd332979f1374dbbddef32",
+    "hktex/rendering/torch_envmap.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hktex/rendering/torch_texture_renderer.py": "04f5f99e5943c6526024debb44e24e195bb52b96273f4a7e8b38ad963006b364",
+    "hktex/rendering/util.py": "8bd43768ee3fa1525c1fa2f914edc3eed3d3fe86471bc4b01e8863cb0f308492",
+    "hktex/rendering/uv_texture_renderer.py": "6df9a51dd39495abb5bf5a95aade6db0d4a83836cc82977d27650b96806bd6bc",
+    "hktex/rendering/vertex_colours_renderer.py": "e65273bca9417fb888fc452e57fce736cead4f09212554f5b367126abae5f37c",
+    "hktex/trainers/__init__.py": "2a1bb3be3bf0101b0705b15c1107f8cf9b7369c5cc3e61cfe4f3fab7425cba9b",
+    "hktex/trainers/base.py": "56e1bcd2d73d2c0632e6d229f055edd483a6c566a05d3c24e808dcc8ceb85fcc",
+    "hktex/trainers/mitsuba_ray_trainer.py": "dc57717e1382bc107af9968a0c5b0ee7d9cd65caa244b0efb26a8a23b1e664c7",
+    "hktex/trainers/mitsuba_trainer.py": "b16eeb4e5e7da3e240e8cf7c1441d55c91c2b26eb3839862c6529bc295e550ad",
+    "hktex/trainers/stat_heat_kernels.py": "71f8759f7abd3343c6d6ef2fd3cfd33a4f5a33c91603b9fb237f01d4ae90b021",
+    "hktex/trainers/utils.py": "892ba45e7a430f47ce95f7a2f6dd5e48bd56452ad19247a9bf9af61ac8d6f4a6",
+    "hktex/trainers/uv_texture.py": "88824b17e6a79396dd604d50283a4e143e9dc15241b2ae5af1de7d1dcf2f0199",
+    "hktex/trainers/uv_texture_pcl.py": "3e9456525b8bf66a8520c9b06c72fce6ff3a19a428b5c83b5f914badd36cce6a",
+    "hktex/trainers/vertex_colours.py": "33e0ae2aac485ebd1f9b8280844ab1e9b65be595ae26f62054e5e5ef55ca9f79",
+    "hktex/trainers/vertex_ray_trainer.py": "53af21fc962429457274be74fee89cfbf13f2f2df4e596d6eb8afb43d71f3ed5",
+    "hktex/triton/__init__.py": "15efccacf9051b19985120030bf86e51be2b8976cf9b79f9164320ca72c74e14",
+    "hktex/triton/distances.py": "07c8a6f1de5b2a05fbf63eff0209d722d6c60c24026d11b34c32e203ff0dd996",
+    "hktex/utils/__init__.py": "2c11bf452231769ca3a2074698e2ac5c2d39833ad2f2c5cd259dde0654bb3d88",
+    "hktex/utils/base.py": "6f91723a844ec4643ca31aefa2569022c2510bca866f36a99dc18ef50ec6dd7f",
+    "hktex/utils/callback.py": "da500e2e7aeeee76c93c1a434697ec02c9fe834d50d6090b40f4876349dffac4",
+    "hktex/utils/cart_bary.py": "2e300454c4b880e046928f2ba69710e7e35424c2881e1eb3f5c04b303dc8b69b",
+    "hktex/utils/color.py": "538a86f0d3e075fe21aaba2acc1e965b7bcdfa0fff4a31507a02dd8ea6b0c767",
+    "hktex/utils/config.py": "940aa02c19c4741c9fa36c691d164a9fe1d99742e9ce544d1070b0f26828d6d1",
+    "hktex/utils/diffusion.py": "cb015f464ebcf63286973c5af1406787c133d6183c1922259e20ab8d81db298c",
+    "hktex/utils/distances.py": "97f025eda045db3b08d7328cf5e2b3a090358336c759f1b4f0752f5ada3079a2",
+    "hktex/utils/geodesics.py": "ff655cba8ee64e219de300d4f691ba8881a2fe1a3b36ebec26af79a95438d5a9",
+    "hktex/utils/image.py": "760cd77f8e5d0eb958cb2aff671dcb191a38375a10930ebad00e9337cc28d7c3",
+    "hktex/utils/lbo.py": "62a5bde329299e66c5cb2fdb34e29d35674cf9432c81ace4616b036e109121bf",
+    "hktex/utils/local_reference_frames.py": "00c62202373b227a557138bd3de9a82aba8484975ba6884c49249f2839397ed1",
+    "hktex/utils/mesh.py": "d70489a6b8ba647df723cfbca9ba7fe7ab7b28cc8b932633ff8d2c369c49ca59",
+    "hktex/utils/metrics.py": "016c0e4e9bc9de67a5d4f925e947f1d146adf8775fbb0a2721c2c38504efa919",
+    "hktex/utils/misc.py": "71a6a00aac83a89d97df61aba180afb6490be33a1acbd890c77665f4b18c1218",
+    "hktex/utils/mitsuba.py": "5263cd6063f3dd863510211fbf3e5e94e3cbe2813a4ccf65ed53aa41a6dab4b0",
+    "hktex/utils/pcl_losses.py": "b15dee1a1cb2f892732cc814189f2449d544ba9e512ea288483996e1a30bee33",
+    "hktex/utils/repr_patches.py": "70f9e21f2fce17a62ae6f84bc1c9c2d31995ea0b4a71dbc8ed799e53bce310c7",
+    "hktex/utils/sampling.py": "e1858198860495bc3f6adbac4afe46cf361a561e8593d600f23fa05f98cf763c",
+    "hktex/utils/typing.py": "3fa4b9db140907632caf34ccec889a5c31da55e46f1a8b423cdf654570fd317c",
+    "hktex/utils/video.py": "ff885057c29c6b35723c574936525a2f511116849829661d15ad3ab6389908b3",
+    "research/local_baselines/score_images.py": "4e9380a4e69409f21c5c38bf162ec6f77e70ef31dab41a0110b4261c1915e828",
+    "research/local_baselines/shared_evaluator.py": "9561919b9db134cc57293b8732e3764dab46c71081478c4284f7858c1cf26a70",
+    "research/round17/training/train.py": "d37d5a2cee438d963834fad9b09268d4c313b179d621720747c63a3c7acef44e",
+    "research/round22/evaluate_variants.py": "579b9eed3256af9b90fcd68715514bbb13ab2effca9987a109bab6a18ea9ae25",
+    "research/round22/nativefix.py": "ade75a36f6109ed7dd32de5224e53595d71eff79f87d29e12cfa9fefc231d6e5",
+    "research/round23/common.py": "7ed25a577bfba323f167ce37f2725ba2be428601adcfd2073849ad0ad4e81b7c",
+    "research/round23/hybrid_study.py": "2dae1b497edbeeea919bb8d870937adb6995be593597d8d92e53213fdfd32d9e",
+    "research/round23/native_hybrid.py": "1a80db296678af4ca3512931a0c6c2e222cf54083ea45f4a3c6dbfda440d8402",
+    "research/round46/solver.py": "138a0e15226837c97dde77d05e1fa09e45fda4d8c7c0a84bd70c3651bf71d9fc",
+    "research/round47/attribution_controls/audit.py": "1a8486e321c392619b1583304e7874a633ebc564d5343d29a0db160757a803df",
+    "research/round47/cold_qualification/cold_hook.py": "404dc30d4d77e3f522fc25799a8af26e2b0d706d55072d804816de25acc6ec6d",
+    "research/round47/cold_qualification/state_audit.py": "39994f42d6f57dac2fb93ddb91c3327df491818d08f222ee356a464583423c8d",
+    "research/round47/confirmation/PREPARATION_APPROVAL.json": "84387b896eaacf59830fe7d5b9dc534a868b863d38f4133a8ced1920eca3535b",
+    "research/round47/confirmation/PREPARATION_PLAN_DRAFT.json": "9aa39892ab5c6bcfd5009fc06326e302fc50339c9c764f11d6f48853dbc2679b",
+    "research/round47/confirmation/preparation_common.py": "29fb4991708bbe0080bcf73686e9c45bc76694a6e92df8feb5f4545a524584a3",
+    "research/round47/guarded_hook.py": "83794c14458a72bf630f8c0ce807857084ffdc05c20feaeb6e2bda21ea0f0103",
+    "research/round47/localhk/gpu_development_cached.py": "c46e90278f245a6050d06ddaa715e6e746c40a47b0e5796d5cfd4d3341f3dca4",
+    "research/round47/localhk/gpu_development_segmented.py": "b457f4ee81d06f44b70b4c188cac344805adccc1c113bc0ea5bd3cf6530bd357",
+    "research/round47/localhk/moving_local.py": "43ffa88e6d608f874c6ca6f82d58c03eaba8e977d2d9249b905f9b9711f8eaa9",
+    "research/round47/localhk/run_real.py": "c0f24ce99ae3a05d2e62a6fc76dcde9f23f387a542cdd1a47275433e9dff8484",
+    "research/round47/localhk/run_segmented_training.py": "01f95583474626ebba63e5a26d8a918f918414b86edf023e74be7ba752bc657b",
+    "research/round47/localhk/trace_guard.py": "6c00a0f866d162878df91476889e063832ab594cb5aaf009572e07e0d126bd21",
+    "research/round48/capped_entry.py": "9d3e27949c9f62dc411d481948b7e7607181696c58134d9774535dc82e659125",
+    "research/round48/confirmation_training/PROTOCOL.md": "335af9e6d19e81f562199472f2d697d8a6635936ab14425339d1a9355ac7849c",
+    "research/round48/confirmation_training/analyze.py": "fa736eb4b78783027a0f4772653b1891cbf0c966e6728ecc81e77e76173ba4ab",
+    "research/round48/confirmation_training/build.py": "ad05242d9e79968aca307b3cd618f0dce5f71216b1e3700d35544f576d17a548",
+    "research/round48/confirmation_training/entry.py": "fe6f9f5a617d946f53d6e16e5a281b09e39ea56b56c7897ad07be4e6450ef31b",
+    "research/round48/confirmation_training/intervention.py": "f21559ac066ea7b3fdfaa3c0240669383af99e119f5a93b661ccad6533f9a7a1",
+    "research/round48/confirmation_training/pool.py": "29bf6111e38849a0ea933f8e611e569a8eaf0bee0325486d43c79e7c11abe1ff",
+    "research/round48/confirmation_training/protocol_io.py": "bf7e6f477baee8b684ba8ea24d507e5d6c00166dc8a5cc787322354d98c3e5aa",
+    "research/round48/confirmation_training/run_one.py": "af6dfc57101fbf2e37d0fc9afd11c9397f0d7d8513865210e8fc7af99a50c74f",
+    "research/round48/confirmation_training/test_cpu.py": "4b4b2a7e51b40446e1ee42575a1e4dc496fbd0789940ea3196f36e17cf900391",
+    "research/round48/confirmation_training/worker.py": "5f85ddaf54f5a4f77b2864dc8e69cc6a77f19bea59f9e99b06b091d4c0c9077e",
+    "research/round48/dispatch.py": "eb859751fa02b9241460a92a690691ef04392bcbb9f8a556155e2da0fca55674",
+    "research/round48/resource_policy.py": "e1f31be52552f96f6dffebef091e3e034b42b83599485b78b817d047efed3417",
+    "research/round8/cuda_bounded_launcher.py": "25a288a46f8f632c1ecf0355ef07ae416d4acfc22e385f810a29b0d3ffed4980",
+    "research/round8/cuda_first_launcher.py": "1e076c98aa88803d42e0d879dd044f7594e0eb69ac573c7082fda066b9e627a5",
+    "research/round8/train_teacher.py": "6134c0c3ac1d61d3bd2b1ca751620b0c08d8b8060795bea3fe65cdb919d48649",
+    "research/strong_evaluator/CASES.json": "06b87a7ec9aa90955feb91ff39602f5efdfb7dd475c1f80254d4fdf66fdde7ed",
+    "research/strong_evaluator/differentiable_local.py": "fea308fe7f255bb0010a6df82e1374055ac4352d087e61724b5fba892ecf2447",
+    "research/strong_evaluator/geometry.py": "b853bfb895bccfcaf6ff0b5d30841fee6dfd162ca25107726dfc88f57e25316e",
+    "research/strong_evaluator/gpu_development.py": "b0e3fd2378b0d7ff205b4b45ae0574a3cadd26e80a59ca8105729379b9d07671",
+    "research/strong_evaluator/radius.py": "6872657079516b63749dd81a875e31e960ae49063071ea20ff1e16754cee5b27",
+    "research/round48/PRIMARY_DEVELOPMENT_GATE.json": "1574c5b37043bf7b67eab3123b5276e99c61b6f6e63d9a418f161be0e6648009",
+    "research/round48/heat_feature_training/prepare.py": "59da0eecd01ec190b65e61ddeb099a79466d948ab1c08dad75ad40101df8b1d8",
+    "research/round48/heat_feature_training/run_one.py": "b8c064aea75746aba55f43e7747b89480049992133d90880f926394be6e1feaa",
+    "research/round48/heat_feature_training/analyze.py": "4814f248e16ec11c7f448875f9ab4e9b8810ffa535f0e6c84c2bd0f7228b887d",
+    "research/round48/heat_feature_training/worker.py": "4c21e072af8582b00e34e8e4acfe7e1658274c24a0370f9a085b2204ab8c67c9",
+    "research/round48/heat_feature_cache_build.py": "ca46ac207771b4c85f4ef2b69414d60950dc613032ebbfeea4c611951a6a4835",
+    "research/round48/spectral_validity/safe_procrustes.py": "d3a1a823ca8e00dccd0a970c47c281d4f26b29067224b47850b92b2f5ce04ff4",
+    "research/round47/confirmation/prepare_stage.py": "0a465be90c21488860184e82a2305ab5ae003e28806abd054d16f6b14316c052",
+    "research/round48/heat_feature_training/entry.py": "803e05f5e78f6ba8022c3b1a70623f62dc7d6e8099b89941f712d3534022e48d",
+    "research/round48/heat_feature_training/cache_qualification.py": "383c85babf55c0aa65a4bd2f4e0c35fc8f8005330acc237c9d6ab50ee2023635",
+    "research/round49/cache_stage.py": "f7f89ec63297bb3f52fccc5b87113facead7c27d27b1380a686ef6112ca7a163",
+    "research/round49/run_one.py": "e534576acdcc9590b826f66c81a762d7c573f7e2a235df5e2b29e0b234b191d4",
+    "research/round49/entry.py": "314120a62d41121558020a172b1451e417cd44a91fbbb3010f8d9a8c9762fbd1",
+    "research/round49/data_stage.py": "be76075694a53080bc92c5d93d39ea4b6a80b3d31e763801be5909e6e05b8ea6",
+    "research/round49/pair.py": "c6e9c6a2c151464aed94f73208d7ae6b499b85481723971a2966363f3a42af29"
+  },
+  "state": "frozen_before_paired_cost_replay",
+  "created_unix": 1791778656.3176215,
+  "scope": "Two previously diagnosed objects, seeds0/1, same-card AB/BA pairs. Additional validation of the same candidate, not a newly sampled object cohort.",
+  "cost_scope": "Fresh separate CPU cache per variant. Shared native targets measured once per pair and charged equally. Fitting/export/checkpoint evaluation measured per arm. The accounted sum is not a single uninterrupted mesh-to-image wall clock; filesystem and CPU cache state are not cold. GPU occupancy qualifies separately.",
+  "failures": "No entered-stage retry or replacement. The four original quality fits remain unchanged.",
+  "pairs": [
+    {
+      "gpu": 0,
+      "uid": "6e509bb275c44dc994d1e6bc694242f5",
+      "seed": 0,
+      "order": [
+        "fp64_diagonal",
+        "heat_features"
+      ]
+    },
+    {
+      "gpu": 1,
+      "uid": "6e509bb275c44dc994d1e6bc694242f5",
+      "seed": 1,
+      "order": [
+        "heat_features",
+        "fp64_diagonal"
+      ]
+    },
+    {
+      "gpu": 2,
+      "uid": "242d37a17a334d3cb1ab4fb978ae0ad9",
+      "seed": 0,
+      "order": [
+        "fp64_diagonal",
+        "heat_features"
+      ]
+    },
+    {
+      "gpu": 3,
+      "uid": "242d37a17a334d3cb1ab4fb978ae0ad9",
+      "seed": 1,
+      "order": [
+        "heat_features",
+        "fp64_diagonal"
+      ]
+    }
+  ]
+}

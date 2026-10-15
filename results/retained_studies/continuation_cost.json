@@ -1,0 +1,954 @@
+[
+  {
+    "uid": "774bc66d11c24855bf722e35249fddf7",
+    "name": "Orange",
+    "common_budget": {
+      "seconds": 768.016667895019,
+      "last_available_models": {
+        "joint": {
+          "step": 100,
+          "seconds": 760.4926880970597,
+          "incremental_seconds": 23.661673069000244,
+          "psnr": 41.5545768737793
+        },
+        "prefit": {
+          "step": 100,
+          "seconds": 760.9603647366166,
+          "incremental_seconds": 24.12934970855713,
+          "psnr": 41.540750122070314
+        },
+        "alternating": {
+          "step": 0,
+          "seconds": 766.3743650093675,
+          "incremental_seconds": 29.543349981307983,
+          "psnr": 39.74952774047851
+        },
+        "direct_joint": {
+          "step": 1000,
+          "seconds": 768.016667895019,
+          "incremental_seconds": 73.3405933380127,
+          "psnr": 41.95070571899414
+        }
+      },
+      "rule": "Minimum final recorded pipeline time among the four joint routes; use most recent saved model, not best test PSNR or interpolated quality."
+    },
+    "arms": {
+      "joint": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 754.2687136307359,
+            "incremental_seconds": 17.43769860267639,
+            "psnr": 36.25272827148437
+          },
+          {
+            "step": 0,
+            "seconds": 754.3125964775681,
+            "incremental_seconds": 17.481581449508667,
+            "psnr": 36.25218811035156
+          },
+          {
+            "step": 100,
+            "seconds": 760.4926880970597,
+            "incremental_seconds": 23.661673069000244,
+            "psnr": 41.5545768737793
+          },
+          {
+            "step": 250,
+            "seconds": 768.898197568953,
+            "incremental_seconds": 32.067182540893555,
+            "psnr": 41.81866607666016
+          },
+          {
+            "step": 500,
+            "seconds": 782.8045977726579,
+            "incremental_seconds": 45.97358274459839,
+            "psnr": 41.840982818603514
+          },
+          {
+            "step": 750,
+            "seconds": 796.7592820301652,
+            "incremental_seconds": 59.92826700210571,
+            "psnr": 41.90290832519531
+          },
+          {
+            "step": 1000,
+            "seconds": 810.7715582028031,
+            "incremental_seconds": 73.94054317474365,
+            "psnr": 42.01799850463867
+          }
+        ]
+      },
+      "prefit": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 753.8356079235673,
+            "incremental_seconds": 17.004592895507812,
+            "psnr": 36.25243911743164
+          },
+          {
+            "step": 0,
+            "seconds": 755.0986861363053,
+            "incremental_seconds": 18.26767110824585,
+            "psnr": 39.75018997192383
+          },
+          {
+            "step": 100,
+            "seconds": 760.9603647366166,
+            "incremental_seconds": 24.12934970855713,
+            "psnr": 41.540750122070314
+          },
+          {
+            "step": 250,
+            "seconds": 770.4488968029618,
+            "incremental_seconds": 33.617881774902344,
+            "psnr": 41.852175903320315
+          },
+          {
+            "step": 500,
+            "seconds": 785.7940878048539,
+            "incremental_seconds": 48.963072776794434,
+            "psnr": 41.928182983398436
+          },
+          {
+            "step": 750,
+            "seconds": 800.168061889708,
+            "incremental_seconds": 63.33704686164856,
+            "psnr": 41.980394744873045
+          },
+          {
+            "step": 1000,
+            "seconds": 819.1969675198197,
+            "incremental_seconds": 82.36595249176025,
+            "psnr": 42.09033737182617
+          }
+        ]
+      },
+      "alternating": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 765.1316265240312,
+            "incremental_seconds": 28.30061149597168,
+            "psnr": 36.252576446533205
+          },
+          {
+            "step": 0,
+            "seconds": 766.3743650093675,
+            "incremental_seconds": 29.543349981307983,
+            "psnr": 39.74952774047851
+          },
+          {
+            "step": 100,
+            "seconds": 772.1281649246812,
+            "incremental_seconds": 35.297149896621704,
+            "psnr": 41.541788482666014
+          },
+          {
+            "step": 250,
+            "seconds": 780.4526542797685,
+            "incremental_seconds": 43.621639251708984,
+            "psnr": 41.85530319213867
+          },
+          {
+            "step": 250,
+            "seconds": 781.0279826298356,
+            "incremental_seconds": 44.19696760177612,
+            "psnr": 41.2032958984375
+          },
+          {
+            "step": 500,
+            "seconds": 794.8235718384385,
+            "incremental_seconds": 57.99255681037903,
+            "psnr": 41.936903381347655
+          },
+          {
+            "step": 500,
+            "seconds": 795.3810357227921,
+            "incremental_seconds": 58.550020694732666,
+            "psnr": 41.43070907592774
+          },
+          {
+            "step": 750,
+            "seconds": 809.4883762970567,
+            "incremental_seconds": 72.65736126899719,
+            "psnr": 41.97129135131836
+          },
+          {
+            "step": 750,
+            "seconds": 810.0395287647843,
+            "incremental_seconds": 73.20851373672485,
+            "psnr": 41.54197387695312
+          },
+          {
+            "step": 1000,
+            "seconds": 823.7773422375321,
+            "incremental_seconds": 86.94632720947266,
+            "psnr": 42.04153213500977
+          }
+        ]
+      },
+      "direct_joint": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 711.7508531138301,
+            "incremental_seconds": 17.07477855682373,
+            "psnr": 42.202886962890624
+          },
+          {
+            "step": 0,
+            "seconds": 711.7853453680873,
+            "incremental_seconds": 17.109270811080933,
+            "psnr": 42.20254898071289
+          },
+          {
+            "step": 100,
+            "seconds": 717.8555055186152,
+            "incremental_seconds": 23.179430961608887,
+            "psnr": 41.93183975219726
+          },
+          {
+            "step": 250,
+            "seconds": 726.2457883879542,
+            "incremental_seconds": 31.569713830947876,
+            "psnr": 41.9420166015625
+          },
+          {
+            "step": 500,
+            "seconds": 740.0723848864436,
+            "incremental_seconds": 45.396310329437256,
+            "psnr": 41.95169219970703
+          },
+          {
+            "step": 750,
+            "seconds": 754.0957418009639,
+            "incremental_seconds": 59.41966724395752,
+            "psnr": 42.03084106445313
+          },
+          {
+            "step": 1000,
+            "seconds": 768.016667895019,
+            "incremental_seconds": 73.3405933380127,
+            "psnr": 41.95070571899414
+          }
+        ]
+      }
+    }
+  },
+  {
+    "uid": "0413d92d70f24a68b3afe8643301c515",
+    "name": "Poison Dart Frog",
+    "common_budget": {
+      "seconds": 458.3338801115751,
+      "last_available_models": {
+        "joint": {
+          "step": 1000,
+          "seconds": 458.3338801115751,
+          "incremental_seconds": 68.97899508476257,
+          "psnr": 32.941857147216794
+        },
+        "prefit": {
+          "step": 750,
+          "seconds": 445.25704519450665,
+          "incremental_seconds": 55.90216016769409,
+          "psnr": 33.17304992675781
+        },
+        "alternating": {
+          "step": 500,
+          "seconds": 445.675553008914,
+          "incremental_seconds": 56.32066798210144,
+          "psnr": 32.99972991943359
+        },
+        "direct_joint": {
+          "step": 750,
+          "seconds": 451.169644407928,
+          "incremental_seconds": 54.04263663291931,
+          "psnr": 32.94176254272461
+        }
+      },
+      "rule": "Minimum final recorded pipeline time among the four joint routes; use most recent saved model, not best test PSNR or interpolated quality."
+    },
+    "arms": {
+      "joint": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 401.7445444315672,
+            "incremental_seconds": 12.389659404754639,
+            "psnr": 29.389300918579103
+          },
+          {
+            "step": 0,
+            "seconds": 401.78112857043743,
+            "incremental_seconds": 12.426243543624878,
+            "psnr": 29.38919677734375
+          },
+          {
+            "step": 100,
+            "seconds": 407.99094645678997,
+            "incremental_seconds": 18.636061429977417,
+            "psnr": 32.449327850341795
+          },
+          {
+            "step": 250,
+            "seconds": 416.47285191714764,
+            "incremental_seconds": 27.117966890335083,
+            "psnr": 32.741852569580075
+          },
+          {
+            "step": 500,
+            "seconds": 430.4712211340666,
+            "incremental_seconds": 41.11633610725403,
+            "psnr": 32.694562911987305
+          },
+          {
+            "step": 750,
+            "seconds": 444.3783461302519,
+            "incremental_seconds": 55.02346110343933,
+            "psnr": 33.053012466430665
+          },
+          {
+            "step": 1000,
+            "seconds": 458.3338801115751,
+            "incremental_seconds": 68.97899508476257,
+            "psnr": 32.941857147216794
+          }
+        ]
+      },
+      "prefit": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 401.42835299670696,
+            "incremental_seconds": 12.07346796989441,
+            "psnr": 29.389331436157228
+          },
+          {
+            "step": 0,
+            "seconds": 402.70240084826946,
+            "incremental_seconds": 13.34751582145691,
+            "psnr": 29.90567398071289
+          },
+          {
+            "step": 100,
+            "seconds": 408.5166575163603,
+            "incremental_seconds": 19.16177248954773,
+            "psnr": 32.51108283996582
+          },
+          {
+            "step": 250,
+            "seconds": 417.08061139285564,
+            "incremental_seconds": 27.72572636604309,
+            "psnr": 32.78024139404297
+          },
+          {
+            "step": 500,
+            "seconds": 431.2999183386564,
+            "incremental_seconds": 41.94503331184387,
+            "psnr": 33.10413093566895
+          },
+          {
+            "step": 750,
+            "seconds": 445.25704519450665,
+            "incremental_seconds": 55.90216016769409,
+            "psnr": 33.17304992675781
+          },
+          {
+            "step": 1000,
+            "seconds": 459.3440045565367,
+            "incremental_seconds": 69.98911952972412,
+            "psnr": 33.25424346923828
+          }
+        ]
+      },
+      "alternating": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 414.50473849475384,
+            "incremental_seconds": 25.149853467941284,
+            "psnr": 29.389314270019533
+          },
+          {
+            "step": 0,
+            "seconds": 415.9710463732481,
+            "incremental_seconds": 26.616161346435547,
+            "psnr": 29.90573043823242
+          },
+          {
+            "step": 100,
+            "seconds": 421.8887981623411,
+            "incremental_seconds": 32.533913135528564,
+            "psnr": 32.51106262207031
+          },
+          {
+            "step": 250,
+            "seconds": 430.35242216289043,
+            "incremental_seconds": 40.99753713607788,
+            "psnr": 32.78024139404297
+          },
+          {
+            "step": 250,
+            "seconds": 430.9641434401274,
+            "incremental_seconds": 41.60925841331482,
+            "psnr": 32.439818954467775
+          },
+          {
+            "step": 500,
+            "seconds": 445.103300973773,
+            "incremental_seconds": 55.74841594696045,
+            "psnr": 33.234399032592776
+          },
+          {
+            "step": 500,
+            "seconds": 445.675553008914,
+            "incremental_seconds": 56.32066798210144,
+            "psnr": 32.99972991943359
+          },
+          {
+            "step": 750,
+            "seconds": 459.4957756251097,
+            "incremental_seconds": 70.14089059829712,
+            "psnr": 33.334877014160156
+          },
+          {
+            "step": 750,
+            "seconds": 460.054596349597,
+            "incremental_seconds": 70.69971132278442,
+            "psnr": 32.97276725769043
+          },
+          {
+            "step": 1000,
+            "seconds": 473.83136217296124,
+            "incremental_seconds": 84.47647714614868,
+            "psnr": 33.42824096679688
+          }
+        ]
+      },
+      "direct_joint": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 409.29341941326857,
+            "incremental_seconds": 12.166411638259888,
+            "psnr": 33.882896423339844
+          },
+          {
+            "step": 0,
+            "seconds": 409.3281074091792,
+            "incremental_seconds": 12.201099634170532,
+            "psnr": 33.882894897460936
+          },
+          {
+            "step": 100,
+            "seconds": 415.3581195399165,
+            "incremental_seconds": 18.231111764907837,
+            "psnr": 32.80499954223633
+          },
+          {
+            "step": 250,
+            "seconds": 423.6921520754695,
+            "incremental_seconds": 26.565144300460815,
+            "psnr": 32.80813331604004
+          },
+          {
+            "step": 500,
+            "seconds": 437.3941705748439,
+            "incremental_seconds": 40.267162799835205,
+            "psnr": 32.829623794555665
+          },
+          {
+            "step": 750,
+            "seconds": 451.169644407928,
+            "incremental_seconds": 54.04263663291931,
+            "psnr": 32.94176254272461
+          },
+          {
+            "step": 1000,
+            "seconds": 464.8992848917842,
+            "incremental_seconds": 67.77227711677551,
+            "psnr": 33.011465835571286
+          }
+        ]
+      }
+    }
+  },
+  {
+    "uid": "01c9b73ed5f1406b97f86e46774fcff6",
+    "name": "Small Limo",
+    "common_budget": {
+      "seconds": 422.1069161146879,
+      "last_available_models": {
+        "joint": {
+          "step": 500,
+          "seconds": 419.9903127476573,
+          "incremental_seconds": 39.783873558044434,
+          "psnr": 46.09166641235352
+        },
+        "prefit": {
+          "step": 250,
+          "seconds": 409.6219331547618,
+          "incremental_seconds": 29.415493965148926,
+          "psnr": 46.962755584716795
+        },
+        "alternating": {
+          "step": 250,
+          "seconds": 407.953323058784,
+          "incremental_seconds": 27.746883869171143,
+          "psnr": 46.2552993774414
+        },
+        "direct_joint": {
+          "step": 1000,
+          "seconds": 422.1069161146879,
+          "incremental_seconds": 67.99388456344604,
+          "psnr": 45.90255889892578
+        }
+      },
+      "rule": "Minimum final recorded pipeline time among the four joint routes; use most recent saved model, not best test PSNR or interpolated quality."
+    },
+    "arms": {
+      "joint": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 391.6478599831462,
+            "incremental_seconds": 11.441420793533325,
+            "psnr": 33.79079933166504
+          },
+          {
+            "step": 0,
+            "seconds": 391.6816074177623,
+            "incremental_seconds": 11.475168228149414,
+            "psnr": 33.79101219177246
+          },
+          {
+            "step": 100,
+            "seconds": 397.7296847626567,
+            "incremental_seconds": 17.523245573043823,
+            "psnr": 40.48499221801758
+          },
+          {
+            "step": 250,
+            "seconds": 406.07432859390974,
+            "incremental_seconds": 25.867889404296875,
+            "psnr": 44.3097900390625
+          },
+          {
+            "step": 500,
+            "seconds": 419.9903127476573,
+            "incremental_seconds": 39.783873558044434,
+            "psnr": 46.09166641235352
+          },
+          {
+            "step": 750,
+            "seconds": 433.9934982582927,
+            "incremental_seconds": 53.78705906867981,
+            "psnr": 46.03426055908203
+          },
+          {
+            "step": 1000,
+            "seconds": 448.028753452003,
+            "incremental_seconds": 67.82231426239014,
+            "psnr": 46.214786529541016
+          }
+        ]
+      },
+      "prefit": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 392.33696668595076,
+            "incremental_seconds": 12.13052749633789,
+            "psnr": 33.79079933166504
+          },
+          {
+            "step": 0,
+            "seconds": 394.92222564667463,
+            "incremental_seconds": 14.715786457061768,
+            "psnr": 45.41313781738281
+          },
+          {
+            "step": 100,
+            "seconds": 401.16797106713057,
+            "incremental_seconds": 20.9615318775177,
+            "psnr": 46.47322463989258
+          },
+          {
+            "step": 250,
+            "seconds": 409.6219331547618,
+            "incremental_seconds": 29.415493965148926,
+            "psnr": 46.962755584716795
+          },
+          {
+            "step": 500,
+            "seconds": 423.58935802429914,
+            "incremental_seconds": 43.38291883468628,
+            "psnr": 46.978545379638675
+          },
+          {
+            "step": 750,
+            "seconds": 438.19091909378767,
+            "incremental_seconds": 57.984479904174805,
+            "psnr": 47.27679290771484
+          },
+          {
+            "step": 1000,
+            "seconds": 452.1827449128032,
+            "incremental_seconds": 71.97630572319031,
+            "psnr": 46.870330047607425
+          }
+        ]
+      },
+      "alternating": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 391.836845330894,
+            "incremental_seconds": 11.630406141281128,
+            "psnr": 33.79079933166504
+          },
+          {
+            "step": 0,
+            "seconds": 392.8680657669902,
+            "incremental_seconds": 12.66162657737732,
+            "psnr": 45.41313781738281
+          },
+          {
+            "step": 100,
+            "seconds": 398.803735665977,
+            "incremental_seconds": 18.597296476364136,
+            "psnr": 46.47322463989258
+          },
+          {
+            "step": 250,
+            "seconds": 407.3733360096812,
+            "incremental_seconds": 27.16689682006836,
+            "psnr": 46.96169586181641
+          },
+          {
+            "step": 250,
+            "seconds": 407.953323058784,
+            "incremental_seconds": 27.746883869171143,
+            "psnr": 46.2552993774414
+          },
+          {
+            "step": 500,
+            "seconds": 422.1381077095866,
+            "incremental_seconds": 41.931668519973755,
+            "psnr": 47.033242797851564
+          },
+          {
+            "step": 500,
+            "seconds": 422.6869613453746,
+            "incremental_seconds": 42.48052215576172,
+            "psnr": 46.550629425048825
+          },
+          {
+            "step": 750,
+            "seconds": 436.75709622353315,
+            "incremental_seconds": 56.55065703392029,
+            "psnr": 47.60717086791992
+          },
+          {
+            "step": 750,
+            "seconds": 437.3133732602,
+            "incremental_seconds": 57.10693407058716,
+            "psnr": 46.174390411376955
+          },
+          {
+            "step": 1000,
+            "seconds": 451.4229103848338,
+            "incremental_seconds": 71.21647119522095,
+            "psnr": 46.69418182373047
+          }
+        ]
+      },
+      "direct_joint": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 366.05013029277325,
+            "incremental_seconds": 11.937098741531372,
+            "psnr": 45.59176406860352
+          },
+          {
+            "step": 0,
+            "seconds": 366.0893313139677,
+            "incremental_seconds": 11.97629976272583,
+            "psnr": 45.591851806640626
+          },
+          {
+            "step": 100,
+            "seconds": 372.27786795794964,
+            "incremental_seconds": 18.164836406707764,
+            "psnr": 45.34097137451172
+          },
+          {
+            "step": 250,
+            "seconds": 380.6154340952635,
+            "incremental_seconds": 26.502402544021606,
+            "psnr": 45.64464111328125
+          },
+          {
+            "step": 500,
+            "seconds": 394.4799508303404,
+            "incremental_seconds": 40.36691927909851,
+            "psnr": 45.89018936157227
+          },
+          {
+            "step": 750,
+            "seconds": 408.295181915164,
+            "incremental_seconds": 54.18215036392212,
+            "psnr": 46.11060485839844
+          },
+          {
+            "step": 1000,
+            "seconds": 422.1069161146879,
+            "incremental_seconds": 67.99388456344604,
+            "psnr": 45.90255889892578
+          }
+        ]
+      }
+    }
+  },
+  {
+    "uid": "02cdd6703f7f4baf8b0d96c0ae4ad6b1",
+    "name": "Pink Ombre Hair",
+    "common_budget": {
+      "seconds": 429.3100862801075,
+      "last_available_models": {
+        "joint": {
+          "step": 500,
+          "seconds": 420.27856627106667,
+          "incremental_seconds": 40.35958933830261,
+          "psnr": 46.87914886474609
+        },
+        "prefit": {
+          "step": 500,
+          "seconds": 427.27676978707314,
+          "incremental_seconds": 47.35779285430908,
+          "psnr": 46.87000350952148
+        },
+        "alternating": {
+          "step": 500,
+          "seconds": 422.05721083283424,
+          "incremental_seconds": 42.13823390007019,
+          "psnr": 46.455258178710935
+        },
+        "direct_joint": {
+          "step": 1000,
+          "seconds": 429.3100862801075,
+          "incremental_seconds": 67.68998456001282,
+          "psnr": 46.973839569091794
+        }
+      },
+      "rule": "Minimum final recorded pipeline time among the four joint routes; use most recent saved model, not best test PSNR or interpolated quality."
+    },
+    "arms": {
+      "joint": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 391.5042680799961,
+            "incremental_seconds": 11.585291147232056,
+            "psnr": 45.97513427734375
+          },
+          {
+            "step": 0,
+            "seconds": 391.54130831360817,
+            "incremental_seconds": 11.622331380844116,
+            "psnr": 45.975555419921875
+          },
+          {
+            "step": 100,
+            "seconds": 397.74372854828835,
+            "incremental_seconds": 17.824751615524292,
+            "psnr": 46.89820861816406
+          },
+          {
+            "step": 250,
+            "seconds": 406.2340110838413,
+            "incremental_seconds": 26.31503415107727,
+            "psnr": 46.86781768798828
+          },
+          {
+            "step": 500,
+            "seconds": 420.27856627106667,
+            "incremental_seconds": 40.35958933830261,
+            "psnr": 46.87914886474609
+          },
+          {
+            "step": 750,
+            "seconds": 434.29488983750343,
+            "incremental_seconds": 54.37591290473938,
+            "psnr": 46.92113494873047
+          },
+          {
+            "step": 1000,
+            "seconds": 448.33858147263527,
+            "incremental_seconds": 68.41960453987122,
+            "psnr": 47.02538528442383
+          }
+        ]
+      },
+      "prefit": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 392.3761493265629,
+            "incremental_seconds": 12.457172393798828,
+            "psnr": 45.97555770874023
+          },
+          {
+            "step": 0,
+            "seconds": 393.4387127459049,
+            "incremental_seconds": 13.51973581314087,
+            "psnr": 46.24322738647461
+          },
+          {
+            "step": 100,
+            "seconds": 399.45675244927406,
+            "incremental_seconds": 19.53777551651001,
+            "psnr": 46.88592681884766
+          },
+          {
+            "step": 250,
+            "seconds": 408.3849062025547,
+            "incremental_seconds": 28.46592926979065,
+            "psnr": 46.9216064453125
+          },
+          {
+            "step": 500,
+            "seconds": 427.27676978707314,
+            "incremental_seconds": 47.35779285430908,
+            "psnr": 46.87000350952148
+          },
+          {
+            "step": 750,
+            "seconds": 441.3257464468479,
+            "incremental_seconds": 61.40676951408386,
+            "psnr": 46.90035705566406
+          },
+          {
+            "step": 1000,
+            "seconds": 456.7652191221714,
+            "incremental_seconds": 76.84624218940735,
+            "psnr": 46.97410278320312
+          }
+        ]
+      },
+      "alternating": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 391.8972572386265,
+            "incremental_seconds": 11.978280305862427,
+            "psnr": 45.97555770874023
+          },
+          {
+            "step": 0,
+            "seconds": 392.9125923216343,
+            "incremental_seconds": 12.99361538887024,
+            "psnr": 46.24324417114258
+          },
+          {
+            "step": 100,
+            "seconds": 398.72042670845985,
+            "incremental_seconds": 18.8014497756958,
+            "psnr": 46.88592681884766
+          },
+          {
+            "step": 250,
+            "seconds": 407.04726377129555,
+            "incremental_seconds": 27.128286838531494,
+            "psnr": 46.9216064453125
+          },
+          {
+            "step": 250,
+            "seconds": 407.6386059820652,
+            "incremental_seconds": 27.719629049301147,
+            "psnr": 46.2967041015625
+          },
+          {
+            "step": 500,
+            "seconds": 421.4966999590397,
+            "incremental_seconds": 41.577723026275635,
+            "psnr": 46.87321472167969
+          },
+          {
+            "step": 500,
+            "seconds": 422.05721083283424,
+            "incremental_seconds": 42.13823390007019,
+            "psnr": 46.455258178710935
+          },
+          {
+            "step": 750,
+            "seconds": 435.9309939444065,
+            "incremental_seconds": 56.012017011642456,
+            "psnr": 46.858682250976564
+          },
+          {
+            "step": 750,
+            "seconds": 436.48855009675026,
+            "incremental_seconds": 56.569573163986206,
+            "psnr": 46.42335205078125
+          },
+          {
+            "step": 1000,
+            "seconds": 450.45865765213966,
+            "incremental_seconds": 70.53968071937561,
+            "psnr": 46.95205078125
+          }
+        ]
+      },
+      "direct_joint": {
+        "points": [
+          {
+            "step": 0,
+            "seconds": 373.2648766338825,
+            "incremental_seconds": 11.644774913787842,
+            "psnr": 47.033929443359376
+          },
+          {
+            "step": 0,
+            "seconds": 373.2986414730549,
+            "incremental_seconds": 11.678539752960205,
+            "psnr": 47.032929229736325
+          },
+          {
+            "step": 100,
+            "seconds": 379.3188500702381,
+            "incremental_seconds": 17.698748350143433,
+            "psnr": 46.90355453491211
+          },
+          {
+            "step": 250,
+            "seconds": 387.64560344815254,
+            "incremental_seconds": 26.02550172805786,
+            "psnr": 46.893472290039064
+          },
+          {
+            "step": 500,
+            "seconds": 401.5566067993641,
+            "incremental_seconds": 39.93650507926941,
+            "psnr": 46.8857063293457
+          },
+          {
+            "step": 750,
+            "seconds": 415.4508002102375,
+            "incremental_seconds": 53.83069849014282,
+            "psnr": 46.90117416381836
+          },
+          {
+            "step": 1000,
+            "seconds": 429.3100862801075,
+            "incremental_seconds": 67.68998456001282,
+            "psnr": 46.973839569091794
+          }
+        ]
+      }
+    }
+  }
+]

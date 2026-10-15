@@ -1,0 +1,30 @@
+{
+  "state": "passed",
+  "cpu": [
+    {
+      "method": "uniform",
+      "scalar_match": true,
+      "sweeps": 1200
+    },
+    {
+      "method": "projected_leverage",
+      "scalar_match": true,
+      "sweeps": 1400
+    }
+  ],
+  "gpu": [
+    {
+      "alpha": 0.0,
+      "absolute_mean_view_psnr_difference": 0.0
+    },
+    {
+      "alpha": 0.25,
+      "absolute_mean_view_psnr_difference": 0.0
+    },
+    {
+      "alpha": 1.0,
+      "absolute_mean_view_psnr_difference": 0.0
+    }
+  ],
+  "scope": "One actual Orange field on the existing RTX3090 host, three fractions and five128-square views. No clean-machine GPU installation claim."
+}

@@ -1,0 +1,1137 @@
+{
+  "state": "complete_primary_with_failed_fusion_replays_retained",
+  "scope": "Four historical fields; no new training, seeds, or independent objects.",
+  "objects": [
+    {
+      "object": "Orange",
+      "families": {
+        "distance_fixed": {
+          "selected": {
+            "kind": "distance",
+            "k": 40
+          },
+          "mean_candidates_test": 40.0,
+          "test_delta_db": -0.021386730649467722,
+          "candidate_count_quantiles": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "selected_calibration_delta_db": -0.01901499109370164
+        },
+        "quad_fixed": {
+          "selected": {
+            "kind": "full"
+          },
+          "mean_candidates_test": 50.0,
+          "test_delta_db": 0.0,
+          "candidate_count_quantiles": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "selected_calibration_delta_db": 0.0
+        },
+        "quad_adaptive": {
+          "selected": {
+            "kind": "full"
+          },
+          "mean_candidates_test": 50.0,
+          "test_delta_db": 0.0,
+          "candidate_count_quantiles": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "selected_calibration_delta_db": 0.0
+        },
+        "oracle_fixed": {
+          "selected": {
+            "kind": "oracle_fixed",
+            "k": 30
+          },
+          "mean_candidates_test": 30.0,
+          "test_delta_db": -1.1996768023436744e-09,
+          "candidate_count_quantiles": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "selected_calibration_delta_db": 1.3396750375704869e-09
+        },
+        "oracle_adaptive": {
+          "selected": {
+            "kind": "oracle_adaptive",
+            "tol": 0.008
+          },
+          "mean_candidates_test": 9.7537841796875,
+          "test_delta_db": -0.01705634277289292,
+          "candidate_count_quantiles": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            16.0,
+            30.0
+          ],
+          "selected_calibration_delta_db": -0.014868009238874436
+        }
+      },
+      "primary_query_ms": {
+        "Original": 28.907418251037598,
+        "Full_stream": 5.2944570779800415,
+        "distance_fixed": 5.9183090925216675,
+        "quad_fixed": 5.3214579820632935,
+        "quad_adaptive": 5.270205438137054,
+        "oracle_fixed": 5.537152290344238,
+        "oracle_adaptive": 9.47299599647522,
+        "Full_reference": 26.665136218070984,
+        "Adaptive_reference": 26.625201106071472
+      },
+      "render": {
+        "original_views": {
+          "Original": {
+            "psnr": 42.310177612304685,
+            "delta_db": 0.004212951660150566,
+            "render_denoise_ms": 2630.8800749480724,
+            "speed_ratio": 0.2574368788050674
+          },
+          "Full_stream": {
+            "psnr": 42.305964660644534,
+            "delta_db": 0.0,
+            "render_denoise_ms": 677.2855550050735,
+            "speed_ratio": 1.0
+          },
+          "distance_fixed": {
+            "psnr": 42.28546676635742,
+            "delta_db": -0.020497894287110796,
+            "render_denoise_ms": 717.9772548377514,
+            "speed_ratio": 0.9433245279589346
+          },
+          "quad_fixed": {
+            "psnr": 42.308946990966795,
+            "delta_db": 0.0029823303222613617,
+            "render_denoise_ms": 651.1398926377296,
+            "speed_ratio": 1.0401536792062138
+          },
+          "quad_adaptive": {
+            "psnr": 42.31025390625,
+            "delta_db": 0.004289245605463066,
+            "render_denoise_ms": 666.969595849514,
+            "speed_ratio": 1.0154669106654257
+          },
+          "oracle_fixed": {
+            "psnr": 42.30907440185547,
+            "delta_db": 0.003109741210934658,
+            "render_denoise_ms": 689.8368157446384,
+            "speed_ratio": 0.9818054640559933
+          },
+          "oracle_adaptive": {
+            "psnr": 42.30418853759765,
+            "delta_db": -0.0017761230468806843,
+            "render_denoise_ms": 1011.700351536274,
+            "speed_ratio": 0.669452722811266
+          }
+        },
+        "shifted_views": {
+          "Original": {
+            "psnr": 42.230404663085935,
+            "delta_db": -0.000339508056640625,
+            "render_denoise_ms": 2567.8386986255646,
+            "speed_ratio": 0.2500770902086037
+          },
+          "Full_stream": {
+            "psnr": 42.230744171142575,
+            "delta_db": 0.0,
+            "render_denoise_ms": 642.1576298773289,
+            "speed_ratio": 1.0
+          },
+          "distance_fixed": {
+            "psnr": 42.21213912963867,
+            "delta_db": -0.018605041503903408,
+            "render_denoise_ms": 692.682784050703,
+            "speed_ratio": 0.9270587412640592
+          },
+          "quad_fixed": {
+            "psnr": 42.23127365112305,
+            "delta_db": 0.0005294799804715922,
+            "render_denoise_ms": 646.2397910654545,
+            "speed_ratio": 0.9936832097859598
+          },
+          "quad_adaptive": {
+            "psnr": 42.23110656738281,
+            "delta_db": 0.000362396240234375,
+            "render_denoise_ms": 636.5695960819721,
+            "speed_ratio": 1.0087783548409326
+          },
+          "oracle_fixed": {
+            "psnr": 42.230674743652344,
+            "delta_db": -6.942749023153283e-05,
+            "render_denoise_ms": 677.8791449964046,
+            "speed_ratio": 0.9473040063516555
+          },
+          "oracle_adaptive": {
+            "psnr": 42.226776123046875,
+            "delta_db": -0.003968048095700283,
+            "render_denoise_ms": 966.4761558175087,
+            "speed_ratio": 0.6644319427975437
+          }
+        }
+      },
+      "stress": {
+        "Original": {
+          "max_extra_rgb_jump": 0.0,
+          "p99_extra_rgb_jump": 0.0,
+          "mean_extra_rgb_jump": 0.0
+        },
+        "Full_stream": {
+          "max_extra_rgb_jump": 7.82310962677002e-07,
+          "p99_extra_rgb_jump": 3.8743019104003906e-07,
+          "mean_extra_rgb_jump": 7.328708306886256e-08
+        },
+        "distance_fixed": {
+          "max_extra_rgb_jump": 1.0814517736434937e-05,
+          "p99_extra_rgb_jump": 8.940696716308594e-07,
+          "mean_extra_rgb_jump": 1.1416523193474859e-07
+        },
+        "quad_fixed": {
+          "max_extra_rgb_jump": 7.82310962677002e-07,
+          "p99_extra_rgb_jump": 3.8743019104003906e-07,
+          "mean_extra_rgb_jump": 7.328708306886256e-08
+        },
+        "quad_adaptive": {
+          "max_extra_rgb_jump": 7.82310962677002e-07,
+          "p99_extra_rgb_jump": 3.8743019104003906e-07,
+          "mean_extra_rgb_jump": 7.328708306886256e-08
+        },
+        "oracle_fixed": {
+          "max_extra_rgb_jump": 7.82310962677002e-07,
+          "p99_extra_rgb_jump": 3.8743019104003906e-07,
+          "mean_extra_rgb_jump": 7.333983376156539e-08
+        },
+        "oracle_adaptive": {
+          "max_extra_rgb_jump": 0.00799734890460968,
+          "p99_extra_rgb_jump": 4.4405460357666016e-06,
+          "mean_extra_rgb_jump": 4.260726200300269e-06
+        }
+      },
+      "recovery_costs_recorded": {
+        "load_prepare_seconds": 4.728176198899746,
+        "cache_seconds": 3.779465973377228,
+        "router_fit_and_export_seconds": 0.6732686311006546,
+        "calibration_search_seconds": 1.4690733328461647,
+        "query_benchmark_seconds": 0.9980833604931831,
+        "inclusive_seconds": 269.641561627388
+      },
+      "original_load_prepare_seconds": 6.05752981454134,
+      "elapsed_original_start_to_completed_seconds": 362.04121351242065,
+      "router_file_bytes": 61069,
+      "router_array_bytes": 66000,
+      "router_decoded_bytes": 132000,
+      "field_file_bytes": 67286,
+      "reported_resident_scopes": {
+        "global_knn_basis_bytes": 1024493568,
+        "base_basis_bytes": 1045401600,
+        "stream_decay_bytes": 3072000,
+        "field_arrays_bytes": 78006,
+        "field_file_bytes": 67286,
+        "torch_peak_allocated_all_methods_bytes": 1310642176
+      },
+      "fusion": {
+        "state": "failed",
+        "query_ms": {
+          "Full_stream": 5.167290568351746,
+          "Bucket": 5.180947482585907,
+          "Masked": 5.181245505809784,
+          "Fused_score": 5.202330648899078
+        },
+        "implementation_selected": "Bucket",
+        "checks": {
+          "Masked_max_abs": 0.0,
+          "Masked_qualified": true,
+          "Fused_score_max_abs": 0.0,
+          "Fused_score_qualified": true,
+          "original_views_Original_bitwise": false
+        },
+        "render": {
+          "original_views": {
+            "delta_db": -0.00057220458984375,
+            "speed_ratio": 1.0175700757345412,
+            "baseline_render_denoise_ms": 619.2467868328094,
+            "routed_render_denoise_ms": 608.5544392466545
+          }
+        },
+        "full_render_claim_qualified": false
+      }
+    },
+    {
+      "object": "SmallLimo",
+      "families": {
+        "distance_fixed": {
+          "selected": {
+            "kind": "full"
+          },
+          "mean_candidates_test": 50.0,
+          "test_delta_db": 0.0,
+          "candidate_count_quantiles": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "selected_calibration_delta_db": 0.0
+        },
+        "quad_fixed": {
+          "selected": {
+            "kind": "full"
+          },
+          "mean_candidates_test": 50.0,
+          "test_delta_db": 0.0,
+          "candidate_count_quantiles": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "selected_calibration_delta_db": 0.0
+        },
+        "quad_adaptive": {
+          "selected": {
+            "kind": "quad_adaptive",
+            "tol": 0.008,
+            "reserve": 16
+          },
+          "mean_candidates_test": 32.1649169921875,
+          "test_delta_db": -0.030805198850668347,
+          "candidate_count_quantiles": [
+            24.0,
+            24.0,
+            24.0,
+            40.0,
+            50.0,
+            50.0
+          ],
+          "selected_calibration_delta_db": -0.048910480589626104
+        },
+        "oracle_fixed": {
+          "selected": {
+            "kind": "oracle_fixed",
+            "k": 24
+          },
+          "mean_candidates_test": 24.0,
+          "test_delta_db": 0.06685076577041471,
+          "candidate_count_quantiles": [
+            24.0,
+            24.0,
+            24.0,
+            24.0,
+            24.0,
+            24.0
+          ],
+          "selected_calibration_delta_db": 0.23728081909402476
+        },
+        "oracle_adaptive": {
+          "selected": {
+            "kind": "oracle_adaptive",
+            "tol": 0.016
+          },
+          "mean_candidates_test": 11.1270751953125,
+          "test_delta_db": -0.025889443317257843,
+          "candidate_count_quantiles": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            30.0,
+            30.0
+          ],
+          "selected_calibration_delta_db": -0.03737676738325035
+        }
+      },
+      "primary_query_ms": {
+        "Original": 29.266759753227234,
+        "Full_stream": 5.454786121845245,
+        "distance_fixed": 5.349777638912201,
+        "quad_fixed": 5.492225289344788,
+        "quad_adaptive": 20.489931106567383,
+        "oracle_fixed": 5.697831511497498,
+        "oracle_adaptive": 9.459830820560455,
+        "Full_reference": 26.74056589603424,
+        "Adaptive_reference": 41.92797839641571
+      },
+      "render": {
+        "original_views": {
+          "Original": {
+            "psnr": 46.93724670410156,
+            "delta_db": 1.1444091796875e-05,
+            "render_denoise_ms": 1101.5434086322784,
+            "speed_ratio": 0.26169079216819013
+          },
+          "Full_stream": {
+            "psnr": 46.937235260009764,
+            "delta_db": 0.0,
+            "render_denoise_ms": 288.2637672126293,
+            "speed_ratio": 1.0
+          },
+          "distance_fixed": {
+            "psnr": 46.937235260009764,
+            "delta_db": 0.0,
+            "render_denoise_ms": 287.5903017818928,
+            "speed_ratio": 1.0023417529261724
+          },
+          "quad_fixed": {
+            "psnr": 46.937235260009764,
+            "delta_db": 0.0,
+            "render_denoise_ms": 295.16835287213326,
+            "speed_ratio": 0.9766079744243619
+          },
+          "quad_adaptive": {
+            "psnr": 46.89704208374023,
+            "delta_db": -0.04019317626953267,
+            "render_denoise_ms": 679.6736590564251,
+            "speed_ratio": 0.42412084589657206
+          },
+          "oracle_fixed": {
+            "psnr": 46.45994338989258,
+            "delta_db": -0.47729187011718466,
+            "render_denoise_ms": 300.66982209682465,
+            "speed_ratio": 0.9587386096892684
+          },
+          "oracle_adaptive": {
+            "psnr": 46.7365219116211,
+            "delta_db": -0.2007133483886676,
+            "render_denoise_ms": 444.964762032032,
+            "speed_ratio": 0.6478350462994142
+          }
+        },
+        "shifted_views": {
+          "Original": {
+            "psnr": 47.30070266723633,
+            "delta_db": 3.051757815342171e-06,
+            "render_denoise_ms": 1092.0936472713947,
+            "speed_ratio": 0.2639490605569269
+          },
+          "Full_stream": {
+            "psnr": 47.300699615478514,
+            "delta_db": 0.0,
+            "render_denoise_ms": 288.25709223747253,
+            "speed_ratio": 1.0
+          },
+          "distance_fixed": {
+            "psnr": 47.300699615478514,
+            "delta_db": 0.0,
+            "render_denoise_ms": 287.6550517976284,
+            "speed_ratio": 1.0020929249671848
+          },
+          "quad_fixed": {
+            "psnr": 47.300699615478514,
+            "delta_db": 0.0,
+            "render_denoise_ms": 288.1303496658802,
+            "speed_ratio": 1.0004398792828986
+          },
+          "quad_adaptive": {
+            "psnr": 47.25536422729492,
+            "delta_db": -0.04533538818359517,
+            "render_denoise_ms": 662.627387791872,
+            "speed_ratio": 0.4350213974675201
+          },
+          "oracle_fixed": {
+            "psnr": 46.84216156005859,
+            "delta_db": -0.4585380554199219,
+            "render_denoise_ms": 300.07235184311867,
+            "speed_ratio": 0.960625297422192
+          },
+          "oracle_adaptive": {
+            "psnr": 46.985818481445314,
+            "delta_db": -0.3148811340332003,
+            "render_denoise_ms": 431.49929866194725,
+            "speed_ratio": 0.6680360620083046
+          }
+        }
+      },
+      "stress": {
+        "Original": {
+          "max_extra_rgb_jump": 0.0,
+          "p99_extra_rgb_jump": 0.0,
+          "mean_extra_rgb_jump": 0.0
+        },
+        "Full_stream": {
+          "max_extra_rgb_jump": 7.152557373046875e-07,
+          "p99_extra_rgb_jump": 3.2961543183773756e-07,
+          "mean_extra_rgb_jump": 2.8585418476723135e-08
+        },
+        "distance_fixed": {
+          "max_extra_rgb_jump": 7.152557373046875e-07,
+          "p99_extra_rgb_jump": 3.2961543183773756e-07,
+          "mean_extra_rgb_jump": 2.8585418476723135e-08
+        },
+        "quad_fixed": {
+          "max_extra_rgb_jump": 7.152557373046875e-07,
+          "p99_extra_rgb_jump": 3.2961543183773756e-07,
+          "mean_extra_rgb_jump": 2.8585418476723135e-08
+        },
+        "quad_adaptive": {
+          "max_extra_rgb_jump": 0.00044502317905426025,
+          "p99_extra_rgb_jump": 6.236240005819127e-05,
+          "mean_extra_rgb_jump": 2.069404217763804e-06
+        },
+        "oracle_fixed": {
+          "max_extra_rgb_jump": 0.06623974442481995,
+          "p99_extra_rgb_jump": 0.005754141137003899,
+          "mean_extra_rgb_jump": 0.00025569868739694357
+        },
+        "oracle_adaptive": {
+          "max_extra_rgb_jump": 0.022833310067653656,
+          "p99_extra_rgb_jump": 0.0032591104973107576,
+          "mean_extra_rgb_jump": 0.00012685160618275404
+        }
+      },
+      "recovery_costs_recorded": {
+        "load_prepare_seconds": 2.9901487454771996,
+        "cache_seconds": 3.911906488239765,
+        "router_fit_and_export_seconds": 1.5257600545883179,
+        "calibration_search_seconds": 1.5047477334737778,
+        "query_benchmark_seconds": 1.358409844338894,
+        "inclusive_seconds": 184.2195809110999
+      },
+      "original_load_prepare_seconds": 2.9301829636096954,
+      "elapsed_original_start_to_completed_seconds": 277.2586009502411,
+      "router_file_bytes": 61850,
+      "router_array_bytes": 66000,
+      "router_decoded_bytes": 132000,
+      "field_file_bytes": 61230,
+      "reported_resident_scopes": {
+        "global_knn_basis_bytes": 51380224,
+        "base_basis_bytes": 52428800,
+        "stream_decay_bytes": 3072000,
+        "field_arrays_bytes": 72006,
+        "field_file_bytes": 61230,
+        "torch_peak_allocated_all_methods_bytes": 309598720
+      },
+      "fusion": {
+        "state": "failed",
+        "query_ms": {
+          "Full_stream": 5.182079970836639,
+          "Bucket": 19.595809280872345,
+          "Masked": 10.063007473945618,
+          "Fused_score": 9.243801236152649
+        },
+        "implementation_selected": "Fused_score",
+        "checks": {
+          "Masked_max_abs": 2.9802322387695312e-08,
+          "Masked_qualified": true,
+          "Fused_score_max_abs": 2.9802322387695312e-08,
+          "Fused_score_qualified": true,
+          "original_views_Original_bitwise": true,
+          "original_views_Full_stream_bitwise": true,
+          "shifted_views_Original_bitwise": false
+        },
+        "render": {
+          "original_views": {
+            "delta_db": -0.04019317626953267,
+            "speed_ratio": 0.6630386788874877,
+            "baseline_render_denoise_ms": 307.76356905698776,
+            "routed_render_denoise_ms": 464.1713656485081
+          },
+          "shifted_views": {
+            "delta_db": -0.04533538818359517,
+            "speed_ratio": 0.6729234960669355,
+            "baseline_render_denoise_ms": 295.5716282129288,
+            "routed_render_denoise_ms": 439.2351135611534
+          }
+        },
+        "full_render_claim_qualified": false
+      }
+    },
+    {
+      "object": "Hummingbird",
+      "families": {
+        "distance_fixed": {
+          "selected": {
+            "kind": "full"
+          },
+          "mean_candidates_test": 50.0,
+          "test_delta_db": 0.0,
+          "candidate_count_quantiles": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "selected_calibration_delta_db": 0.0
+        },
+        "quad_fixed": {
+          "selected": {
+            "kind": "full"
+          },
+          "mean_candidates_test": 50.0,
+          "test_delta_db": 0.0,
+          "candidate_count_quantiles": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "selected_calibration_delta_db": 0.0
+        },
+        "quad_adaptive": {
+          "selected": {
+            "kind": "quad_adaptive",
+            "tol": 0.002,
+            "reserve": 16
+          },
+          "mean_candidates_test": 45.1728515625,
+          "test_delta_db": -0.010706139378697799,
+          "candidate_count_quantiles": [
+            24.0,
+            40.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "selected_calibration_delta_db": -0.01742484168070746
+        },
+        "oracle_fixed": {
+          "selected": {
+            "kind": "oracle_fixed",
+            "k": 30
+          },
+          "mean_candidates_test": 30.0,
+          "test_delta_db": 9.180027404909197e-09,
+          "candidate_count_quantiles": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "selected_calibration_delta_db": 8.747424828925432e-08
+        },
+        "oracle_adaptive": {
+          "selected": {
+            "kind": "oracle_adaptive",
+            "tol": 0.002
+          },
+          "mean_candidates_test": 19.36865234375,
+          "test_delta_db": -0.011663494199709135,
+          "candidate_count_quantiles": [
+            8.0,
+            16.0,
+            16.0,
+            24.0,
+            30.0,
+            30.0
+          ],
+          "selected_calibration_delta_db": -0.004506882766072806
+        }
+      },
+      "primary_query_ms": {
+        "Original": 28.941921889781952,
+        "Full_stream": 5.292333662509918,
+        "distance_fixed": 5.385048687458038,
+        "quad_fixed": 5.3358376026153564,
+        "quad_adaptive": 20.184963941574097,
+        "oracle_fixed": 5.5693089962005615,
+        "oracle_adaptive": 9.513132274150848,
+        "Full_reference": 26.92355215549469,
+        "Adaptive_reference": 46.57232016324997
+      },
+      "render": {
+        "original_views": {
+          "Original": {
+            "psnr": 47.69781723022461,
+            "delta_db": 6.4849853515625e-05,
+            "render_denoise_ms": 1754.2109325528145,
+            "speed_ratio": 0.24805991925651155
+          },
+          "Full_stream": {
+            "psnr": 47.69775238037109,
+            "delta_db": 0.0,
+            "render_denoise_ms": 435.149422287941,
+            "speed_ratio": 1.0
+          },
+          "distance_fixed": {
+            "psnr": 47.69775238037109,
+            "delta_db": 0.0,
+            "render_denoise_ms": 436.10977306962013,
+            "speed_ratio": 0.9977979150182313
+          },
+          "quad_fixed": {
+            "psnr": 47.69775238037109,
+            "delta_db": 0.0,
+            "render_denoise_ms": 434.64535176754,
+            "speed_ratio": 1.0011597283126372
+          },
+          "quad_adaptive": {
+            "psnr": 47.70061340332031,
+            "delta_db": 0.00286102294921875,
+            "render_denoise_ms": 1094.1242456436157,
+            "speed_ratio": 0.39771481531511577
+          },
+          "oracle_fixed": {
+            "psnr": 47.69757308959961,
+            "delta_db": -0.000179290771484375,
+            "render_denoise_ms": 449.0640863776207,
+            "speed_ratio": 0.9690140794782266
+          },
+          "oracle_adaptive": {
+            "psnr": 47.69857177734375,
+            "delta_db": 0.0008193969726590922,
+            "render_denoise_ms": 669.6183063089848,
+            "speed_ratio": 0.649846962348649
+          }
+        },
+        "shifted_views": {
+          "Original": {
+            "psnr": 47.82321014404297,
+            "delta_db": 0.00041961669921875,
+            "render_denoise_ms": 1728.1990997493267,
+            "speed_ratio": 0.2522502714855759
+          },
+          "Full_stream": {
+            "psnr": 47.82279052734375,
+            "delta_db": 0.0,
+            "render_denoise_ms": 435.9386920928955,
+            "speed_ratio": 1.0
+          },
+          "distance_fixed": {
+            "psnr": 47.82279052734375,
+            "delta_db": 0.0,
+            "render_denoise_ms": 434.13824662566185,
+            "speed_ratio": 1.0041471708176546
+          },
+          "quad_fixed": {
+            "psnr": 47.82279052734375,
+            "delta_db": 0.0,
+            "render_denoise_ms": 433.67114812135696,
+            "speed_ratio": 1.0052287176155514
+          },
+          "quad_adaptive": {
+            "psnr": 47.82240676879883,
+            "delta_db": -0.0003837585449204539,
+            "render_denoise_ms": 1079.2091645300388,
+            "speed_ratio": 0.40394272623021404
+          },
+          "oracle_fixed": {
+            "psnr": 47.82279052734375,
+            "delta_db": 0.0,
+            "render_denoise_ms": 448.9153131842613,
+            "speed_ratio": 0.9710933873043457
+          },
+          "oracle_adaptive": {
+            "psnr": 47.82121276855469,
+            "delta_db": -0.001577758789061079,
+            "render_denoise_ms": 663.2890589535236,
+            "speed_ratio": 0.6572378757169302
+          }
+        }
+      },
+      "stress": {
+        "Original": {
+          "max_extra_rgb_jump": 0.0,
+          "p99_extra_rgb_jump": 0.0,
+          "mean_extra_rgb_jump": 0.0
+        },
+        "Full_stream": {
+          "max_extra_rgb_jump": 3.2782554626464844e-07,
+          "p99_extra_rgb_jump": 1.7881393432617188e-07,
+          "mean_extra_rgb_jump": 5.916444933973253e-08
+        },
+        "distance_fixed": {
+          "max_extra_rgb_jump": 3.2782554626464844e-07,
+          "p99_extra_rgb_jump": 1.7881393432617188e-07,
+          "mean_extra_rgb_jump": 5.916444933973253e-08
+        },
+        "quad_fixed": {
+          "max_extra_rgb_jump": 3.2782554626464844e-07,
+          "p99_extra_rgb_jump": 1.7881393432617188e-07,
+          "mean_extra_rgb_jump": 5.916444933973253e-08
+        },
+        "quad_adaptive": {
+          "max_extra_rgb_jump": 5.4836273193359375e-05,
+          "p99_extra_rgb_jump": 1.6567137208767235e-06,
+          "mean_extra_rgb_jump": 1.5423211152665317e-07
+        },
+        "oracle_fixed": {
+          "max_extra_rgb_jump": 3.2782554626464844e-07,
+          "p99_extra_rgb_jump": 1.7881393432617188e-07,
+          "mean_extra_rgb_jump": 5.967376637272537e-08
+        },
+        "oracle_adaptive": {
+          "max_extra_rgb_jump": 0.001996338367462158,
+          "p99_extra_rgb_jump": 1.7741331248544157e-05,
+          "mean_extra_rgb_jump": 4.203830030746758e-06
+        }
+      },
+      "recovery_costs_recorded": {
+        "load_prepare_seconds": 2.7733403146266937,
+        "cache_seconds": 3.92581657320261,
+        "router_fit_and_export_seconds": 1.924081675708294,
+        "calibration_search_seconds": 1.5328979939222336,
+        "query_benchmark_seconds": 1.3496538326144218,
+        "inclusive_seconds": 216.99548318982124
+      },
+      "original_load_prepare_seconds": 2.963872618973255,
+      "elapsed_original_start_to_completed_seconds": 310.11653566360474,
+      "router_file_bytes": 60836,
+      "router_array_bytes": 66000,
+      "router_decoded_bytes": 132000,
+      "field_file_bytes": 61892,
+      "reported_resident_scopes": {
+        "global_knn_basis_bytes": 16006144,
+        "base_basis_bytes": 16332800,
+        "stream_decay_bytes": 3072000,
+        "field_arrays_bytes": 72006,
+        "field_file_bytes": 61892,
+        "torch_peak_allocated_all_methods_bytes": 273532928
+      },
+      "fusion": {
+        "state": "complete",
+        "query_ms": {
+          "Full_stream": 6.3186511397361755,
+          "Bucket": 24.650737643241882,
+          "Masked": 12.718483805656433,
+          "Fused_score": 11.550478637218475
+        },
+        "implementation_selected": "Fused_score",
+        "checks": {
+          "Masked_max_abs": 0.0,
+          "Masked_qualified": true,
+          "Fused_score_max_abs": 0.0,
+          "Fused_score_qualified": true,
+          "original_views_Original_bitwise": true,
+          "original_views_Full_stream_bitwise": true,
+          "shifted_views_Original_bitwise": true,
+          "shifted_views_Full_stream_bitwise": true
+        },
+        "render": {
+          "original_views": {
+            "delta_db": 0.00286102294921875,
+            "speed_ratio": 0.6337849170875148,
+            "baseline_render_denoise_ms": 474.43077862262726,
+            "routed_render_denoise_ms": 748.5674805939198
+          },
+          "shifted_views": {
+            "delta_db": -0.0003837585449204539,
+            "speed_ratio": 0.6467831622004367,
+            "baseline_render_denoise_ms": 416.0981312394142,
+            "routed_render_denoise_ms": 643.334823101759
+          }
+        },
+        "full_render_claim_qualified": true
+      }
+    },
+    {
+      "object": "Piggybank",
+      "families": {
+        "distance_fixed": {
+          "selected": {
+            "kind": "full"
+          },
+          "mean_candidates_test": 50.0,
+          "test_delta_db": 0.0,
+          "candidate_count_quantiles": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "selected_calibration_delta_db": 0.0
+        },
+        "quad_fixed": {
+          "selected": {
+            "kind": "full"
+          },
+          "mean_candidates_test": 50.0,
+          "test_delta_db": 0.0,
+          "candidate_count_quantiles": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "selected_calibration_delta_db": 0.0
+        },
+        "quad_adaptive": {
+          "selected": {
+            "kind": "quad_adaptive",
+            "tol": 0.00025,
+            "reserve": 16
+          },
+          "mean_candidates_test": 43.5111083984375,
+          "test_delta_db": -0.00391156757724076,
+          "candidate_count_quantiles": [
+            24.0,
+            40.0,
+            40.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "selected_calibration_delta_db": -0.006194222144344508
+        },
+        "oracle_fixed": {
+          "selected": {
+            "kind": "oracle_fixed",
+            "k": 30
+          },
+          "mean_candidates_test": 30.0,
+          "test_delta_db": -2.866219972474937e-08,
+          "candidate_count_quantiles": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "selected_calibration_delta_db": 7.346512376216197e-08
+        },
+        "oracle_adaptive": {
+          "selected": {
+            "kind": "oracle_adaptive",
+            "tol": 0.004
+          },
+          "mean_candidates_test": 12.221435546875,
+          "test_delta_db": -0.03127281049275865,
+          "candidate_count_quantiles": [
+            8.0,
+            8.0,
+            8.0,
+            16.0,
+            24.0,
+            30.0
+          ],
+          "selected_calibration_delta_db": -0.0362332005374526
+        }
+      },
+      "primary_query_ms": {
+        "Original": 28.802894055843353,
+        "Full_stream": 5.285955965518951,
+        "distance_fixed": 5.316473543643951,
+        "quad_fixed": 5.300737917423248,
+        "quad_adaptive": 20.043306052684784,
+        "oracle_fixed": 5.547419190406799,
+        "oracle_adaptive": 9.387940168380737,
+        "Full_reference": 27.026928961277008,
+        "Adaptive_reference": 46.919532120227814
+      },
+      "render": {
+        "original_views": {
+          "Original": {
+            "psnr": 47.94933166503906,
+            "delta_db": 0.0005844116210909078,
+            "render_denoise_ms": 3166.1732502281666,
+            "speed_ratio": 0.2439857299670508
+          },
+          "Full_stream": {
+            "psnr": 47.94874725341797,
+            "delta_db": 0.0,
+            "render_denoise_ms": 772.5010916590691,
+            "speed_ratio": 1.0
+          },
+          "distance_fixed": {
+            "psnr": 47.94874725341797,
+            "delta_db": 0.0,
+            "render_denoise_ms": 774.6593534946442,
+            "speed_ratio": 0.9972139214148273
+          },
+          "quad_fixed": {
+            "psnr": 47.94834823608399,
+            "delta_db": -0.0003990173339829539,
+            "render_denoise_ms": 772.0910258591175,
+            "speed_ratio": 1.0005311106931922
+          },
+          "quad_adaptive": {
+            "psnr": 47.948587799072264,
+            "delta_db": -0.00015945434570596717,
+            "render_denoise_ms": 1932.117871940136,
+            "speed_ratio": 0.3998208923368439
+          },
+          "oracle_fixed": {
+            "psnr": 47.94834823608399,
+            "delta_db": -0.0003990173339829539,
+            "render_denoise_ms": 796.247735619545,
+            "speed_ratio": 0.9701768144533571
+          },
+          "oracle_adaptive": {
+            "psnr": 47.94136505126953,
+            "delta_db": -0.007382202148441763,
+            "render_denoise_ms": 1195.2035568654537,
+            "speed_ratio": 0.6463343312707619
+          }
+        },
+        "shifted_views": {
+          "Original": {
+            "psnr": 47.585394287109374,
+            "delta_db": 0.0005439758300767039,
+            "render_denoise_ms": 3093.936599045992,
+            "speed_ratio": 0.24480832971674765
+          },
+          "Full_stream": {
+            "psnr": 47.5848503112793,
+            "delta_db": 0.0,
+            "render_denoise_ms": 757.421451061964,
+            "speed_ratio": 1.0
+          },
+          "distance_fixed": {
+            "psnr": 47.584780883789065,
+            "delta_db": -6.942749023153283e-05,
+            "render_denoise_ms": 762.6306846737862,
+            "speed_ratio": 0.9931693889106359
+          },
+          "quad_fixed": {
+            "psnr": 47.5848503112793,
+            "delta_db": 0.0,
+            "render_denoise_ms": 761.8463329970837,
+            "speed_ratio": 0.9941918970486971
+          },
+          "quad_adaptive": {
+            "psnr": 47.584862518310544,
+            "delta_db": 1.2207031247157829e-05,
+            "render_denoise_ms": 1900.5513533949852,
+            "speed_ratio": 0.3985272219606011
+          },
+          "oracle_fixed": {
+            "psnr": 47.58474197387695,
+            "delta_db": -0.00010833740234517109,
+            "render_denoise_ms": 797.1464961767197,
+            "speed_ratio": 0.9501659415110206
+          },
+          "oracle_adaptive": {
+            "psnr": 47.59230422973633,
+            "delta_db": 0.00745391845703125,
+            "render_denoise_ms": 1168.953862041235,
+            "speed_ratio": 0.6479481146837991
+          }
+        }
+      },
+      "stress": {
+        "Original": {
+          "max_extra_rgb_jump": 0.0,
+          "p99_extra_rgb_jump": 0.0,
+          "mean_extra_rgb_jump": 0.0
+        },
+        "Full_stream": {
+          "max_extra_rgb_jump": 8.940696716308594e-07,
+          "p99_extra_rgb_jump": 2.384185791015625e-07,
+          "mean_extra_rgb_jump": 7.441849447786808e-08
+        },
+        "distance_fixed": {
+          "max_extra_rgb_jump": 8.940696716308594e-07,
+          "p99_extra_rgb_jump": 2.384185791015625e-07,
+          "mean_extra_rgb_jump": 7.441849447786808e-08
+        },
+        "quad_fixed": {
+          "max_extra_rgb_jump": 8.940696716308594e-07,
+          "p99_extra_rgb_jump": 2.384185791015625e-07,
+          "mean_extra_rgb_jump": 7.441849447786808e-08
+        },
+        "quad_adaptive": {
+          "max_extra_rgb_jump": 1.9073486328125e-06,
+          "p99_extra_rgb_jump": 2.384185791015625e-07,
+          "mean_extra_rgb_jump": 7.571361493319273e-08
+        },
+        "oracle_fixed": {
+          "max_extra_rgb_jump": 8.940696716308594e-07,
+          "p99_extra_rgb_jump": 2.384185791015625e-07,
+          "mean_extra_rgb_jump": 7.45858415029943e-08
+        },
+        "oracle_adaptive": {
+          "max_extra_rgb_jump": 0.002681344747543335,
+          "p99_extra_rgb_jump": 1.2320888345129788e-05,
+          "mean_extra_rgb_jump": 2.3389548005070537e-06
+        }
+      },
+      "recovery_costs_recorded": {
+        "load_prepare_seconds": 3.0251896679401398,
+        "cache_seconds": 3.54960335791111,
+        "router_fit_and_export_seconds": 1.4448523223400116,
+        "calibration_search_seconds": 1.53960832208395,
+        "query_benchmark_seconds": 1.3040177002549171,
+        "inclusive_seconds": 338.8508996292949
+      },
+      "original_load_prepare_seconds": 3.319004900753498,
+      "elapsed_original_start_to_completed_seconds": 431.6458044052124,
+      "router_file_bytes": 60910,
+      "router_array_bytes": 66000,
+      "router_decoded_bytes": 132000,
+      "field_file_bytes": 62871,
+      "reported_resident_scopes": {
+        "global_knn_basis_bytes": 58053632,
+        "base_basis_bytes": 59238400,
+        "stream_decay_bytes": 3072000,
+        "field_arrays_bytes": 72006,
+        "field_file_bytes": 62871,
+        "torch_peak_allocated_all_methods_bytes": 317259776
+      },
+      "fusion": {
+        "state": "failed",
+        "query_ms": {
+          "Full_stream": 5.178220570087433,
+          "Bucket": 19.403420388698578,
+          "Masked": 9.95095819234848,
+          "Fused_score": 9.18038934469223
+        },
+        "implementation_selected": "Fused_score",
+        "checks": {
+          "Masked_max_abs": 0.0,
+          "Masked_qualified": true,
+          "Fused_score_max_abs": 0.0,
+          "Fused_score_qualified": true,
+          "original_views_Original_bitwise": false
+        },
+        "render": {
+          "original_views": {
+            "delta_db": 0.00023956298827698674,
+            "speed_ratio": 0.6417616607474398,
+            "baseline_render_denoise_ms": 747.3370805382729,
+            "routed_render_denoise_ms": 1164.508767426014
+          }
+        },
+        "full_render_claim_qualified": false
+      }
+    }
+  ],
+  "expansion": {
+    "quality_observed_pass": true,
+    "speed_ratio_per_object": {
+      "Orange": 1.0122006250746869,
+      "SmallLimo": 0.4295019070451925,
+      "Hummingbird": 0.4008074004214726,
+      "Piggybank": 0.3991793845938426
+    },
+    "median_speed_ratio": 0.41515465373333255,
+    "speed_pass": false,
+    "finite_check_pass": true,
+    "decision": "STOP: full-cost speed criterion failed; no new-object expansion.",
+    "note": "Primary observations only; cross-run baseline instability further limits tiny image contrasts."
+  },
+  "cost_scope": "Query and steady-state render+denoise are synchronized; no startup amortization is hidden in them. All candidates, fits, exports, and images remain in the artifact. Original stage costs plus recovered wall time are retained. inclusive_seconds in original recovered records is resume-only; elapsed_original_start_to_completed_seconds includes idle/recovery and evaluation, not a clean deployment time. Cache cost includes diagnostics on fit/calibration/test; no claim of a minimal fit-only deployment cost. Basis byte fields are tensor inventories, not a sum of unique device allocations; all-method Torch peak excludes Mitsuba/FAISS and is not per-method total VRAM. Routing retains the global basis. Generic renderer compilation metadata predates this run; actual TORCH_COMPILE_DISABLE=1 is recorded in the launcher and the per-view compiler contract. No comparison to a fully compiled official baseline is claimed."
+}

@@ -1,0 +1,1591 @@
+{
+  "status": "completed_post_hoc_cpu_analysis",
+  "plan": {
+    "status": "post_hoc_explanatory_analysis",
+    "new_training": false,
+    "cohorts": [
+      "19 two-seed feature-confirmation objects",
+      "19 three-seed conditional-correction objects"
+    ],
+    "unit": "object, average prescribed seeds before grouping",
+    "clustering": "Two clusters on standardized geometry descriptors only; fixed k=2 and seed; no quality-based choice of k or features",
+    "geometry_features": [
+      "log10_vertices",
+      "log10_area_cv_plus_one",
+      "pca_flatness",
+      "pca_elongation",
+      "mean_triangle_quality"
+    ],
+    "additional_descriptors": [
+      "training_colour_variance",
+      "training_local_colour_difference",
+      "control_surface_psnr"
+    ],
+    "inference": "Spearman permutation tests; BH adjustment across all listed cohort-feature associations; subgroup means and leave-largest-gain sensitivity; fixed ridge alpha=10 LOOCV versus leave-one-out mean",
+    "limits": [
+      "Not preregistered confirmation: aggregate effects were already known.",
+      "No semantic family inferred from object names.",
+      "Clusters and predictors describe this selected small cohort; no causal or deployable selection rule established."
+    ],
+    "seed": 20261014
+  },
+  "cohorts": {
+    "heat_features": {
+      "overall": {
+        "n": 19,
+        "mean": 0.27689022264982527,
+        "median": 0.09637813568115305,
+        "positive": 15,
+        "bootstrap95": [
+          0.04939844558113493,
+          0.6659062792125504
+        ]
+      },
+      "objects": [
+        {
+          "uid": "08bb376104e91e8504abd855ed0eda60",
+          "name": "Razer_Naga_MMO_Gaming_Mouse",
+          "dataset": "GSO",
+          "delta": 0.25267448425292827,
+          "seed_effects": [
+            0.25986557006835653,
+            0.2454833984375
+          ],
+          "features": {
+            "log10_vertices": 3.9861444647105206,
+            "log10_area_cv_plus_one": 0.3958981832313963,
+            "pca_flatness": 0.14869232326464343,
+            "pca_elongation": 0.2555351436831264,
+            "mean_triangle_quality": 0.7882229484038226,
+            "training_colour_variance": 0.0057470353948679805,
+            "training_local_colour_difference": 0.0017821584532194143,
+            "control_surface_psnr": 28.639682142842272
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "0a92d46fdf31d7f0c795a772aa516347",
+          "name": "Cascadia_8_Color_AquariusHibscsBearingSeaBlk_Size_50",
+          "dataset": "GSO",
+          "delta": 0.08296661376953196,
+          "seed_effects": [
+            0.05950469970703409,
+            0.10642852783202983
+          ],
+          "features": {
+            "log10_vertices": 4.324611653328921,
+            "log10_area_cv_plus_one": 0.35144154038652015,
+            "pca_flatness": 0.37443401487515365,
+            "pca_elongation": 0.43009080995028925,
+            "mean_triangle_quality": 0.7271040986165398,
+            "training_colour_variance": 0.04221143613881218,
+            "training_local_colour_difference": 0.007937573065207622,
+            "control_surface_psnr": 23.86705106101855
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "2ed069355ea24bf0a995a978d56c5622",
+          "name": "Shell",
+          "dataset": "Objaverse",
+          "delta": 0.17843360900878835,
+          "seed_effects": [
+            0.15183868408202983,
+            0.20502853393554688
+          ],
+          "features": {
+            "log10_vertices": 4.000086850211649,
+            "log10_area_cv_plus_one": 0.2332944387948602,
+            "pca_flatness": 0.6161397745224254,
+            "pca_elongation": 0.7852294848581366,
+            "mean_triangle_quality": 0.7330392376039163,
+            "training_colour_variance": 0.019585218611084764,
+            "training_local_colour_difference": 0.001863065245895558,
+            "control_surface_psnr": 29.93975278243019
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "54a13e432b9a488ab35d1c6644d9bc0c",
+          "name": "Lp Banana Uvw",
+          "dataset": "Objaverse",
+          "delta": 0.1637287139892578,
+          "seed_effects": [
+            0.26017608642578693,
+            0.06728134155272869
+          ],
+          "features": {
+            "log10_vertices": 2.6232492903979003,
+            "log10_area_cv_plus_one": 0.2572071682307889,
+            "pca_flatness": 0.21678489187156208,
+            "pca_elongation": 0.45913445935085684,
+            "mean_triangle_quality": 0.8180969813974924,
+            "training_colour_variance": 0.015851337206099995,
+            "training_local_colour_difference": 0.00025224228021250165,
+            "control_surface_psnr": 37.13486547081252
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "65707f83605e404c9d54581ed79cb0ee",
+          "name": "Seahorse for 3d seascene",
+          "dataset": "Objaverse",
+          "delta": 0.3186168670654297,
+          "seed_effects": [
+            0.30763092041015483,
+            0.32960281372070455
+          ],
+          "features": {
+            "log10_vertices": 2.9849771264154934,
+            "log10_area_cv_plus_one": 0.2782591358581393,
+            "pca_flatness": 0.4169507577631005,
+            "pca_elongation": 0.44887183465750896,
+            "mean_triangle_quality": 0.790022081931915,
+            "training_colour_variance": 0.032089891519924287,
+            "training_local_colour_difference": 0.0012381820531801747,
+            "control_surface_psnr": 31.086907936531
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "7917f3c8825943f9b8f6072cff5007c1",
+          "name": "Football",
+          "dataset": "Objaverse",
+          "delta": -0.17664775848388814,
+          "seed_effects": [
+            0.4724964141845689,
+            -0.8257919311523452
+          ],
+          "features": {
+            "log10_vertices": 3.737510690673476,
+            "log10_area_cv_plus_one": 0.26065793073342475,
+            "pca_flatness": 0.999947337234356,
+            "pca_elongation": 0.9999788538928986,
+            "mean_triangle_quality": 0.8356019270936846,
+            "training_colour_variance": 0.09709447531917838,
+            "training_local_colour_difference": 0.009466932742530156,
+            "control_surface_psnr": 27.03577379410749
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "7a769a1681eb43d39a003f36522802e4",
+          "name": "MRAC Golden Freddy's Hat",
+          "dataset": "Objaverse",
+          "delta": 0.31816062927246236,
+          "seed_effects": [
+            0.3102310180664105,
+            0.3260902404785142
+          ],
+          "features": {
+            "log10_vertices": 2.383815365980431,
+            "log10_area_cv_plus_one": 0.3032312742539373,
+            "pca_flatness": 0.8680021849129866,
+            "pca_elongation": 0.9554442513015232,
+            "mean_triangle_quality": 0.6265763169166326,
+            "training_colour_variance": 0.050680894107404874,
+            "training_local_colour_difference": 0.00036757623266167215,
+            "control_surface_psnr": 38.84471403981858
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "8a6cb4f7b0004f53830e270dc6e1ff1d",
+          "name": "wrench",
+          "dataset": "Objaverse",
+          "delta": 0.07269630432128693,
+          "seed_effects": [
+            0.08959503173827699,
+            0.055797576904296875
+          ],
+          "features": {
+            "log10_vertices": 2.161368002234975,
+            "log10_area_cv_plus_one": 0.48582561411535463,
+            "pca_flatness": 0.03226920928301982,
+            "pca_elongation": 0.19849983497464474,
+            "mean_triangle_quality": 0.5871542386443804,
+            "training_colour_variance": 0.0006727283610853401,
+            "training_local_colour_difference": 0.00027595366606540515,
+            "control_surface_psnr": 35.20406001199929
+          },
+          "geometry_cluster": 0
+        },
+        {
+          "uid": "8b51b9bcf512af8a19b2fa528d013a54",
+          "name": "DPC_tropical_Trends_Hat",
+          "dataset": "GSO",
+          "delta": -0.04420852661133168,
+          "seed_effects": [
+            -0.011344146728518467,
+            -0.07707290649414489
+          ],
+          "features": {
+            "log10_vertices": 4.435031691929144,
+            "log10_area_cv_plus_one": 0.4643463725535416,
+            "pca_flatness": 0.4959387827377144,
+            "pca_elongation": 0.9107140113923258,
+            "mean_triangle_quality": 0.6863876365284899,
+            "training_colour_variance": 0.023949077652652195,
+            "training_local_colour_difference": 0.017660961626552073,
+            "control_surface_psnr": 21.4036140453808
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "92a50d5a9a76e6c69e0ac2f7ca692fbf",
+          "name": "Twinlab_100_Whey_Protein_Fuel_Cookies_and_Cream",
+          "dataset": "GSO",
+          "delta": 0.06787490844726562,
+          "seed_effects": [
+            0.08408813476562926,
+            0.05166168212890199
+          ],
+          "features": {
+            "log10_vertices": 3.7782959910888336,
+            "log10_area_cv_plus_one": 0.420179432909002,
+            "pca_flatness": 0.5930878316419018,
+            "pca_elongation": 0.5939258924646241,
+            "mean_triangle_quality": 0.7413702079165927,
+            "training_colour_variance": 0.08751921814907931,
+            "training_local_colour_difference": 0.02084681725965253,
+            "control_surface_psnr": 19.92788340850835
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "a30cdc77fc894caba2aa578698b248b8",
+          "name": "CC0 - Doormate",
+          "dataset": "Objaverse",
+          "delta": 3.504719543457032,
+          "seed_effects": [
+            3.590031433105473,
+            3.419407653808591
+          ],
+          "features": {
+            "log10_vertices": 2.0,
+            "log10_area_cv_plus_one": 0.8634431506072269,
+            "pca_flatness": 0.010395811133176567,
+            "pca_elongation": 0.6674171131115049,
+            "mean_triangle_quality": 0.7252290654406067,
+            "training_colour_variance": 0.06403572817796306,
+            "training_local_colour_difference": 0.027476188634390542,
+            "control_surface_psnr": 30.434489014013312
+          },
+          "geometry_cluster": 0
+        },
+        {
+          "uid": "ade2b59ff37c44059433414f39c94abe",
+          "name": "Banana",
+          "dataset": "Objaverse",
+          "delta": 0.0037277221679694605,
+          "seed_effects": [
+            -0.00047988891601846717,
+            0.007935333251957388
+          ],
+          "features": {
+            "log10_vertices": 1.8195439355418688,
+            "log10_area_cv_plus_one": 0.28799644353532866,
+            "pca_flatness": 0.21221698341346665,
+            "pca_elongation": 0.2679162851610393,
+            "mean_triangle_quality": 0.6739728548750401,
+            "training_colour_variance": 0.011040442208274735,
+            "training_local_colour_difference": 0.00010612201640990505,
+            "control_surface_psnr": 43.78573901348222
+          },
+          "geometry_cluster": 0
+        },
+        {
+          "uid": "bc4b85625dd045608b498c41f8b5c1a7",
+          "name": "Seashell Fossil",
+          "dataset": "Objaverse",
+          "delta": 0.01620178222656321,
+          "seed_effects": [
+            -0.032352447509765625,
+            0.06475601196289205
+          ],
+          "features": {
+            "log10_vertices": 3.9293678292400998,
+            "log10_area_cv_plus_one": 0.24091087277995604,
+            "pca_flatness": 0.5756911153958973,
+            "pca_elongation": 0.6830955606129128,
+            "mean_triangle_quality": 0.8592726257513517,
+            "training_colour_variance": 0.024220694117546866,
+            "training_local_colour_difference": 0.004724832231658015,
+            "control_surface_psnr": 26.512826487869347
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "c41d046061f59de7a309313adcd790ef",
+          "name": "Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color",
+          "dataset": "GSO",
+          "delta": 0.3178752899169943,
+          "seed_effects": [
+            0.4589645385742216,
+            0.17678604125976705
+          ],
+          "features": {
+            "log10_vertices": 3.574147064150723,
+            "log10_area_cv_plus_one": 0.46170857931036124,
+            "pca_flatness": 0.1901818687603543,
+            "pca_elongation": 0.8723191507712557,
+            "mean_triangle_quality": 0.7480091053327212,
+            "training_colour_variance": 0.011373996222355055,
+            "training_local_colour_difference": 0.0021708857385471154,
+            "control_surface_psnr": 30.041453726965052
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "d4f0d10c9c884dd084890eb895a84f9a",
+          "name": "#SelfieTennis Ball Design Kit",
+          "dataset": "Objaverse",
+          "delta": 0.09690628051757777,
+          "seed_effects": [
+            0.1714885711669929,
+            0.02232398986816264
+          ],
+          "features": {
+            "log10_vertices": 2.8115750058705933,
+            "log10_area_cv_plus_one": 0.259516391646543,
+            "pca_flatness": 0.9987001101359169,
+            "pca_elongation": 0.9987221735440655,
+            "mean_triangle_quality": 0.8044203061895636,
+            "training_colour_variance": 0.1252349733555674,
+            "training_local_colour_difference": 0.024566589558444384,
+            "control_surface_psnr": 19.532944380505423
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "db712cb12d095998c363edae84aaafb7",
+          "name": "Olive_Kids_Butterfly_Garden_Pencil_Case",
+          "dataset": "GSO",
+          "delta": -0.033245468139647016,
+          "seed_effects": [
+            -0.031036376953125,
+            -0.03545455932616903
+          ],
+          "features": {
+            "log10_vertices": 3.741230411025471,
+            "log10_area_cv_plus_one": 0.33989347790894425,
+            "pca_flatness": 0.4058485402053236,
+            "pca_elongation": 0.4375456285052517,
+            "mean_triangle_quality": 0.7307345832375568,
+            "training_colour_variance": 0.013963256658515317,
+            "training_local_colour_difference": 0.0026403748346458416,
+            "control_surface_psnr": 28.794211482959895
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "de0a6c0939f73eae832c3302d1ed1ec8",
+          "name": "Razer_Kraken_71_Chroma_headset_Full_size_Black",
+          "dataset": "GSO",
+          "delta": 0.1327381134033203,
+          "seed_effects": [
+            0.07696609497070028,
+            0.18851013183594034
+          ],
+          "features": {
+            "log10_vertices": 3.6131015169669127,
+            "log10_area_cv_plus_one": 0.5525139042242164,
+            "pca_flatness": 0.5548601133509876,
+            "pca_elongation": 0.9226438273029621,
+            "mean_triangle_quality": 0.7431745644218835,
+            "training_colour_variance": 0.020118480510392472,
+            "training_local_colour_difference": 0.02288374606228107,
+            "control_surface_psnr": 19.571114686882577
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "df0583c8a0c342e7ac0348e2301784d4",
+          "name": "Mann holder kvinne i fanget",
+          "dataset": "Objaverse",
+          "delta": -0.1086830139160142,
+          "seed_effects": [
+            -0.1194404602050767,
+            -0.0979255676269517
+          ],
+          "features": {
+            "log10_vertices": 4.299681591662354,
+            "log10_area_cv_plus_one": 0.2000676506333222,
+            "pca_flatness": 0.9021929522703296,
+            "pca_elongation": 0.9603829940138744,
+            "mean_triangle_quality": 0.7695308712737526,
+            "training_colour_variance": 0.012310892084834305,
+            "training_local_colour_difference": 0.0018402063322563464,
+            "control_surface_psnr": 30.53592239814862
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "fbb897a13d3b2ae03bb3da04aa371f7f",
+          "name": "Mad_Gab_Refresh_Card_Game",
+          "dataset": "GSO",
+          "delta": 0.09637813568115305,
+          "seed_effects": [
+            0.13077697753906392,
+            0.06197929382324219
+          ],
+          "features": {
+            "log10_vertices": 3.362670929725667,
+            "log10_area_cv_plus_one": 0.5573032841165777,
+            "pca_flatness": 0.9948808563297237,
+            "pca_elongation": 0.9979349928024532,
+            "mean_triangle_quality": 0.7299867569188805,
+            "training_colour_variance": 0.07428484364263788,
+            "training_local_colour_difference": 0.03948575328105694,
+            "control_surface_psnr": 16.679716497817857
+          },
+          "geometry_cluster": 1
+        }
+      ],
+      "groups": {
+        "0": {
+          "n": 3,
+          "mean": 1.1937145233154294,
+          "median": 0.07269630432128693,
+          "positive": 3,
+          "bootstrap95": [
+            0.0037277221679694605,
+            3.504719543457032
+          ],
+          "mean_features": {
+            "log10_vertices": 1.9936373125922813,
+            "log10_area_cv_plus_one": 0.5457550694193034,
+            "pca_flatness": 0.084960667943221,
+            "pca_elongation": 0.37794441108239635,
+            "mean_triangle_quality": 0.6621187196533423
+          },
+          "datasets": {
+            "GSO": 0,
+            "Objaverse": 3
+          },
+          "objects": [
+            "wrench",
+            "CC0 - Doormate",
+            "Banana"
+          ]
+        },
+        "1": {
+          "n": 16,
+          "mean": 0.10498566627502448,
+          "median": 0.09664220809936541,
+          "positive": 12,
+          "bootstrap95": [
+            0.03288317412137994,
+            0.1769328826665878
+          ],
+          "mean_features": {
+            "log10_vertices": 3.5990935920861364,
+            "log10_area_cv_plus_one": 0.3485268523482207,
+            "pca_flatness": 0.5845208409545235,
+            "pca_elongation": 0.7319730668190041,
+            "mean_triangle_quality": 0.7582218905959248
+          },
+          "datasets": {
+            "GSO": 8,
+            "Objaverse": 8
+          },
+          "objects": [
+            "Razer_Naga_MMO_Gaming_Mouse",
+            "Cascadia_8_Color_AquariusHibscsBearingSeaBlk_Size_50",
+            "Shell",
+            "Lp Banana Uvw",
+            "Seahorse for 3d seascene",
+            "Football",
+            "MRAC Golden Freddy's Hat",
+            "DPC_tropical_Trends_Hat",
+            "Twinlab_100_Whey_Protein_Fuel_Cookies_and_Cream",
+            "Seashell Fossil",
+            "Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color",
+            "#SelfieTennis Ball Design Kit",
+            "Olive_Kids_Butterfly_Garden_Pencil_Case",
+            "Razer_Kraken_71_Chroma_headset_Full_size_Black",
+            "Mann holder kvinne i fanget",
+            "Mad_Gab_Refresh_Card_Game"
+          ]
+        }
+      },
+      "silhouette": 0.36418232043081666,
+      "loo_cluster_ari_median": 1.0,
+      "loo_cluster_ari_min": 0.026765799256505577,
+      "cluster_mean_difference": -1.088728857040405,
+      "cluster_permutation_within_dataset_p": 0.1855814418558144,
+      "largest_gain_sensitivity": {
+        "removed": "CC0 - Doormate",
+        "remaining": {
+          "n": 18,
+          "mean": 0.09756637149386933,
+          "median": 0.08967237472534251,
+          "positive": 14,
+          "bootstrap95": [
+            0.03281281524234312,
+            0.16218597014745115
+          ]
+        },
+        "groups": {
+          "0": {
+            "n": 2,
+            "mean": 0.038212013244628196,
+            "median": 0.038212013244628196,
+            "positive": 2,
+            "bootstrap95": [
+              0.0037277221679694605,
+              0.07269630432128693
+            ]
+          },
+          "1": {
+            "n": 16,
+            "mean": 0.10498566627502448,
+            "median": 0.09664220809936541,
+            "positive": 12,
+            "bootstrap95": [
+              0.03288317412137994,
+              0.1769328826665878
+            ]
+          }
+        }
+      },
+      "prediction_geometry": {
+        "features": [
+          "log10_vertices",
+          "log10_area_cv_plus_one",
+          "pca_flatness",
+          "pca_elongation",
+          "mean_triangle_quality"
+        ],
+        "alpha": 10,
+        "predictions": [
+          0.27905386173225055,
+          -0.03942796306938029,
+          -0.24581254051117502,
+          0.38959925933543227,
+          0.1647526672817675,
+          -0.03545468967784471,
+          -0.024018018390449314,
+          0.8976961833995476,
+          0.26779700295867365,
+          0.22290073217859635,
+          0.24309521957283386,
+          0.49089875801039495,
+          -0.010132987679303929,
+          0.6409308841417909,
+          0.08497145715954935,
+          0.09053579240437692,
+          0.6972983864273323,
+          -0.4168909541869187,
+          0.6164457641290075
+        ],
+        "mean_baseline": [
+          0.2782355414496529,
+          0.2876637564765082,
+          0.2823600345187718,
+          0.2831769731309679,
+          0.27457207573784725,
+          0.3020867771572538,
+          0.274597422281901,
+          0.28823432922363296,
+          0.29472904205322287,
+          0.28850218454996746,
+          0.09756637149386933,
+          0.29206591712103946,
+          0.29137291378445096,
+          0.27461327446831585,
+          0.28688933054606125,
+          0.2941199832492404,
+          0.28489867316351997,
+          0.2983109580145941,
+          0.2869186719258626
+        ],
+        "mae": 0.439731339332563,
+        "baseline_mae": 0.3724234932347352,
+        "rmse": 0.8236511161486102,
+        "baseline_rmse": 0.8159091076804129,
+        "sign_accuracy": 0.6842105263157895,
+        "always_positive_accuracy": 0.7894736842105263
+      },
+      "prediction_geometry_texture": {
+        "features": [
+          "log10_vertices",
+          "log10_area_cv_plus_one",
+          "pca_flatness",
+          "pca_elongation",
+          "mean_triangle_quality",
+          "training_colour_variance",
+          "training_local_colour_difference"
+        ],
+        "alpha": 10,
+        "predictions": [
+          0.24054853687083425,
+          0.024204816911624627,
+          -0.30142558453531804,
+          0.3431374939602494,
+          0.14758840636537002,
+          0.056361677512928615,
+          -0.10948000221630483,
+          0.8626911543444238,
+          0.2680180047456122,
+          0.4110660436748286,
+          0.23527405664633916,
+          0.4626986383069714,
+          -0.06672280214792514,
+          0.5664430019630456,
+          0.3593796419654412,
+          0.055441952473058276,
+          0.6787320883577543,
+          -0.5671609990385094,
+          0.8316968981387826
+        ],
+        "mean_baseline": [
+          0.2782355414496529,
+          0.2876637564765082,
+          0.2823600345187718,
+          0.2831769731309679,
+          0.27457207573784725,
+          0.3020867771572538,
+          0.274597422281901,
+          0.28823432922363296,
+          0.29472904205322287,
+          0.28850218454996746,
+          0.09756637149386933,
+          0.29206591712103946,
+          0.29137291378445096,
+          0.27461327446831585,
+          0.28688933054606125,
+          0.2941199832492404,
+          0.28489867316351997,
+          0.2983109580145941,
+          0.2869186719258626
+        ],
+        "mae": 0.482005629816513,
+        "baseline_mae": 0.3724234932347352,
+        "rmse": 0.8418708422991682,
+        "baseline_rmse": 0.8159091076804129,
+        "sign_accuracy": 0.6842105263157895,
+        "always_positive_accuracy": 0.7894736842105263
+      },
+      "prediction_difficulty": {
+        "features": [
+          "control_surface_psnr"
+        ],
+        "alpha": 10,
+        "predictions": [
+          0.28032282914014295,
+          0.25553128157636984,
+          0.29461128348866505,
+          0.3639860341178283,
+          0.2953118535432569,
+          0.2925045871974837,
+          0.3621552667450695,
+          0.35121850903581153,
+          0.25105519782990976,
+          0.23075046723132248,
+          0.10278084158883713,
+          0.5220418558238029,
+          0.2778286071530661,
+          0.2873725792896947,
+          0.22462350594951896,
+          0.2974319011497139,
+          0.2205627346811327,
+          0.3163932933205515,
+          0.2035998827185032
+        ],
+        "mean_baseline": [
+          0.2782355414496529,
+          0.2876637564765082,
+          0.2823600345187718,
+          0.2831769731309679,
+          0.27457207573784725,
+          0.3020867771572538,
+          0.274597422281901,
+          0.28823432922363296,
+          0.29472904205322287,
+          0.28850218454996746,
+          0.09756637149386933,
+          0.29206591712103946,
+          0.29137291378445096,
+          0.27461327446831585,
+          0.28688933054606125,
+          0.2941199832492404,
+          0.28489867316351997,
+          0.2983109580145941,
+          0.2869186719258626
+        ],
+        "mae": 0.37266637543522824,
+        "baseline_mae": 0.3724234932347352,
+        "rmse": 0.8186890605648058,
+        "baseline_rmse": 0.8159091076804129,
+        "sign_accuracy": 0.7894736842105263,
+        "always_positive_accuracy": 0.7894736842105263
+      }
+    },
+    "conditional_correction": {
+      "overall": {
+        "n": 19,
+        "mean": 0.019298499927185953,
+        "median": 0.003952789306640152,
+        "positive": 15,
+        "bootstrap95": [
+          0.006185430225572939,
+          0.036626025417395326
+        ]
+      },
+      "objects": [
+        {
+          "uid": "08bb376104e91e8504abd855ed0eda60",
+          "name": "Razer_Naga_MMO_Gaming_Mouse",
+          "dataset": "GSO",
+          "delta": 0.045593007405599906,
+          "seed_effects": [
+            0.048712158203130684,
+            0.048795318603517046,
+            0.03927154541015199
+          ],
+          "features": {
+            "log10_vertices": 3.9861444647105206,
+            "log10_area_cv_plus_one": 0.3958981832313963,
+            "pca_flatness": 0.14869232326464343,
+            "pca_elongation": 0.2555351436831264,
+            "mean_triangle_quality": 0.7882229484038226,
+            "training_colour_variance": 0.0057470353948679805,
+            "training_local_colour_difference": 0.0017821584532194143,
+            "control_surface_psnr": 28.657209584614623
+          },
+          "geometry_cluster": 0
+        },
+        {
+          "uid": "0a92d46fdf31d7f0c795a772aa516347",
+          "name": "Cascadia_8_Color_AquariusHibscsBearingSeaBlk_Size_50",
+          "dataset": "GSO",
+          "delta": 0.006406656901039772,
+          "seed_effects": [
+            0.005540466308588066,
+            0.008883666992190342,
+            0.004795837402340908
+          ],
+          "features": {
+            "log10_vertices": 4.324611653328921,
+            "log10_area_cv_plus_one": 0.35144154038652015,
+            "pca_flatness": 0.37443401487515365,
+            "pca_elongation": 0.43009080995028925,
+            "mean_triangle_quality": 0.7271040986165398,
+            "training_colour_variance": 0.04221143613881218,
+            "training_local_colour_difference": 0.007937573065207622,
+            "control_surface_psnr": 23.846557853828187
+          },
+          "geometry_cluster": 0
+        },
+        {
+          "uid": "228b7a8abfae4e6a8dca781c0feb0a7f",
+          "name": "Borsalino",
+          "dataset": "Objaverse",
+          "delta": -0.004270680745444603,
+          "seed_effects": [
+            -0.020287322998051138,
+            0.006826782226561079,
+            0.00064849853515625
+          ],
+          "features": {
+            "log10_vertices": 4.52945602113109,
+            "log10_area_cv_plus_one": 0.27110858194874676,
+            "pca_flatness": 0.675831185694535,
+            "pca_elongation": 0.9329200616983724,
+            "mean_triangle_quality": 0.8871207100081404,
+            "training_colour_variance": 0.004460121602318927,
+            "training_local_colour_difference": 0.0013358053917479427,
+            "control_surface_psnr": 34.66266857271757
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "2ed069355ea24bf0a995a978d56c5622",
+          "name": "Shell",
+          "dataset": "Objaverse",
+          "delta": 0.00376129150390625,
+          "seed_effects": [
+            0.004438018798829546,
+            0.004715728759762783,
+            0.002130126953126421
+          ],
+          "features": {
+            "log10_vertices": 4.000086850211649,
+            "log10_area_cv_plus_one": 0.2332944387948602,
+            "pca_flatness": 0.6161397745224254,
+            "pca_elongation": 0.7852294848581366,
+            "mean_triangle_quality": 0.7330392376039163,
+            "training_colour_variance": 0.019585218611084764,
+            "training_local_colour_difference": 0.001863065245895558,
+            "control_surface_psnr": 29.990767680906227
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "54a13e432b9a488ab35d1c6644d9bc0c",
+          "name": "Lp Banana Uvw",
+          "dataset": "Objaverse",
+          "delta": 0.022456105550129262,
+          "seed_effects": [
+            0.0151519775390625,
+            0.023317718505857954,
+            0.02889862060546733
+          ],
+          "features": {
+            "log10_vertices": 2.6232492903979003,
+            "log10_area_cv_plus_one": 0.2572071682307889,
+            "pca_flatness": 0.21678489187156208,
+            "pca_elongation": 0.45913445935085684,
+            "mean_triangle_quality": 0.8180969813974924,
+            "training_colour_variance": 0.015851337206099995,
+            "training_local_colour_difference": 0.00025224228021250165,
+            "control_surface_psnr": 37.174483357387516
+          },
+          "geometry_cluster": 0
+        },
+        {
+          "uid": "65707f83605e404c9d54581ed79cb0ee",
+          "name": "Seahorse for 3d seascene",
+          "dataset": "Objaverse",
+          "delta": 0.007403055826820548,
+          "seed_effects": [
+            0.003900909423826704,
+            0.007067108154295454,
+            0.011241149902339487
+          ],
+          "features": {
+            "log10_vertices": 2.9849771264154934,
+            "log10_area_cv_plus_one": 0.2782591358581393,
+            "pca_flatness": 0.4169507577631005,
+            "pca_elongation": 0.44887183465750896,
+            "mean_triangle_quality": 0.790022081931915,
+            "training_colour_variance": 0.032089891519924287,
+            "training_local_colour_difference": 0.0012381820531801747,
+            "control_surface_psnr": 31.099737950065535
+          },
+          "geometry_cluster": 0
+        },
+        {
+          "uid": "7917f3c8825943f9b8f6072cff5007c1",
+          "name": "Football",
+          "dataset": "Objaverse",
+          "delta": 0.14272766113281202,
+          "seed_effects": [
+            0.09869842529296591,
+            0.24472961425781392,
+            0.08475494384765625
+          ],
+          "features": {
+            "log10_vertices": 3.737510690673476,
+            "log10_area_cv_plus_one": 0.26065793073342475,
+            "pca_flatness": 0.999947337234356,
+            "pca_elongation": 0.9999788538928986,
+            "mean_triangle_quality": 0.8356019270936846,
+            "training_colour_variance": 0.09709447531917838,
+            "training_local_colour_difference": 0.009466932742530156,
+            "control_surface_psnr": 27.020019379791435
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "7a769a1681eb43d39a003f36522802e4",
+          "name": "MRAC Golden Freddy's Hat",
+          "dataset": "Objaverse",
+          "delta": 0.0,
+          "seed_effects": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "features": {
+            "log10_vertices": 2.383815365980431,
+            "log10_area_cv_plus_one": 0.3032312742539373,
+            "pca_flatness": 0.8680021849129866,
+            "pca_elongation": 0.9554442513015232,
+            "mean_triangle_quality": 0.6265763169166326,
+            "training_colour_variance": 0.050680894107404874,
+            "training_local_colour_difference": 0.00036757623266167215,
+            "control_surface_psnr": 38.81385510716678
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "8a6cb4f7b0004f53830e270dc6e1ff1d",
+          "name": "wrench",
+          "dataset": "Objaverse",
+          "delta": -0.004719034830728219,
+          "seed_effects": [
+            -0.0005966186523380657,
+            -0.0007507324218778422,
+            -0.01280975341796875
+          ],
+          "features": {
+            "log10_vertices": 2.161368002234975,
+            "log10_area_cv_plus_one": 0.48582561411535463,
+            "pca_flatness": 0.03226920928301982,
+            "pca_elongation": 0.19849983497464474,
+            "mean_triangle_quality": 0.5871542386443804,
+            "training_colour_variance": 0.0006727283610853401,
+            "training_local_colour_difference": 0.00027595366606540515,
+            "control_surface_psnr": 35.24272832974845
+          },
+          "geometry_cluster": 0
+        },
+        {
+          "uid": "8b51b9bcf512af8a19b2fa528d013a54",
+          "name": "DPC_tropical_Trends_Hat",
+          "dataset": "GSO",
+          "delta": 0.0023699442545558704,
+          "seed_effects": [
+            -0.0032966613769573883,
+            0.01222763061522869,
+            -0.0018211364746036907
+          ],
+          "features": {
+            "log10_vertices": 4.435031691929144,
+            "log10_area_cv_plus_one": 0.4643463725535416,
+            "pca_flatness": 0.4959387827377144,
+            "pca_elongation": 0.9107140113923258,
+            "mean_triangle_quality": 0.6863876365284899,
+            "training_colour_variance": 0.023949077652652195,
+            "training_local_colour_difference": 0.017660961626552073,
+            "control_surface_psnr": 21.407903889794607
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "92a50d5a9a76e6c69e0ac2f7ca692fbf",
+          "name": "Twinlab_100_Whey_Protein_Fuel_Cookies_and_Cream",
+          "dataset": "GSO",
+          "delta": 0.0021171569824242433,
+          "seed_effects": [
+            -0.00047225952148011174,
+            0.004308319091798296,
+            0.002515411376954546
+          ],
+          "features": {
+            "log10_vertices": 3.7782959910888336,
+            "log10_area_cv_plus_one": 0.420179432909002,
+            "pca_flatness": 0.5930878316419018,
+            "pca_elongation": 0.5939258924646241,
+            "mean_triangle_quality": 0.7413702079165927,
+            "training_colour_variance": 0.08751921814907931,
+            "training_local_colour_difference": 0.02084681725965253,
+            "control_surface_psnr": 19.898635581070366
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "a30cdc77fc894caba2aa578698b248b8",
+          "name": "CC0 - Doormate",
+          "dataset": "Objaverse",
+          "delta": 0.07180023193359612,
+          "seed_effects": [
+            0.12369918823242188,
+            0.04021606445312642,
+            0.05148544311524006
+          ],
+          "features": {
+            "log10_vertices": 2.0,
+            "log10_area_cv_plus_one": 0.8634431506072269,
+            "pca_flatness": 0.010395811133176567,
+            "pca_elongation": 0.6674171131115049,
+            "mean_triangle_quality": 0.7252290654406067,
+            "training_colour_variance": 0.06403572817796306,
+            "training_local_colour_difference": 0.027476188634390542,
+            "control_surface_psnr": 30.57153577613578
+          },
+          "geometry_cluster": 0
+        },
+        {
+          "uid": "ade2b59ff37c44059433414f39c94abe",
+          "name": "Banana",
+          "dataset": "Objaverse",
+          "delta": 0.003952789306640152,
+          "seed_effects": [
+            0.00014801025390909217,
+            0.00357818603515625,
+            0.008132171630855112
+          ],
+          "features": {
+            "log10_vertices": 1.8195439355418688,
+            "log10_area_cv_plus_one": 0.28799644353532866,
+            "pca_flatness": 0.21221698341346665,
+            "pca_elongation": 0.2679162851610393,
+            "mean_triangle_quality": 0.6739728548750401,
+            "training_colour_variance": 0.011040442208274735,
+            "training_local_colour_difference": 0.00010612201640990505,
+            "control_surface_psnr": 43.85159096792586
+          },
+          "geometry_cluster": 0
+        },
+        {
+          "uid": "bc4b85625dd045608b498c41f8b5c1a7",
+          "name": "Seashell Fossil",
+          "dataset": "Objaverse",
+          "delta": 0.016972859700520832,
+          "seed_effects": [
+            0.016894531250002842,
+            0.016612243652339487,
+            0.01741180419922017
+          ],
+          "features": {
+            "log10_vertices": 3.9293678292400998,
+            "log10_area_cv_plus_one": 0.24091087277995604,
+            "pca_flatness": 0.5756911153958973,
+            "pca_elongation": 0.6830955606129128,
+            "mean_triangle_quality": 0.8592726257513517,
+            "training_colour_variance": 0.024220694117546866,
+            "training_local_colour_difference": 0.004724832231658015,
+            "control_surface_psnr": 26.53855893060955
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "c41d046061f59de7a309313adcd790ef",
+          "name": "Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color",
+          "dataset": "GSO",
+          "delta": 0.03499476114908854,
+          "seed_effects": [
+            0.04176406860351278,
+            0.04068832397461364,
+            0.022531890869139204
+          ],
+          "features": {
+            "log10_vertices": 3.574147064150723,
+            "log10_area_cv_plus_one": 0.46170857931036124,
+            "pca_flatness": 0.1901818687603543,
+            "pca_elongation": 0.8723191507712557,
+            "mean_triangle_quality": 0.7480091053327212,
+            "training_colour_variance": 0.011373996222355055,
+            "training_local_colour_difference": 0.0021708857385471154,
+            "control_surface_psnr": 30.088828508052
+          },
+          "geometry_cluster": 0
+        },
+        {
+          "uid": "d4f0d10c9c884dd084890eb895a84f9a",
+          "name": "#SelfieTennis Ball Design Kit",
+          "dataset": "Objaverse",
+          "delta": -5.8492024739583336e-05,
+          "seed_effects": [
+            -0.00017547607421875,
+            0.0,
+            0.0
+          ],
+          "features": {
+            "log10_vertices": 2.8115750058705933,
+            "log10_area_cv_plus_one": 0.259516391646543,
+            "pca_flatness": 0.9987001101359169,
+            "pca_elongation": 0.9987221735440655,
+            "mean_triangle_quality": 0.8044203061895636,
+            "training_colour_variance": 0.1252349733555674,
+            "training_local_colour_difference": 0.024566589558444384,
+            "control_surface_psnr": 19.494943046144474
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "db712cb12d095998c363edae84aaafb7",
+          "name": "Olive_Kids_Butterfly_Garden_Pencil_Case",
+          "dataset": "GSO",
+          "delta": 0.01428146362304735,
+          "seed_effects": [
+            0.002362823486329546,
+            0.020983123779295454,
+            0.019498443603517046
+          ],
+          "features": {
+            "log10_vertices": 3.741230411025471,
+            "log10_area_cv_plus_one": 0.33989347790894425,
+            "pca_flatness": 0.4058485402053236,
+            "pca_elongation": 0.4375456285052517,
+            "mean_triangle_quality": 0.7307345832375568,
+            "training_colour_variance": 0.013963256658515317,
+            "training_local_colour_difference": 0.0026403748346458416,
+            "control_surface_psnr": 28.77861043244948
+          },
+          "geometry_cluster": 0
+        },
+        {
+          "uid": "df0583c8a0c342e7ac0348e2301784d4",
+          "name": "Mann holder kvinne i fanget",
+          "dataset": "Objaverse",
+          "delta": 0.00048116048176893855,
+          "seed_effects": [
+            0.004072570800779829,
+            0.0014854431152286907,
+            -0.004114532470701704
+          ],
+          "features": {
+            "log10_vertices": 4.299681591662354,
+            "log10_area_cv_plus_one": 0.2000676506333222,
+            "pca_flatness": 0.9021929522703296,
+            "pca_elongation": 0.9603829940138744,
+            "mean_triangle_quality": 0.7695308712737526,
+            "training_colour_variance": 0.012310892084834305,
+            "training_local_colour_difference": 0.0018402063322563464,
+            "control_surface_psnr": 30.516446485482188
+          },
+          "geometry_cluster": 1
+        },
+        {
+          "uid": "fbb897a13d3b2ae03bb3da04aa371f7f",
+          "name": "Mad_Gab_Refresh_Card_Game",
+          "dataset": "GSO",
+          "delta": 0.00040156046549573904,
+          "seed_effects": [
+            0.0011615753173828125,
+            4.76837158203125e-05,
+            -4.577636715907829e-06
+          ],
+          "features": {
+            "log10_vertices": 3.362670929725667,
+            "log10_area_cv_plus_one": 0.5573032841165777,
+            "pca_flatness": 0.9948808563297237,
+            "pca_elongation": 0.9979349928024532,
+            "mean_triangle_quality": 0.7299867569188805,
+            "training_colour_variance": 0.07428484364263788,
+            "training_local_colour_difference": 0.03948575328105694,
+            "control_surface_psnr": 16.699898232060306
+          },
+          "geometry_cluster": 1
+        }
+      ],
+      "groups": {
+        "0": {
+          "n": 9,
+          "mean": 0.022463226318359272,
+          "median": 0.01428146362304735,
+          "positive": 8,
+          "bootstrap95": [
+            0.008720520867241698,
+            0.03833620989764236
+          ],
+          "mean_features": {
+            "log10_vertices": 3.023919105311763,
+            "log10_area_cv_plus_one": 0.41351925479822893,
+            "pca_flatness": 0.22308604450775565,
+            "pca_elongation": 0.4485922511294975,
+            "mean_triangle_quality": 0.732060661986675
+          },
+          "datasets": {
+            "GSO": 4,
+            "Objaverse": 5
+          },
+          "objects": [
+            "Razer_Naga_MMO_Gaming_Mouse",
+            "Cascadia_8_Color_AquariusHibscsBearingSeaBlk_Size_50",
+            "Lp Banana Uvw",
+            "Seahorse for 3d seascene",
+            "wrench",
+            "CC0 - Doormate",
+            "Banana",
+            "Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color",
+            "Olive_Kids_Butterfly_Garden_Pencil_Case"
+          ]
+        },
+        "1": {
+          "n": 10,
+          "mean": 0.016450246175129975,
+          "median": 0.001299158732096591,
+          "positive": 7,
+          "bootstrap95": [
+            7.931073506561844e-05,
+            0.045205574035644146
+          ],
+          "mean_features": {
+            "log10_vertices": 3.7267491967513338,
+            "log10_area_cv_plus_one": 0.32106162303699115,
+            "pca_flatness": 0.7720412130875787,
+            "pca_elongation": 0.8818348276581185,
+            "mean_triangle_quality": 0.7673306596201005
+          },
+          "datasets": {
+            "GSO": 3,
+            "Objaverse": 7
+          },
+          "objects": [
+            "Borsalino",
+            "Shell",
+            "Football",
+            "MRAC Golden Freddy's Hat",
+            "DPC_tropical_Trends_Hat",
+            "Twinlab_100_Whey_Protein_Fuel_Cookies_and_Cream",
+            "Seashell Fossil",
+            "#SelfieTennis Ball Design Kit",
+            "Mann holder kvinne i fanget",
+            "Mad_Gab_Refresh_Card_Game"
+          ]
+        }
+      },
+      "silhouette": 0.23845537025242028,
+      "loo_cluster_ari_median": 0.7771781033153431,
+      "loo_cluster_ari_min": 0.08108108108108109,
+      "cluster_mean_difference": -0.006012980143229298,
+      "cluster_permutation_within_dataset_p": 0.7907209279072093,
+      "largest_gain_sensitivity": {
+        "removed": "Football",
+        "remaining": {
+          "n": 18,
+          "mean": 0.012441324304651174,
+          "median": 0.003857040405273201,
+          "positive": 14,
+          "bootstrap95": [
+            0.0043040780667901865,
+            0.02223233858744316
+          ]
+        },
+        "groups": {
+          "0": {
+            "n": 9,
+            "mean": 0.022463226318359272,
+            "median": 0.01428146362304735,
+            "positive": 8,
+            "bootstrap95": [
+              0.008720520867241698,
+              0.03833620989764236
+            ]
+          },
+          "1": {
+            "n": 9,
+            "mean": 0.0024194222909430766,
+            "median": 0.00048116048176893855,
+            "positive": 6,
+            "bootstrap95": [
+              -0.0005306681880248398,
+              0.0065110948350692865
+            ]
+          }
+        }
+      },
+      "prediction_geometry": {
+        "features": [
+          "log10_vertices",
+          "log10_area_cv_plus_one",
+          "pca_flatness",
+          "pca_elongation",
+          "mean_triangle_quality"
+        ],
+        "alpha": 10,
+        "predictions": [
+          0.014020500568499019,
+          0.012303046519467783,
+          0.04060444309119058,
+          0.011933771729276703,
+          0.024906725738626147,
+          0.021693804832237044,
+          0.0026577052667980505,
+          0.00851884234253322,
+          0.0073809852672058265,
+          0.017489787598535343,
+          0.019753873927522012,
+          0.009714767161527162,
+          0.011063820747155383,
+          0.027724311419618272,
+          0.022761047512547632,
+          0.03142847098299929,
+          0.01304594608908249,
+          0.016431823322086436,
+          0.03456665651274213
+        ],
+        "mean_baseline": [
+          0.017837693956162956,
+          0.020014713428638517,
+          0.020607898853443204,
+          0.020161678172923712,
+          0.019123077392577993,
+          0.01995935793276181,
+          0.012441324304651174,
+          0.020370638812029617,
+          0.02063280741373674,
+          0.02023897524233207,
+          0.020253018979672716,
+          0.016381737037940946,
+          0.020151039406105166,
+          0.019427702162000682,
+          0.018426485414858033,
+          0.020373888368959595,
+          0.019577224166304766,
+          0.020343907674153564,
+          0.020348329897279853
+        ],
+        "mae": 0.025038060489710346,
+        "baseline_mae": 0.024564363059477342,
+        "rmse": 0.039924723184444774,
+        "baseline_rmse": 0.036666849696080465,
+        "sign_accuracy": 0.7894736842105263,
+        "always_positive_accuracy": 0.7894736842105263
+      },
+      "prediction_geometry_texture": {
+        "features": [
+          "log10_vertices",
+          "log10_area_cv_plus_one",
+          "pca_flatness",
+          "pca_elongation",
+          "mean_triangle_quality",
+          "training_colour_variance",
+          "training_local_colour_difference"
+        ],
+        "alpha": 10,
+        "predictions": [
+          0.01269397216049864,
+          0.01752446009387946,
+          0.03623570342313467,
+          0.010189792961940421,
+          0.022669921278795534,
+          0.023199315211911733,
+          0.0026033635993107825,
+          0.013402178976461447,
+          0.0050508778523548695,
+          0.012306426526140078,
+          0.03132121362096874,
+          0.012904545933873031,
+          0.007530164875059793,
+          0.025052576706111163,
+          0.020667768872090233,
+          0.05615734704019871,
+          0.011474470317958991,
+          0.010833151847740946,
+          0.02981918648459029
+        ],
+        "mean_baseline": [
+          0.017837693956162956,
+          0.020014713428638517,
+          0.020607898853443204,
+          0.020161678172923712,
+          0.019123077392577993,
+          0.01995935793276181,
+          0.012441324304651174,
+          0.020370638812029617,
+          0.02063280741373674,
+          0.02023897524233207,
+          0.020253018979672716,
+          0.016381737037940946,
+          0.020151039406105166,
+          0.019427702162000682,
+          0.018426485414858033,
+          0.020373888368959595,
+          0.019577224166304766,
+          0.020343907674153564,
+          0.020348329897279853
+        ],
+        "mae": 0.025951102520384784,
+        "baseline_mae": 0.024564363059477342,
+        "rmse": 0.04096970353198755,
+        "baseline_rmse": 0.036666849696080465,
+        "sign_accuracy": 0.7894736842105263,
+        "always_positive_accuracy": 0.7894736842105263
+      },
+      "prediction_difficulty": {
+        "features": [
+          "control_surface_psnr"
+        ],
+        "alpha": 10,
+        "predictions": [
+          0.01788098429187425,
+          0.020842516623944488,
+          0.020666769679601415,
+          0.020093117877941515,
+          0.018128655922899608,
+          0.019812826174597026,
+          0.01217845905094105,
+          0.020980399710280116,
+          0.020782685064033468,
+          0.021920933542410863,
+          0.022564128557663196,
+          0.01616682273589574,
+          0.021889636515119593,
+          0.019692000054920413,
+          0.01832970486135955,
+          0.023057598395559008,
+          0.01961543774838542,
+          0.02024459172517123,
+          0.024721135608747058
+        ],
+        "mean_baseline": [
+          0.017837693956162956,
+          0.020014713428638517,
+          0.020607898853443204,
+          0.020161678172923712,
+          0.019123077392577993,
+          0.01995935793276181,
+          0.012441324304651174,
+          0.020370638812029617,
+          0.02063280741373674,
+          0.02023897524233207,
+          0.020253018979672716,
+          0.016381737037940946,
+          0.020151039406105166,
+          0.019427702162000682,
+          0.018426485414858033,
+          0.020373888368959595,
+          0.019577224166304766,
+          0.020343907674153564,
+          0.020348329897279853
+        ],
+        "mae": 0.02540374663901701,
+        "baseline_mae": 0.024564363059477342,
+        "rmse": 0.037147202032722426,
+        "baseline_rmse": 0.036666849696080465,
+        "sign_accuracy": 0.7894736842105263,
+        "always_positive_accuracy": 0.7894736842105263
+      }
+    }
+  },
+  "associations": [
+    {
+      "cohort": "heat_features",
+      "feature": "geometry_cluster",
+      "statistic": -1.088728857040405,
+      "p": 0.1855814418558144,
+      "test": "within-dataset permutation of cluster mean difference",
+      "bh_q": 0.8351164883511648
+    },
+    {
+      "cohort": "heat_features",
+      "feature": "log10_vertices",
+      "statistic": -0.3999999999999999,
+      "p": 0.0948905109489051,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.8351164883511648
+    },
+    {
+      "cohort": "heat_features",
+      "feature": "log10_area_cv_plus_one",
+      "statistic": 0.231578947368421,
+      "p": 0.3474652534746525,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.8934820803633922
+    },
+    {
+      "cohort": "heat_features",
+      "feature": "pca_flatness",
+      "statistic": -0.35263157894736835,
+      "p": 0.1424857514248575,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.8351164883511648
+    },
+    {
+      "cohort": "heat_features",
+      "feature": "pca_elongation",
+      "statistic": -0.13684210526315785,
+      "p": 0.5778422157784222,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.9684031596840315
+    },
+    {
+      "cohort": "heat_features",
+      "feature": "mean_triangle_quality",
+      "statistic": -0.043859649122806946,
+      "p": 0.8586141385861414,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.9684031596840315
+    },
+    {
+      "cohort": "heat_features",
+      "feature": "training_colour_variance",
+      "statistic": 0.03508771929824559,
+      "p": 0.8877112288771123,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.9684031596840315
+    },
+    {
+      "cohort": "heat_features",
+      "feature": "training_local_colour_difference",
+      "statistic": -0.07368421052631581,
+      "p": 0.7652234776522348,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.9684031596840315
+    },
+    {
+      "cohort": "heat_features",
+      "feature": "control_surface_psnr",
+      "statistic": 0.22982456140350874,
+      "p": 0.33806619338066196,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.8934820803633922
+    },
+    {
+      "cohort": "conditional_correction",
+      "feature": "geometry_cluster",
+      "statistic": -0.006012980143229298,
+      "p": 0.7907209279072093,
+      "test": "within-dataset permutation of cluster mean difference",
+      "bh_q": 0.9684031596840315
+    },
+    {
+      "cohort": "conditional_correction",
+      "feature": "log10_vertices",
+      "statistic": -0.06491228070175437,
+      "p": 0.7831216878312168,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.9684031596840315
+    },
+    {
+      "cohort": "conditional_correction",
+      "feature": "log10_area_cv_plus_one",
+      "statistic": 0.010526315789473665,
+      "p": 0.9684031596840316,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.9684031596840315
+    },
+    {
+      "cohort": "conditional_correction",
+      "feature": "pca_flatness",
+      "statistic": -0.3807017543859648,
+      "p": 0.10968903109689031,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.8351164883511648
+    },
+    {
+      "cohort": "conditional_correction",
+      "feature": "pca_elongation",
+      "statistic": -0.1964912280701754,
+      "p": 0.41785821417858215,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.9401809819018099
+    },
+    {
+      "cohort": "conditional_correction",
+      "feature": "mean_triangle_quality",
+      "statistic": 0.2666666666666667,
+      "p": 0.272972702729727,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.8934820803633922
+    },
+    {
+      "cohort": "conditional_correction",
+      "feature": "training_colour_variance",
+      "statistic": 0.08596491228070169,
+      "p": 0.7302269773022698,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.9684031596840315
+    },
+    {
+      "cohort": "conditional_correction",
+      "feature": "training_local_colour_difference",
+      "statistic": 0.10701754385964908,
+      "p": 0.6673332666733327,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.9684031596840315
+    },
+    {
+      "cohort": "conditional_correction",
+      "feature": "control_surface_psnr",
+      "statistic": -0.014035087719298255,
+      "p": 0.9564043595640436,
+      "test": "two-sided Spearman permutation",
+      "bh_q": 0.9684031596840315
+    }
+  ],
+  "multiplicity_family": 18,
+  "cross_component": {
+    "n": 18,
+    "spearman": 0.12280701754385963,
+    "permutation_p": 0.6188381161883811,
+    "exploratory_not_in_bh_family": true
+  },
+  "scope": "Existing outcomes and geometry/training-input descriptors; no new training, causal inference, or validated deployment policy."
+}

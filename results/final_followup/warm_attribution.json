@@ -1,0 +1,3641 @@
+{
+  "generated_unix": 1791715483.848522,
+  "expected_objects": 4,
+  "expected_runs": 12,
+  "scope": "One-seed, four reused development objects; post-diagnostic controls, not confirmation.",
+  "interpretation": "Reset effects and correction effects at matched reset schedules; geometry interaction is not causal mediation.",
+  "timing": "All costs retained; audited new runs versus old runs do not establish acceleration.",
+  "objects": {
+    "774bc66d11c24855bf722e35249fddf7": {
+      "name": "Orange",
+      "runs": {
+        "joint_reset_only": {
+          "directory": "research/round47/attribution_controls/runs/774bc66d11c24855bf722e35249fddf7/joint_reset_only",
+          "method": "joint_reset_only",
+          "state": "verified",
+          "job": {
+            "state": "complete",
+            "object": "Orange",
+            "uid": "774bc66d11c24855bf722e35249fddf7",
+            "method": "joint_reset_only",
+            "seed": 0,
+            "source": "research/round46/preparation/774bc66d11c24855bf722e35249fddf7/coalesced/oracle_del3000_R.npz",
+            "source_sha256": "74c61e3e726fff6705e3e222dffeda975066764e07fd7063cf1ac11b088a2438",
+            "hook_sha256": "1ec14a898ac66bbee8dd67b8aeda1733f2fecd732e0647eb354fc0da2d775dfe",
+            "manifest_sha256": "c63db46b152812c7f61a812b24992b32564613f2019c009b1a88c1b95f5e446e",
+            "shared_historical_offset": 736.8310150280595,
+            "contemporaneous_cold_pipeline": false,
+            "scope": "Post-diagnostic attribution; not confirmation",
+            "setup_seconds": 3.971705913543701,
+            "training_process_seconds": 79.212149143219,
+            "training_returncode": 0,
+            "same_invocation_references": {
+              "R_joint": {
+                "path": "research/round47/continuation/774bc66d11c24855bf722e35249fddf7/joint/snapshots/1000_post.npz",
+                "sha256": "64334fc7a6f72aa06cfaa52bac9b33fce673da5b2ff55840d59706fc4dba7512"
+              },
+              "R_guarded": {
+                "path": "research/round47/continuation/774bc66d11c24855bf722e35249fddf7/large_guarded/snapshots/1000_post.npz",
+                "sha256": "1c11500ef930463e71de2de4f83bd5e21f64b4443898a2415b4b5aeff042bb79"
+              }
+            },
+            "evaluation_seconds": 166.31341075897217,
+            "evaluation_returncode": 0,
+            "inclusive_wall_seconds": 245.57721066474915,
+            "evaluated_snapshot_count": 10,
+            "evaluated_reference_count": 2,
+            "full_process_seconds": 249.69415044784546
+          },
+          "endpoint_key": "S9",
+          "endpoint": {
+            "pbr_psnr": 41.95171356201172,
+            "pbr_ssim": 0.9909148812294006,
+            "pbr_lpips": 0.0066220896318554875,
+            "native_psnr": 31.026395963053393,
+            "native_mse": 0.0007895150329201209
+          },
+          "references": {
+            "R_joint": {
+              "current": {
+                "pbr_psnr": 42.018672180175784,
+                "pbr_ssim": 0.9911071300506592,
+                "pbr_lpips": 0.006342414114624262,
+                "native_psnr": 31.01661553156773,
+                "native_mse": 0.0007912950461115959
+              },
+              "historical": {
+                "pbr_psnr": 42.019160461425784,
+                "pbr_ssim": 0.9911059856414794,
+                "pbr_lpips": 0.0063296457752585415,
+                "native_psnr": 31.01661553156773,
+                "native_mse": 0.0007912950461115959
+              },
+              "rerender_difference": {
+                "pbr_psnr": -0.00048828125,
+                "pbr_ssim": 1.1444091797541134e-06,
+                "pbr_lpips": 1.2768339365720228e-05,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            },
+            "R_guarded": {
+              "current": {
+                "pbr_psnr": 42.04932479858398,
+                "pbr_ssim": 0.9908557295799255,
+                "pbr_lpips": 0.007197966240346432,
+                "native_psnr": 31.100708697374507,
+                "native_mse": 0.0007761204561636715
+              },
+              "historical": {
+                "pbr_psnr": 42.04812469482422,
+                "pbr_ssim": 0.9908559441566467,
+                "pbr_lpips": 0.007200722023844719,
+                "native_psnr": 31.100708697374507,
+                "native_mse": 0.0007761204561636715
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.001200103759764204,
+                "pbr_ssim": -2.145767211692018e-07,
+                "pbr_lpips": -2.755783498287201e-06,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            }
+          },
+          "occupancy": {
+            "uuid": "GPU-888dbda2-8c4c-1ae1-c452-72ef5375f033",
+            "root_pid": 3599587,
+            "samples": 231,
+            "foreign_observations": [],
+            "monitor_errors": [],
+            "timing_qualified": true,
+            "scope": "One-second compute-process sampling; cannot exclude transient contention between samples."
+          },
+          "reset_events": 4,
+          "fixed_noncolour_checks": 0,
+          "accepted_colour_corrections": 0,
+          "audit_seconds": 0.18646857887506485
+        },
+        "colour_only_reset": {
+          "directory": "research/round47/attribution_controls/runs/774bc66d11c24855bf722e35249fddf7/colour_only_reset",
+          "method": "colour_only_reset",
+          "state": "verified",
+          "job": {
+            "state": "complete",
+            "object": "Orange",
+            "uid": "774bc66d11c24855bf722e35249fddf7",
+            "method": "colour_only_reset",
+            "seed": 0,
+            "source": "research/round46/preparation/774bc66d11c24855bf722e35249fddf7/coalesced/oracle_del3000_R.npz",
+            "source_sha256": "74c61e3e726fff6705e3e222dffeda975066764e07fd7063cf1ac11b088a2438",
+            "hook_sha256": "638ea43649d17fca5f8f5cbf184752a5b7d042a345fb9ce13ae41130f3a83e4a",
+            "manifest_sha256": "c63db46b152812c7f61a812b24992b32564613f2019c009b1a88c1b95f5e446e",
+            "shared_historical_offset": 736.8310150280595,
+            "contemporaneous_cold_pipeline": false,
+            "scope": "Post-diagnostic attribution; not confirmation",
+            "setup_seconds": 4.0143163204193115,
+            "training_process_seconds": 79.00406908988953,
+            "training_returncode": 0,
+            "same_invocation_references": {
+              "R_joint": {
+                "path": "research/round47/continuation/774bc66d11c24855bf722e35249fddf7/joint/snapshots/1000_post.npz",
+                "sha256": "64334fc7a6f72aa06cfaa52bac9b33fce673da5b2ff55840d59706fc4dba7512"
+              },
+              "R_guarded": {
+                "path": "research/round47/continuation/774bc66d11c24855bf722e35249fddf7/large_guarded/snapshots/1000_post.npz",
+                "sha256": "1c11500ef930463e71de2de4f83bd5e21f64b4443898a2415b4b5aeff042bb79"
+              }
+            },
+            "evaluation_seconds": 165.76306223869324,
+            "evaluation_returncode": 0,
+            "inclusive_wall_seconds": 244.78790187835693,
+            "evaluated_snapshot_count": 10,
+            "evaluated_reference_count": 2,
+            "full_process_seconds": 248.95140933990479
+          },
+          "endpoint_key": "S9",
+          "endpoint": {
+            "pbr_psnr": 40.415576171875,
+            "pbr_ssim": 0.9876575589179992,
+            "pbr_lpips": 0.00982312560081482,
+            "native_psnr": 28.176217638242157,
+            "native_mse": 0.0015218723833148623
+          },
+          "references": {
+            "R_joint": {
+              "current": {
+                "pbr_psnr": 42.017242431640625,
+                "pbr_ssim": 0.9911046028137207,
+                "pbr_lpips": 0.006338965706527233,
+                "native_psnr": 31.01661553156773,
+                "native_mse": 0.0007912950461115959
+              },
+              "historical": {
+                "pbr_psnr": 42.019160461425784,
+                "pbr_ssim": 0.9911059856414794,
+                "pbr_lpips": 0.0063296457752585415,
+                "native_psnr": 31.01661553156773,
+                "native_mse": 0.0007912950461115959
+              },
+              "rerender_difference": {
+                "pbr_psnr": -0.0019180297851590922,
+                "pbr_ssim": -1.3828277587446536e-06,
+                "pbr_lpips": 9.319931268691323e-06,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            },
+            "R_guarded": {
+              "current": {
+                "pbr_psnr": 42.04829025268555,
+                "pbr_ssim": 0.9908569574356079,
+                "pbr_lpips": 0.0071999762207269665,
+                "native_psnr": 31.100708697374507,
+                "native_mse": 0.0007761204561636715
+              },
+              "historical": {
+                "pbr_psnr": 42.04812469482422,
+                "pbr_ssim": 0.9908559441566467,
+                "pbr_lpips": 0.007200722023844719,
+                "native_psnr": 31.100708697374507,
+                "native_mse": 0.0007761204561636715
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.00016555786132954609,
+                "pbr_ssim": 1.0132789611816406e-06,
+                "pbr_lpips": -7.458031177527691e-07,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            }
+          },
+          "occupancy": {
+            "uuid": "GPU-888dbda2-8c4c-1ae1-c452-72ef5375f033",
+            "root_pid": 3612509,
+            "samples": 230,
+            "foreign_observations": [],
+            "monitor_errors": [],
+            "timing_qualified": true,
+            "scope": "One-second compute-process sampling; cannot exclude transient contention between samples."
+          },
+          "reset_events": 4,
+          "fixed_noncolour_checks": 1000,
+          "accepted_colour_corrections": 0,
+          "audit_seconds": 0.8670377284288406
+        },
+        "colour_only_guarded_reset": {
+          "directory": "research/round47/attribution_controls/runs/774bc66d11c24855bf722e35249fddf7/colour_only_guarded_reset",
+          "method": "colour_only_guarded_reset",
+          "state": "verified",
+          "job": {
+            "state": "complete",
+            "object": "Orange",
+            "uid": "774bc66d11c24855bf722e35249fddf7",
+            "method": "colour_only_guarded_reset",
+            "seed": 0,
+            "source": "research/round46/preparation/774bc66d11c24855bf722e35249fddf7/coalesced/oracle_del3000_R.npz",
+            "source_sha256": "74c61e3e726fff6705e3e222dffeda975066764e07fd7063cf1ac11b088a2438",
+            "hook_sha256": "e57690f9faa734813269ce5a185cdd87c844ec3023408065eeb850b9f449f62f",
+            "manifest_sha256": "c63db46b152812c7f61a812b24992b32564613f2019c009b1a88c1b95f5e446e",
+            "shared_historical_offset": 736.8310150280595,
+            "contemporaneous_cold_pipeline": false,
+            "scope": "Post-diagnostic attribution; not confirmation",
+            "setup_seconds": 4.0101799964904785,
+            "training_process_seconds": 91.25385355949402,
+            "training_returncode": 0,
+            "same_invocation_references": {
+              "R_joint": {
+                "path": "research/round47/continuation/774bc66d11c24855bf722e35249fddf7/joint/snapshots/1000_post.npz",
+                "sha256": "64334fc7a6f72aa06cfaa52bac9b33fce673da5b2ff55840d59706fc4dba7512"
+              },
+              "R_guarded": {
+                "path": "research/round47/continuation/774bc66d11c24855bf722e35249fddf7/large_guarded/snapshots/1000_post.npz",
+                "sha256": "1c11500ef930463e71de2de4f83bd5e21f64b4443898a2415b4b5aeff042bb79"
+              }
+            },
+            "evaluation_seconds": 165.5706102848053,
+            "evaluation_returncode": 0,
+            "inclusive_wall_seconds": 256.85654973983765,
+            "evaluated_snapshot_count": 10,
+            "evaluated_reference_count": 2,
+            "full_process_seconds": 261.0105154514313
+          },
+          "endpoint_key": "S9",
+          "endpoint": {
+            "pbr_psnr": 40.48665771484375,
+            "pbr_ssim": 0.9877349972724915,
+            "pbr_lpips": 0.009844037145376206,
+            "native_psnr": 28.17630007356626,
+            "native_mse": 0.0015218434962675422
+          },
+          "references": {
+            "R_joint": {
+              "current": {
+                "pbr_psnr": 42.01967544555664,
+                "pbr_ssim": 0.9911079168319702,
+                "pbr_lpips": 0.0063440194353461266,
+                "native_psnr": 31.01661553156773,
+                "native_mse": 0.0007912950461115959
+              },
+              "historical": {
+                "pbr_psnr": 42.019160461425784,
+                "pbr_ssim": 0.9911059856414794,
+                "pbr_lpips": 0.0063296457752585415,
+                "native_psnr": 31.01661553156773,
+                "native_mse": 0.0007912950461115959
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.000514984130859375,
+                "pbr_ssim": 1.9311904907448607e-06,
+                "pbr_lpips": 1.4373660087585102e-05,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            },
+            "R_guarded": {
+              "current": {
+                "pbr_psnr": 42.04897003173828,
+                "pbr_ssim": 0.9908551692962646,
+                "pbr_lpips": 0.0071877830661833285,
+                "native_psnr": 31.100708697374507,
+                "native_mse": 0.0007761204561636715
+              },
+              "historical": {
+                "pbr_psnr": 42.04812469482422,
+                "pbr_ssim": 0.9908559441566467,
+                "pbr_lpips": 0.007200722023844719,
+                "native_psnr": 31.100708697374507,
+                "native_mse": 0.0007761204561636715
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.0008453369140610789,
+                "pbr_ssim": -7.748603820800781e-07,
+                "pbr_lpips": -1.2938957661390825e-05,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            }
+          },
+          "occupancy": {
+            "uuid": "GPU-888dbda2-8c4c-1ae1-c452-72ef5375f033",
+            "root_pid": 3623014,
+            "samples": 242,
+            "foreign_observations": [],
+            "monitor_errors": [],
+            "timing_qualified": true,
+            "scope": "One-second compute-process sampling; cannot exclude transient contention between samples."
+          },
+          "reset_events": 4,
+          "fixed_noncolour_checks": 1000,
+          "accepted_colour_corrections": 4,
+          "audit_seconds": 0.8815434128046036
+        }
+      },
+      "effects": {
+        "reset_minus_joint": {
+          "pbr_psnr": -0.06695861816406534,
+          "pbr_ssim": -0.00019224882125856713,
+          "pbr_lpips": 0.0002796755172312258,
+          "native_psnr": 0.009780431485662433,
+          "native_mse": -1.7800131914749847e-06
+        },
+        "correction_with_geometry": {
+          "pbr_psnr": 0.09761123657226278,
+          "pbr_ssim": -5.915164947511986e-05,
+          "pbr_lpips": 0.0005758766084909446,
+          "native_psnr": 0.07431273432111496,
+          "native_mse": -1.3394576756449363e-05
+        },
+        "correction_without_geometry": {
+          "pbr_psnr": 0.07108154296874858,
+          "pbr_ssim": 7.743835449225411e-05,
+          "pbr_lpips": 2.091154456138576e-05,
+          "native_psnr": 8.2435324102903e-05,
+          "native_mse": -2.8887047320153014e-08
+        },
+        "interaction": {
+          "pbr_psnr": 0.026529693603514204,
+          "pbr_ssim": -0.00013659000396737397,
+          "pbr_lpips": 0.0005549650639295588,
+          "native_psnr": 0.07423029899701206,
+          "native_mse": -1.336568970912921e-05
+        }
+      }
+    },
+    "0413d92d70f24a68b3afe8643301c515": {
+      "name": "PoisonDartFrog",
+      "runs": {
+        "joint_reset_only": {
+          "directory": "research/round47/attribution_controls/runs/0413d92d70f24a68b3afe8643301c515/joint_reset_only",
+          "method": "joint_reset_only",
+          "state": "verified",
+          "job": {
+            "state": "complete",
+            "object": "PoisonDartFrog",
+            "uid": "0413d92d70f24a68b3afe8643301c515",
+            "method": "joint_reset_only",
+            "seed": 0,
+            "source": "research/round46/preparation/0413d92d70f24a68b3afe8643301c515/coalesced/oracle_del3000_R.npz",
+            "source_sha256": "fe6f2fcb74eb6ab12639392db2ccefdd9abdebd63b0b5dfcf080c93bb54dc2fc",
+            "hook_sha256": "014a2b5f96926c40231d66279860fbda9e15c89a74211ec11c2e85b7547cfede",
+            "manifest_sha256": "c63db46b152812c7f61a812b24992b32564613f2019c009b1a88c1b95f5e446e",
+            "shared_historical_offset": 389.35488502681255,
+            "contemporaneous_cold_pipeline": false,
+            "scope": "Post-diagnostic attribution; not confirmation",
+            "setup_seconds": 3.9660284519195557,
+            "training_process_seconds": 73.16847252845764,
+            "training_returncode": 0,
+            "same_invocation_references": {
+              "R_joint": {
+                "path": "research/round47/continuation/0413d92d70f24a68b3afe8643301c515/joint/snapshots/1000_post.npz",
+                "sha256": "3f1db2b4b18c60855ca1c2687b87b7ec2156d1341905b14f933e7800fd0cb48d"
+              },
+              "R_guarded": {
+                "path": "research/round47/continuation/0413d92d70f24a68b3afe8643301c515/large_guarded/snapshots/1000_post.npz",
+                "sha256": "6640a4b4f9aaf1c3117ed132e532b92a0a89631d6269ea4cbf424a56f9b1fe86"
+              }
+            },
+            "evaluation_seconds": 190.59604740142822,
+            "evaluation_returncode": 0,
+            "inclusive_wall_seconds": 263.8103151321411,
+            "evaluated_snapshot_count": 10,
+            "evaluated_reference_count": 2,
+            "full_process_seconds": 267.9308180809021
+          },
+          "endpoint_key": "S9",
+          "endpoint": {
+            "pbr_psnr": 33.084456253051755,
+            "pbr_ssim": 0.9765410542488098,
+            "pbr_lpips": 0.023527073860168456,
+            "native_psnr": 22.875337862637096,
+            "native_mse": 0.005157820378624526
+          },
+          "references": {
+            "R_joint": {
+              "current": {
+                "pbr_psnr": 32.941748809814456,
+                "pbr_ssim": 0.9763202428817749,
+                "pbr_lpips": 0.023959311097860335,
+                "native_psnr": 22.804949791708108,
+                "native_mse": 0.005242096613017995
+              },
+              "historical": {
+                "pbr_psnr": 32.94160537719726,
+                "pbr_ssim": 0.9763187289237976,
+                "pbr_lpips": 0.023960233107209204,
+                "native_psnr": 22.804949791708108,
+                "native_mse": 0.005242096613017995
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.00014343261719318434,
+                "pbr_ssim": 1.5139579773171263e-06,
+                "pbr_lpips": -9.220093488693237e-07,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            },
+            "R_guarded": {
+              "current": {
+                "pbr_psnr": 33.58635482788086,
+                "pbr_ssim": 0.9769316077232361,
+                "pbr_lpips": 0.023206138238310813,
+                "native_psnr": 22.91710965042071,
+                "native_mse": 0.005108448682187172
+              },
+              "historical": {
+                "pbr_psnr": 33.58676300048828,
+                "pbr_ssim": 0.9769346952438355,
+                "pbr_lpips": 0.02320687100291252,
+                "native_psnr": 22.91710965042071,
+                "native_mse": 0.005108448682187172
+              },
+              "rerender_difference": {
+                "pbr_psnr": -0.000408172607421875,
+                "pbr_ssim": -3.0875205994096433e-06,
+                "pbr_lpips": -7.327646017081524e-07,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            }
+          },
+          "occupancy": {
+            "uuid": "GPU-38df6d2e-3db1-6b57-7ad6-09aae9978daf",
+            "root_pid": 3566077,
+            "samples": 248,
+            "foreign_observations": [],
+            "monitor_errors": [],
+            "timing_qualified": true,
+            "scope": "One-second compute-process sampling; cannot exclude transient contention between samples."
+          },
+          "reset_events": 4,
+          "fixed_noncolour_checks": 0,
+          "accepted_colour_corrections": 0,
+          "audit_seconds": 0.06755435466766357
+        },
+        "colour_only_reset": {
+          "directory": "research/round47/attribution_controls/runs/0413d92d70f24a68b3afe8643301c515/colour_only_reset",
+          "method": "colour_only_reset",
+          "state": "verified",
+          "job": {
+            "state": "complete",
+            "object": "PoisonDartFrog",
+            "uid": "0413d92d70f24a68b3afe8643301c515",
+            "method": "colour_only_reset",
+            "seed": 0,
+            "source": "research/round46/preparation/0413d92d70f24a68b3afe8643301c515/coalesced/oracle_del3000_R.npz",
+            "source_sha256": "fe6f2fcb74eb6ab12639392db2ccefdd9abdebd63b0b5dfcf080c93bb54dc2fc",
+            "hook_sha256": "1da561d00e8cf600f1bcce57cf4b0f808573347553ac182019d0d0f35cbc867c",
+            "manifest_sha256": "c63db46b152812c7f61a812b24992b32564613f2019c009b1a88c1b95f5e446e",
+            "shared_historical_offset": 389.35488502681255,
+            "contemporaneous_cold_pipeline": false,
+            "scope": "Post-diagnostic attribution; not confirmation",
+            "setup_seconds": 4.0118701457977295,
+            "training_process_seconds": 71.73872685432434,
+            "training_returncode": 0,
+            "same_invocation_references": {
+              "R_joint": {
+                "path": "research/round47/continuation/0413d92d70f24a68b3afe8643301c515/joint/snapshots/1000_post.npz",
+                "sha256": "3f1db2b4b18c60855ca1c2687b87b7ec2156d1341905b14f933e7800fd0cb48d"
+              },
+              "R_guarded": {
+                "path": "research/round47/continuation/0413d92d70f24a68b3afe8643301c515/large_guarded/snapshots/1000_post.npz",
+                "sha256": "6640a4b4f9aaf1c3117ed132e532b92a0a89631d6269ea4cbf424a56f9b1fe86"
+              }
+            },
+            "evaluation_seconds": 189.1441683769226,
+            "evaluation_returncode": 0,
+            "inclusive_wall_seconds": 260.90410327911377,
+            "evaluated_snapshot_count": 10,
+            "evaluated_reference_count": 2,
+            "full_process_seconds": 265.0611848831177
+          },
+          "endpoint_key": "S9",
+          "endpoint": {
+            "pbr_psnr": 30.418537521362303,
+            "pbr_ssim": 0.9643882632255554,
+            "pbr_lpips": 0.03586683571338654,
+            "native_psnr": 20.481465456661073,
+            "native_mse": 0.008950626901231816
+          },
+          "references": {
+            "R_joint": {
+              "current": {
+                "pbr_psnr": 32.941748809814456,
+                "pbr_ssim": 0.9763202428817749,
+                "pbr_lpips": 0.023959311097860335,
+                "native_psnr": 22.804949791708108,
+                "native_mse": 0.005242096613017995
+              },
+              "historical": {
+                "pbr_psnr": 32.94160537719726,
+                "pbr_ssim": 0.9763187289237976,
+                "pbr_lpips": 0.023960233107209204,
+                "native_psnr": 22.804949791708108,
+                "native_mse": 0.005242096613017995
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.00014343261719318434,
+                "pbr_ssim": 1.5139579773171263e-06,
+                "pbr_lpips": -9.220093488693237e-07,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            },
+            "R_guarded": {
+              "current": {
+                "pbr_psnr": 33.58638916015625,
+                "pbr_ssim": 0.9769339919090271,
+                "pbr_lpips": 0.023200209066271783,
+                "native_psnr": 22.91710965042071,
+                "native_mse": 0.005108448682187172
+              },
+              "historical": {
+                "pbr_psnr": 33.58676300048828,
+                "pbr_ssim": 0.9769346952438355,
+                "pbr_lpips": 0.02320687100291252,
+                "native_psnr": 22.91710965042071,
+                "native_mse": 0.005108448682187172
+              },
+              "rerender_difference": {
+                "pbr_psnr": -0.00037384033203125,
+                "pbr_ssim": -7.033348083940183e-07,
+                "pbr_lpips": -6.661936640738747e-06,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            }
+          },
+          "occupancy": {
+            "uuid": "GPU-38df6d2e-3db1-6b57-7ad6-09aae9978daf",
+            "root_pid": 3577665,
+            "samples": 245,
+            "foreign_observations": [],
+            "monitor_errors": [],
+            "timing_qualified": true,
+            "scope": "One-second compute-process sampling; cannot exclude transient contention between samples."
+          },
+          "reset_events": 4,
+          "fixed_noncolour_checks": 1000,
+          "accepted_colour_corrections": 0,
+          "audit_seconds": 0.745936244726181
+        },
+        "colour_only_guarded_reset": {
+          "directory": "research/round47/attribution_controls/runs/0413d92d70f24a68b3afe8643301c515/colour_only_guarded_reset",
+          "method": "colour_only_guarded_reset",
+          "state": "verified",
+          "job": {
+            "state": "complete",
+            "object": "PoisonDartFrog",
+            "uid": "0413d92d70f24a68b3afe8643301c515",
+            "method": "colour_only_guarded_reset",
+            "seed": 0,
+            "source": "research/round46/preparation/0413d92d70f24a68b3afe8643301c515/coalesced/oracle_del3000_R.npz",
+            "source_sha256": "fe6f2fcb74eb6ab12639392db2ccefdd9abdebd63b0b5dfcf080c93bb54dc2fc",
+            "hook_sha256": "8dc42a2c798243f7f6f1ac17ccf8de33ef01b25421a59a31b12c80078c2d5a4a",
+            "manifest_sha256": "c63db46b152812c7f61a812b24992b32564613f2019c009b1a88c1b95f5e446e",
+            "shared_historical_offset": 389.35488502681255,
+            "contemporaneous_cold_pipeline": false,
+            "scope": "Post-diagnostic attribution; not confirmation",
+            "setup_seconds": 3.988234043121338,
+            "training_process_seconds": 83.37043929100037,
+            "training_returncode": 0,
+            "same_invocation_references": {
+              "R_joint": {
+                "path": "research/round47/continuation/0413d92d70f24a68b3afe8643301c515/joint/snapshots/1000_post.npz",
+                "sha256": "3f1db2b4b18c60855ca1c2687b87b7ec2156d1341905b14f933e7800fd0cb48d"
+              },
+              "R_guarded": {
+                "path": "research/round47/continuation/0413d92d70f24a68b3afe8643301c515/large_guarded/snapshots/1000_post.npz",
+                "sha256": "6640a4b4f9aaf1c3117ed132e532b92a0a89631d6269ea4cbf424a56f9b1fe86"
+              }
+            },
+            "evaluation_seconds": 190.74021887779236,
+            "evaluation_returncode": 0,
+            "inclusive_wall_seconds": 274.1417820453644,
+            "evaluated_snapshot_count": 10,
+            "evaluated_reference_count": 2,
+            "full_process_seconds": 278.2723767757416
+          },
+          "endpoint_key": "S9",
+          "endpoint": {
+            "pbr_psnr": 30.489101791381835,
+            "pbr_ssim": 0.9642600059509278,
+            "pbr_lpips": 0.036069586500525476,
+            "native_psnr": 20.48228188632155,
+            "native_mse": 0.008948944432133963
+          },
+          "references": {
+            "R_joint": {
+              "current": {
+                "pbr_psnr": 32.941748809814456,
+                "pbr_ssim": 0.9763202428817749,
+                "pbr_lpips": 0.023959311097860335,
+                "native_psnr": 22.804949791708108,
+                "native_mse": 0.005242096613017995
+              },
+              "historical": {
+                "pbr_psnr": 32.94160537719726,
+                "pbr_ssim": 0.9763187289237976,
+                "pbr_lpips": 0.023960233107209204,
+                "native_psnr": 22.804949791708108,
+                "native_mse": 0.005242096613017995
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.00014343261719318434,
+                "pbr_ssim": 1.5139579773171263e-06,
+                "pbr_lpips": -9.220093488693237e-07,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            },
+            "R_guarded": {
+              "current": {
+                "pbr_psnr": 33.58644332885742,
+                "pbr_ssim": 0.9769326329231263,
+                "pbr_lpips": 0.023210733756422998,
+                "native_psnr": 22.91710965042071,
+                "native_mse": 0.005108448682187172
+              },
+              "historical": {
+                "pbr_psnr": 33.58676300048828,
+                "pbr_ssim": 0.9769346952438355,
+                "pbr_lpips": 0.02320687100291252,
+                "native_psnr": 22.91710965042071,
+                "native_mse": 0.005108448682187172
+              },
+              "rerender_difference": {
+                "pbr_psnr": -0.00031967163086221717,
+                "pbr_ssim": -2.062320709206311e-06,
+                "pbr_lpips": 3.8627535104765465e-06,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            }
+          },
+          "occupancy": {
+            "uuid": "GPU-38df6d2e-3db1-6b57-7ad6-09aae9978daf",
+            "root_pid": 3613770,
+            "samples": 257,
+            "foreign_observations": [],
+            "monitor_errors": [],
+            "timing_qualified": true,
+            "scope": "One-second compute-process sampling; cannot exclude transient contention between samples."
+          },
+          "reset_events": 4,
+          "fixed_noncolour_checks": 1000,
+          "accepted_colour_corrections": 1,
+          "audit_seconds": 0.7007378786802292
+        }
+      },
+      "effects": {
+        "reset_minus_joint": {
+          "pbr_psnr": 0.142707443237299,
+          "pbr_ssim": 0.0002208113670348899,
+          "pbr_lpips": -0.0004322372376918786,
+          "native_psnr": 0.07038807092898836,
+          "native_mse": -8.427623439346849e-05
+        },
+        "correction_with_geometry": {
+          "pbr_psnr": 0.5018985748291058,
+          "pbr_ssim": 0.00039055347442629174,
+          "pbr_lpips": -0.00032093562185764313,
+          "native_psnr": 0.041771787783613235,
+          "native_mse": -4.937169643735428e-05
+        },
+        "correction_without_geometry": {
+          "pbr_psnr": 0.07056427001953125,
+          "pbr_ssim": -0.00012825727462761893,
+          "pbr_lpips": 0.0002027507871389389,
+          "native_psnr": 0.0008164296604782351,
+          "native_mse": -1.6824690978536894e-06
+        },
+        "interaction": {
+          "pbr_psnr": 0.4313343048095746,
+          "pbr_ssim": 0.0005188107490539107,
+          "pbr_lpips": -0.000523686408996582,
+          "native_psnr": 0.040955358123135,
+          "native_mse": -4.768922733950059e-05
+        }
+      }
+    },
+    "01c9b73ed5f1406b97f86e46774fcff6": {
+      "name": "SmallLimo",
+      "runs": {
+        "joint_reset_only": {
+          "directory": "research/round47/attribution_controls/runs/01c9b73ed5f1406b97f86e46774fcff6/joint_reset_only",
+          "method": "joint_reset_only",
+          "state": "verified",
+          "job": {
+            "state": "complete",
+            "object": "SmallLimo",
+            "uid": "01c9b73ed5f1406b97f86e46774fcff6",
+            "method": "joint_reset_only",
+            "seed": 0,
+            "source": "research/round46/preparation/01c9b73ed5f1406b97f86e46774fcff6/coalesced/oracle_del3000_R.npz",
+            "source_sha256": "8915e5a06147b7dd951d93d2001784593cc9742638ac1093e90f8bd66ae0be00",
+            "hook_sha256": "411244e567e8a3f04841296729936a56a54dbf07c28e342f3008b10a1e9ddf81",
+            "manifest_sha256": "c63db46b152812c7f61a812b24992b32564613f2019c009b1a88c1b95f5e446e",
+            "shared_historical_offset": 380.20643918961287,
+            "contemporaneous_cold_pipeline": false,
+            "scope": "Post-diagnostic attribution; not confirmation",
+            "setup_seconds": 3.9915637969970703,
+            "training_process_seconds": 71.79022455215454,
+            "training_returncode": 0,
+            "same_invocation_references": {
+              "R_joint": {
+                "path": "research/round47/continuation/01c9b73ed5f1406b97f86e46774fcff6/joint/snapshots/1000_post.npz",
+                "sha256": "4982f883ebc61595239caa712b86b5026f0d2fa20dcc1b79b228249ca44b64c7"
+              },
+              "R_guarded": {
+                "path": "research/round47/continuation/01c9b73ed5f1406b97f86e46774fcff6/large_guarded/snapshots/1000_post.npz",
+                "sha256": "6765c2611377818df0c9bf5853630e3a1807193fe30966157384a0bf2f67f05a"
+              }
+            },
+            "evaluation_seconds": 112.70471811294556,
+            "evaluation_returncode": 0,
+            "inclusive_wall_seconds": 184.54596829414368,
+            "evaluated_snapshot_count": 10,
+            "evaluated_reference_count": 2,
+            "full_process_seconds": 188.67699074745178
+          },
+          "endpoint_key": "S9",
+          "endpoint": {
+            "pbr_psnr": 46.285404205322266,
+            "pbr_ssim": 0.9968003630638123,
+            "pbr_lpips": 0.004127048898953945,
+            "native_psnr": 26.580228325649973,
+            "native_mse": 0.0021977443257047645
+          },
+          "references": {
+            "R_joint": {
+              "current": {
+                "pbr_psnr": 46.21472396850586,
+                "pbr_ssim": 0.9966347694396973,
+                "pbr_lpips": 0.004063655488425866,
+                "native_psnr": 26.55669860069427,
+                "native_mse": 0.0022096838417687394
+              },
+              "historical": {
+                "pbr_psnr": 46.214786529541016,
+                "pbr_ssim": 0.9966348290443421,
+                "pbr_lpips": 0.0040651042712852355,
+                "native_psnr": 26.55669860069427,
+                "native_mse": 0.0022096838417687394
+              },
+              "rerender_difference": {
+                "pbr_psnr": -6.256103515767109e-05,
+                "pbr_ssim": -5.960464477539063e-08,
+                "pbr_lpips": -1.448782859369592e-06,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            },
+            "R_guarded": {
+              "current": {
+                "pbr_psnr": 47.911766052246094,
+                "pbr_ssim": 0.9973037362098693,
+                "pbr_lpips": 0.004136638756608591,
+                "native_psnr": 26.534996914984323,
+                "native_mse": 0.0022207532609647405
+              },
+              "historical": {
+                "pbr_psnr": 47.91133422851563,
+                "pbr_ssim": 0.9973029971122742,
+                "pbr_lpips": 0.004135859612142667,
+                "native_psnr": 26.534996914984323,
+                "native_mse": 0.0022207532609647405
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.00043182373046590783,
+                "pbr_ssim": 7.390975951260259e-07,
+                "pbr_lpips": 7.791444659238297e-07,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            }
+          },
+          "occupancy": {
+            "uuid": "GPU-aebdc2ee-daa3-acef-c836-27ba5a9a6f5f",
+            "root_pid": 3559675,
+            "samples": 173,
+            "foreign_observations": [],
+            "monitor_errors": [],
+            "timing_qualified": true,
+            "scope": "One-second compute-process sampling; cannot exclude transient contention between samples."
+          },
+          "reset_events": 4,
+          "fixed_noncolour_checks": 0,
+          "accepted_colour_corrections": 0,
+          "audit_seconds": 0.0587301179766655
+        },
+        "colour_only_reset": {
+          "directory": "research/round47/attribution_controls/runs/01c9b73ed5f1406b97f86e46774fcff6/colour_only_reset",
+          "method": "colour_only_reset",
+          "state": "verified",
+          "job": {
+            "state": "complete",
+            "object": "SmallLimo",
+            "uid": "01c9b73ed5f1406b97f86e46774fcff6",
+            "method": "colour_only_reset",
+            "seed": 0,
+            "source": "research/round46/preparation/01c9b73ed5f1406b97f86e46774fcff6/coalesced/oracle_del3000_R.npz",
+            "source_sha256": "8915e5a06147b7dd951d93d2001784593cc9742638ac1093e90f8bd66ae0be00",
+            "hook_sha256": "f743c7cdb5541aaca8c21a48ec366bde33aae9eaebe60ef6408ce944a3a9422a",
+            "manifest_sha256": "c63db46b152812c7f61a812b24992b32564613f2019c009b1a88c1b95f5e446e",
+            "shared_historical_offset": 380.20643918961287,
+            "contemporaneous_cold_pipeline": false,
+            "scope": "Post-diagnostic attribution; not confirmation",
+            "setup_seconds": 4.016327857971191,
+            "training_process_seconds": 72.11221361160278,
+            "training_returncode": 0,
+            "same_invocation_references": {
+              "R_joint": {
+                "path": "research/round47/continuation/01c9b73ed5f1406b97f86e46774fcff6/joint/snapshots/1000_post.npz",
+                "sha256": "4982f883ebc61595239caa712b86b5026f0d2fa20dcc1b79b228249ca44b64c7"
+              },
+              "R_guarded": {
+                "path": "research/round47/continuation/01c9b73ed5f1406b97f86e46774fcff6/large_guarded/snapshots/1000_post.npz",
+                "sha256": "6765c2611377818df0c9bf5853630e3a1807193fe30966157384a0bf2f67f05a"
+              }
+            },
+            "evaluation_seconds": 111.23483061790466,
+            "evaluation_returncode": 0,
+            "inclusive_wall_seconds": 183.37241911888123,
+            "evaluated_snapshot_count": 10,
+            "evaluated_reference_count": 2,
+            "full_process_seconds": 187.53031826019287
+          },
+          "endpoint_key": "S9",
+          "endpoint": {
+            "pbr_psnr": 46.683555603027344,
+            "pbr_ssim": 0.9966302394866944,
+            "pbr_lpips": 0.0042505110730417075,
+            "native_psnr": 26.477564495409737,
+            "native_mse": 0.002250316219610317
+          },
+          "references": {
+            "R_joint": {
+              "current": {
+                "pbr_psnr": 46.214786529541016,
+                "pbr_ssim": 0.9966348290443421,
+                "pbr_lpips": 0.0040651042712852355,
+                "native_psnr": 26.55669860069427,
+                "native_mse": 0.0022096838417687394
+              },
+              "historical": {
+                "pbr_psnr": 46.214786529541016,
+                "pbr_ssim": 0.9966348290443421,
+                "pbr_lpips": 0.0040651042712852355,
+                "native_psnr": 26.55669860069427,
+                "native_mse": 0.0022096838417687394
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.0,
+                "pbr_ssim": 0.0,
+                "pbr_lpips": 0.0,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            },
+            "R_guarded": {
+              "current": {
+                "pbr_psnr": 47.911766052246094,
+                "pbr_ssim": 0.9973037362098693,
+                "pbr_lpips": 0.004136638756608591,
+                "native_psnr": 26.534996914984323,
+                "native_mse": 0.0022207532609647405
+              },
+              "historical": {
+                "pbr_psnr": 47.91133422851563,
+                "pbr_ssim": 0.9973029971122742,
+                "pbr_lpips": 0.004135859612142667,
+                "native_psnr": 26.534996914984323,
+                "native_mse": 0.0022207532609647405
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.00043182373046590783,
+                "pbr_ssim": 7.390975951260259e-07,
+                "pbr_lpips": 7.791444659238297e-07,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            }
+          },
+          "occupancy": {
+            "uuid": "GPU-aebdc2ee-daa3-acef-c836-27ba5a9a6f5f",
+            "root_pid": 3567727,
+            "samples": 172,
+            "foreign_observations": [],
+            "monitor_errors": [],
+            "timing_qualified": true,
+            "scope": "One-second compute-process sampling; cannot exclude transient contention between samples."
+          },
+          "reset_events": 4,
+          "fixed_noncolour_checks": 1000,
+          "accepted_colour_corrections": 0,
+          "audit_seconds": 0.6711495369672775
+        },
+        "colour_only_guarded_reset": {
+          "directory": "research/round47/attribution_controls/runs/01c9b73ed5f1406b97f86e46774fcff6/colour_only_guarded_reset",
+          "method": "colour_only_guarded_reset",
+          "state": "verified",
+          "job": {
+            "state": "complete",
+            "object": "SmallLimo",
+            "uid": "01c9b73ed5f1406b97f86e46774fcff6",
+            "method": "colour_only_guarded_reset",
+            "seed": 0,
+            "source": "research/round46/preparation/01c9b73ed5f1406b97f86e46774fcff6/coalesced/oracle_del3000_R.npz",
+            "source_sha256": "8915e5a06147b7dd951d93d2001784593cc9742638ac1093e90f8bd66ae0be00",
+            "hook_sha256": "919536f75c63a105083a4c9de68a2a35ba34968fcfd690237cc8eaa7ca8042fd",
+            "manifest_sha256": "c63db46b152812c7f61a812b24992b32564613f2019c009b1a88c1b95f5e446e",
+            "shared_historical_offset": 380.20643918961287,
+            "contemporaneous_cold_pipeline": false,
+            "scope": "Post-diagnostic attribution; not confirmation",
+            "setup_seconds": 3.9957597255706787,
+            "training_process_seconds": 83.8647768497467,
+            "training_returncode": 0,
+            "same_invocation_references": {
+              "R_joint": {
+                "path": "research/round47/continuation/01c9b73ed5f1406b97f86e46774fcff6/joint/snapshots/1000_post.npz",
+                "sha256": "4982f883ebc61595239caa712b86b5026f0d2fa20dcc1b79b228249ca44b64c7"
+              },
+              "R_guarded": {
+                "path": "research/round47/continuation/01c9b73ed5f1406b97f86e46774fcff6/large_guarded/snapshots/1000_post.npz",
+                "sha256": "6765c2611377818df0c9bf5853630e3a1807193fe30966157384a0bf2f67f05a"
+              }
+            },
+            "evaluation_seconds": 109.38443994522095,
+            "evaluation_returncode": 0,
+            "inclusive_wall_seconds": 193.27798557281494,
+            "evaluated_snapshot_count": 10,
+            "evaluated_reference_count": 2,
+            "full_process_seconds": 197.42299723625183
+          },
+          "endpoint_key": "S9",
+          "endpoint": {
+            "pbr_psnr": 47.11255111694336,
+            "pbr_ssim": 0.9969320297241211,
+            "pbr_lpips": 0.0035528278618585317,
+            "native_psnr": 26.499268063594887,
+            "native_mse": 0.0022390984723035753
+          },
+          "references": {
+            "R_joint": {
+              "current": {
+                "pbr_psnr": 46.214786529541016,
+                "pbr_ssim": 0.9966348290443421,
+                "pbr_lpips": 0.0040651042712852355,
+                "native_psnr": 26.55669860069427,
+                "native_mse": 0.0022096838417687394
+              },
+              "historical": {
+                "pbr_psnr": 46.214786529541016,
+                "pbr_ssim": 0.9966348290443421,
+                "pbr_lpips": 0.0040651042712852355,
+                "native_psnr": 26.55669860069427,
+                "native_mse": 0.0022096838417687394
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.0,
+                "pbr_ssim": 0.0,
+                "pbr_lpips": 0.0,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            },
+            "R_guarded": {
+              "current": {
+                "pbr_psnr": 47.911766052246094,
+                "pbr_ssim": 0.9973037362098693,
+                "pbr_lpips": 0.004136638756608591,
+                "native_psnr": 26.534996914984323,
+                "native_mse": 0.0022207532609647405
+              },
+              "historical": {
+                "pbr_psnr": 47.91133422851563,
+                "pbr_ssim": 0.9973029971122742,
+                "pbr_lpips": 0.004135859612142667,
+                "native_psnr": 26.534996914984323,
+                "native_mse": 0.0022207532609647405
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.00043182373046590783,
+                "pbr_ssim": 7.390975951260259e-07,
+                "pbr_lpips": 7.791444659238297e-07,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            }
+          },
+          "occupancy": {
+            "uuid": "GPU-aebdc2ee-daa3-acef-c836-27ba5a9a6f5f",
+            "root_pid": 3576631,
+            "samples": 181,
+            "foreign_observations": [],
+            "monitor_errors": [],
+            "timing_qualified": true,
+            "scope": "One-second compute-process sampling; cannot exclude transient contention between samples."
+          },
+          "reset_events": 4,
+          "fixed_noncolour_checks": 1000,
+          "accepted_colour_corrections": 2,
+          "audit_seconds": 0.7027481272816658
+        }
+      },
+      "effects": {
+        "reset_minus_joint": {
+          "pbr_psnr": 0.07068023681640767,
+          "pbr_ssim": 0.00016559362411494583,
+          "pbr_lpips": 6.339341052807868e-05,
+          "native_psnr": 0.023529724955704268,
+          "native_mse": -1.1939516063974847e-05
+        },
+        "correction_with_geometry": {
+          "pbr_psnr": 1.6263618469238281,
+          "pbr_ssim": 0.0005033731460570845,
+          "pbr_lpips": 9.589857654646039e-06,
+          "native_psnr": -0.045231410665650174,
+          "native_mse": 2.3008935259975945e-05
+        },
+        "correction_without_geometry": {
+          "pbr_psnr": 0.4289955139160142,
+          "pbr_ssim": 0.0003017902374267134,
+          "pbr_lpips": -0.0006976832111831757,
+          "native_psnr": 0.02170356818514918,
+          "native_mse": -1.121774730674166e-05
+        },
+        "interaction": {
+          "pbr_psnr": 1.197366333007814,
+          "pbr_ssim": 0.0002015829086303711,
+          "pbr_lpips": 0.0007072730688378217,
+          "native_psnr": -0.06693497885079935,
+          "native_mse": 3.4226682566717605e-05
+        }
+      }
+    },
+    "02cdd6703f7f4baf8b0d96c0ae4ad6b1": {
+      "name": "PinkOmbreHair",
+      "runs": {
+        "joint_reset_only": {
+          "directory": "research/round47/attribution_controls/runs/02cdd6703f7f4baf8b0d96c0ae4ad6b1/joint_reset_only",
+          "method": "joint_reset_only",
+          "state": "verified",
+          "job": {
+            "state": "complete",
+            "object": "PinkOmbreHair",
+            "uid": "02cdd6703f7f4baf8b0d96c0ae4ad6b1",
+            "method": "joint_reset_only",
+            "seed": 0,
+            "source": "research/round46/preparation/02cdd6703f7f4baf8b0d96c0ae4ad6b1/coalesced/oracle_del3000_R.npz",
+            "source_sha256": "477ac000b18cb38c92ce7f3adcaa22d7913dd02f6afc9ca95683bba4c6f951ba",
+            "hook_sha256": "ea794c5688ab2d1ddbaa556ae323ad080cd84b4d0700058c6c4628c67503c83b",
+            "manifest_sha256": "c63db46b152812c7f61a812b24992b32564613f2019c009b1a88c1b95f5e446e",
+            "shared_historical_offset": 379.91897693276405,
+            "contemporaneous_cold_pipeline": false,
+            "scope": "Post-diagnostic attribution; not confirmation",
+            "setup_seconds": 3.9554221630096436,
+            "training_process_seconds": 142.06960916519165,
+            "training_returncode": 0,
+            "same_invocation_references": {
+              "R_joint": {
+                "path": "research/round47/continuation/02cdd6703f7f4baf8b0d96c0ae4ad6b1/joint/snapshots/1000_post.npz",
+                "sha256": "0e612229e4ea51b3facac9b615e4c2d195aebffd94c9636b2700f6c8f499bc3a"
+              },
+              "R_guarded": {
+                "path": "research/round47/continuation/02cdd6703f7f4baf8b0d96c0ae4ad6b1/large_guarded/snapshots/1000_post.npz",
+                "sha256": "0ac33f4147e4d3eff4d546858bee8add790cb7cbaa1e1bc3443ad118b57959f0"
+              }
+            },
+            "evaluation_seconds": 295.33325934410095,
+            "evaluation_returncode": 0,
+            "inclusive_wall_seconds": 437.4580292701721,
+            "evaluated_snapshot_count": 10,
+            "evaluated_reference_count": 2,
+            "full_process_seconds": 441.55347537994385
+          },
+          "endpoint_key": "S9",
+          "endpoint": {
+            "pbr_psnr": 46.95751037597656,
+            "pbr_ssim": 0.9930173635482789,
+            "pbr_lpips": 0.0173785119317472,
+            "native_psnr": 32.93697661181515,
+            "native_mse": 0.0005085133264390806
+          },
+          "references": {
+            "R_joint": {
+              "current": {
+                "pbr_psnr": 47.02538528442383,
+                "pbr_ssim": 0.9931580901145936,
+                "pbr_lpips": 0.016567538399249314,
+                "native_psnr": 32.91518942175426,
+                "native_mse": 0.0005110707877027299
+              },
+              "historical": {
+                "pbr_psnr": 47.02567977905274,
+                "pbr_ssim": 0.9931577444076538,
+                "pbr_lpips": 0.016571672447025777,
+                "native_psnr": 32.91518942175426,
+                "native_mse": 0.0005110707877027299
+              },
+              "rerender_difference": {
+                "pbr_psnr": -0.00029449462891051326,
+                "pbr_ssim": 3.4570693974167455e-07,
+                "pbr_lpips": -4.134047776462729e-06,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            },
+            "R_guarded": {
+              "current": {
+                "pbr_psnr": 47.07621459960937,
+                "pbr_ssim": 0.9933886885643005,
+                "pbr_lpips": 0.014862841926515102,
+                "native_psnr": 33.006530693829916,
+                "native_mse": 0.0005004341407870743
+              },
+              "historical": {
+                "pbr_psnr": 47.07580413818359,
+                "pbr_ssim": 0.9933903217315674,
+                "pbr_lpips": 0.014851638861000539,
+                "native_psnr": 33.006530693829916,
+                "native_mse": 0.0005004341407870743
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.0004104614257798289,
+                "pbr_ssim": -1.6331672668679076e-06,
+                "pbr_lpips": 1.120306551456382e-05,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            }
+          },
+          "occupancy": {
+            "uuid": "GPU-2e6fb9e9-edbe-97d0-e54a-6515fb2cb570",
+            "root_pid": 3662800,
+            "samples": 412,
+            "foreign_observations": [
+              {
+                "time": 1791714292.3467634,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714293.412486,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714294.4733415,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714295.5363429,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714296.588739,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714297.6455638,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714298.7136116,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714299.7860277,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714300.8449376,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714301.9033377,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714302.9598966,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714304.0184054,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714305.0787501,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714306.1424947,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714307.198224,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714308.2567012,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714309.3158553,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714310.3766932,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714311.4416788,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714312.5001748,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714313.5574203,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714314.6248505,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714315.6832654,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714316.739602,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714317.80194,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714318.867007,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714319.9263024,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714320.9853196,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714322.0455852,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714323.1057131,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714324.166292,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714325.2540743,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714326.31307,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714327.372584,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714328.4319448,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714329.495729,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714330.5588932,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714331.6221926,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714332.6814613,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714333.744486,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714334.8127265,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714335.875322,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714336.986623,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714338.047776,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714339.111271,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714340.1779797,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714341.2352371,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714342.2949495,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714343.3522878,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714344.4083838,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714345.4692373,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714346.5289726,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714347.5853767,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714348.6431677,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714349.7039618,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714350.764954,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714351.828531,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714352.8878653,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714353.9495723,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714355.0133214,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714356.0761693,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714357.2797797,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714358.343915,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714359.4101224,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714360.4756184,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714361.5331862,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714362.5986378,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714363.6576462,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714364.723316,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714365.7844956,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714366.847134,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714367.9073405,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714368.9662097,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714370.0253413,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714371.0825686,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714372.1404066,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714373.200425,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714374.2576146,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714375.3166666,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714376.3786693,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714377.4359798,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714378.4978228,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714379.5577426,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714380.6115074,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714381.6695461,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714382.7363656,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714383.7966747,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714384.866105,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714385.9245677,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714387.0206997,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714388.0822315,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714389.137318,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714390.1919835,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714391.247147,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714392.3052537,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714393.3624036,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714394.4273367,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714395.48497,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714396.5551343,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714397.6190996,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714398.679469,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714399.7378235,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714400.7996063,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714401.8617172,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714402.923091,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714403.985465,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714405.051057,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714406.1125884,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714407.1752949,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714408.2315738,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714409.285632,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714410.346327,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714411.4034035,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714412.4604964,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714413.5240178,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714414.5823677,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714415.6406598,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714416.7075076,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714417.7645435,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714418.828565,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714419.886665,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714420.9441748,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714422.000077,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714423.0578077,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714424.1177976,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714425.1752737,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714426.2488823,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714427.313821,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714428.3823512,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714429.448162,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714430.5113924,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714431.5750864,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714432.6368196,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714433.722376,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714434.7916818,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714435.8541617,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714436.9245117,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714437.9821146,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714439.0419059,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714440.101285,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714441.1603692,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714442.21937,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714443.2876964,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714444.3469183,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714445.4079509,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714446.463459,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714447.5223732,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714448.623394,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714449.6822972,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714450.7410104,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714451.7972124,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714452.8587983,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714453.9139352,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714454.9738772,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714456.0327122,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714457.0947785,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714458.1565118,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714459.2218971,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714460.2853687,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714461.3511376,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714462.409579,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714463.4678893,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714464.5270486,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714465.5873666,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714466.649072,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714467.7059293,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714468.763766,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714469.8392372,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714470.9075708,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714471.96491,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714473.0256314,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714474.0875149,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714475.149274,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714476.2098048,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714477.2719142,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714478.333392,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714479.3990285,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714480.4597816,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714481.5193875,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714482.5795102,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714483.635971,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714484.693082,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714485.7590883,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714486.8198166,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714487.8752446,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714488.9351025,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714489.9946012,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714491.0653672,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714492.1248345,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714493.1858337,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714494.246445,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714495.3071094,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714496.365389,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714497.4266555,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714498.4891465,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714499.564733,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714500.6297169,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714501.6927047,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714502.7531114,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714503.814402,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714504.8767788,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714505.9385548,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714507.0029044,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714508.0815616,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714509.145973,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714510.2734396,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714511.3404913,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714512.4018528,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714513.461741,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714514.522158,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714515.5815775,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714516.639572,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714517.7082398,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714518.764053,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714519.8223798,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714520.8782368,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714521.939156,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714523.0002759,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714524.063356,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714525.1264906,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714526.184055,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714527.2377532,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714528.2934713,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714529.3495417,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714530.40944,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714531.5523853,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714532.612929,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714533.6697948,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714534.7278032,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714535.788112,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714536.8436687,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714537.9081588,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714538.9682298,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714540.0352027,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714541.102499,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714542.168235,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714543.228231,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714544.2906318,
+                "foreign_pids": [
+                  3503146
+                ]
+              },
+              {
+                "time": 1791714545.3513632,
+                "foreign_pids": [
+                  3503146
+                ]
+              }
+            ],
+            "monitor_errors": [],
+            "timing_qualified": false,
+            "scope": "One-second compute-process sampling; cannot exclude transient contention between samples."
+          },
+          "reset_events": 4,
+          "fixed_noncolour_checks": 0,
+          "accepted_colour_corrections": 0,
+          "audit_seconds": 0.05876811593770981
+        },
+        "colour_only_reset": {
+          "directory": "research/round47/attribution_controls/runs/02cdd6703f7f4baf8b0d96c0ae4ad6b1/colour_only_reset",
+          "method": "colour_only_reset",
+          "state": "verified",
+          "job": {
+            "state": "complete",
+            "object": "PinkOmbreHair",
+            "uid": "02cdd6703f7f4baf8b0d96c0ae4ad6b1",
+            "method": "colour_only_reset",
+            "seed": 0,
+            "source": "research/round46/preparation/02cdd6703f7f4baf8b0d96c0ae4ad6b1/coalesced/oracle_del3000_R.npz",
+            "source_sha256": "477ac000b18cb38c92ce7f3adcaa22d7913dd02f6afc9ca95683bba4c6f951ba",
+            "hook_sha256": "fbcf8019032428d9c6e0c49ad3c9b7104a945a6ac3272e4fcc11f72adec8e62c",
+            "manifest_sha256": "c63db46b152812c7f61a812b24992b32564613f2019c009b1a88c1b95f5e446e",
+            "shared_historical_offset": 379.91897693276405,
+            "contemporaneous_cold_pipeline": false,
+            "scope": "Post-diagnostic attribution; not confirmation",
+            "setup_seconds": 4.028954744338989,
+            "training_process_seconds": 70.34178900718689,
+            "training_returncode": 0,
+            "same_invocation_references": {
+              "R_joint": {
+                "path": "research/round47/continuation/02cdd6703f7f4baf8b0d96c0ae4ad6b1/joint/snapshots/1000_post.npz",
+                "sha256": "0e612229e4ea51b3facac9b615e4c2d195aebffd94c9636b2700f6c8f499bc3a"
+              },
+              "R_guarded": {
+                "path": "research/round47/continuation/02cdd6703f7f4baf8b0d96c0ae4ad6b1/large_guarded/snapshots/1000_post.npz",
+                "sha256": "0ac33f4147e4d3eff4d546858bee8add790cb7cbaa1e1bc3443ad118b57959f0"
+              }
+            },
+            "evaluation_seconds": 268.43971371650696,
+            "evaluation_returncode": 0,
+            "inclusive_wall_seconds": 338.7996516227722,
+            "evaluated_snapshot_count": 10,
+            "evaluated_reference_count": 2,
+            "full_process_seconds": 342.980890750885
+          },
+          "endpoint_key": "S9",
+          "endpoint": {
+            "pbr_psnr": 46.911869812011716,
+            "pbr_ssim": 0.9927411913871765,
+            "pbr_lpips": 0.01852740691974759,
+            "native_psnr": 32.632430892951206,
+            "native_mse": 0.0005454524674543244
+          },
+          "references": {
+            "R_joint": {
+              "current": {
+                "pbr_psnr": 47.02660217285156,
+                "pbr_ssim": 0.9931591033935547,
+                "pbr_lpips": 0.016576322074979544,
+                "native_psnr": 32.91518942175426,
+                "native_mse": 0.0005110707877027299
+              },
+              "historical": {
+                "pbr_psnr": 47.02567977905274,
+                "pbr_ssim": 0.9931577444076538,
+                "pbr_lpips": 0.016571672447025777,
+                "native_psnr": 32.91518942175426,
+                "native_mse": 0.0005110707877027299
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.0009223937988238617,
+                "pbr_ssim": 1.3589859009233152e-06,
+                "pbr_lpips": 4.6496279537677765e-06,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            },
+            "R_guarded": {
+              "current": {
+                "pbr_psnr": 47.075503540039065,
+                "pbr_ssim": 0.9933903574943542,
+                "pbr_lpips": 0.01484892014414072,
+                "native_psnr": 33.006530693829916,
+                "native_mse": 0.0005004341407870743
+              },
+              "historical": {
+                "pbr_psnr": 47.07580413818359,
+                "pbr_ssim": 0.9933903217315674,
+                "pbr_lpips": 0.014851638861000539,
+                "native_psnr": 33.006530693829916,
+                "native_mse": 0.0005004341407870743
+              },
+              "rerender_difference": {
+                "pbr_psnr": -0.00030059814452698674,
+                "pbr_ssim": 3.5762786843029915e-08,
+                "pbr_lpips": -2.7187168598185457e-06,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            }
+          },
+          "occupancy": {
+            "uuid": "GPU-2e6fb9e9-edbe-97d0-e54a-6515fb2cb570",
+            "root_pid": 3678047,
+            "samples": 320,
+            "foreign_observations": [],
+            "monitor_errors": [],
+            "timing_qualified": true,
+            "scope": "One-second compute-process sampling; cannot exclude transient contention between samples."
+          },
+          "reset_events": 4,
+          "fixed_noncolour_checks": 1000,
+          "accepted_colour_corrections": 0,
+          "audit_seconds": 0.6566362157464027
+        },
+        "colour_only_guarded_reset": {
+          "directory": "research/round47/attribution_controls/runs/02cdd6703f7f4baf8b0d96c0ae4ad6b1/colour_only_guarded_reset",
+          "method": "colour_only_guarded_reset",
+          "state": "verified",
+          "job": {
+            "state": "complete",
+            "object": "PinkOmbreHair",
+            "uid": "02cdd6703f7f4baf8b0d96c0ae4ad6b1",
+            "method": "colour_only_guarded_reset",
+            "seed": 0,
+            "source": "research/round46/preparation/02cdd6703f7f4baf8b0d96c0ae4ad6b1/coalesced/oracle_del3000_R.npz",
+            "source_sha256": "477ac000b18cb38c92ce7f3adcaa22d7913dd02f6afc9ca95683bba4c6f951ba",
+            "hook_sha256": "0afe48ecdd6f13bd711ebf0d8dec9bc6a8333a513b7a3bf0354b61a7188bec17",
+            "manifest_sha256": "c63db46b152812c7f61a812b24992b32564613f2019c009b1a88c1b95f5e446e",
+            "shared_historical_offset": 379.91897693276405,
+            "contemporaneous_cold_pipeline": false,
+            "scope": "Post-diagnostic attribution; not confirmation",
+            "setup_seconds": 3.9561073780059814,
+            "training_process_seconds": 82.57035160064697,
+            "training_returncode": 0,
+            "same_invocation_references": {
+              "R_joint": {
+                "path": "research/round47/continuation/02cdd6703f7f4baf8b0d96c0ae4ad6b1/joint/snapshots/1000_post.npz",
+                "sha256": "0e612229e4ea51b3facac9b615e4c2d195aebffd94c9636b2700f6c8f499bc3a"
+              },
+              "R_guarded": {
+                "path": "research/round47/continuation/02cdd6703f7f4baf8b0d96c0ae4ad6b1/large_guarded/snapshots/1000_post.npz",
+                "sha256": "0ac33f4147e4d3eff4d546858bee8add790cb7cbaa1e1bc3443ad118b57959f0"
+              }
+            },
+            "evaluation_seconds": 268.4670031070709,
+            "evaluation_returncode": 0,
+            "inclusive_wall_seconds": 351.0668399333954,
+            "evaluated_snapshot_count": 10,
+            "evaluated_reference_count": 2,
+            "full_process_seconds": 355.16645908355713
+          },
+          "endpoint_key": "S9",
+          "endpoint": {
+            "pbr_psnr": 46.92481384277344,
+            "pbr_ssim": 0.9927953362464905,
+            "pbr_lpips": 0.018126226495951414,
+            "native_psnr": 32.637955196855714,
+            "native_mse": 0.0005447590831995263
+          },
+          "references": {
+            "R_joint": {
+              "current": {
+                "pbr_psnr": 47.02636871337891,
+                "pbr_ssim": 0.9931592583656311,
+                "pbr_lpips": 0.016564866341650487,
+                "native_psnr": 32.91518942175426,
+                "native_mse": 0.0005110707877027299
+              },
+              "historical": {
+                "pbr_psnr": 47.02567977905274,
+                "pbr_ssim": 0.9931577444076538,
+                "pbr_lpips": 0.016571672447025777,
+                "native_psnr": 32.91518942175426,
+                "native_mse": 0.0005110707877027299
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.0006889343261704539,
+                "pbr_ssim": 1.5139579773171263e-06,
+                "pbr_lpips": -6.806105375289917e-06,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            },
+            "R_guarded": {
+              "current": {
+                "pbr_psnr": 47.07580413818359,
+                "pbr_ssim": 0.9933903217315674,
+                "pbr_lpips": 0.014851638861000539,
+                "native_psnr": 33.006530693829916,
+                "native_mse": 0.0005004341407870743
+              },
+              "historical": {
+                "pbr_psnr": 47.07580413818359,
+                "pbr_ssim": 0.9933903217315674,
+                "pbr_lpips": 0.014851638861000539,
+                "native_psnr": 33.006530693829916,
+                "native_mse": 0.0005004341407870743
+              },
+              "rerender_difference": {
+                "pbr_psnr": 0.0,
+                "pbr_ssim": 0.0,
+                "pbr_lpips": 0.0,
+                "native_psnr": 0.0,
+                "native_mse": 0.0
+              }
+            }
+          },
+          "occupancy": {
+            "uuid": "GPU-2e6fb9e9-edbe-97d0-e54a-6515fb2cb570",
+            "root_pid": 3687752,
+            "samples": 331,
+            "foreign_observations": [],
+            "monitor_errors": [],
+            "timing_qualified": true,
+            "scope": "One-second compute-process sampling; cannot exclude transient contention between samples."
+          },
+          "reset_events": 4,
+          "fixed_noncolour_checks": 1000,
+          "accepted_colour_corrections": 4,
+          "audit_seconds": 0.7021015882492065
+        }
+      },
+      "effects": {
+        "reset_minus_joint": {
+          "pbr_psnr": -0.06787490844726562,
+          "pbr_ssim": -0.00014072656631469727,
+          "pbr_lpips": 0.0008109735324978856,
+          "native_psnr": 0.021787190060884143,
+          "native_mse": -2.557461263649383e-06
+        },
+        "correction_with_geometry": {
+          "pbr_psnr": 0.11870422363281108,
+          "pbr_ssim": 0.0003713250160216619,
+          "pbr_lpips": -0.002515670005232097,
+          "native_psnr": 0.06955408201476843,
+          "native_mse": -8.079185652006275e-06
+        },
+        "correction_without_geometry": {
+          "pbr_psnr": 0.012944030761723013,
+          "pbr_ssim": 5.414485931398705e-05,
+          "pbr_lpips": -0.0004011804237961762,
+          "native_psnr": 0.005524303904508088,
+          "native_mse": -6.933842547980802e-07
+        },
+        "interaction": {
+          "pbr_psnr": 0.10576019287108807,
+          "pbr_ssim": 0.00031718015670767485,
+          "pbr_lpips": -0.002114489581435921,
+          "native_psnr": 0.06402977811026034,
+          "native_mse": -7.385801397208195e-06
+        }
+      }
+    }
+  },
+  "run_states": {
+    "verified": 12
+  },
+  "complete": true,
+  "queue_states": {
+    "gpu0": {
+      "state": "complete",
+      "gpu": 0,
+      "pid": 3506233,
+      "completed": [
+        {
+          "label": "attribution_joint_reset_only",
+          "state": "complete",
+          "command": [
+            "${PYTHON}",
+            "research/round48/dispatch.py",
+            "--gpu",
+            "0",
+            "--record",
+            "research/round48/execution/gpu0/attribution_joint_reset_only/dispatch.json",
+            "--admission",
+            "inherited",
+            "--script",
+            "research/round47/attribution_controls/launch.py",
+            "--",
+            "--object",
+            "Orange",
+            "--method",
+            "joint_reset_only",
+            "--gpu",
+            "0"
+          ],
+          "started": 1791712727.1029367,
+          "dispatch": "research/round48/execution/gpu0/attribution_joint_reset_only/dispatch.json",
+          "child_pid": 3598860,
+          "returncode": 0,
+          "seconds": 266.0020864009857,
+          "admission": {
+            "state": "complete",
+            "object": "Orange",
+            "method": "joint_reset_only",
+            "gpu": 0,
+            "pid": 3598860,
+            "started": 1791712731.1071548,
+            "uuid": "GPU-888dbda2-8c4c-1ae1-c452-72ef5375f033",
+            "admission": {
+              "uuid": "GPU-888dbda2-8c4c-1ae1-c452-72ef5375f033",
+              "total_mib": 24576,
+              "used_mib": 38,
+              "free_mib": 24538,
+              "utilization_percent": 0,
+              "wait_seconds": 6.1412036418914795,
+              "policy": "user_authorized_colocated_quality_only",
+              "timing_qualified": false,
+              "minimum_free_mib": 12288
+            },
+            "run_started": 1791712741.2782235,
+            "child_pid": 3599587,
+            "returncode": 0,
+            "seconds": 251.80558156967163
+          }
+        },
+        {
+          "label": "attribution_colour_only_reset",
+          "state": "complete",
+          "command": [
+            "${PYTHON}",
+            "research/round48/dispatch.py",
+            "--gpu",
+            "0",
+            "--record",
+            "research/round48/execution/gpu0/attribution_colour_only_reset/dispatch.json",
+            "--admission",
+            "inherited",
+            "--script",
+            "research/round47/attribution_controls/launch.py",
+            "--",
+            "--object",
+            "Orange",
+            "--method",
+            "colour_only_reset",
+            "--gpu",
+            "0"
+          ],
+          "started": 1791712993.1071558,
+          "dispatch": "research/round48/execution/gpu0/attribution_colour_only_reset/dispatch.json",
+          "child_pid": 3611833,
+          "returncode": 0,
+          "seconds": 265.1594018936157,
+          "admission": {
+            "state": "complete",
+            "object": "Orange",
+            "method": "colour_only_reset",
+            "gpu": 0,
+            "pid": 3611833,
+            "started": 1791712997.1254828,
+            "uuid": "GPU-888dbda2-8c4c-1ae1-c452-72ef5375f033",
+            "admission": {
+              "uuid": "GPU-888dbda2-8c4c-1ae1-c452-72ef5375f033",
+              "total_mib": 24576,
+              "used_mib": 38,
+              "free_mib": 24538,
+              "utilization_percent": 0,
+              "wait_seconds": 6.154911279678345,
+              "policy": "user_authorized_colocated_quality_only",
+              "timing_qualified": false,
+              "minimum_free_mib": 12288
+            },
+            "run_started": 1791713007.1804538,
+            "child_pid": 3612509,
+            "returncode": 0,
+            "seconds": 251.02555394172668
+          }
+        },
+        {
+          "label": "attribution_colour_only_guarded_reset",
+          "state": "complete",
+          "command": [
+            "${PYTHON}",
+            "research/round48/dispatch.py",
+            "--gpu",
+            "0",
+            "--record",
+            "research/round48/execution/gpu0/attribution_colour_only_guarded_reset/dispatch.json",
+            "--admission",
+            "inherited",
+            "--script",
+            "research/round47/attribution_controls/launch.py",
+            "--",
+            "--object",
+            "Orange",
+            "--method",
+            "colour_only_guarded_reset",
+            "--gpu",
+            "0"
+          ],
+          "started": 1791713258.267699,
+          "dispatch": "research/round48/execution/gpu0/attribution_colour_only_guarded_reset/dispatch.json",
+          "child_pid": 3622694,
+          "returncode": 0,
+          "seconds": 277.2339782714844,
+          "admission": {
+            "state": "complete",
+            "object": "Orange",
+            "method": "colour_only_guarded_reset",
+            "gpu": 0,
+            "pid": 3622694,
+            "started": 1791713262.2881625,
+            "uuid": "GPU-888dbda2-8c4c-1ae1-c452-72ef5375f033",
+            "admission": {
+              "uuid": "GPU-888dbda2-8c4c-1ae1-c452-72ef5375f033",
+              "total_mib": 24576,
+              "used_mib": 38,
+              "free_mib": 24538,
+              "utilization_percent": 0,
+              "wait_seconds": 6.13476824760437,
+              "policy": "user_authorized_colocated_quality_only",
+              "timing_qualified": false,
+              "minimum_free_mib": 12288
+            },
+            "run_started": 1791713272.3482974,
+            "child_pid": 3623014,
+            "returncode": 0,
+            "seconds": 263.09852504730225
+          }
+        }
+      ],
+      "previous_unentered_supervisor": {
+        "state": "waiting_for_cold_qualification",
+        "gpu": 0,
+        "object": "Orange",
+        "pid": 3303287,
+        "started": 1791694787.208383,
+        "completed": []
+      },
+      "resource_policy": "user_authorized_colocated_quality_only",
+      "timing_qualified": false
+    },
+    "gpu1": {
+      "state": "complete",
+      "gpu": 1,
+      "pid": 3506234,
+      "completed": [
+        {
+          "label": "attribution_joint_reset_only",
+          "state": "complete",
+          "command": [
+            "${PYTHON}",
+            "research/round48/dispatch.py",
+            "--gpu",
+            "1",
+            "--record",
+            "research/round48/execution/gpu1/attribution_joint_reset_only/dispatch.json",
+            "--admission",
+            "inherited",
+            "--script",
+            "research/round47/attribution_controls/launch.py",
+            "--",
+            "--object",
+            "PoisonDartFrog",
+            "--method",
+            "joint_reset_only",
+            "--gpu",
+            "1"
+          ],
+          "started": 1791711960.1694655,
+          "dispatch": "research/round48/execution/gpu1/attribution_joint_reset_only/dispatch.json",
+          "child_pid": 3565552,
+          "returncode": 0,
+          "seconds": 284.1796669960022,
+          "admission": {
+            "state": "complete",
+            "object": "PoisonDartFrog",
+            "method": "joint_reset_only",
+            "gpu": 1,
+            "pid": 3565552,
+            "started": 1791711964.1975205,
+            "uuid": "GPU-38df6d2e-3db1-6b57-7ad6-09aae9978daf",
+            "admission": {
+              "uuid": "GPU-38df6d2e-3db1-6b57-7ad6-09aae9978daf",
+              "total_mib": 24576,
+              "used_mib": 15,
+              "free_mib": 24561,
+              "utilization_percent": 0,
+              "wait_seconds": 6.186896085739136,
+              "policy": "user_authorized_colocated_quality_only",
+              "timing_qualified": false,
+              "minimum_free_mib": 12288
+            },
+            "run_started": 1791711974.2909994,
+            "child_pid": 3566077,
+            "returncode": 0,
+            "seconds": 270.0049002170563
+          }
+        },
+        {
+          "label": "attribution_colour_only_reset",
+          "state": "complete",
+          "command": [
+            "${PYTHON}",
+            "research/round48/dispatch.py",
+            "--gpu",
+            "1",
+            "--record",
+            "research/round48/execution/gpu1/attribution_colour_only_reset/dispatch.json",
+            "--admission",
+            "inherited",
+            "--script",
+            "research/round47/attribution_controls/launch.py",
+            "--",
+            "--object",
+            "PoisonDartFrog",
+            "--method",
+            "colour_only_reset",
+            "--gpu",
+            "1"
+          ],
+          "started": 1791712244.3503468,
+          "dispatch": "research/round48/execution/gpu1/attribution_colour_only_reset/dispatch.json",
+          "child_pid": 3576954,
+          "returncode": 0,
+          "seconds": 281.35347986221313,
+          "admission": {
+            "state": "complete",
+            "object": "PoisonDartFrog",
+            "method": "colour_only_reset",
+            "gpu": 1,
+            "pid": 3576954,
+            "started": 1791712248.4593012,
+            "uuid": "GPU-38df6d2e-3db1-6b57-7ad6-09aae9978daf",
+            "admission": {
+              "uuid": "GPU-38df6d2e-3db1-6b57-7ad6-09aae9978daf",
+              "total_mib": 24576,
+              "used_mib": 15,
+              "free_mib": 24561,
+              "utilization_percent": 0,
+              "wait_seconds": 6.155813217163086,
+              "policy": "user_authorized_colocated_quality_only",
+              "timing_qualified": false,
+              "minimum_free_mib": 12288
+            },
+            "run_started": 1791712258.5392518,
+            "child_pid": 3577665,
+            "returncode": 0,
+            "seconds": 267.1361451148987
+          }
+        },
+        {
+          "label": "attribution_colour_only_guarded_reset",
+          "state": "complete",
+          "command": [
+            "${PYTHON}",
+            "research/round48/dispatch.py",
+            "--gpu",
+            "1",
+            "--record",
+            "research/round48/execution/gpu1/attribution_colour_only_guarded_reset/dispatch.json",
+            "--admission",
+            "inherited",
+            "--script",
+            "research/round47/attribution_controls/launch.py",
+            "--",
+            "--object",
+            "PoisonDartFrog",
+            "--method",
+            "colour_only_guarded_reset",
+            "--gpu",
+            "1"
+          ],
+          "started": 1791712525.7066526,
+          "dispatch": "research/round48/execution/gpu1/attribution_colour_only_guarded_reset/dispatch.json",
+          "child_pid": 3588526,
+          "returncode": 0,
+          "seconds": 791.3827245235443,
+          "admission": {
+            "state": "complete",
+            "object": "PoisonDartFrog",
+            "method": "colour_only_guarded_reset",
+            "gpu": 1,
+            "pid": 3588526,
+            "started": 1791712529.752132,
+            "uuid": "GPU-38df6d2e-3db1-6b57-7ad6-09aae9978daf",
+            "admission": {
+              "uuid": "GPU-38df6d2e-3db1-6b57-7ad6-09aae9978daf",
+              "total_mib": 24576,
+              "used_mib": 15,
+              "free_mib": 24561,
+              "utilization_percent": 0,
+              "wait_seconds": 502.8062036037445,
+              "policy": "user_authorized_colocated_quality_only",
+              "timing_qualified": false,
+              "minimum_free_mib": 12288
+            },
+            "run_started": 1791713036.5275106,
+            "child_pid": 3613770,
+            "returncode": 0,
+            "seconds": 280.50066614151
+          }
+        }
+      ],
+      "previous_unentered_supervisor": {
+        "state": "waiting_for_cold_qualification",
+        "gpu": 1,
+        "object": "PoisonDartFrog",
+        "pid": 3303288,
+        "started": 1791694787.1873052,
+        "completed": []
+      },
+      "resource_policy": "user_authorized_colocated_quality_only",
+      "timing_qualified": false
+    },
+    "gpu2": {
+      "state": "complete",
+      "gpu": 2,
+      "pid": 3506235,
+      "completed": [
+        {
+          "label": "attribution_joint_reset_only",
+          "state": "complete",
+          "command": [
+            "${PYTHON}",
+            "research/round48/dispatch.py",
+            "--gpu",
+            "2",
+            "--record",
+            "research/round48/execution/gpu2/attribution_joint_reset_only/dispatch.json",
+            "--admission",
+            "inherited",
+            "--script",
+            "research/round47/attribution_controls/launch.py",
+            "--",
+            "--object",
+            "SmallLimo",
+            "--method",
+            "joint_reset_only",
+            "--gpu",
+            "2"
+          ],
+          "started": 1791711794.9314797,
+          "dispatch": "research/round48/execution/gpu2/attribution_joint_reset_only/dispatch.json",
+          "child_pid": 3559258,
+          "returncode": 0,
+          "seconds": 204.8542652130127,
+          "admission": {
+            "state": "complete",
+            "object": "SmallLimo",
+            "method": "joint_reset_only",
+            "gpu": 2,
+            "pid": 3559258,
+            "started": 1791711798.8836987,
+            "uuid": "GPU-aebdc2ee-daa3-acef-c836-27ba5a9a6f5f",
+            "admission": {
+              "uuid": "GPU-aebdc2ee-daa3-acef-c836-27ba5a9a6f5f",
+              "total_mib": 24576,
+              "used_mib": 15,
+              "free_mib": 24561,
+              "utilization_percent": 0,
+              "wait_seconds": 6.125986814498901,
+              "policy": "user_authorized_colocated_quality_only",
+              "timing_qualified": false,
+              "minimum_free_mib": 12288
+            },
+            "run_started": 1791711808.929381,
+            "child_pid": 3559675,
+            "returncode": 0,
+            "seconds": 190.82548022270203
+          }
+        },
+        {
+          "label": "attribution_colour_only_reset",
+          "state": "complete",
+          "command": [
+            "${PYTHON}",
+            "research/round48/dispatch.py",
+            "--gpu",
+            "2",
+            "--record",
+            "research/round48/execution/gpu2/attribution_colour_only_reset/dispatch.json",
+            "--admission",
+            "inherited",
+            "--script",
+            "research/round47/attribution_controls/launch.py",
+            "--",
+            "--object",
+            "SmallLimo",
+            "--method",
+            "colour_only_reset",
+            "--gpu",
+            "2"
+          ],
+          "started": 1791711999.7870915,
+          "dispatch": "research/round48/execution/gpu2/attribution_colour_only_reset/dispatch.json",
+          "child_pid": 3567206,
+          "returncode": 0,
+          "seconds": 203.85299110412598,
+          "admission": {
+            "state": "complete",
+            "object": "SmallLimo",
+            "method": "colour_only_reset",
+            "gpu": 2,
+            "pid": 3567206,
+            "started": 1791712003.7897618,
+            "uuid": "GPU-aebdc2ee-daa3-acef-c836-27ba5a9a6f5f",
+            "admission": {
+              "uuid": "GPU-aebdc2ee-daa3-acef-c836-27ba5a9a6f5f",
+              "total_mib": 24576,
+              "used_mib": 15,
+              "free_mib": 24561,
+              "utilization_percent": 0,
+              "wait_seconds": 6.147211790084839,
+              "policy": "user_authorized_colocated_quality_only",
+              "timing_qualified": false,
+              "minimum_free_mib": 12288
+            },
+            "run_started": 1791712014.0047333,
+            "child_pid": 3567727,
+            "returncode": 0,
+            "seconds": 189.61832928657532
+          }
+        },
+        {
+          "label": "attribution_colour_only_guarded_reset",
+          "state": "complete",
+          "command": [
+            "${PYTHON}",
+            "research/round48/dispatch.py",
+            "--gpu",
+            "2",
+            "--record",
+            "research/round48/execution/gpu2/attribution_colour_only_guarded_reset/dispatch.json",
+            "--admission",
+            "inherited",
+            "--script",
+            "research/round47/attribution_controls/launch.py",
+            "--",
+            "--object",
+            "SmallLimo",
+            "--method",
+            "colour_only_guarded_reset",
+            "--gpu",
+            "2"
+          ],
+          "started": 1791712203.6418822,
+          "dispatch": "research/round48/execution/gpu2/attribution_colour_only_guarded_reset/dispatch.json",
+          "child_pid": 3575543,
+          "returncode": 0,
+          "seconds": 232.07058334350586,
+          "admission": {
+            "state": "complete",
+            "object": "SmallLimo",
+            "method": "colour_only_guarded_reset",
+            "gpu": 2,
+            "pid": 3575543,
+            "started": 1791712207.7290804,
+            "uuid": "GPU-aebdc2ee-daa3-acef-c836-27ba5a9a6f5f",
+            "admission": {
+              "uuid": "GPU-aebdc2ee-daa3-acef-c836-27ba5a9a6f5f",
+              "total_mib": 24576,
+              "used_mib": 15,
+              "free_mib": 24561,
+              "utilization_percent": 0,
+              "wait_seconds": 24.440091848373413,
+              "policy": "user_authorized_colocated_quality_only",
+              "timing_qualified": false,
+              "minimum_free_mib": 12288
+            },
+            "run_started": 1791712236.123619,
+            "child_pid": 3576631,
+            "returncode": 0,
+            "seconds": 199.556636095047
+          }
+        }
+      ],
+      "previous_unentered_supervisor": {
+        "state": "waiting_for_cold_qualification",
+        "gpu": 2,
+        "object": "SmallLimo",
+        "pid": 3303289,
+        "started": 1791694787.188594,
+        "completed": []
+      },
+      "resource_policy": "user_authorized_colocated_quality_only",
+      "timing_qualified": false
+    },
+    "gpu3": {
+      "state": "complete",
+      "gpu": 3,
+      "pid": 3506236,
+      "completed": [
+        {
+          "label": "attribution_joint_reset_only",
+          "state": "complete",
+          "command": [
+            "${PYTHON}",
+            "research/round48/dispatch.py",
+            "--gpu",
+            "3",
+            "--record",
+            "research/round48/execution/gpu3/attribution_joint_reset_only/dispatch.json",
+            "--admission",
+            "inherited",
+            "--script",
+            "research/round47/attribution_controls/launch.py",
+            "--",
+            "--object",
+            "PinkOmbreHair",
+            "--method",
+            "joint_reset_only",
+            "--gpu",
+            "3"
+          ],
+          "started": 1791714272.7642903,
+          "dispatch": "research/round48/execution/gpu3/attribution_joint_reset_only/dispatch.json",
+          "child_pid": 3662358,
+          "returncode": 0,
+          "seconds": 457.6451461315155,
+          "admission": {
+            "state": "complete",
+            "object": "PinkOmbreHair",
+            "method": "joint_reset_only",
+            "gpu": 3,
+            "pid": 3662358,
+            "started": 1791714276.7763932,
+            "uuid": "GPU-2e6fb9e9-edbe-97d0-e54a-6515fb2cb570",
+            "admission": {
+              "uuid": "GPU-2e6fb9e9-edbe-97d0-e54a-6515fb2cb570",
+              "total_mib": 24576,
+              "used_mib": 7349,
+              "free_mib": 17227,
+              "utilization_percent": 40,
+              "wait_seconds": 6.127254486083984,
+              "policy": "user_authorized_colocated_quality_only",
+              "timing_qualified": false,
+              "minimum_free_mib": 12288
+            },
+            "run_started": 1791714286.8220296,
+            "child_pid": 3662800,
+            "returncode": 0,
+            "seconds": 443.5407500267029
+          }
+        },
+        {
+          "label": "attribution_colour_only_reset",
+          "state": "complete",
+          "command": [
+            "${PYTHON}",
+            "research/round48/dispatch.py",
+            "--gpu",
+            "3",
+            "--record",
+            "research/round48/execution/gpu3/attribution_colour_only_reset/dispatch.json",
+            "--admission",
+            "inherited",
+            "--script",
+            "research/round47/attribution_controls/launch.py",
+            "--",
+            "--object",
+            "PinkOmbreHair",
+            "--method",
+            "colour_only_reset",
+            "--gpu",
+            "3"
+          ],
+          "started": 1791714730.4112298,
+          "dispatch": "research/round48/execution/gpu3/attribution_colour_only_reset/dispatch.json",
+          "child_pid": 3677681,
+          "returncode": 0,
+          "seconds": 359.18137097358704,
+          "admission": {
+            "state": "complete",
+            "object": "PinkOmbreHair",
+            "method": "colour_only_reset",
+            "gpu": 3,
+            "pid": 3677681,
+            "started": 1791714734.4118059,
+            "uuid": "GPU-2e6fb9e9-edbe-97d0-e54a-6515fb2cb570",
+            "admission": {
+              "uuid": "GPU-2e6fb9e9-edbe-97d0-e54a-6515fb2cb570",
+              "total_mib": 24576,
+              "used_mib": 15,
+              "free_mib": 24561,
+              "utilization_percent": 0,
+              "wait_seconds": 6.130603551864624,
+              "policy": "user_authorized_colocated_quality_only",
+              "timing_qualified": false,
+              "minimum_free_mib": 12288
+            },
+            "run_started": 1791714744.455166,
+            "child_pid": 3678047,
+            "returncode": 0,
+            "seconds": 345.1146008968353
+          }
+        },
+        {
+          "label": "attribution_colour_only_guarded_reset",
+          "state": "complete",
+          "command": [
+            "${PYTHON}",
+            "research/round48/dispatch.py",
+            "--gpu",
+            "3",
+            "--record",
+            "research/round48/execution/gpu3/attribution_colour_only_guarded_reset/dispatch.json",
+            "--admission",
+            "inherited",
+            "--script",
+            "research/round47/attribution_controls/launch.py",
+            "--",
+            "--object",
+            "PinkOmbreHair",
+            "--method",
+            "colour_only_guarded_reset",
+            "--gpu",
+            "3"
+          ],
+          "started": 1791715089.5953584,
+          "dispatch": "research/round48/execution/gpu3/attribution_colour_only_guarded_reset/dispatch.json",
+          "child_pid": 3687464,
+          "returncode": 0,
+          "seconds": 371.35904574394226,
+          "admission": {
+            "state": "complete",
+            "object": "PinkOmbreHair",
+            "method": "colour_only_guarded_reset",
+            "gpu": 3,
+            "pid": 3687464,
+            "started": 1791715093.6254592,
+            "uuid": "GPU-2e6fb9e9-edbe-97d0-e54a-6515fb2cb570",
+            "admission": {
+              "uuid": "GPU-2e6fb9e9-edbe-97d0-e54a-6515fb2cb570",
+              "total_mib": 24576,
+              "used_mib": 15,
+              "free_mib": 24561,
+              "utilization_percent": 0,
+              "wait_seconds": 6.137242317199707,
+              "policy": "user_authorized_colocated_quality_only",
+              "timing_qualified": false,
+              "minimum_free_mib": 12288
+            },
+            "run_started": 1791715103.7191575,
+            "child_pid": 3687752,
+            "returncode": 0,
+            "seconds": 357.20828652381897
+          }
+        }
+      ],
+      "previous_unentered_supervisor": {
+        "state": "waiting_for_cold_qualification",
+        "gpu": 3,
+        "object": "PinkOmbreHair",
+        "pid": 3303290,
+        "started": 1791694787.208383,
+        "completed": []
+      },
+      "resource_policy": "user_authorized_colocated_quality_only",
+      "timing_qualified": false
+    }
+  },
+  "summaries": {
+    "reset_minus_joint": {
+      "objects": 4,
+      "mean": {
+        "pbr_psnr": 0.019638538360593927,
+        "pbr_ssim": 1.3357400894142835e-05,
+        "pbr_lpips": 0.00018045130564132788,
+        "native_psnr": 0.0313713543578098,
+        "native_mse": -2.5138306228141927e-05
+      },
+      "median": {
+        "pbr_psnr": 0.0018608093261711645,
+        "pbr_ssim": 1.243352890012428e-05,
+        "pbr_lpips": 0.00017153446387965223,
+        "native_psnr": 0.022658457508294205,
+        "native_mse": -7.248488663812115e-06
+      },
+      "positive_pbr": 2
+    },
+    "correction_with_geometry": {
+      "objects": 4,
+      "mean": {
+        "pbr_psnr": 0.586143970489502,
+        "pbr_ssim": 0.00030152499675747957,
+        "pbr_lpips": -0.0005627847902360374,
+        "native_psnr": 0.03510179836346161,
+        "native_mse": -1.1959130896458493e-05
+      },
+      "median": {
+        "pbr_psnr": 0.31030139923095845,
+        "pbr_ssim": 0.0003809392452239768,
+        "pbr_lpips": -0.00015567288210149854,
+        "native_psnr": 0.05566293489919083,
+        "native_mse": -1.073688120422782e-05
+      },
+      "positive_pbr": 4
+    },
+    "correction_without_geometry": {
+      "objects": 4,
+      "mean": {
+        "pbr_psnr": 0.14589633941650426,
+        "pbr_ssim": 7.627904415133391e-05,
+        "pbr_lpips": -0.00021880032581975681,
+        "native_psnr": 0.0070316842685596015,
+        "native_mse": -3.4056219266783956e-06
+      },
+      "median": {
+        "pbr_psnr": 0.07082290649413991,
+        "pbr_ssim": 6.579160690312058e-05,
+        "pbr_lpips": -0.00019013443961739523,
+        "native_psnr": 0.0031703667824931614,
+        "native_mse": -1.1879266763258848e-06
+      },
+      "positive_pbr": 4
+    },
+    "interaction": {
+      "objects": 4,
+      "mean": {
+        "pbr_psnr": 0.4402476310729977,
+        "pbr_ssim": 0.00022524595260614566,
+        "pbr_lpips": -0.0003439844644162806,
+        "native_psnr": 0.02807011409490201,
+        "native_mse": -8.553508969780097e-06
+      },
+      "median": {
+        "pbr_psnr": 0.2685472488403313,
+        "pbr_ssim": 0.000259381532669023,
+        "pbr_lpips": 1.5639327466488405e-05,
+        "native_psnr": 0.05249256811669767,
+        "native_mse": -1.0375745553168703e-05
+      },
+      "positive_pbr": 4
+    }
+  }
+}

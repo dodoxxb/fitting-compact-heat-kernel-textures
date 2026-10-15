@@ -1,0 +1,105 @@
+{
+  "scope": "post_hoc_algebraic_diagnostic_not_a_new_trained_arm",
+  "objects": {
+    "Orange": {
+      "identity_max_abs": 6.290879817939798e-16,
+      "shifted_coefficients_outside_box_fraction": 0.064,
+      "shifted_coefficients_max": 1.6982421875,
+      "shifted_coefficients_min": -0.91937255859375,
+      "metrics": {
+        "source": {
+          "mse": 0.0006310680242593816,
+          "psnr": 31.99923824641448
+        },
+        "remove_background": {
+          "mse": 0.17350073297685698,
+          "psnr": 7.606986861345949
+        },
+        "absorb_without_bounds": {
+          "mse": 0.001743596021346208,
+          "psnr": 27.585541306553623
+        },
+        "absorb_then_clip_coefficients": {
+          "mse": 0.001830052948439689,
+          "psnr": 27.375363447599955
+        }
+      },
+      "absorption_minus_source_psnr": -4.413696939860856
+    },
+    "SmallLimo": {
+      "identity_max_abs": 3.274019510363102e-16,
+      "shifted_coefficients_outside_box_fraction": 0.2298888888888889,
+      "shifted_coefficients_max": 1.367431640625,
+      "shifted_coefficients_min": -0.88909912109375,
+      "metrics": {
+        "source": {
+          "mse": 0.0019397562552309353,
+          "psnr": 27.122528389660516
+        },
+        "remove_background": {
+          "mse": 0.04396723120841537,
+          "psnr": 13.568708827716547
+        },
+        "absorb_without_bounds": {
+          "mse": 0.002029300620445507,
+          "psnr": 26.926536118480033
+        },
+        "absorb_then_clip_coefficients": {
+          "mse": 0.0025262428608670098,
+          "psnr": 25.975249007860683
+        }
+      },
+      "absorption_minus_source_psnr": -0.1959922711804829
+    },
+    "Hummingbird": {
+      "identity_max_abs": 4.959005211677137e-16,
+      "shifted_coefficients_outside_box_fraction": 0.03288888888888889,
+      "shifted_coefficients_max": 1.1661376953125,
+      "shifted_coefficients_min": -0.8646240234375,
+      "metrics": {
+        "source": {
+          "mse": 0.0001504248594243232,
+          "psnr": 38.22680385694836
+        },
+        "remove_background": {
+          "mse": 0.023368834282198752,
+          "psnr": 16.313629511694096
+        },
+        "absorb_without_bounds": {
+          "mse": 0.0001504263810390335,
+          "psnr": 38.226759926341906
+        },
+        "absorb_then_clip_coefficients": {
+          "mse": 0.00017991183485015024,
+          "psnr": 37.449402672211036
+        }
+      },
+      "absorption_minus_source_psnr": -4.393060645213609e-05
+    },
+    "Piggybank": {
+      "identity_max_abs": 4.960224939121183e-16,
+      "shifted_coefficients_outside_box_fraction": 0.05,
+      "shifted_coefficients_max": 1.1507568359375,
+      "shifted_coefficients_min": -0.88818359375,
+      "metrics": {
+        "source": {
+          "mse": 0.0001236547194680667,
+          "psnr": 39.077893034852586
+        },
+        "remove_background": {
+          "mse": 0.016654315775375374,
+          "psnr": 17.78473205127288
+        },
+        "absorb_without_bounds": {
+          "mse": 0.00012388069625705224,
+          "psnr": 39.06996362406743
+        },
+        "absorb_then_clip_coefficients": {
+          "mse": 0.00017343938286754925,
+          "psnr": 37.608522804466816
+        }
+      },
+      "absorption_minus_source_psnr": -0.007929410785159519
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "state": "complete",
+  "scope": "Selected-case six-run numerical diagnostic, not replacement confirmation endpoints.",
+  "runs": [
+    {
+      "budget": 4000,
+      "lr_scale": 1.0,
+      "state": "invalid_or_failed"
+    },
+    {
+      "budget": 4000,
+      "lr_scale": 0.1,
+      "state": "complete",
+      "metrics": {
+        "psnr": 43.530052947998044,
+        "ssim": 0.986939549446106,
+        "ms_ssim": 0.9951964616775513,
+        "lpips": 0.010127273201942445,
+        "mse": 0.00010016701198765077
+      }
+    },
+    {
+      "budget": 4000,
+      "lr_scale": 0.01,
+      "state": "complete",
+      "metrics": {
+        "psnr": 38.925662994384766,
+        "ssim": 0.983217179775238,
+        "ms_ssim": 0.988179612159729,
+        "lpips": 0.020217332616448404,
+        "mse": 0.00015253359088092112
+      }
+    },
+    {
+      "budget": 3000,
+      "lr_scale": 1.0,
+      "state": "invalid_or_failed"
+    },
+    {
+      "budget": 3000,
+      "lr_scale": 0.1,
+      "state": "complete",
+      "metrics": {
+        "psnr": 43.25642700195313,
+        "ssim": 0.9864833354949951,
+        "ms_ssim": 0.9949953079223632,
+        "lpips": 0.010617124754935503,
+        "mse": 0.00010453263676026835
+      }
+    },
+    {
+      "budget": 3000,
+      "lr_scale": 0.01,
+      "state": "complete",
+      "metrics": {
+        "psnr": 32.95284233093262,
+        "ssim": 0.9671848058700562,
+        "ms_ssim": 0.9598718404769897,
+        "lpips": 0.04048943892121315,
+        "mse": 0.0005303262500092387
+      }
+    }
+  ]
+}

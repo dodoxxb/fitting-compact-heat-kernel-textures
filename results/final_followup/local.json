@@ -1,0 +1,853 @@
+{
+  "state": "complete",
+  "expected_runs": 36,
+  "qualified_objects": 4,
+  "objects": [
+    {
+      "uid": "06d1702169534de8bf6fb797dcd7d471",
+      "seeds": [
+        {
+          "seed": 0,
+          "arms": {
+            "joint": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 40.3636589050293,
+                "native_psnr": 34.62271100108169,
+                "ssim": 0.9809169769287109,
+                "lpips": 0.028207188844680785
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "reset_only": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 40.60207748413086,
+                "native_psnr": 34.58680992806589,
+                "ssim": 0.9806989192962646,
+                "lpips": 0.028036628477275373
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "guarded_reset": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 40.59318237304687,
+                "native_psnr": 34.541111911860966,
+                "ssim": 0.9808097243309021,
+                "lpips": 0.028593479096889494
+              },
+              "accepted_corrections": 4,
+              "timing_qualified": false
+            }
+          },
+          "errors": [],
+          "qualified": true,
+          "deltas": {
+            "guarded_vs_reset": {
+              "pbr_psnr": -0.008895111083987217,
+              "native_psnr": -0.04569801620492342,
+              "ssim": 0.00011080503463745117,
+              "lpips": 0.0005568506196141215
+            },
+            "guarded_vs_joint": {
+              "pbr_psnr": 0.22952346801757528,
+              "native_psnr": -0.0815990892207239,
+              "ssim": -0.0001072525978088601,
+              "lpips": 0.0003862902522087097
+            },
+            "reset_vs_joint": {
+              "pbr_psnr": 0.2384185791015625,
+              "native_psnr": -0.03590107301580048,
+              "ssim": -0.00021805763244631127,
+              "lpips": -0.0001705603674054118
+            }
+          }
+        },
+        {
+          "seed": 1,
+          "arms": {
+            "joint": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 40.56780014038086,
+                "native_psnr": 34.4393129703839,
+                "ssim": 0.9805667638778687,
+                "lpips": 0.02792944833636284
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "reset_only": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 40.445640563964844,
+                "native_psnr": 34.46040092405899,
+                "ssim": 0.980166745185852,
+                "lpips": 0.028187483176589014
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "guarded_reset": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 40.868035888671876,
+                "native_psnr": 34.82749575326543,
+                "ssim": 0.981288731098175,
+                "lpips": 0.025824166461825372
+              },
+              "accepted_corrections": 4,
+              "timing_qualified": false
+            }
+          },
+          "errors": [],
+          "qualified": true,
+          "deltas": {
+            "guarded_vs_reset": {
+              "pbr_psnr": 0.42239532470703267,
+              "native_psnr": 0.36709482920644376,
+              "ssim": 0.0011219859123230425,
+              "lpips": -0.0023633167147636414
+            },
+            "guarded_vs_joint": {
+              "pbr_psnr": 0.3002357482910156,
+              "native_psnr": 0.38818278288152896,
+              "ssim": 0.0007219672203063743,
+              "lpips": -0.0021052818745374673
+            },
+            "reset_vs_joint": {
+              "pbr_psnr": -0.12215957641601705,
+              "native_psnr": 0.021087953675085203,
+              "ssim": -0.0004000186920166682,
+              "lpips": 0.0002580348402261741
+            }
+          }
+        },
+        {
+          "seed": 2,
+          "arms": {
+            "joint": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 40.483393859863284,
+                "native_psnr": 34.5841971272325,
+                "ssim": 0.9800208806991577,
+                "lpips": 0.02793002687394619
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "reset_only": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 40.45538864135742,
+                "native_psnr": 34.614708974232805,
+                "ssim": 0.9804733753204345,
+                "lpips": 0.027328362129628657
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "guarded_reset": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 40.76484146118164,
+                "native_psnr": 34.92565556909126,
+                "ssim": 0.9812403678894043,
+                "lpips": 0.027899717912077904
+              },
+              "accepted_corrections": 4,
+              "timing_qualified": false
+            }
+          },
+          "errors": [],
+          "qualified": true,
+          "deltas": {
+            "guarded_vs_reset": {
+              "pbr_psnr": 0.3094528198242159,
+              "native_psnr": 0.3109465948584571,
+              "ssim": 0.0007669925689697266,
+              "lpips": 0.0005713557824492468
+            },
+            "guarded_vs_joint": {
+              "pbr_psnr": 0.2814476013183551,
+              "native_psnr": 0.3414584418587623,
+              "ssim": 0.0012194871902465598,
+              "lpips": -3.0308961868286133e-05
+            },
+            "reset_vs_joint": {
+              "pbr_psnr": -0.028005218505860796,
+              "native_psnr": 0.03051184700030518,
+              "ssim": 0.00045249462127683326,
+              "lpips": -0.000601664744317533
+            }
+          }
+        }
+      ],
+      "qualified": true,
+      "seed_mean_deltas": {
+        "guarded_vs_reset": {
+          "pbr_psnr": 0.24098434448242045,
+          "native_psnr": 0.21078113595332582,
+          "ssim": 0.0006665945053100734,
+          "lpips": -0.00041170343756675765
+        },
+        "guarded_vs_joint": {
+          "pbr_psnr": 0.27040227254231536,
+          "native_psnr": 0.21601404517318912,
+          "ssim": 0.0006114006042480247,
+          "lpips": -0.0005831001947323479
+        },
+        "reset_vs_joint": {
+          "pbr_psnr": 0.029417928059894887,
+          "native_psnr": 0.005232909219863302,
+          "ssim": -5.5193901062048724e-05,
+          "lpips": -0.00017139675716559022
+        }
+      }
+    },
+    {
+      "uid": "5713fc403f4f4899bbc10e8e3d0e9185",
+      "seeds": [
+        {
+          "seed": 0,
+          "arms": {
+            "joint": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 48.3350715637207,
+                "native_psnr": 33.1963819896672,
+                "ssim": 0.9958606123924255,
+                "lpips": 0.005174904828891158
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "reset_only": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 48.22863235473633,
+                "native_psnr": 33.164279043441596,
+                "ssim": 0.9958375573158265,
+                "lpips": 0.005258555780164898
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "guarded_reset": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 48.14504165649414,
+                "native_psnr": 33.01140034735432,
+                "ssim": 0.9958450317382812,
+                "lpips": 0.005894102808088064
+              },
+              "accepted_corrections": 4,
+              "timing_qualified": false
+            }
+          },
+          "errors": [],
+          "qualified": true,
+          "deltas": {
+            "guarded_vs_reset": {
+              "pbr_psnr": -0.08359069824218324,
+              "native_psnr": -0.1528786960872779,
+              "ssim": 7.4744224547451665e-06,
+              "lpips": 0.0006355470279231666
+            },
+            "guarded_vs_joint": {
+              "pbr_psnr": -0.19002990722655966,
+              "native_psnr": -0.18498164231288428,
+              "ssim": -1.5580654144309314e-05,
+              "lpips": 0.0007191979791969063
+            },
+            "reset_vs_joint": {
+              "pbr_psnr": -0.10643920898437642,
+              "native_psnr": -0.03210294622560639,
+              "ssim": -2.305507659905448e-05,
+              "lpips": 8.365095127373968e-05
+            }
+          }
+        },
+        {
+          "seed": 1,
+          "arms": {
+            "joint": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 48.17000274658203,
+                "native_psnr": 33.11933422666031,
+                "ssim": 0.9958137154579163,
+                "lpips": 0.005469177290797234
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "reset_only": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 48.32437438964844,
+                "native_psnr": 33.10397924633786,
+                "ssim": 0.99572252035141,
+                "lpips": 0.005651313345879316
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "guarded_reset": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 47.97863845825195,
+                "native_psnr": 33.063241878927585,
+                "ssim": 0.9957782030105591,
+                "lpips": 0.006096698902547359
+              },
+              "accepted_corrections": 4,
+              "timing_qualified": false
+            }
+          },
+          "errors": [],
+          "qualified": true,
+          "deltas": {
+            "guarded_vs_reset": {
+              "pbr_psnr": -0.34573593139649006,
+              "native_psnr": -0.040737367410272896,
+              "ssim": 5.568265914912551e-05,
+              "lpips": 0.0004453855566680428
+            },
+            "guarded_vs_joint": {
+              "pbr_psnr": -0.19136428833007812,
+              "native_psnr": -0.0560923477327222,
+              "ssim": -3.551244735722214e-05,
+              "lpips": 0.0006275216117501252
+            },
+            "reset_vs_joint": {
+              "pbr_psnr": 0.15437164306641193,
+              "native_psnr": -0.015354980322449308,
+              "ssim": -9.119510650634766e-05,
+              "lpips": 0.0001821360550820824
+            }
+          }
+        },
+        {
+          "seed": 2,
+          "arms": {
+            "joint": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 48.08164901733399,
+                "native_psnr": 33.05520224017839,
+                "ssim": 0.9957762122154236,
+                "lpips": 0.006096199294552207
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "reset_only": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 48.24892730712891,
+                "native_psnr": 33.17161681324253,
+                "ssim": 0.9957767963409424,
+                "lpips": 0.0056455870624631645
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "guarded_reset": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 48.09551467895508,
+                "native_psnr": 33.01347714893792,
+                "ssim": 0.9957149386405945,
+                "lpips": 0.0062923173420131205
+              },
+              "accepted_corrections": 4,
+              "timing_qualified": false
+            }
+          },
+          "errors": [],
+          "qualified": true,
+          "deltas": {
+            "guarded_vs_reset": {
+              "pbr_psnr": -0.1534126281738324,
+              "native_psnr": -0.15813966430460624,
+              "ssim": -6.18577003479448e-05,
+              "lpips": 0.000646730279549956
+            },
+            "guarded_vs_joint": {
+              "pbr_psnr": 0.013865661621089487,
+              "native_psnr": -0.04172509124046542,
+              "ssim": -6.127357482910156e-05,
+              "lpips": 0.00019611804746091314
+            },
+            "reset_vs_joint": {
+              "pbr_psnr": 0.16727828979492188,
+              "native_psnr": 0.11641457306414082,
+              "ssim": 5.84125518843237e-07,
+              "lpips": -0.00045061223208904284
+            }
+          }
+        }
+      ],
+      "qualified": true,
+      "seed_mean_deltas": {
+        "guarded_vs_reset": {
+          "pbr_psnr": -0.19424641927083522,
+          "native_psnr": -0.11725190926738567,
+          "ssim": 4.3312708530862665e-07,
+          "lpips": 0.0005758876213803884
+        },
+        "guarded_vs_joint": {
+          "pbr_psnr": -0.12250951131184944,
+          "native_psnr": -0.09426636042869063,
+          "ssim": -3.745555877687767e-05,
+          "lpips": 0.0005142792128026482
+        },
+        "reset_vs_joint": {
+          "pbr_psnr": 0.0717369079589858,
+          "native_psnr": 0.022985548838695042,
+          "ssim": -3.78886858621863e-05,
+          "lpips": -6.160840857774025e-05
+        }
+      }
+    },
+    {
+      "uid": "289cf2bd644b4480b9a57e7bd2e89cbb",
+      "seeds": [
+        {
+          "seed": 0,
+          "arms": {
+            "joint": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 42.808800506591794,
+                "native_psnr": 35.6705160264301,
+                "ssim": 0.9882966637611389,
+                "lpips": 0.009858428128063678
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "reset_only": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 42.797925567626955,
+                "native_psnr": 35.7208950494635,
+                "ssim": 0.9882251262664795,
+                "lpips": 0.00995992124080658
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "guarded_reset": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 42.92425689697266,
+                "native_psnr": 36.19223784836366,
+                "ssim": 0.9887306809425354,
+                "lpips": 0.009472530148923398
+              },
+              "accepted_corrections": 4,
+              "timing_qualified": false
+            }
+          },
+          "errors": [],
+          "qualified": true,
+          "deltas": {
+            "guarded_vs_reset": {
+              "pbr_psnr": 0.12633132934570312,
+              "native_psnr": 0.4713427989001602,
+              "ssim": 0.0005055546760558416,
+              "lpips": -0.00048739109188318183
+            },
+            "guarded_vs_joint": {
+              "pbr_psnr": 0.11545639038086364,
+              "native_psnr": 0.5217218219335606,
+              "ssim": 0.00043401718139646217,
+              "lpips": -0.00038589797914028064
+            },
+            "reset_vs_joint": {
+              "pbr_psnr": -0.010874938964839487,
+              "native_psnr": 0.05037902303340047,
+              "ssim": -7.153749465937942e-05,
+              "lpips": 0.0001014931127429012
+            }
+          }
+        },
+        {
+          "seed": 1,
+          "arms": {
+            "joint": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 42.82284164428711,
+                "native_psnr": 35.78541678741865,
+                "ssim": 0.9883171916007996,
+                "lpips": 0.009076915308833122
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "reset_only": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 42.82422866821289,
+                "native_psnr": 35.685383815357014,
+                "ssim": 0.9883955240249633,
+                "lpips": 0.009824560023844242
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "guarded_reset": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 42.833344268798825,
+                "native_psnr": 36.12692061576939,
+                "ssim": 0.9886821389198304,
+                "lpips": 0.00912877982482314
+              },
+              "accepted_corrections": 4,
+              "timing_qualified": false
+            }
+          },
+          "errors": [],
+          "qualified": true,
+          "deltas": {
+            "guarded_vs_reset": {
+              "pbr_psnr": 0.009115600585936079,
+              "native_psnr": 0.4415368004123792,
+              "ssim": 0.0002866148948670322,
+              "lpips": -0.0006957801990211017
+            },
+            "guarded_vs_joint": {
+              "pbr_psnr": 0.010502624511715908,
+              "native_psnr": 0.34150382835074566,
+              "ssim": 0.00036494731903080613,
+              "lpips": 5.18645159900185e-05
+            },
+            "reset_vs_joint": {
+              "pbr_psnr": 0.001387023925779829,
+              "native_psnr": -0.10003297206163353,
+              "ssim": 7.833242416377395e-05,
+              "lpips": 0.0007476447150111202
+            }
+          }
+        },
+        {
+          "seed": 2,
+          "arms": {
+            "joint": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 42.76113052368164,
+                "native_psnr": 35.653269421814166,
+                "ssim": 0.9881997108459473,
+                "lpips": 0.009731736779212952
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "reset_only": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 42.718885040283205,
+                "native_psnr": 35.61709829678306,
+                "ssim": 0.9881868481636047,
+                "lpips": 0.010179274063557387
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "guarded_reset": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 42.88840103149414,
+                "native_psnr": 36.13311954236224,
+                "ssim": 0.9886627078056336,
+                "lpips": 0.009587699733674526
+              },
+              "accepted_corrections": 4,
+              "timing_qualified": false
+            }
+          },
+          "errors": [],
+          "qualified": true,
+          "deltas": {
+            "guarded_vs_reset": {
+              "pbr_psnr": 0.16951599121093608,
+              "native_psnr": 0.5160212455791751,
+              "ssim": 0.0004758596420288974,
+              "lpips": -0.0005915743298828616
+            },
+            "guarded_vs_joint": {
+              "pbr_psnr": 0.12727050781249716,
+              "native_psnr": 0.47985012054807186,
+              "ssim": 0.0004629969596863237,
+              "lpips": -0.00014403704553842683
+            },
+            "reset_vs_joint": {
+              "pbr_psnr": -0.04224548339843892,
+              "native_psnr": -0.0361711250311032,
+              "ssim": -1.2862682342573706e-05,
+              "lpips": 0.00044753728434443474
+            }
+          }
+        }
+      ],
+      "qualified": true,
+      "seed_mean_deltas": {
+        "guarded_vs_reset": {
+          "pbr_psnr": 0.1016543070475251,
+          "native_psnr": 0.4763002816305715,
+          "ssim": 0.00042267640431725706,
+          "lpips": -0.0005915818735957151
+        },
+        "guarded_vs_joint": {
+          "pbr_psnr": 0.08440984090169223,
+          "native_psnr": 0.44769192361079274,
+          "ssim": 0.000420653820037864,
+          "lpips": -0.00015935683622956298
+        },
+        "reset_vs_joint": {
+          "pbr_psnr": -0.01724446614583286,
+          "native_psnr": -0.028608358019778752,
+          "ssim": -2.022584279393058e-06,
+          "lpips": 0.00043222503736615206
+        }
+      }
+    },
+    {
+      "uid": "531a84899eb44401a1ff5d8f735aa6ad",
+      "seeds": [
+        {
+          "seed": 0,
+          "arms": {
+            "joint": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 47.89906692504883,
+                "native_psnr": 30.639824319790282,
+                "ssim": 0.9979778885841369,
+                "lpips": 0.0024924776749685406
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "reset_only": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 48.04230728149414,
+                "native_psnr": 30.64932960765237,
+                "ssim": 0.9980632185935974,
+                "lpips": 0.002083728415891528
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "guarded_reset": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 47.86886749267578,
+                "native_psnr": 30.36293867075072,
+                "ssim": 0.9979866027832032,
+                "lpips": 0.0019455668982118369
+              },
+              "accepted_corrections": 4,
+              "timing_qualified": false
+            }
+          },
+          "errors": [],
+          "qualified": true,
+          "deltas": {
+            "guarded_vs_reset": {
+              "pbr_psnr": -0.17343978881835653,
+              "native_psnr": -0.2863909369016504,
+              "ssim": -7.661581039419829e-05,
+              "lpips": -0.00013816151767969136
+            },
+            "guarded_vs_joint": {
+              "pbr_psnr": -0.030199432373045454,
+              "native_psnr": -0.2768856490395635,
+              "ssim": 8.714199066228723e-06,
+              "lpips": -0.0005469107767567037
+            },
+            "reset_vs_joint": {
+              "pbr_psnr": 0.14324035644531108,
+              "native_psnr": 0.00950528786208693,
+              "ssim": 8.533000946042701e-05,
+              "lpips": -0.00040874925907701237
+            }
+          }
+        },
+        {
+          "seed": 1,
+          "arms": {
+            "joint": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 47.976513671875,
+                "native_psnr": 30.548189539782523,
+                "ssim": 0.997998857498169,
+                "lpips": 0.0026808102615177632
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "reset_only": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 48.03934860229492,
+                "native_psnr": 30.58877773487383,
+                "ssim": 0.9980665802955627,
+                "lpips": 0.0021646735724061726
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "guarded_reset": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 47.92358169555664,
+                "native_psnr": 30.555690683930106,
+                "ssim": 0.9981291651725769,
+                "lpips": 0.0014484062208794057
+              },
+              "accepted_corrections": 4,
+              "timing_qualified": false
+            }
+          },
+          "errors": [],
+          "qualified": true,
+          "deltas": {
+            "guarded_vs_reset": {
+              "pbr_psnr": -0.11576690673827983,
+              "native_psnr": -0.033087050943723995,
+              "ssim": 6.258487701416016e-05,
+              "lpips": -0.0007162673515267669
+            },
+            "guarded_vs_joint": {
+              "pbr_psnr": -0.05293197631835511,
+              "native_psnr": 0.007501144147582295,
+              "ssim": 0.00013030767440791458,
+              "lpips": -0.0012324040406383576
+            },
+            "reset_vs_joint": {
+              "pbr_psnr": 0.06283493041992472,
+              "native_psnr": 0.04058819509130629,
+              "ssim": 6.772279739375442e-05,
+              "lpips": -0.0005161366891115906
+            }
+          }
+        },
+        {
+          "seed": 2,
+          "arms": {
+            "joint": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 47.602718353271484,
+                "native_psnr": 30.362226377739173,
+                "ssim": 0.997939121723175,
+                "lpips": 0.0025671268813312054
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "reset_only": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 47.62851181030273,
+                "native_psnr": 30.432161449987817,
+                "ssim": 0.997986662387848,
+                "lpips": 0.002311790292151272
+              },
+              "accepted_corrections": 0,
+              "timing_qualified": false
+            },
+            "guarded_reset": {
+              "state": "complete",
+              "endpoint": {
+                "pbr_psnr": 47.54021072387695,
+                "native_psnr": 30.3579964011658,
+                "ssim": 0.997976291179657,
+                "lpips": 0.002123818069230765
+              },
+              "accepted_corrections": 4,
+              "timing_qualified": false
+            }
+          },
+          "errors": [],
+          "qualified": true,
+          "deltas": {
+            "guarded_vs_reset": {
+              "pbr_psnr": -0.08830108642577983,
+              "native_psnr": -0.07416504882201735,
+              "ssim": -1.0371208190917969e-05,
+              "lpips": -0.00018797222292050693
+            },
+            "guarded_vs_joint": {
+              "pbr_psnr": -0.06250762939453125,
+              "native_psnr": -0.0042299765733737615,
+              "ssim": 3.716945648202241e-05,
+              "lpips": -0.0004433088121004402
+            },
+            "reset_vs_joint": {
+              "pbr_psnr": 0.02579345703124858,
+              "native_psnr": 0.06993507224864359,
+              "ssim": 4.754066467294038e-05,
+              "lpips": -0.00025533658917993324
+            }
+          }
+        }
+      ],
+      "qualified": true,
+      "seed_mean_deltas": {
+        "guarded_vs_reset": {
+          "pbr_psnr": -0.12583592732747206,
+          "native_psnr": -0.13121434555579725,
+          "ssim": -8.134047190318702e-06,
+          "lpips": -0.0003474670307089884
+        },
+        "guarded_vs_joint": {
+          "pbr_psnr": -0.04854634602864394,
+          "native_psnr": -0.09120482715511831,
+          "ssim": 5.87304433187219e-05,
+          "lpips": -0.0007408745431651672
+        },
+        "reset_vs_joint": {
+          "pbr_psnr": 0.07728958129882812,
+          "native_psnr": 0.040009518400678935,
+          "ssim": 6.68644905090406e-05,
+          "lpips": -0.00039340751245617875
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "guarded_vs_reset": {
+      "pbr_psnr": 0.0056390762329095664,
+      "native_psnr": 0.10965379069017858,
+      "ssim": 0.0002703924973805801,
+      "lpips": -0.00019371618012276818
+    },
+    "guarded_vs_joint": {
+      "pbr_psnr": 0.04593906402587855,
+      "native_psnr": 0.11955869530004325,
+      "ssim": 0.0002633323272069332,
+      "lpips": -0.00024226309033110747
+    },
+    "reset_vs_joint": {
+      "pbr_psnr": 0.04029998779296899,
+      "native_psnr": 0.009904904609864632,
+      "ssim": -7.060170173646869e-06,
+      "lpips": -4.854691020833929e-05
+    }
+  },
+  "timing_qualified": false,
+  "scope": "Uniform off-surface-return guard rerun of all 36 cells. Independent partial LocalHK component; transferred seed0 initializer, three training-seed repeats per historical object; not a full LocalHK comparison."
+}

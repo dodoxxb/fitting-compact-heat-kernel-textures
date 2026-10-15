@@ -1,0 +1,224 @@
+{
+  "scope": "Exploratory mechanisms on reused development objects, not new independent-object evidence.",
+  "render_conditions": [
+    {
+      "resolution": 128,
+      "alpha": 0.125,
+      "mean": 0.3006111406885683,
+      "positive": 4,
+      "n": 4,
+      "min": 0.21718401727507342,
+      "max": 0.41482758933908315,
+      "linear_pooled_mean": 0.09919996598698155
+    },
+    {
+      "resolution": 128,
+      "alpha": 0.25,
+      "mean": 0.5156077110281689,
+      "positive": 4,
+      "n": 4,
+      "min": 0.3245344215748105,
+      "max": 0.7527913631860201,
+      "linear_pooled_mean": 0.14750890256689964
+    },
+    {
+      "resolution": 128,
+      "alpha": 0.5,
+      "mean": 0.5975720791814769,
+      "positive": 4,
+      "n": 4,
+      "min": 0.15707425064166358,
+      "max": 0.9141792034496063,
+      "linear_pooled_mean": -0.02844776800531612
+    },
+    {
+      "resolution": 128,
+      "alpha": 1.0,
+      "mean": -0.9119347746072979,
+      "positive": 0,
+      "n": 4,
+      "min": -1.3688898011095745,
+      "max": -0.5833681805940856,
+      "linear_pooled_mean": -1.1711662913372098
+    },
+    {
+      "resolution": 256,
+      "alpha": 0.125,
+      "mean": 0.2144840836888804,
+      "positive": 4,
+      "n": 4,
+      "min": 0.12681297162669836,
+      "max": 0.3480713995037732,
+      "linear_pooled_mean": 0.09569734099200033
+    },
+    {
+      "resolution": 256,
+      "alpha": 0.25,
+      "mean": 0.34440612517196634,
+      "positive": 4,
+      "n": 4,
+      "min": 0.19958295775116852,
+      "max": 0.5986107093106412,
+      "linear_pooled_mean": 0.12400376547839276
+    },
+    {
+      "resolution": 256,
+      "alpha": 0.5,
+      "mean": 0.2886697573599655,
+      "positive": 4,
+      "n": 4,
+      "min": 0.08192736158412117,
+      "max": 0.6900990533138369,
+      "linear_pooled_mean": -0.011618179534438333
+    },
+    {
+      "resolution": 256,
+      "alpha": 1.0,
+      "mean": -1.1688810631410345,
+      "positive": 0,
+      "n": 4,
+      "min": -1.5151099981096792,
+      "max": -0.6158214769545154,
+      "linear_pooled_mean": -0.9899404394367659
+    },
+    {
+      "resolution": 512,
+      "alpha": 0.125,
+      "mean": 0.13654668411004245,
+      "positive": 4,
+      "n": 4,
+      "min": 0.09567459769392883,
+      "max": 0.22878558967163798,
+      "linear_pooled_mean": 0.07470706806651695
+    },
+    {
+      "resolution": 512,
+      "alpha": 0.25,
+      "mean": 0.19319415102033233,
+      "positive": 4,
+      "n": 4,
+      "min": 0.14413363246406163,
+      "max": 0.3274812249750454,
+      "linear_pooled_mean": 0.09728785463692535
+    },
+    {
+      "resolution": 512,
+      "alpha": 0.5,
+      "mean": 0.07320698586733876,
+      "positive": 3,
+      "n": 4,
+      "min": -0.020214945397633244,
+      "max": 0.18078271137569146,
+      "linear_pooled_mean": -0.036779653185631034
+    },
+    {
+      "resolution": 512,
+      "alpha": 1.0,
+      "mean": -1.2243739851700486,
+      "positive": 0,
+      "n": 4,
+      "min": -1.754155680773458,
+      "max": -0.541752647449961,
+      "linear_pooled_mean": -0.8910265894759775
+    }
+  ],
+  "sampling": {
+    "original16k": {
+      "n": 12,
+      "test_delta_db": -0.7127676396611843,
+      "direction_energy_test_over_fit": 1.2321010871043436,
+      "projected_gram_difference_spectral_norm": 0.4921860455247824,
+      "active_box_fraction": 0.1945092592592593,
+      "half_mse_gap": 3.667416110040556e-05
+    },
+    "fresh16k": {
+      "n": 12,
+      "test_delta_db": -0.8008714153507293,
+      "direction_energy_test_over_fit": 1.2317819698577057,
+      "projected_gram_difference_spectral_norm": 0.49098772987857675,
+      "active_box_fraction": 0.19496296296296292,
+      "half_mse_gap": 3.28740900443907e-05
+    },
+    "larger65k": {
+      "n": 12,
+      "test_delta_db": 0.0610770271509985,
+      "direction_energy_test_over_fit": 1.055255327303657,
+      "projected_gram_difference_spectral_norm": 0.44974948309885554,
+      "active_box_fraction": 0.17003703703703707,
+      "half_mse_gap": 2.637520804625364e-05
+    }
+  },
+  "weighted": {
+    "100sweeps": {
+      "n_pairs": 12,
+      "selected_mean_difference": -0.020570490731986624,
+      "positive_pairs": 2,
+      "methods": {
+        "uniform": {
+          "full_test_delta_db": -1.061380809142597,
+          "selected_test_delta_db": 0.06989097156193054,
+          "half_mse_gap": 3.4070907039320095e-05
+        },
+        "projected_leverage": {
+          "full_test_delta_db": -1.1403501262575433,
+          "selected_test_delta_db": 0.04932048082994391,
+          "half_mse_gap": 3.756627913222928e-05
+        }
+      }
+    },
+    "gap_stopped": {
+      "n_pairs": 12,
+      "selected_mean_difference": -0.022089814040132494,
+      "positive_pairs": 2,
+      "methods": {
+        "uniform": {
+          "full_test_delta_db": -1.0989768289623296,
+          "selected_test_delta_db": 0.07133309506877224,
+          "half_mse_gap": 8.402114772049349e-08
+        },
+        "projected_leverage": {
+          "full_test_delta_db": -1.1781255549124454,
+          "selected_test_delta_db": 0.04924328102863975,
+          "half_mse_gap": 8.527891664901343e-08
+        }
+      }
+    }
+  },
+  "heat": [
+    {
+      "name": "Barricade",
+      "n": 9,
+      "response_better": 9,
+      "factor_relative_error": 0.14343251430919823,
+      "response_relative_error": 0.13191355743165148,
+      "factor_to_response_trace": 0.9149814280183315,
+      "factor_sign_change_relative_difference": 0.9962717271753818
+    },
+    {
+      "name": "Wrench",
+      "n": 9,
+      "response_better": 4,
+      "factor_relative_error": 0.08200174692687008,
+      "response_relative_error": 0.08661906575329822,
+      "factor_to_response_trace": 0.9499816083548551,
+      "factor_sign_change_relative_difference": 0.9988719674944502
+    }
+  ],
+  "converged_pools": {
+    "original16k": {
+      "n": 4,
+      "full_test_delta_db": -0.7063927174797033
+    },
+    "fresh16k": {
+      "n": 4,
+      "full_test_delta_db": -0.7928726547148264
+    },
+    "larger65k": {
+      "n": 4,
+      "full_test_delta_db": 0.11667101626121734
+    }
+  },
+  "converged_qualified": 36,
+  "converged_count": 36,
+  "converged_max_gap": 9.914404404484848e-08
+}

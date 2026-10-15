@@ -1,0 +1,95 @@
+{
+  "rule": "Nearest rank at 25/50/75 percentiles among 23 finite new-object pairs, warm4000 minus extended direct; fixed view0; full image; labels report original five-view means and complete field KiB.",
+  "objects": [
+    {
+      "uid": "08cc55fc36994e04ad24bf36b9aef6e5",
+      "name": "Cartoon Fish",
+      "selection_quantile": 0.25,
+      "difference": -0.07492904663085653,
+      "camera": 0,
+      "images": [
+        {
+          "path": "research/round28/runs/new_confirmation/08cc55fc36994e04ad24bf36b9aef6e5/seed0/evaluation/pbr/HKTex/UV_native_view0.png",
+          "sha256": "6e9315c7866e642e58b0a0c9274ea0f10e7c0c17beb1fb365bdfe8de5d8432fc"
+        },
+        {
+          "path": "research/round28/runs/new_confirmation/08cc55fc36994e04ad24bf36b9aef6e5/seed0/evaluation/pbr/HKTex/HKTex_view0.png",
+          "sha256": "9da1d0e7de00ad57b7a9d96c5e4251d35bfbc44cc8b9e9e92dd970b7ded8f2d1"
+        },
+        {
+          "path": "research/round28/controls/new_confirmation/08cc55fc36994e04ad24bf36b9aef6e5/seed0/evaluation/pbr/capped4000_restart/HKTex_view0.png",
+          "sha256": "5b45475c7ebcdd65d815e7e3825f12ba5c014fbc182984d77b8fb5487e4f1c73"
+        },
+        {
+          "path": "research/round28/runs/new_confirmation/08cc55fc36994e04ad24bf36b9aef6e5/seed0/evaluation/pbr/warm4000/HKTex_view0.png",
+          "sha256": "0066bef9436096490e94255661b6939f83b523220c4a021b2eb14d74c1ee0baf"
+        }
+      ],
+      "license": "by",
+      "asset_page": "https://sketchfab.com/3d-models/08cc55fc36994e04ad24bf36b9aef6e5",
+      "author_uid": "b07cd55db8e5417caff1d0db60c74bc7",
+      "author_name": "DwaalAnker",
+      "author_profile": "https://sketchfab.com/DwaalAnker"
+    },
+    {
+      "uid": "4f383fccf4a24b41a795deed8cc0d117",
+      "name": "Sunset Sarsaparilla (old)",
+      "selection_quantile": 0.5,
+      "difference": -0.03224868774414347,
+      "camera": 0,
+      "images": [
+        {
+          "path": "research/round28/runs/new_confirmation/4f383fccf4a24b41a795deed8cc0d117/seed0/evaluation/pbr/HKTex/UV_native_view0.png",
+          "sha256": "e9c1fa6984dd881f7ff4fd3557ce8be191e8239d60ea6cff96452894cef45598"
+        },
+        {
+          "path": "research/round28/runs/new_confirmation/4f383fccf4a24b41a795deed8cc0d117/seed0/evaluation/pbr/HKTex/HKTex_view0.png",
+          "sha256": "6bebb856e5f75bcee284f60323b545237afd83022134f11d1ee68f3c240899b1"
+        },
+        {
+          "path": "research/round28/controls/new_confirmation/4f383fccf4a24b41a795deed8cc0d117/seed0/evaluation/pbr/capped4000_restart/HKTex_view0.png",
+          "sha256": "58549f344e8262d46da5598642b1b4d2e930d81782a4f431f47483506fbe0287"
+        },
+        {
+          "path": "research/round28/runs/new_confirmation/4f383fccf4a24b41a795deed8cc0d117/seed0/evaluation/pbr/warm4000/HKTex_view0.png",
+          "sha256": "3bbf0a8ebc3fec472f825b6692af85ea8d0fa3e57032e6041c033a922f65643e"
+        }
+      ],
+      "license": "by",
+      "asset_page": "https://sketchfab.com/3d-models/4f383fccf4a24b41a795deed8cc0d117",
+      "author_uid": "7a6c42d2a80b4a82930915f2a49697d7",
+      "author_name": "biliam",
+      "author_profile": "https://sketchfab.com/biliam"
+    },
+    {
+      "uid": "2809f1b0b75847a889b9d74c3a28ddda",
+      "name": "Risla",
+      "selection_quantile": 0.75,
+      "difference": 0.012284851074220171,
+      "camera": 0,
+      "images": [
+        {
+          "path": "research/round28/runs/new_confirmation/2809f1b0b75847a889b9d74c3a28ddda/seed0/evaluation/pbr/HKTex/UV_native_view0.png",
+          "sha256": "6184d02209ea697f966aa3ef8bd379cb0d2f712baa5a0fd112d1fea2880c3916"
+        },
+        {
+          "path": "research/round28/runs/new_confirmation/2809f1b0b75847a889b9d74c3a28ddda/seed0/evaluation/pbr/HKTex/HKTex_view0.png",
+          "sha256": "c59e21defa702ecd1be6831e5580c9df2528e7d6248cf2b826e108719153426e"
+        },
+        {
+          "path": "research/round28/controls/new_confirmation/2809f1b0b75847a889b9d74c3a28ddda/seed0/evaluation/pbr/capped4000_restart/HKTex_view0.png",
+          "sha256": "317221911d57994c2878d0d8b6dc09cd06a246412d19939f0b688518c6ecd19e"
+        },
+        {
+          "path": "research/round28/runs/new_confirmation/2809f1b0b75847a889b9d74c3a28ddda/seed0/evaluation/pbr/warm4000/HKTex_view0.png",
+          "sha256": "f94af50c4e41f680d39bb7b0cf5a210320a12f56727b2d284c2cde496df83cd9"
+        }
+      ],
+      "license": "by",
+      "asset_page": "https://sketchfab.com/3d-models/2809f1b0b75847a889b9d74c3a28ddda",
+      "author_uid": "4d35ab88d170425d8757b49a239dedc2",
+      "author_name": "Asylum Nox",
+      "author_profile": "https://sketchfab.com/peter.pottiez"
+    }
+  ]
+}
